@@ -8,10 +8,10 @@ const firebaseConfig = {
     measurementId: "G-712REZSFG9"
   };
   
-  // Initialize Firebase
+  // initialize
   firebase.initializeApp(firebaseConfig);
   
-  // Initialize services and attach directly to window
+  // services, attach to window
   window.fbAuth = firebase.auth();
   window.fbFirestore = firebase.firestore();
   
