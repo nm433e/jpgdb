@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Grammar Lookup</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
+    <script src="firebase.js"></script>
+    <script defer src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;display=swap">
+</head>
+<body>
+    <div id="auth-container">
+        <button id="sign-in-button">Sign in with Google</button>
+        <button id="sign-out-button" style="display: none;">Sign Out</button>
+      </div>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search grammar points..." oninput="search()">
+
+        <div class="database-filters">
+            <div class="toggle-all">
+                <button id="toggle-all-btn" onclick="toggleAllDatabases()">Toggle all</button>
+            </div>
+            <div class="checkbox-container">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="donna-toki" value="Donna Toki" checked>
+                    <label for="donna-toki">Donna Toki</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="dojg" value="DOJG" checked>
+                    <label for="dojg">DOJG</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="hjg" value="HOJGP" checked>
+                    <label for="hjg">HOJGP</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="nihongo-kyoshi" value="Nihongo Kyoshi" checked>
+                    <label for="nihongo-kyoshi">Nihongo Kyoshi</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="bunpro" value="Bunpro" checked>
+                    <label for="bunpro">Bunpro</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="imabi" value="Imabi" checked>
+                    <label for="imabi">Imabi</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="taekim" value="Tae Kim" checked>
+                    <label for="taekim">Tae Kim</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="maggie" value="Maggie Sensei" checked>
+                    <label for="maggie">Maggie Sensei</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="results-list" id="resultado"></div>
+</body>
+
+</html>

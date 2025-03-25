@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+:root{
+    font-family: "Noto Sans JP", sans-serif;
+}
+body {
+    margin: auto;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+#search {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.database-filters {
+    margin-top: 10px;
+}
+
+.toggle-all {
+    margin-bottom: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.checkbox-item input {
+    margin-right: 5px;
+}
+
+ruby {
+    display: none;
+}
+
+
+
+/* .results-list {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1000px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.result-container {
+    min-height: 60px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    flex-grow: 1;
+    color: white;
+} */
+.result-title{
+    padding: 5px;
+}
+.result-details {
+    margin-right: 5px;
+    margin-left: auto;
+    margin-top: auto;
+    display: flex;
+    font-size: 0.6em;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nk {
+    background-color: rgb(252, 84, 84);
+}
+
+.imabi {
+    background-color: rgb(92, 28, 28);
+}
+
+.hojgp {
+    background-color: rgb(86, 33, 155);
+    
+}
+
+.donnatoki {
+    background-color: rgb(0, 0, 0);
+}
+
+.dojg {
+    background-color: rgb(77, 77, 77);
+}
+.bunpro{
+    background-color: rgb(161, 122, 36);
+}
+.maggie {
+    background-color: rgb(31, 141, 168);
+}
+
+.tk {
+
+}
+
+.dolly {
+
+}
+
+
+
+.results-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .result-container {
+    min-height: 75px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
