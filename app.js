@@ -1,10 +1,18 @@
 const auth = window.fbAuth;
+console.log('Initial auth object:', auth);
+console.log('Auth methods available:', {
+  onAuthStateChanged: !!auth?.onAuthStateChanged,
+  currentUser: !!auth?.currentUser,
+  signIn: !!auth?.signInWithPopup
+});
+
 const {
   signInWithGoogle,
   signOutUser,
   getUserData,
   updateUserData
 } = window.firebaseApp;
+
 
 function toggleAllDatabases() {
   const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
@@ -29,6 +37,7 @@ function checkSelectedDatabases() {
   return selectedDatabases;
 }
 
+// SEARCH FUNCTIONALITY
 async function search() {
   const term = document.getElementById("search").value.toLowerCase();
   const dados = await fetch("database.json").then(r => r.json());
@@ -50,27 +59,26 @@ async function search() {
   );
 
   filtered.forEach(d => {
-    // Create container div
+    //container div
     const container = document.createElement("div");
-    container.className = `result-container ${d.shorthand}`;
+    container.className = `result-container`;
 
-    // Create title section
-    const titleDiv = document.createElement("div");
-    titleDiv.className = "result-title";
     const link = document.createElement("a");
+    link.className = `result-link  ${d.shorthand}`;
     link.href = d.link;
     link.target = "_blank";
-    link.textContent = d.point;
-    titleDiv.appendChild(link);
 
-    // Create details section
+    const titleDiv = document.createElement("div");
+    titleDiv.className = "result-title";
+    titleDiv.textContent = d.point;
+    link.appendChild(titleDiv);
+
+    //details
     const detailsDiv = document.createElement("div");
     detailsDiv.className = "result-details";
-
-    // Source text
+    //source
     const sourceText = document.createTextNode(`${d.source} `);
-
-    // Checkbox
+    //checkbox
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.checked = readStatus[d.id] || false;
@@ -81,8 +89,8 @@ async function search() {
     detailsDiv.appendChild(checkbox);
 
     // Assemble container
-    container.appendChild(titleDiv);
-    container.appendChild(detailsDiv);
+    link.appendChild(detailsDiv);
+    container.appendChild(link);
 
     // Add to list
     list.appendChild(container);
@@ -92,7 +100,7 @@ async function search() {
 // Unified update function
 async function update(id, checked) {
   if (!auth.currentUser) {
-    alert('Please sign in to save progress');
+    alert('Sign in to save progress');
     return;
   }
 
@@ -108,7 +116,17 @@ async function update(id, checked) {
 // Initialize with both Firebase and localStorage fallback
 document.addEventListener('DOMContentLoaded', async () => {
   // Auth setup
+  console.log('Before auth state change setup:', {
+    auth: !!auth,
+    currentUser: auth?.currentUser
+  });
+  // Auth setup
   auth.onAuthStateChanged(async user => {
+    console.log('Auth state changed:', {
+      isUserLoggedIn: !!user,
+      userId: user?.uid,
+      userEmail: user?.email
+    });
     if (user) {
       // When a user is signed in:
       document.getElementById('sign-in-button').style.display = 'none';
@@ -164,3 +182,39 @@ async function saveFilterStateToFirebase(checkbox) {
     filters: newFilters
   });
 }
+
+// Sign in/out button resposiveness
+function handleResponsiveChanges() {
+  const signInButton = document.getElementById('sign-in-button');
+  const signOutButton = document.getElementById('sign-out-button');
+  const settingsButton = document.getElementById('settings-button');
+
+  if (window.innerWidth <= 768) {
+
+    // settings !! IMPLEMENTAR !!
+    const filtersElement = document.getElementById('database-filters');
+    filtersElement.style.display = 'none';
+
+    // sign
+    signInButton.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i>';
+    signInButton.className = 'nav-icon';
+    signOutButton.innerHTML = '<i class="fa-solid fa-right-from-bracket"></i>';
+    signOutButton.className = 'nav-icon';
+  } else {
+    signInButton.innerHTML = 'Sign in';
+    signInButton.className = 'sign-btn';
+    signOutButton.innerHTML = 'Sign out';
+    signOutButton.className = 'sign-btn';
+  }
+}
+
+const openSettings = () => {
+  const filtersElement = document.getElementById('database-filters');
+  filtersElement.style.display = filtersElement.style.display === 'none' ? 'block' : 'none';
+}
+document.getElementById('settings-button').addEventListener('click', openSettings);
+
+window.addEventListener('resize', handleResponsiveChanges);
+window.addEventListener('DOMContentLoaded', handleResponsiveChanges);
+
+

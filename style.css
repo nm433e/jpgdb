@@ -2,66 +2,140 @@
 :root{
     font-family: "Noto Sans JP", sans-serif;
 }
+[data-theme="dark"] {
+    --main: #9b46fd;
+    --def: #9b46fd;
+    --minor: #6d31b3;
+    --border: #7700ff;
+    --bg: rgb(22, 17, 26);
+    --color: rgb(255, 255, 255);
+}
+
+[data-theme="light"] {
+    --main: #9b46fde1;
+    --def: #9b46fda8;
+    --minor: #9b6dcf;
+    --border: #5c00c5;
+    --bg: rgb(227, 218, 236);
+    --color: rgb(34, 34, 34);
+}
+
 body {
+    background-color: var(--bg);
+    color: var(--color);
+    transition: background-color 0.2s, color 0.2s;
     margin: auto;
 }
 
-.search-container {
-    margin-bottom: 20px;
-    margin: auto;
+.navbar{
+    background-color: var(--main);
+    padding: 0;
+}
+.nav-elements-container{
     max-width: 1000px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    background-color: var(--main);
+    color: white;
 }
 
+.sign-btn{
+    margin-right: 5px;
+    padding: 5px 10px;
+    display: block;
+    border: none;
+    font-size: 0.9em;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    background-color: #c4c4c4;
+    font-family: 'Noto Sans JP'
+}.sign-icon{
+    background: inherit;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+}
+.nav-icon{
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 5px;
+}
+.sign-icon,.sign-btn, .nav-btn{
+    cursor: pointer;
+}
 #search {
     padding: 8px;
-    margin-bottom: 10px;
-    width: 100%;
+    margin: 5px auto 5px 5px;
+    min-width: 150px;
+    width: 60%;
     max-width: 500px;
 }
 
 .database-filters {
     margin-top: 10px;
+    max-width: 980px;
+    width: calc(95% - 30px);
+    margin: 20px auto 10px;
+    padding: 10px;
+    border: solid 2px var(--def);
+    border-radius: 15px;
 }
 
 .toggle-all {
     margin-bottom: 10px;
 }
-
-
-  
-.result-container {
+.result-container{
+    height: 100%;
+}
+.result-link{
+    height: 100%;
     min-height: 75px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     box-sizing: border-box;
-  }
+}
 .result-title{
     padding: 5px;
+    flex-grow: 1;
 }
 .result-details {
-    margin-right: 5px;
+    margin-right: 2.5px;
     margin-left: auto;
     margin-top: auto;
+    margin-bottom: 2.5px;
     display: flex;
     font-size: 0.6em;
+    align-items: center;  
+}
+.result-details input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
 }
 .results-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 10px;
     max-width: 1000px;
-    margin: auto;
+    margin: 10px auto 10px;
     padding: 10px;
+    width: 95%;
   }
 
 .checkbox-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .checkbox-item {
@@ -78,14 +152,13 @@ ruby {
     display: none;
 }
 
-
-a{
+.result-container a{
     text-decoration: none;
     color: white;
 }
 
 .nk {
-    background-color: rgb(252, 84, 84);
+    background-color: rgb(185, 67, 67);
 }
 
 .imabi {
@@ -116,3 +189,53 @@ a{
     color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .checkbox-container {
+        /* display: none; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 0;
+        border-radius: 0;
+    }
+    
+    .database-filters {
+        display: none;
+        position: relative;
+        position: absolute;
+        top: 54px;
+        right: 0px;
+        background-color: var(--minor);
+        border: none;
+        margin: 0;
+        border-radius: 0;
+        max-width: 400px;
+    }
+    
+    /* Add settings button for mobile */
+    .settings-btn {
+        display: block;
+        padding: 8px;
+        border: none;
+        border-radius: 50%;
+        background: var(--main);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 769px) {
+    .settings-btn {
+        display: none;
+    }
+}
+@media(max-width: 400px){
+    .nav-icon{
+        font-size: 1.25em;
+        margin: 0.25em;
+    }
+}
