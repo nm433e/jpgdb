@@ -1,11 +1,4 @@
 const auth = window.fbAuth;
-console.log('Initial auth object:', auth);
-console.log('Auth methods available:', {
-  onAuthStateChanged: !!auth?.onAuthStateChanged,
-  currentUser: !!auth?.currentUser,
-  signIn: !!auth?.signInWithPopup
-});
-
 const {
   signInWithGoogle,
   signOutUser,
@@ -13,19 +6,50 @@ const {
   updateUserData
 } = window.firebaseApp;
 
-
-function toggleAllDatabases() {
+// TOGGLE DATABASES FUNCTION
+async function toggleAllDatabases() {
   const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
-  const allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
+  const user = auth.currentUser;
+  if (!user) return;
+
+  const userData = await getUserData(user.uid);
+  const newFilters = { ...userData.filters };
 
   checkboxes.forEach(checkbox => {
-    checkbox.checked = !allChecked;
-    saveFilterStateToFirebase(checkbox);
+    if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
+    checkbox.checked = true;
+    newFilters[checkbox.id] = true;
+  });
+
+  await updateUserData(user.uid, {
+    filters: newFilters
   });
 
   search();
 }
 
+// UNTOGGLE DATABASES FUNCTION	
+async function untoggleAllDatabases() {
+  const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
+  const user = auth.currentUser;
+  if (!user) return;
+
+  const userData = await getUserData(user.uid);
+  const newFilters = { ...userData.filters };
+
+  checkboxes.forEach(checkbox => {
+    if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
+    checkbox.checked = false;
+    newFilters[checkbox.id] = false;
+  });
+
+  await updateUserData(user.uid, {
+    filters: newFilters
+  });
+
+  search();
+}
+// CHECK SELECTED DATABASES FUNCTION
 function checkSelectedDatabases() {
   const selectedDatabases = [];
   const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
@@ -35,6 +59,19 @@ function checkSelectedDatabases() {
   });
 
   return selectedDatabases;
+}
+
+// SAVE FILTERS FUNCTION
+async function saveFilterStateToFirebase(checkbox) {
+  const user = auth.currentUser;
+  if (!user) return;
+
+  const userData = await getUserData(user.uid);
+  const newFilters = { ...userData.filters, [checkbox.id]: checkbox.checked };
+
+  await updateUserData(user.uid, {
+    filters: newFilters
+  });
 }
 
 // SEARCH FUNCTIONALITY
@@ -97,7 +134,8 @@ async function search() {
   });
 }
 
-// Unified update function
+
+// ==== UPDATE FUNCTION ==== //
 async function update(id, checked) {
   if (!auth.currentUser) {
     alert('Sign in to save progress');
@@ -113,31 +151,33 @@ async function update(id, checked) {
   }
 }
 
-// Initialize with both Firebase and localStorage fallback
+
+// INITIALIZATION
 document.addEventListener('DOMContentLoaded', async () => {
-  // Auth setup
-  console.log('Before auth state change setup:', {
-    auth: !!auth,
-    currentUser: auth?.currentUser
-  });
+
   // Auth setup
   auth.onAuthStateChanged(async user => {
-    console.log('Auth state changed:', {
-      isUserLoggedIn: !!user,
-      userId: user?.uid,
-      userEmail: user?.email
-    });
+
     if (user) {
-      // When a user is signed in:
+      // update sign-in/out buttons
       document.getElementById('sign-in-button').style.display = 'none';
       document.getElementById('sign-out-button').style.display = 'inline-block';
 
-      // Restore filters from Firestore
-      const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
+      // load user data from Firestore
       const userData = await getUserData(user.uid);
+
+      // restore filters from Firestore
+      const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
       checkboxes.forEach(checkbox => {
         checkbox.checked = userData.filters?.[checkbox.id] ?? true;
       });
+
+      // restore locks from Firestore
+      const locks = document.querySelectorAll('.database-filters i');
+      locks.forEach(lock => {
+        lock.className = userData.locked?.[lock.id] ? 'fa-solid fa-lock' : 'fa-solid fa-lock-open';
+      });
+
     } else {
       // When no user is signed in:
       document.getElementById('sign-in-button').style.display = 'inline-block';
@@ -149,15 +189,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         const saved = localStorage.getItem(checkbox.id);
         if (saved) checkbox.checked = saved === "true";
       });
+
+      // (!!) Implement: Locks for localStorage
     }
 
     search();
   });
 
-  // Event listeners
+  // Event Listeners initialization
+  // butons
   document.getElementById('sign-in-button').addEventListener('click', signInWithGoogle);
   document.getElementById('sign-out-button').addEventListener('click', signOutUser);
-
+  // databases checkboxes
   document.querySelectorAll('.database-filters input').forEach(checkbox => {
     checkbox.addEventListener('change', () => {
       if (auth.currentUser) {
@@ -168,34 +211,49 @@ document.addEventListener('DOMContentLoaded', async () => {
       search();
     });
   });
+  // databases locks
+  document.querySelectorAll('.database-filters i').forEach
+  (lock => {
+    lock.addEventListener('click', () => {
+      if (lock.classList.contains('fa-lock')) {
+        lock.className = 'fa-solid fa-lock-open';
+        saveLockedFilterStateToFirebase(lock, false);
+      } else {
+        lock.className = 'fa-solid fa-lock';
+        saveLockedFilterStateToFirebase(lock, true);
+      }
+    }
+    )
+  });
 });
 
-// Helper functions
-async function saveFilterStateToFirebase(checkbox) {
+
+// SAVE LOCKED FILTERS TO FIREBASE
+async function saveLockedFilterStateToFirebase(lock, state) {
   const user = auth.currentUser;
   if (!user) return;
 
   const userData = await getUserData(user.uid);
-  const newFilters = { ...userData.filters, [checkbox.id]: checkbox.checked };
+  const newLocked = { ...userData.locked, [lock.id]: state };
 
   await updateUserData(user.uid, {
-    filters: newFilters
+    locked: newLocked
   });
 }
 
-// Sign in/out button resposiveness
+
+// RESPONSIVENESS
 function handleResponsiveChanges() {
   const signInButton = document.getElementById('sign-in-button');
   const signOutButton = document.getElementById('sign-out-button');
-  const settingsButton = document.getElementById('settings-button');
 
   if (window.innerWidth <= 768) {
 
-    // settings !! IMPLEMENTAR !!
+    // filters
     const filtersElement = document.getElementById('database-filters');
     filtersElement.style.display = 'none';
 
-    // sign
+    // sign in/out buttons
     signInButton.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i>';
     signInButton.className = 'nav-icon';
     signOutButton.innerHTML = '<i class="fa-solid fa-right-from-bracket"></i>';
@@ -207,14 +265,15 @@ function handleResponsiveChanges() {
     signOutButton.className = 'sign-btn';
   }
 }
+window.addEventListener('resize', handleResponsiveChanges);
+window.addEventListener('DOMContentLoaded', handleResponsiveChanges);
 
+
+// SETTINGS BUTTON
 const openSettings = () => {
   const filtersElement = document.getElementById('database-filters');
   filtersElement.style.display = filtersElement.style.display === 'none' ? 'block' : 'none';
 }
 document.getElementById('settings-button').addEventListener('click', openSettings);
-
-window.addEventListener('resize', handleResponsiveChanges);
-window.addEventListener('DOMContentLoaded', handleResponsiveChanges);
 
 

@@ -147,6 +147,9 @@ body {
 .checkbox-item input {
     margin-right: 5px;
 }
+.fa-lock{
+    color: yellow;
+}
 
 ruby {
     display: none;
@@ -167,13 +170,10 @@ ruby {
 
 .hojgp {
     background-color: rgb(86, 33, 155);
-    
 }
-
 .donnatoki {
     background-color: rgb(0, 0, 0);
 }
-
 .dojg {
     background-color: rgb(77, 77, 77);
 }
@@ -201,6 +201,8 @@ a{
         gap: 10px;
         margin: 0;
         border-radius: 0;
+        max-width: 400px;
+        width: 90%;
     }
     
     .database-filters {
@@ -214,6 +216,7 @@ a{
         margin: 0;
         border-radius: 0;
         max-width: 400px;
+        width: 90%;
     }
     
     /* Add settings button for mobile */
@@ -233,9 +236,15 @@ a{
         display: none;
     }
 }
-@media(max-width: 400px){
+@media(max-width: 420px){
     .nav-icon{
         font-size: 1.25em;
         margin: 0.25em;
+    }
+    .checkbox-container {
+        /* display: none; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
     }
 }

@@ -20,16 +20,6 @@
 <body>
     <div class="navbar">
         <div class="nav-elements-container">
-            <!-- <div class="searchbar">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div> -->
-            <!-- <div class="hamburger">
-                <i class="fa-solid fa-bars"></i>
-            </div> -->
-            <!-- <a href="index.html" title="Home">
-                <i class="fa-solid fa-house nav-btn"></i>
-            </a> -->
-
             <input type="text" id="search" placeholder="Search grammar points..." oninput="search()">
             <div class="nav-icon" id="settings-button" title="Settings">
                 <i class="fa-solid fa-cogs"></i>
@@ -43,45 +33,67 @@
     </div>
     <div class="database-filters" id="database-filters">
         <div class="toggle-all">
-            <button id="toggle-all-btn" onclick="toggleAllDatabases()">Toggle all</button>
+            <button id="toggle-all-btn" onclick="toggleAllDatabases()">All</button>
+            <button id="toggle-all-btn" onclick="untoggleAllDatabases()">None</button>
         </div>
         <div class="checkbox-container" id="checkbox-container">
             <div class="checkbox-item">
+                <i class="fa-solid fa-lock" id="donna-toki-lock"></i>
                 <input type="checkbox" id="donna-toki" value="Donna Toki" checked>
                 <label for="donna-toki">Donna Toki</label>
             </div>
             <div class="checkbox-item">
+                <i class="fa-solid fa-lock" id="dojg-lock"></i>
                 <input type="checkbox" id="dojg" value="DOJG" checked>
                 <label for="dojg">DOJG</label>
             </div>
             <div class="checkbox-item">
+                <i class="fa-solid fa-lock" id="hjg-lock"></i>
                 <input type="checkbox" id="hjg" value="HOJGP" checked>
                 <label for="hjg">HOJGP</label>
             </div>
             <div class="checkbox-item">
+                <i class="fa-solid fa-lock" id="nihongo-kyoshi-lock"></i>
                 <input type="checkbox" id="nihongo-kyoshi" value="Nihongo Kyoshi" checked>
                 <label for="nihongo-kyoshi">Nihongo Kyoshi</label>
             </div>
             <div class="checkbox-item">
+                <i class="fa-solid fa-lock" id="bunpro-lock"></i>
                 <input type="checkbox" id="bunpro" value="Bunpro" checked>
                 <label for="bunpro">Bunpro</label>
             </div>
             <div class="checkbox-item">
+                <i class="fa-solid fa-lock" id="imabi-lock"></i>
                 <input type="checkbox" id="imabi" value="Imabi" checked>
                 <label for="imabi">Imabi</label>
             </div>
             <div class="checkbox-item">
+                <i class="fa-solid fa-lock" id="taekim-lock"></i>
                 <input type="checkbox" id="taekim" value="Tae Kim" checked>
                 <label for="taekim">Tae Kim</label>
             </div>
             <div class="checkbox-item">
+                <i class="fa-solid fa-lock" id="maggie-lock"></i>
                 <input type="checkbox" id="maggie" value="Maggie Sensei" checked>
                 <label for="maggie">Maggie Sensei</label>
             </div>
         </div>
     </div>
 
-    <div class="results-list" id="resultado"></div>
+    <div class="results-list" id="resultado">
+        <div class="result-container"><a class="result-link  hojgp"
+                href="https://nemesis-433e.github.io/hojgp/index?chapter=part0009.html#idtitlex1x270" target="_blank">
+                <div class="result-title">【あいまって】</div>
+                <div class="result-details">HOJGP <input type="checkbox"></div>
+            </a></div>
+    </div>
+    <div class="results-list" id="resultado">
+        <div class="result-container"><a class="result-link  hojgp"
+                href="https://nemesis-433e.github.io/hojgp/index?chapter=part0009.html#idtitlex1x270" target="_blank">
+                <div class="result-title">【あいまって】</div>
+                <div class="result-details">HOJGP <input type="checkbox"></div>
+            </a></div>
+    </div>
 </body>
 
 </html>
