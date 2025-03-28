@@ -33,8 +33,9 @@
     </div>
     <div class="database-filters" id="database-filters">
         <div class="toggle-all">
-            <button id="toggle-all-btn" onclick="toggleAllDatabases()">All</button>
-            <button id="toggle-all-btn" onclick="untoggleAllDatabases()">None</button>
+            <button class="filter-button" id="untoggle-all-btn" onclick="toggleAllDatabases()">All</button>
+            <button class="filter-button" id="toggle-all-btn" onclick="untoggleAllDatabases()">None</button>
+            <button class="filter-button" aria-pressed="true" id="unread-only-btn" onclick="toggleUnreadOnly()">Unread Only</button>
         </div>
         <div class="checkbox-container" id="checkbox-container">
             <div class="checkbox-item">
@@ -91,7 +92,7 @@
         <div class="result-container"><a class="result-link  hojgp"
                 href="https://nemesis-433e.github.io/hojgp/index?chapter=part0009.html#idtitlex1x270" target="_blank">
                 <div class="result-title">【あいまって】</div>
-                <div class="result-details">HOJGP <input type="checkbox"></div>
+                <div class="result-details">HOJGP<input type="checkbox"></div>
             </a></div>
     </div>
 </body>

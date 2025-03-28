@@ -61,6 +61,23 @@ function checkSelectedDatabases() {
   return selectedDatabases;
 }
 
+async function toggleUnreadOnly() {
+  const button = document.getElementById('unread-only-btn');
+  const isPressed = button.getAttribute('aria-pressed') === 'true';
+  button.setAttribute('aria-pressed', (!isPressed).toString());
+
+  if (auth.currentUser) {
+    const userData = await getUserData(auth.currentUser.uid);
+    await updateUserData(auth.currentUser.uid, {
+      unreadOnly: !isPressed
+    });
+  } else {
+    localStorage.setItem('unreadOnly', (!isPressed).toString());
+  }
+
+  search();
+}
+
 // SAVE FILTERS FUNCTION
 async function saveFilterStateToFirebase(checkbox) {
   const user = auth.currentUser;
@@ -88,14 +105,23 @@ async function search() {
     readStatus = userData.readStatus || {};
   }
 
+  // filter according to db
   const selectedDatabases = checkSelectedDatabases();
-
   const filtered = dados.filter(d =>
     d.point.toLowerCase().includes(term) &&
     selectedDatabases.includes(d.source)
   );
 
-  filtered.forEach(d => {
+  // filter by read status
+  const showUnreadOnly = document.getElementById('unread-only-btn').getAttribute('aria-pressed') === 'true';
+  const filteredByRead = showUnreadOnly 
+  ? filtered.filter(d => !readStatus[d.id])
+  : filtered;
+
+
+  filteredByRead.forEach(d => {
+    // filter by read
+    
     //container div
     const container = document.createElement("div");
     container.className = `result-container`;
@@ -114,7 +140,7 @@ async function search() {
     const detailsDiv = document.createElement("div");
     detailsDiv.className = "result-details";
     //source
-    const sourceText = document.createTextNode(`${d.source} `);
+    // const sourceText = document.createTextNode(`${d.source} `);
     //checkbox
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
@@ -122,7 +148,7 @@ async function search() {
     checkbox.onchange = () => update(d.id, checkbox.checked);
 
     // Assemble details
-    detailsDiv.appendChild(sourceText);
+    // detailsDiv.appendChild(sourceText);
     detailsDiv.appendChild(checkbox);
 
     // Assemble container
@@ -138,7 +164,8 @@ async function search() {
 // ==== UPDATE FUNCTION ==== //
 async function update(id, checked) {
   if (!auth.currentUser) {
-    alert('Sign in to save progress');
+    alert('It seems you are not logged in. Please log in to save your read status.');
+    // (!!) Implement: Save to localStorage
     return;
   }
 
@@ -157,7 +184,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Auth setup
   auth.onAuthStateChanged(async user => {
-
     if (user) {
       // update sign-in/out buttons
       document.getElementById('sign-in-button').style.display = 'none';
@@ -178,8 +204,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         lock.className = userData.locked?.[lock.id] ? 'fa-solid fa-lock' : 'fa-solid fa-lock-open';
       });
 
+    const unreadBtn = document.getElementById('unread-only-btn');
+    unreadBtn.setAttribute('aria-pressed', userData.unreadOnly?.toString() ?? 'false');
+
     } else {
-      // When no user is signed in:
+      // no user
+      // update sign-in/out buttons
       document.getElementById('sign-in-button').style.display = 'inline-block';
       document.getElementById('sign-out-button').style.display = 'none';
 

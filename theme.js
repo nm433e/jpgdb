@@ -1,21 +1,9 @@
 const themeToggle = document.getElementById('theme-toggle');
 const root = document.documentElement;
 
-// Debug auth initialization
-console.log('Theme.js - Auth initialization:', {
-    authExists: !!window.fbAuth,
-    hasCurrentUser: !!window.fbAuth?.currentUser
-});
-
 async function toggleTheme() {
     const currentTheme = root.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
-    console.log('Theme.js - Toggle theme:', {
-        from: currentTheme,
-        to: newTheme,
-        authState: !!window.fbAuth?.currentUser
-    });
 
     root.setAttribute('data-theme', newTheme);
     themeToggle.innerHTML = newTheme === 'dark' ? 
@@ -25,7 +13,7 @@ async function toggleTheme() {
     if (window.fbAuth?.currentUser) {
         try {
             await updateUserData(window.fbAuth.currentUser.uid, { theme: newTheme });
-            console.log('Theme saved to Firestore');
+            
         } catch (error) {
             console.error('Failed to save theme:', error);
             localStorage.setItem('theme', newTheme);
@@ -38,17 +26,8 @@ async function toggleTheme() {
 // Wait for Firebase to initialize
 document.addEventListener('DOMContentLoaded', () => {
     const auth = window.fbAuth;
-    
-    console.log('Theme.js - DOMContentLoaded:', {
-        authExists: !!auth,
-        hasCurrentUser: !!auth?.currentUser
-    });
 
     auth.onAuthStateChanged(async user => {
-        console.log('Theme.js - Auth state changed:', {
-            isUserLoggedIn: !!user,
-            userId: user?.uid
-        });
 
         // Load theme based on auth state
         if (user) {
