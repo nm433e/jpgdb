@@ -10,20 +10,28 @@ const {
 async function toggleAllDatabases() {
   const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
   const user = auth.currentUser;
-  if (!user) return;
+  
+  if (user) {
+    const userData = await getUserData(user.uid);
+    const newFilters = { ...userData.filters };
 
-  const userData = await getUserData(user.uid);
-  const newFilters = { ...userData.filters };
+    checkboxes.forEach(checkbox => {
+      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
+      checkbox.checked = true;
+      newFilters[checkbox.id] = true;
+    });
 
-  checkboxes.forEach(checkbox => {
-    if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
-    checkbox.checked = true;
-    newFilters[checkbox.id] = true;
-  });
-
-  await updateUserData(user.uid, {
-    filters: newFilters
-  });
+    await updateUserData(user.uid, {
+      filters: newFilters
+    });
+  } else {
+    // Save to localStorage for non-logged in users
+    checkboxes.forEach(checkbox => {
+      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
+      checkbox.checked = true;
+      localStorage.setItem(checkbox.id, "true");
+    });
+  }
 
   search();
 }
@@ -32,23 +40,32 @@ async function toggleAllDatabases() {
 async function untoggleAllDatabases() {
   const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
   const user = auth.currentUser;
-  if (!user) return;
+  
+  if (user) {
+    const userData = await getUserData(user.uid);
+    const newFilters = { ...userData.filters };
 
-  const userData = await getUserData(user.uid);
-  const newFilters = { ...userData.filters };
+    checkboxes.forEach(checkbox => {
+      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
+      checkbox.checked = false;
+      newFilters[checkbox.id] = false;
+    });
 
-  checkboxes.forEach(checkbox => {
-    if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
-    checkbox.checked = false;
-    newFilters[checkbox.id] = false;
-  });
-
-  await updateUserData(user.uid, {
-    filters: newFilters
-  });
+    await updateUserData(user.uid, {
+      filters: newFilters
+    });
+  } else {
+    // Save to localStorage for non-logged in users
+    checkboxes.forEach(checkbox => {
+      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
+      checkbox.checked = false;
+      localStorage.setItem(checkbox.id, "false");
+    });
+  }
 
   search();
 }
+
 // CHECK SELECTED DATABASES FUNCTION
 function checkSelectedDatabases() {
   const selectedDatabases = [];
@@ -81,7 +98,11 @@ async function toggleUnreadOnly() {
 // SAVE FILTERS FUNCTION
 async function saveFilterStateToFirebase(checkbox) {
   const user = auth.currentUser;
-  if (!user) return;
+  if (!user) {
+    // Save to localStorage for non-logged in users
+    localStorage.setItem(checkbox.id, checkbox.checked.toString());
+    return;
+  }
 
   const userData = await getUserData(user.uid);
   const newFilters = { ...userData.filters, [checkbox.id]: checkbox.checked };
@@ -103,6 +124,8 @@ async function search() {
   if (auth.currentUser) {
     const userData = await getUserData(auth.currentUser.uid);
     readStatus = userData.readStatus || {};
+  } else {
+    readStatus = JSON.parse(localStorage.getItem('readStatus') || '{}');
   }
 
   // filter according to db
@@ -115,8 +138,8 @@ async function search() {
   // filter by read status
   const showUnreadOnly = document.getElementById('unread-only-btn').getAttribute('aria-pressed') === 'true';
   const filteredByRead = showUnreadOnly 
-  ? filtered.filter(d => !readStatus[d.id])
-  : filtered;
+    ? filtered.filter(d => !readStatus[d.id])
+    : filtered;
 
 
   filteredByRead.forEach(d => {
@@ -164,8 +187,10 @@ async function search() {
 // ==== UPDATE FUNCTION ==== //
 async function update(id, checked) {
   if (!auth.currentUser) {
-    alert('It seems you are not logged in. Please log in to save your read status.');
-    // (!!) Implement: Save to localStorage
+    // Save to localStorage for non-logged in users
+    const readStatus = JSON.parse(localStorage.getItem('readStatus') || '{}');
+    readStatus[id] = checked;
+    localStorage.setItem('readStatus', JSON.stringify(readStatus));
     return;
   }
 
@@ -208,19 +233,29 @@ document.addEventListener('DOMContentLoaded', async () => {
     unreadBtn.setAttribute('aria-pressed', userData.unreadOnly?.toString() ?? 'false');
 
     } else {
-      // no user
+      // fallback to localStorage
       // update sign-in/out buttons
       document.getElementById('sign-in-button').style.display = 'inline-block';
       document.getElementById('sign-out-button').style.display = 'none';
 
-      // Fallback to localStorage
+      // restore filters from localStorage
       const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
       checkboxes.forEach(checkbox => {
         const saved = localStorage.getItem(checkbox.id);
         if (saved) checkbox.checked = saved === "true";
       });
 
-      // (!!) Implement: Locks for localStorage
+      // restore locks from localStorage
+      const locks = document.querySelectorAll('.database-filters i');
+      const savedLocks = JSON.parse(localStorage.getItem('locked') || '{}');
+      locks.forEach(lock => {
+        lock.className = savedLocks[lock.id] ? 'fa-solid fa-lock' : 'fa-solid fa-lock-open';
+      });
+
+      // restore unreadOnly state from localStorage
+      const unreadBtn = document.getElementById('unread-only-btn');
+      const savedUnreadOnly = localStorage.getItem('unreadOnly') === 'true';
+      unreadBtn.setAttribute('aria-pressed', savedUnreadOnly.toString());
     }
 
     search();
@@ -261,7 +296,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 // SAVE LOCKED FILTERS TO FIREBASE
 async function saveLockedFilterStateToFirebase(lock, state) {
   const user = auth.currentUser;
-  if (!user) return;
+  if (!user) {
+    // Save to localStorage for non-logged in users
+    const savedLocks = JSON.parse(localStorage.getItem('locked') || '{}');
+    savedLocks[lock.id] = state;
+    localStorage.setItem('locked', JSON.stringify(savedLocks));
+    return;
+  }
 
   const userData = await getUserData(user.uid);
   const newLocked = { ...userData.locked, [lock.id]: state };
