@@ -317,11 +317,11 @@ async function saveLockedFilterStateToFirebase(lock, state) {
 function handleResponsiveChanges() {
   const signInButton = document.getElementById('sign-in-button');
   const signOutButton = document.getElementById('sign-out-button');
-
+  const filtersElement = document.getElementById('database-filters');
+  
   if (window.innerWidth <= 768) {
 
     // filters
-    const filtersElement = document.getElementById('database-filters');
     filtersElement.style.display = 'none';
 
     // sign in/out buttons
@@ -330,6 +330,7 @@ function handleResponsiveChanges() {
     signOutButton.innerHTML = '<i class="fa-solid fa-right-from-bracket"></i>';
     signOutButton.className = 'nav-icon';
   } else {
+    filtersElement.style.display = 'block';
     signInButton.innerHTML = 'Sign in';
     signInButton.className = 'sign-btn';
     signOutButton.innerHTML = 'Sign out';

@@ -79,7 +79,7 @@ body {
 
 .database-filters {
     margin-top: 10px;
-    max-width: 980px;
+    max-width: 880px;
     width: calc(95% - 30px);
     margin: 20px auto 10px;
     padding: 10px;
@@ -87,12 +87,46 @@ body {
     border-radius: 15px;
 }
 
+.checkbox-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 0px;
+    row-gap: 10px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.checkbox-item input {
+    margin-right: 5px;
+}
+.fa-lock{
+    color: yellow;
+}
+
 .toggle-all {
+    margin-bottom: 10px;
+    margin-left: calc(5% - 10px);
+    max-width: 900px;
+    margin: auto;
     margin-bottom: 10px;
 }
 
 .filter-button{
     border: solid 2px var(--main);
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'Noto Sans JP';
+    cursor: pointer;
+}
+.filter-button:hover{
+    background-color: var(--main);
+    color: white;
 }
 
 #unread-only-btn[aria-pressed="true"] {
@@ -144,26 +178,6 @@ body {
     width: 95%;
   }
 
-.checkbox-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    max-width: 900px;
-    margin: auto;
-}
-
-.checkbox-item {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-
-.checkbox-item input {
-    margin-right: 5px;
-}
-.fa-lock{
-    color: yellow;
-}
 
 ruby {
     display: none;
@@ -231,6 +245,7 @@ a{
         border-radius: 0;
         max-width: 400px;
         width: 90%;
+        z-index: 1000;
     }
     
     /* Add settings button for mobile */
