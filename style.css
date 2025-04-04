@@ -220,6 +220,16 @@ ruby {
 a{
     text-decoration: none;
 }
+.fade-out {
+    opacity: 1;
+    transition: opacity 0.5s ease-out; /* Adjust duration as needed */
+  }
+  
+  .fade-out.hidden {
+    opacity: 0;
+  }
+  
+  
 
 @media (max-width: 768px) {
     .checkbox-container {

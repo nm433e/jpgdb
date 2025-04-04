@@ -7,63 +7,40 @@ const {
 } = window.firebaseApp;
 
 // TOGGLE DATABASES FUNCTION
-async function toggleAllDatabases() {
+async function setAllDatabases(checked) {
   const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
   const user = auth.currentUser;
-  
+
+  const updateFilters = (filters) => {
+    checkboxes.forEach(checkbox => {
+      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
+      checkbox.checked = checked;
+      filters[checkbox.id] = checked;
+    });
+  };
+
   if (user) {
     const userData = await getUserData(user.uid);
     const newFilters = { ...userData.filters };
-
-    checkboxes.forEach(checkbox => {
-      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
-      checkbox.checked = true;
-      newFilters[checkbox.id] = true;
-    });
-
-    await updateUserData(user.uid, {
-      filters: newFilters
-    });
+    updateFilters(newFilters);
+    await updateUserData(user.uid, { filters: newFilters });
   } else {
-    // Save to localStorage for non-logged in users
     checkboxes.forEach(checkbox => {
       if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
-      checkbox.checked = true;
-      localStorage.setItem(checkbox.id, "true");
+      checkbox.checked = checked;
+      localStorage.setItem(checkbox.id, checked.toString());
     });
   }
 
   search();
 }
 
-// UNTOGGLE DATABASES FUNCTION	
+async function toggleAllDatabases() {
+  await setAllDatabases(true);
+}
+
 async function untoggleAllDatabases() {
-  const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
-  const user = auth.currentUser;
-  
-  if (user) {
-    const userData = await getUserData(user.uid);
-    const newFilters = { ...userData.filters };
-
-    checkboxes.forEach(checkbox => {
-      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
-      checkbox.checked = false;
-      newFilters[checkbox.id] = false;
-    });
-
-    await updateUserData(user.uid, {
-      filters: newFilters
-    });
-  } else {
-    // Save to localStorage for non-logged in users
-    checkboxes.forEach(checkbox => {
-      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
-      checkbox.checked = false;
-      localStorage.setItem(checkbox.id, "false");
-    });
-  }
-
-  search();
+  await setAllDatabases(false);
 }
 
 // CHECK SELECTED DATABASES FUNCTION
@@ -114,10 +91,20 @@ async function saveFilterStateToFirebase(checkbox) {
 
 // SEARCH FUNCTIONALITY
 async function search() {
-  const term = document.getElementById("search").value.toLowerCase();
-  const dados = await fetch("database.json").then(r => r.json());
+  const rawTerm = document.getElementById("search").value;
   const list = document.getElementById("resultado");
   list.innerHTML = "";
+
+  let term = rawTerm.toLowerCase();
+  let exactMatch = false;
+
+  // Check for exact match quotes
+  if ((rawTerm.startsWith('"') && rawTerm.endsWith('"')) || (rawTerm.startsWith('"') && rawTerm.endsWith('"'))) {
+    term = rawTerm.substring(1, rawTerm.length - 1); // Extract term without quotes
+    exactMatch = true;
+  }
+
+  const dados = await fetch("database.json").then(r => r.json());
 
   // get user read status
   let readStatus = {};
@@ -130,10 +117,16 @@ async function search() {
 
   // filter according to db
   const selectedDatabases = checkSelectedDatabases();
-  const filtered = dados.filter(d =>
-    d.point.toLowerCase().includes(term) &&
-    selectedDatabases.includes(d.source)
-  );
+  const filtered = dados.filter(d => {
+    const point = d.point;
+    const sourceMatch = selectedDatabases.includes(d.source);
+
+    if (exactMatch) {
+      return point === term && sourceMatch; // Case-sensitive exact match
+    } else {
+      return point.toLowerCase().includes(term) && sourceMatch; // Case-insensitive includes match
+    }
+  });
 
   // filter by read status
   const showUnreadOnly = document.getElementById('unread-only-btn').getAttribute('aria-pressed') === 'true';
@@ -168,26 +161,43 @@ async function search() {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.checked = readStatus[d.id] || false;
-    checkbox.onchange = () => update(d.id, checkbox.checked);
+    checkbox.onchange = () => {
+      updateGrammarPoint(d.id, checkbox.checked);
 
+      // Check if unreadOnly is true
+      const isUnreadOnly = localStorage.getItem('unreadOnly') === 'true';
+      if (isUnreadOnly) {
+        // Remove the entire parent div of the checkbox
+        const parentDiv = checkbox.closest('.result-container'); // Assuming .result-container is the class of the parent div
+        if (parentDiv) {
+          parentDiv.classList.add('fade-out');
+          parentDiv.classList.add('hidden');
+          // Add fade-out class
+          // Wait for the transition to complete before removing the element
+          setTimeout(() => {
+            parentDiv.remove();
+          }, 500); // Match this duration with the CSS transition duration
+        }
+      }
+    };
     // Assemble details
     // detailsDiv.appendChild(sourceText);
     detailsDiv.appendChild(checkbox);
-
     // Assemble container
     link.appendChild(detailsDiv);
     container.appendChild(link);
-
     // Add to list
     list.appendChild(container);
   });
 }
 
-
-// ==== UPDATE FUNCTION ==== //
-async function update(id, checked) {
+// This updates the read of status of a grammar point of unique id
+// It is triggered by the change in a checkbox
+// Local and Cloud storage format is {id1: true/false, id2: true/false, ...}
+// arguments: id (string) = grammar point id, checked (boolean) = checkbox status
+async function updateGrammarPoint(id, checked) {
   if (!auth.currentUser) {
-    // Save to localStorage for non-logged in users
+    // Save to localStorage for non-logged in users 
     const readStatus = JSON.parse(localStorage.getItem('readStatus') || '{}');
     readStatus[id] = checked;
     localStorage.setItem('readStatus', JSON.stringify(readStatus));
@@ -195,6 +205,7 @@ async function update(id, checked) {
   }
 
   try {
+    // Firebase format is {id1: true/false, id2: true/false, ...}
     const userData = await getUserData(auth.currentUser.uid);
     const newStatus = { ...userData.readStatus, [id]: checked };
     await updateUserData(auth.currentUser.uid, { readStatus: newStatus });
