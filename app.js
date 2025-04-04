@@ -6,33 +6,213 @@ const {
   updateUserData
 } = window.firebaseApp;
 
+const userSettingsManager = {
+  // Helpers
+  _getStorage: () => {
+    return auth.currentUser ? 'firebase' : 'localStorage';
+  },
+
+  _getUserId: () => {
+    return auth.currentUser ? auth.currentUser.uid : null;
+  },
+
+  // Get a specific setting (e.g., 'unreadOnly', 'filters', 'locked', 'grammarPoints')
+  async getSetting(key) {
+    const storage = this._getStorage();
+    const userId = this._getUserId();
+
+    if (storage === 'firebase') {
+      try {
+        const userData = await getUserData(userId);
+        // Provide sensible defaults if the key doesn't exist
+        return userData[key] ?? (key === 'grammarPoints' || key === 'filters' || key === 'locked' ? {} : false);
+      } catch (error) {
+        console.error(`Error getting setting '${key}' from Firebase:`, error);
+        return key === 'grammarPoints' || key === 'filters' || key === 'locked' ? {} : false; // Default on error
+      }
+    } else {
+      const value = localStorage.getItem(key);
+      if (key === 'grammarPoints' || key === 'filters' || key === 'locked') {
+        return value ? JSON.parse(value) : {};
+      }
+      return value === 'true'; // Assuming boolean for others like 'unreadOnly'
+    }
+  },
+
+  // Get all relevant settings at once (useful for initialization)
+  async getAllSettings() {
+    const storage = this._getStorage();
+    const userId = this._getUserId();
+
+    if (storage === 'firebase') {
+       try {
+         // Ensure getUserData provides defaults for missing fields
+         const userData = await getUserData(userId);
+         return {
+             filters: userData.filters ?? {},
+             locked: userData.locked ?? {},
+             grammarPoints: userData.grammarPoints ?? {},
+             unreadOnly: userData.unreadOnly ?? false,
+         };
+       } catch (error) {
+         console.error('Error getting all settings from Firebase:', error);
+         return { filters: {}, locked: {}, grammarPoints: {}, unreadOnly: false }; // Defaults on error
+       }
+    } else {
+        // Fetch individual items from localStorage
+        return {
+            filters: JSON.parse(localStorage.getItem('filters') || '{}'), // Read the single filters object
+            locked: JSON.parse(localStorage.getItem('locked') || '{}'),
+            grammarPoints: JSON.parse(localStorage.getItem('grammarPoints') || '{}'),
+            unreadOnly: localStorage.getItem('unreadOnly') === 'true',
+        };
+    }
+  },
+
+  // Set a specific setting (only affects top-level keys like 'unreadOnly')
+  async setSetting(key, value) {
+    const storage = this._getStorage();
+    const userId = this._getUserId();
+
+    try {
+      if (storage === 'firebase') {
+        await updateUserData(userId, { [key]: value });
+      } else {
+        localStorage.setItem(key, value.toString());
+      }
+    } catch (error) {
+      console.error(`Error setting setting '${key}':`, error);
+      alert(`Failed to save setting: ${key}. Please try again.`); // User feedback
+    }
+  },
+
+  // Update a specific filter checkbox state
+  async setFilterState(filterId, isChecked) {
+     const storage = this._getStorage();
+     const userId = this._getUserId();
+
+     try {
+         if (storage === 'firebase') {
+            // Fetch existing filters, update, and set
+            const userData = await getUserData(userId);
+            const newFilters = { ...(userData.filters ?? {}), [filterId]: isChecked };
+            await updateUserData(userId, { filters: newFilters });
+         } else {
+            // Read existing filters object from localStorage
+            const currentFilters = JSON.parse(localStorage.getItem('filters') || '{}');
+            // Update the specific filter
+            currentFilters[filterId] = isChecked;
+            // Save the updated object back to localStorage
+            localStorage.setItem('filters', JSON.stringify(currentFilters));
+         }
+     } catch (error) {
+        console.error(`Error setting filter state '${filterId}':`, error);
+        alert(`Failed to save filter: ${filterId}. Please try again.`);
+     }
+  },
+
+
+  // Update the read status for a specific grammar point
+  async setReadStatus(grammarPointId, isRead) {
+    // --- ADD VALIDATION HERE ---
+    if (!grammarPointId || typeof isRead !== 'boolean') {
+      console.error('Invalid arguments for setReadStatus:', grammarPointId, isRead);
+      return;
+    }
+
+    const storage = this._getStorage();
+    const userId = this._getUserId();
+
+    try {
+      let currentReadStatus = {};
+      if (storage === 'firebase') {
+        const userData = await getUserData(userId);
+        currentReadStatus = userData.grammarPoints ?? {};
+        if (!currentReadStatus[grammarPointId]) {
+          currentReadStatus[grammarPointId] = {};
+        }
+        currentReadStatus[grammarPointId].readStatus = isRead;
+        currentReadStatus[grammarPointId].readDate = isRead ? getCorrectedDate(new Date()) : null;
+        await updateUserData(userId, { grammarPoints: currentReadStatus });
+      } else {
+        currentReadStatus = JSON.parse(localStorage.getItem('grammarPoints') || '{}');
+        if (!currentReadStatus[grammarPointId]) {
+          currentReadStatus[grammarPointId] = {};
+        }
+        currentReadStatus[grammarPointId].readStatus = isRead;
+        currentReadStatus[grammarPointId].readDate = isRead ? getCorrectedDate(new Date()) : null;
+        localStorage.setItem('grammarPoints', JSON.stringify(currentReadStatus));
+      }
+    } catch (error) {
+      console.error(`Error setting read status for '${grammarPointId}':`, error);
+      alert(`Failed to update read status for item ${grammarPointId}. Please try again.`);
+    }
+  },
+
+   // Update the locked state for a specific filter
+   async setLockedState(lockId, isLocked) {
+    const storage = this._getStorage();
+    const userId = this._getUserId();
+
+    try {
+        let currentLocked = {};
+        if (storage === 'firebase') {
+            const userData = await getUserData(userId);
+            currentLocked = userData.locked ?? {};
+            currentLocked[lockId] = isLocked;
+            await updateUserData(userId, { locked: currentLocked });
+        } else {
+            currentLocked = JSON.parse(localStorage.getItem('locked') || '{}');
+            currentLocked[lockId] = isLocked;
+            localStorage.setItem('locked', JSON.stringify(currentLocked));
+        }
+    } catch (error) {
+        console.error(`Error setting locked state for '${lockId}':`, error);
+        alert(`Failed to save lock state for ${lockId}. Please try again.`);
+    }
+   }
+};
+
 // TOGGLE DATABASES FUNCTION
 async function setAllDatabases(checked) {
   const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
-  const user = auth.currentUser;
+  const userId = userSettingsManager._getUserId(); // Get user ID once
+  const storage = userSettingsManager._getStorage();
 
-  const updateFilters = (filters) => {
-    checkboxes.forEach(checkbox => {
-      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
-      checkbox.checked = checked;
-      filters[checkbox.id] = checked;
-    });
-  };
+  if (storage === 'firebase') {
+    try {
+      // 1. Fetch user data *once*
+      const userData = await getUserData(userId);
+      const newFilters = { ...userData.filters } || {}; // Ensure filters exist
 
-  if (user) {
-    const userData = await getUserData(user.uid);
-    const newFilters = { ...userData.filters };
-    updateFilters(newFilters);
-    await updateUserData(user.uid, { filters: newFilters });
+      // 2. Update filters in memory
+      checkboxes.forEach(checkbox => {
+        if (!document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) {
+          checkbox.checked = checked; // Update UI immediately
+          newFilters[checkbox.id] = checked; // Update in-memory filters
+        }
+      });
+
+      // 3. Update Firebase *once* with the entire filter object
+      await updateUserData(userId, { filters: newFilters });
+    } catch (error) {
+      console.error("Error updating all filters in Firebase:", error);
+      alert("Failed to update all filters. Please try again.");
+    }
   } else {
+    // localStorage: Read existing filters object, update in memory, write back once.
+    const currentFilters = JSON.parse(localStorage.getItem('filters') || '{}');
     checkboxes.forEach(checkbox => {
-      if (document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) return;
-      checkbox.checked = checked;
-      localStorage.setItem(checkbox.id, checked.toString());
+      if (!document.getElementById(`${checkbox.id}-lock`).classList.contains('fa-lock')) {
+        checkbox.checked = checked; // Update UI immediately
+        currentFilters[checkbox.id] = checked; // Update in-memory filters
+      }
     });
+    // Save the updated object back to localStorage
+    localStorage.setItem('filters', JSON.stringify(currentFilters));
   }
 
-  search();
+  search(); // Trigger search after updates are done
 }
 
 async function toggleAllDatabases() {
@@ -55,90 +235,59 @@ function checkSelectedDatabases() {
   return selectedDatabases;
 }
 
+// 
 async function toggleUnreadOnly() {
   const button = document.getElementById('unread-only-btn');
   const isPressed = button.getAttribute('aria-pressed') === 'true';
-  button.setAttribute('aria-pressed', (!isPressed).toString());
-
-  if (auth.currentUser) {
-    const userData = await getUserData(auth.currentUser.uid);
-    await updateUserData(auth.currentUser.uid, {
-      unreadOnly: !isPressed
-    });
-  } else {
-    localStorage.setItem('unreadOnly', (!isPressed).toString());
-  }
-
-  search();
+  const newValue = !isPressed;
+  button.setAttribute('aria-pressed', newValue.toString());
+  await userSettingsManager.setSetting('unreadOnly', newValue);
+  search(); // Call search after setting is saved
 }
 
-// SAVE FILTERS FUNCTION
-async function saveFilterStateToFirebase(checkbox) {
-  const user = auth.currentUser;
-  if (!user) {
-    // Save to localStorage for non-logged in users
-    localStorage.setItem(checkbox.id, checkbox.checked.toString());
-    return;
-  }
-
-  const userData = await getUserData(user.uid);
-  const newFilters = { ...userData.filters, [checkbox.id]: checkbox.checked };
-
-  await updateUserData(user.uid, {
-    filters: newFilters
-  });
-}
-
-// SEARCH FUNCTIONALITY
-async function search() {
-  const rawTerm = document.getElementById("search").value;
-  const list = document.getElementById("resultado");
-  list.innerHTML = "";
-
-  let term = rawTerm.toLowerCase();
-  let exactMatch = false;
-
-  // Check for exact match quotes
-  if ((rawTerm.startsWith('"') && rawTerm.endsWith('"')) || (rawTerm.startsWith('"') && rawTerm.endsWith('"'))) {
-    term = rawTerm.substring(1, rawTerm.length - 1); // Extract term without quotes
-    exactMatch = true;
-  }
-
-  const dados = await fetch("database.json").then(r => r.json());
-
-  // get user read status
-  let readStatus = {};
-  if (auth.currentUser) {
-    const userData = await getUserData(auth.currentUser.uid);
-    readStatus = userData.readStatus || {};
-  } else {
-    readStatus = JSON.parse(localStorage.getItem('readStatus') || '{}');
-  }
-
-  // filter according to db
-  const selectedDatabases = checkSelectedDatabases();
-  const filtered = dados.filter(d => {
-    const point = d.point;
-    const sourceMatch = selectedDatabases.includes(d.source);
-
-    if (exactMatch) {
-      return point === term && sourceMatch; // Case-sensitive exact match
-    } else {
-      return point.toLowerCase().includes(term) && sourceMatch; // Case-insensitive includes match
+// Helper function to fetch data (could be cached)
+async function fetchData() {
+  try {
+    const response = await fetch("database.json");
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
-  });
+    return await response.json();
+  } catch (error) {
+    console.error("Failed to fetch database.json:", error);
+    return []; // Return empty array on error
+  }
+}
 
-  // filter by read status
-  const showUnreadOnly = document.getElementById('unread-only-btn').getAttribute('aria-pressed') === 'true';
-  const filteredByRead = showUnreadOnly 
-    ? filtered.filter(d => !readStatus[d.id])
-    : filtered;
+// Helper function to apply all filters
+function filterData(data, term, exactMatch, selectedDatabases, grammarPoints, showUnreadOnly) {
+    return data.filter(d => {
+        // Filter 1: Source Database
+        if (!selectedDatabases.includes(d.source)) {
+            return false;
+        }
 
+        // Filter 2: Search Term
+        const pointLower = d.point.toLowerCase();
+        const termLower = term.toLowerCase(); // Ensure term is lowercased here
+        const termMatch = exactMatch ? d.point === term : pointLower.includes(termLower);
+        if (!termMatch) {
+            return false;
+        }
 
-  filteredByRead.forEach(d => {
-    // filter by read
-    
-    //container div
+        // Filter 3: Read Status (only if showUnreadOnly is true)
+        if (showUnreadOnly && grammarPoints[d.id]?.readStatus) {
+             // If we only want unread, and this item IS read, filter it out
+            return false; 
+        }
+
+        // If all filters passed
+        return true;
+    });
+}
+
+// Helper function to create a single result element
+function createResultElement(d, grammarPoints) {
     const container = document.createElement("div");
     container.className = `result-container`;
 
@@ -152,66 +301,80 @@ async function search() {
     titleDiv.textContent = d.point;
     link.appendChild(titleDiv);
 
-    //details
     const detailsDiv = document.createElement("div");
     detailsDiv.className = "result-details";
-    //source
-    // const sourceText = document.createTextNode(`${d.source} `);
-    //checkbox
+
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-    checkbox.checked = readStatus[d.id] || false;
-    checkbox.onchange = () => {
-      updateGrammarPoint(d.id, checkbox.checked);
+    checkbox.checked = (grammarPoints[d.id] || {}).readStatus || false; // Provide a default object
+    checkbox.dataset.id = d.id; // Add dataset id for easier selection if needed later
 
-      // Check if unreadOnly is true
-      const isUnreadOnly = localStorage.getItem('unreadOnly') === 'true';
-      if (isUnreadOnly) {
-        // Remove the entire parent div of the checkbox
-        const parentDiv = checkbox.closest('.result-container'); // Assuming .result-container is the class of the parent div
+    checkbox.onchange = async () => { // Make onchange handler async
+      await userSettingsManager.setReadStatus(d.id, checkbox.checked);
+
+      // Fade-out logic (keep this part if desired)
+      const isUnreadOnly = document.getElementById('unread-only-btn').getAttribute('aria-pressed') === 'true';
+      // Check the NEW state of the checkbox
+      if (isUnreadOnly && checkbox.checked) {
+        const parentDiv = checkbox.closest('.result-container');
         if (parentDiv) {
-          parentDiv.classList.add('fade-out');
-          parentDiv.classList.add('hidden');
-          // Add fade-out class
-          // Wait for the transition to complete before removing the element
+          parentDiv.classList.add('fade-out', 'hidden');
           setTimeout(() => {
             parentDiv.remove();
-          }, 500); // Match this duration with the CSS transition duration
+          }, 500);
         }
       }
     };
-    // Assemble details
-    // detailsDiv.appendChild(sourceText);
+
     detailsDiv.appendChild(checkbox);
-    // Assemble container
     link.appendChild(detailsDiv);
     container.appendChild(link);
-    // Add to list
-    list.appendChild(container);
-  });
+    return container;
 }
 
-// This updates the read of status of a grammar point of unique id
-// It is triggered by the change in a checkbox
-// Local and Cloud storage format is {id1: true/false, id2: true/false, ...}
-// arguments: id (string) = grammar point id, checked (boolean) = checkbox status
-async function updateGrammarPoint(id, checked) {
-  if (!auth.currentUser) {
-    // Save to localStorage for non-logged in users 
-    const readStatus = JSON.parse(localStorage.getItem('readStatus') || '{}');
-    readStatus[id] = checked;
-    localStorage.setItem('readStatus', JSON.stringify(readStatus));
-    return;
+// Helper function to render results to the list
+function renderResults(listElement, filteredResults, grammarPoints) {
+    listElement.innerHTML = ""; // Clear previous results
+    const fragment = document.createDocumentFragment(); // Use fragment for efficiency
+    filteredResults.forEach(d => {
+        fragment.appendChild(createResultElement(d, grammarPoints));
+    });
+    listElement.appendChild(fragment);
+}
+
+// SEARCH FUNCTIONALITY
+async function search() {
+  const rawTerm = document.getElementById("search").value;
+  const list = document.getElementById("resultado");
+
+  let term = rawTerm; // Keep original case for exact match
+  let exactMatch = false;
+  if ((rawTerm.startsWith('"') || rawTerm.endsWith('”')) && (rawTerm.startsWith('"') || rawTerm.endsWith('”'))) {
+      term = rawTerm.substring(1, rawTerm.length - 1);
+      exactMatch = true;
+  } else {
+      term = rawTerm.toLowerCase(); // Lowercase only for non-exact match
   }
 
-  try {
-    // Firebase format is {id1: true/false, id2: true/false, ...}
-    const userData = await getUserData(auth.currentUser.uid);
-    const newStatus = { ...userData.readStatus, [id]: checked };
-    await updateUserData(auth.currentUser.uid, { readStatus: newStatus });
-  } catch (error) {
-    console.error('Update failed:', error);
-  }
+  // 1. Get Data and Settings (parallel fetching)
+  const [dados, grammarPoints, settings] = await Promise.all([
+      fetchData(),
+      userSettingsManager.getSetting('grammarPoints'),
+      userSettingsManager.getSetting('unreadOnly') // Also fetch unreadOnly setting
+      // We could fetch all settings at once if more are needed here
+  ]);
+
+  // 2. Get Filter Criteria from UI
+  const selectedDatabases = checkSelectedDatabases(); // This function is fine
+  const showUnreadOnly = settings; // Use fetched setting
+
+
+  // 3. Filter Data
+  const filteredResults = filterData(dados, term, exactMatch, selectedDatabases, grammarPoints, showUnreadOnly);
+
+
+  // 4. Render Results
+  renderResults(list, filteredResults, grammarPoints);
 }
 
 
@@ -249,27 +412,27 @@ document.addEventListener('DOMContentLoaded', async () => {
       document.getElementById('sign-in-button').style.display = 'inline-block';
       document.getElementById('sign-out-button').style.display = 'none';
 
+      // Restore settings from localStorage using the manager
+      const settings = await userSettingsManager.getAllSettings();
+
       // restore filters from localStorage
       const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
       checkboxes.forEach(checkbox => {
-        const saved = localStorage.getItem(checkbox.id);
-        if (saved) checkbox.checked = saved === "true";
+          checkbox.checked = settings.filters?.[checkbox.id] ?? true; // Default to true if not found?
       });
 
       // restore locks from localStorage
       const locks = document.querySelectorAll('.database-filters i');
-      const savedLocks = JSON.parse(localStorage.getItem('locked') || '{}');
       locks.forEach(lock => {
-        lock.className = savedLocks[lock.id] ? 'fa-solid fa-lock' : 'fa-solid fa-lock-open';
+        lock.className = settings.locked?.[lock.id] ? 'fa-solid fa-lock' : 'fa-solid fa-lock-open';
       });
 
       // restore unreadOnly state from localStorage
       const unreadBtn = document.getElementById('unread-only-btn');
-      const savedUnreadOnly = localStorage.getItem('unreadOnly') === 'true';
-      unreadBtn.setAttribute('aria-pressed', savedUnreadOnly.toString());
+      unreadBtn.setAttribute('aria-pressed', settings.unreadOnly?.toString() ?? 'false');
     }
 
-    search();
+    search(); // Initial search after settings are loaded
   });
 
   // Event Listeners initialization
@@ -278,51 +441,23 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('sign-out-button').addEventListener('click', signOutUser);
   // databases checkboxes
   document.querySelectorAll('.database-filters input').forEach(checkbox => {
-    checkbox.addEventListener('change', () => {
-      if (auth.currentUser) {
-        saveFilterStateToFirebase(checkbox);
-      } else {
-        localStorage.setItem(checkbox.id, checkbox.checked);
-      }
+    checkbox.addEventListener('change', async () => {
+      await userSettingsManager.setFilterState(checkbox.id, checkbox.checked);
       search();
     });
   });
   // databases locks
   document.querySelectorAll('.database-filters i').forEach
   (lock => {
-    lock.addEventListener('click', () => {
-      if (lock.classList.contains('fa-lock')) {
-        lock.className = 'fa-solid fa-lock-open';
-        saveLockedFilterStateToFirebase(lock, false);
-      } else {
-        lock.className = 'fa-solid fa-lock';
-        saveLockedFilterStateToFirebase(lock, true);
-      }
-    }
-    )
+    lock.addEventListener('click', async () => {
+      const isCurrentlyLocked = lock.classList.contains('fa-lock');
+      const newState = !isCurrentlyLocked;
+      lock.className = newState ? 'fa-solid fa-lock' : 'fa-solid fa-lock-open'; // Update UI immediately
+      await userSettingsManager.setLockedState(lock.id, newState);
+      // Note: Search might not be needed here unless locking affects filtering directly
+    });
   });
 });
-
-
-// SAVE LOCKED FILTERS TO FIREBASE
-async function saveLockedFilterStateToFirebase(lock, state) {
-  const user = auth.currentUser;
-  if (!user) {
-    // Save to localStorage for non-logged in users
-    const savedLocks = JSON.parse(localStorage.getItem('locked') || '{}');
-    savedLocks[lock.id] = state;
-    localStorage.setItem('locked', JSON.stringify(savedLocks));
-    return;
-  }
-
-  const userData = await getUserData(user.uid);
-  const newLocked = { ...userData.locked, [lock.id]: state };
-
-  await updateUserData(user.uid, {
-    locked: newLocked
-  });
-}
-
 
 // RESPONSIVENESS
 function handleResponsiveChanges() {
@@ -351,6 +486,36 @@ function handleResponsiveChanges() {
 window.addEventListener('resize', handleResponsiveChanges);
 window.addEventListener('DOMContentLoaded', handleResponsiveChanges);
 
+function getCorrectedDate(date) {
+  const correctionHour = 5;
+
+  // Create a new date object with the local time
+  const localDate = new Date(date.getTime() - 60 * 1000);
+  console.log("localDate:", localDate);
+
+  // Get the local hour
+  const localHour = localDate.getHours();
+  console.log("localHour:", localHour);
+
+  // Correct the date if the local hour is before the correction hour
+  let correctedDate = new Date(localDate);
+  if (localHour < correctionHour) {
+    correctedDate.setDate(localDate.getDate() - 1);
+    console.log("Date corrected:", correctedDate);
+  } else {
+    console.log("Date not corrected");
+  }
+  console.log("correctedDate before formatting:", correctedDate);
+
+  // Format the corrected date as a string (YYYY-MM-DD)
+  const year = correctedDate.getFullYear();
+  const month = String(correctedDate.getMonth() + 1).padStart(2, '0');
+  const day = String(correctedDate.getDate()).padStart(2, '0');
+  const formattedDate = `${year}-${month}-${day}`;
+  console.log("formattedDate:", formattedDate);
+
+  return formattedDate;
+}
 
 // SETTINGS BUTTON
 const openSettings = () => {
