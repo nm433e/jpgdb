@@ -33,6 +33,7 @@
     </div>
     <div class="database-filters" id="database-filters">
         <div class="toggle-all">
+            <!-- <button id="purge-button">Purge All Data (TEMP)</button> -->
             <button class="filter-button" id="untoggle-all-btn" onclick="toggleAllDatabases()">Toggle All</button>
             <button class="filter-button" id="toggle-all-btn" onclick="untoggleAllDatabases()">Untoggle All</button>
             <button class="filter-button" aria-pressed="true" id="unread-only-btn" onclick="toggleUnreadOnly()">Unread Only</button>
@@ -80,13 +81,7 @@
             </div>
         </div>
     </div>
-
-    <div class="results-list" id="resultado">
-
-    </div>
-    <div class="results-list" id="resultado">
-
-    </div>
+    <div class="results-list" id="results-list"></div>
 </body>
 
 </html>

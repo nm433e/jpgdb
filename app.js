@@ -345,7 +345,7 @@ function renderResults(listElement, filteredResults, grammarPoints) {
 // SEARCH FUNCTIONALITY
 async function search() {
   const rawTerm = document.getElementById("search").value;
-  const list = document.getElementById("resultado");
+  const list = document.getElementById("results-list");
 
   let term = rawTerm; // Keep original case for exact match
   let exactMatch = false;
@@ -525,3 +525,29 @@ const openSettings = () => {
 document.getElementById('settings-button').addEventListener('click', openSettings);
 
 
+const purgeData = async () => {
+  const storage = userSettingsManager._getStorage();
+  const userId = userSettingsManager._getUserId();
+
+  if (storage === 'firebase') {
+    try {
+      await updateUserData(userId, {
+        filters: {},
+        locked: {},
+        grammarPoints: {},
+        unreadOnly: false
+      });
+      alert("Firebase data purged.");
+    } catch (error) {
+      console.error("Error purging Firebase data:", error);
+      alert("Failed to purge Firebase data. Check the console for errors.");
+    }
+  } else {
+    localStorage.clear();
+    alert("LocalStorage data purged.");
+  }
+  window.location.reload(); // Refresh the page to reflect the changes
+};
+
+// Attach the event listener to the button
+// document.getElementById('purge-button').addEventListener('click', purgeData);
