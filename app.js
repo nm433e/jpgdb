@@ -6,6 +6,232 @@ const {
   updateUserData
 } = window.firebaseApp;
 
+// Database Manager Class
+class DatabaseManager {
+    constructor() {
+        this.cache = new Map();
+        this.loadingPromises = new Map();
+    }
+
+    async loadDatabase(source) {
+        // Return cached data if available
+        if (this.cache.has(source)) {
+            return this.cache.get(source);
+        }
+
+        // Return existing loading promise if the file is currently being loaded
+        if (this.loadingPromises.has(source)) {
+            return this.loadingPromises.get(source);
+        }
+
+        // Create new loading promise
+        const loadPromise = (async () => {
+            try {
+                const response = await fetch(`db/${source}.json`);
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${source}.json: ${response.status}`);
+                }
+                const data = await response.json();
+                this.cache.set(source, data);
+                return data;
+            } catch (error) {
+                console.error(`Error loading ${source}.json:`, error);
+                return []; // Return empty array on error
+            } finally {
+                this.loadingPromises.delete(source);
+            }
+        })();
+
+        this.loadingPromises.set(source, loadPromise);
+        return loadPromise;
+    }
+
+    async loadSelectedDatabases(selectedSources) {
+        try {
+            const loadPromises = selectedSources.map(source => this.loadDatabase(source));
+            const results = await Promise.all(loadPromises);
+            return results.flat(); // Merge all results into a single array
+        } catch (error) {
+            console.error('Error loading selected databases:', error);
+            return [];
+        }
+    }
+
+    clearCache() {
+        this.cache.clear();
+        this.loadingPromises.clear();
+    }
+}
+
+// Create a single instance of DatabaseManager
+const databaseManager = new DatabaseManager();
+
+// Mode Management
+let currentMode = 'search';
+
+function toggleMode() {
+    const searchMode = document.getElementById('search-mode');
+    const dataMode = document.getElementById('data-mode');
+    const modeToggle = document.getElementById('mode-toggle');
+    const searchInput = document.getElementById('search');
+
+    if (currentMode === 'search') {
+        // Switch to data mode
+        searchMode.style.display = 'none';
+        dataMode.style.display = 'block';
+        modeToggle.innerHTML = '<i class="fa-solid fa-search"></i>';
+        currentMode = 'data';
+        updateDataVisualization();
+    } else {
+        // Switch to search mode
+        searchMode.style.display = 'block';
+        dataMode.style.display = 'none';
+        modeToggle.innerHTML = '<i class="fa-solid fa-chart-line"></i>';
+        currentMode = 'search';
+    }
+}
+
+// Data Visualization Functions
+async function updateDataVisualization() {
+    const selectedSource = document.getElementById('source-select').value;
+    const grammarPoints = await userSettingsManager.getSetting('grammarPoints');
+    
+    // Load only the selected database file
+    const data = selectedSource === 'all' 
+        ? await databaseManager.loadSelectedDatabases([
+            'donna-toki',
+            'dojg',
+            'hojgp',
+            'nihongo-kyoshi',
+            'bunpro',
+            'imabi',
+            'taekim',
+            'maggie'
+        ])
+        : await databaseManager.loadDatabase(selectedSource);
+    
+    // Update header
+    updateDataHeader(selectedSource, data.length);
+
+    // Calculate statistics
+    const stats = calculateStats(grammarPoints, data);
+    updateStatsDisplay(stats);
+    updateProgressBar(stats);
+    updateRecentPoints(grammarPoints, data);
+}
+
+function updateDataHeader(source, totalPoints) {
+    const header = document.getElementById('data-header');
+    const sourceName = source === 'all' ? 'All Sources' : source.split('-').map(word => 
+        word.charAt(0).toUpperCase() + word.slice(1)
+    ).join(' ');
+    
+    header.innerHTML = `
+        <h2>${sourceName}</h2>
+        <p>Total Grammar Points: ${totalPoints}</p>
+    `;
+}
+
+function calculateStats(grammarPoints, data) {
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const weekStart = new Date(today);
+    weekStart.setDate(today.getDate() - today.getDay());
+    const monthStart = new Date(today.getFullYear(), today.getMonth(), 1);
+
+    const stats = {
+        today: 0,
+        week: 0,
+        month: 0,
+        last7: 0,
+        last14: 0,
+        last30: 0,
+        total: 0,
+        read: 0
+    };
+
+    // console.log('Data in calculateStats:', data);
+    // console.log('Grammar points in calculateStats:', grammarPoints);
+
+    // Get read points with dates, but only for the filtered data
+    const readPoints = data
+        .filter(item => {
+            const isRead = grammarPoints[item.id]?.readStatus;
+            // console.log(`Item ${item.id} read status:`, isRead);
+            return isRead;
+        })
+        .map(item => ({
+            id: item.id,
+            date: new Date(grammarPoints[item.id].readDate)
+        }));
+
+    // console.log('Read points:', readPoints);
+
+    // Calculate time-based stats
+    readPoints.forEach(point => {
+        const readDate = new Date(point.date);
+        if (readDate >= today) stats.today++;
+        if (readDate >= weekStart) stats.week++;
+        if (readDate >= monthStart) stats.month++;
+        if (readDate >= new Date(now - 7 * 24 * 60 * 60 * 1000)) stats.last7++;
+        if (readDate >= new Date(now - 14 * 24 * 60 * 60 * 1000)) stats.last14++;
+        if (readDate >= new Date(now - 30 * 24 * 60 * 60 * 1000)) stats.last30++;
+    });
+
+    // Calculate total and read counts
+    stats.total = data.length;
+    stats.read = readPoints.length;
+
+    return stats;
+}
+
+function updateStatsDisplay(stats) {
+    document.getElementById('today-count').textContent = stats.today;
+    document.getElementById('week-count').textContent = stats.week;
+    document.getElementById('month-count').textContent = stats.month;
+    document.getElementById('last7-count').textContent = stats.last7;
+    document.getElementById('last14-count').textContent = stats.last14;
+    document.getElementById('last30-count').textContent = stats.last30;
+}
+
+function updateProgressBar(stats) {
+    const progressFill = document.getElementById('progress-fill');
+    const progressText = document.getElementById('progress-text');
+    const percentage = stats.total > 0 ? (stats.read / stats.total) * 100 : 0;
+    
+    progressFill.style.width = `${percentage}%`;
+    progressText.textContent = `${stats.read}/${stats.total} points read`;
+}
+
+function updateRecentPoints(grammarPoints, data) {
+    const recentPointsList = document.getElementById('recent-points-list');
+    recentPointsList.innerHTML = '';
+
+    // Get read points with dates and sort by date
+    const readPoints = Object.entries(grammarPoints)
+        .filter(([_, data]) => data.readStatus)
+        .map(([id, data]) => ({
+            id,
+            date: new Date(data.readDate)
+        }))
+        .sort((a, b) => b.date - a.date)
+        .slice(0, 10);
+
+    // Create elements for each recent point
+    readPoints.forEach(point => {
+        const pointData = data.find(d => d.id === point.id);
+        if (!pointData) return;
+
+        const item = document.createElement('div');
+        item.className = 'recent-point-item';
+        item.innerHTML = `
+            <span class="point-name">${pointData.point}</span>
+            <span class="read-date">${point.date.toLocaleDateString()}</span>
+        `;
+        recentPointsList.appendChild(item);
+    });
+}
+
 const userSettingsManager = {
   // Helpers
   _getStorage: () => {
@@ -247,25 +473,17 @@ async function toggleUnreadOnly() {
 
 // Helper function to fetch data (could be cached)
 async function fetchData() {
-  try {
-    const response = await fetch("database.json");
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return await response.json();
-  } catch (error) {
-    console.error("Failed to fetch database.json:", error);
-    return []; // Return empty array on error
-  }
+    const selectedDatabases = checkSelectedDatabases();
+    return await databaseManager.loadSelectedDatabases(selectedDatabases);
 }
 
 // Helper function to apply all filters
 function filterData(data, term, exactMatch, selectedDatabases, grammarPoints, showUnreadOnly) {
     return data.filter(d => {
         // Filter 1: Source Database
-        if (!selectedDatabases.includes(d.source)) {
-            return false;
-        }
+        // if (!selectedDatabases.includes(d.source)) {
+        //     return false;
+        // }
 
         // Filter 2: Search Term
         const pointLower = d.point.toLowerCase();
@@ -349,7 +567,7 @@ async function search() {
 
   let term = rawTerm; // Keep original case for exact match
   let exactMatch = false;
-  if ((rawTerm.startsWith('"') || rawTerm.endsWith('”')) && (rawTerm.startsWith('"') || rawTerm.endsWith('”'))) {
+  if ((rawTerm.startsWith('"') || rawTerm.endsWith('"') && (rawTerm.startsWith('"') || rawTerm.endsWith('"')))) {
       term = rawTerm.substring(1, rawTerm.length - 1);
       exactMatch = true;
   } else {
@@ -403,8 +621,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         lock.className = userData.locked?.[lock.id] ? 'fa-solid fa-lock' : 'fa-solid fa-lock-open';
       });
 
-    const unreadBtn = document.getElementById('unread-only-btn');
-    unreadBtn.setAttribute('aria-pressed', userData.unreadOnly?.toString() ?? 'false');
+      const unreadBtn = document.getElementById('unread-only-btn');
+      unreadBtn.setAttribute('aria-pressed', userData.unreadOnly?.toString() ?? 'false');
 
     } else {
       // fallback to localStorage
@@ -436,9 +654,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   // Event Listeners initialization
-  // butons
+  // buttons
   document.getElementById('sign-in-button').addEventListener('click', signInWithGoogle);
   document.getElementById('sign-out-button').addEventListener('click', signOutUser);
+  document.getElementById('mode-toggle').addEventListener('click', toggleMode);
+  
+  // Source select dropdown
+  document.getElementById('source-select').addEventListener('change', updateDataVisualization);
+  
   // databases checkboxes
   document.querySelectorAll('.database-filters input').forEach(checkbox => {
     checkbox.addEventListener('change', async () => {
@@ -447,8 +670,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   });
   // databases locks
-  document.querySelectorAll('.database-filters i').forEach
-  (lock => {
+  document.querySelectorAll('.database-filters i').forEach(lock => {
     lock.addEventListener('click', async () => {
       const isCurrentlyLocked = lock.classList.contains('fa-lock');
       const newState = !isCurrentlyLocked;
@@ -491,28 +713,28 @@ function getCorrectedDate(date) {
 
   // Create a new date object with the local time
   const localDate = new Date(date.getTime() - 60 * 1000);
-  console.log("localDate:", localDate);
+  // console.log("localDate:", localDate);
 
   // Get the local hour
   const localHour = localDate.getHours();
-  console.log("localHour:", localHour);
+  // console.log("localHour:", localHour);
 
   // Correct the date if the local hour is before the correction hour
   let correctedDate = new Date(localDate);
   if (localHour < correctionHour) {
     correctedDate.setDate(localDate.getDate() - 1);
-    console.log("Date corrected:", correctedDate);
+    // console.log("Date corrected:", correctedDate);
   } else {
-    console.log("Date not corrected");
+    // console.log("Date not corrected");
   }
-  console.log("correctedDate before formatting:", correctedDate);
+  // console.log("correctedDate before formatting:", correctedDate);
 
   // Format the corrected date as a string (YYYY-MM-DD)
   const year = correctedDate.getFullYear();
   const month = String(correctedDate.getMonth() + 1).padStart(2, '0');
   const day = String(correctedDate.getDate()).padStart(2, '0');
   const formattedDate = `${year}-${month}-${day}`;
-  console.log("formattedDate:", formattedDate);
+  // console.log("formattedDate:", formattedDate);
 
   return formattedDate;
 }

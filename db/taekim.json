@@ -1,0 +1,1661 @@
+[
+  {
+    "id": "tk_1",
+    "point": "01 Before you begin",
+    "link": "https://djtguide.github.io/grammar/taekim.html#1%20Before%20you%20begin",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_2",
+    "point": "02 Other formats",
+    "link": "https://djtguide.github.io/grammar/taekim.html#2%20Other%20formats",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_3",
+    "point": "03 The problem with conventional textbooks",
+    "link": "https://djtguide.github.io/grammar/taekim.html#3%20The%20problem%20with%20conventional%20textbooks",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_4",
+    "point": "04 A Japanese guide to learning",
+    "link": "https://djtguide.github.io/grammar/taekim.html#4%20A%20Japanese%20guide%20to%20learning%20Japanese%20grammar",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_5",
+    "point": "05 Suggestions",
+    "link": "https://djtguide.github.io/grammar/taekim.html#5%20Suggestions",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_6",
+    "point": "06 The Scripts",
+    "link": "https://djtguide.github.io/grammar/taekim.html#6%20The%20Scripts",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_7",
+    "point": "07 Intonation",
+    "link": "https://djtguide.github.io/grammar/taekim.html#7%20Intonation",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_8",
+    "point": "Hiragana",
+    "link": "https://djtguide.github.io/grammar/taekim.html#_Hiragana",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_9",
+    "point": "08 The Muddied Sounds",
+    "link": "https://djtguide.github.io/grammar/taekim.html#8%20The%20Muddied%20Sounds",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_10",
+    "point": "09 The Small 「や」、「ゆ」、and 「よ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#9%20The%20Small%20%E3%80%8C%E3%82%84%E3%80%8D%E3%80%81%E3%80%8C%E3%82%86%E3%80%8D%E3%80%81and%20%E3%80%8C%E3%82%88%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_11",
+    "point": "10 The Small 「つ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#10%20The%20Small%20%E3%80%8C%E3%81%A4%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_12",
+    "point": "11 The Long Vowel Sound",
+    "link": "https://djtguide.github.io/grammar/taekim.html#11%20The%20Long%20Vowel%20Sound",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_13",
+    "point": "Katakana",
+    "link": "https://djtguide.github.io/grammar/taekim.html#_Katakana",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_14",
+    "point": "12 The Long Vowel Sound",
+    "link": "https://djtguide.github.io/grammar/taekim.html#12%20The%20Long%20Vowel%20Sound",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_15",
+    "point": "13 The Small 「ア、イ、ウ、エ、オ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#13%20The%20Small%20%E3%80%8C%E3%82%A2%E3%80%81%E3%82%A4%E3%80%81%E3%82%A6%E3%80%81%E3%82%A8%E3%80%81%E3%82%AA%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_16",
+    "point": "14 Some examples of words in Katakana",
+    "link": "https://djtguide.github.io/grammar/taekim.html#14%20Some%20examples%20of%20words%20in%20Katakana",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_17",
+    "point": "Kanji",
+    "link": "https://djtguide.github.io/grammar/taekim.html#_Kanji",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_18",
+    "point": "15 What is Kanji?",
+    "link": "https://djtguide.github.io/grammar/taekim.html#15%20What%20is%20Kanji?",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_19",
+    "point": "16 Learning Kanji",
+    "link": "https://djtguide.github.io/grammar/taekim.html#16%20Learning%20Kanji",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_20",
+    "point": "17 Reading Kanji",
+    "link": "https://djtguide.github.io/grammar/taekim.html#17%20Reading%20Kanji",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_21",
+    "point": "18 Why Kanji?",
+    "link": "https://djtguide.github.io/grammar/taekim.html#18%20Why%20Kanji?",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_22",
+    "point": "19 Declaring something is so and so using 「だ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#19%20Declaring%20something%20is%20so%20and%20so%20using%20%E3%80%8C%E3%81%A0%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_23",
+    "point": "20 Conjugating to the negative state-of-being",
+    "link": "https://djtguide.github.io/grammar/taekim.html#20%20Conjugating%20to%20the%20negative%20state-of-being",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_24",
+    "point": "21 Conjugating to the past state-of-being",
+    "link": "https://djtguide.github.io/grammar/taekim.html#21%20Conjugating%20to%20the%20past%20state-of-being",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_25",
+    "point": "22 Conjugation summary",
+    "link": "https://djtguide.github.io/grammar/taekim.html#22%20Conjugation%20summary",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_26",
+    "point": "23 Defining grammatical functions with particles",
+    "link": "https://djtguide.github.io/grammar/taekim.html#23%20Defining%20grammatical%20functions%20with%20particles",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_27",
+    "point": "24 The 「は」 topic particle",
+    "link": "https://djtguide.github.io/grammar/taekim.html#24%20The%20%E3%80%8C%E3%81%AF%E3%80%8D%20topic%20particle",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_28",
+    "point": "25 The 「も」 inclusive topic particle",
+    "link": "https://djtguide.github.io/grammar/taekim.html#25%20The%20%E3%80%8C%E3%82%82%E3%80%8D%20inclusive%20topic%20particle",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_29",
+    "point": "26 The 「が」 identifier particle",
+    "link": "https://djtguide.github.io/grammar/taekim.html#26%20The%20%E3%80%8C%E3%81%8C%E3%80%8D%20identifier%20particle",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_30",
+    "point": "27 Properties of Adjectives",
+    "link": "https://djtguide.github.io/grammar/taekim.html#27%20Properties%20of%20Adjectives",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_31",
+    "point": "28 The な-adjective",
+    "link": "https://djtguide.github.io/grammar/taekim.html#28%20The%20%E3%81%AA-adjective",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_32",
+    "point": "29 The い-adjective",
+    "link": "https://djtguide.github.io/grammar/taekim.html#29%20The%20%E3%81%84-adjective",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_33",
+    "point": "30 An annoying exception",
+    "link": "https://djtguide.github.io/grammar/taekim.html#30%20An%20annoying%20exception",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_34",
+    "point": "31 Role of Verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#31%20Role%20of%20Verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_35",
+    "point": "32 Classifying verbs into る-verbs and う-verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#32%20Classifying%20verbs%20into%20%E3%82%8B-verbs%20and%20%E3%81%86-verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_36",
+    "point": "33 Appendix: いる/える う-verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#33%20Appendix:%20%E3%81%84%E3%82%8B/%E3%81%88%E3%82%8B%20%E3%81%86-verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_37",
+    "point": "34 Negative Verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#34%20Negative%20Verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_38",
+    "point": "35 Conjugating verbs into the negative",
+    "link": "https://djtguide.github.io/grammar/taekim.html#35%20Conjugating%20verbs%20into%20the%20negative",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_39",
+    "point": "36 Past tense for る-verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#36%20Past%20tense%20for%20%E3%82%8B-verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_40",
+    "point": "37 Past tense for う-verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#37%20Past%20tense%20for%20%E3%81%86-verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_41",
+    "point": "38 Past-negative tense for all verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#38%20Past-negative%20tense%20for%20all%20verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_42",
+    "point": "39 The direct object 「を」 particle",
+    "link": "https://djtguide.github.io/grammar/taekim.html#39%20The%20direct%20object%20%E3%80%8C%E3%82%92%E3%80%8D%20particle",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_43",
+    "point": "40 The target 「に」 particle",
+    "link": "https://djtguide.github.io/grammar/taekim.html#40%20The%20target%20%E3%80%8C%E3%81%AB%E3%80%8D%20particle",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_44",
+    "point": "41 The directional 「へ」 particle",
+    "link": "https://djtguide.github.io/grammar/taekim.html#41%20The%20directional%20%E3%80%8C%E3%81%B8%E3%80%8D%20particle",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_45",
+    "point": "42 The contextual 「で」 particle",
+    "link": "https://djtguide.github.io/grammar/taekim.html#42%20The%20contextual%20%E3%80%8C%E3%81%A7%E3%80%8D%20particle",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_46",
+    "point": "43 When location is the topic",
+    "link": "https://djtguide.github.io/grammar/taekim.html#43%20When%20location%20is%20the%20topic",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_47",
+    "point": "44 When direct object is the topic",
+    "link": "https://djtguide.github.io/grammar/taekim.html#44%20When%20direct%20object%20is%20the%20topic",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_48",
+    "point": "45 Transitive and Intransitive Verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#45%20Transitive%20and%20Intransitive%20Verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_49",
+    "point": "46 Pay attention to particles!",
+    "link": "https://djtguide.github.io/grammar/taekim.html#46%20Pay%20attention%20to%20particles!",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_50",
+    "point": "47 Treating verbs and state-of-being like adjectives",
+    "link": "https://djtguide.github.io/grammar/taekim.html#47%20Treating%20verbs%20and%20state-of-being%20like%20adjectives",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_51",
+    "point": "48 Using state-of-being clauses as adjectives",
+    "link": "https://djtguide.github.io/grammar/taekim.html#48%20Using%20state-of-being%20clauses%20as%20adjectives",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_52",
+    "point": "49 Using relative verb clauses as adjectives",
+    "link": "https://djtguide.github.io/grammar/taekim.html#49%20Using%20relative%20verb%20clauses%20as%20adjectives",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_53",
+    "point": "50 Japanese Sentence Order",
+    "link": "https://djtguide.github.io/grammar/taekim.html#50%20Japanese%20Sentence%20Order",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_54",
+    "point": "51 The last three particles (Not!)",
+    "link": "https://djtguide.github.io/grammar/taekim.html#51%20The%20last%20three%20particles%20(Not!)",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_55",
+    "point": "52 The Inclusive 「と」 particle",
+    "link": "https://djtguide.github.io/grammar/taekim.html#52%20The%20Inclusive%20%E3%80%8C%E3%81%A8%E3%80%8D%20particle",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_56",
+    "point": "53 The Vague Listing 「や」 and 「とか」 particles",
+    "link": "https://djtguide.github.io/grammar/taekim.html#53%20The%20Vague%20Listing%20%E3%80%8C%E3%82%84%E3%80%8D%20and%20%E3%80%8C%E3%81%A8%E3%81%8B%E3%80%8D%20particles",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_57",
+    "point": "54 The 「の」 particle",
+    "link": "https://djtguide.github.io/grammar/taekim.html#54%20The%20%E3%80%8C%E3%81%AE%E3%80%8D%20particle",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_58",
+    "point": "55 The 「の」 particle as explanation",
+    "link": "https://djtguide.github.io/grammar/taekim.html#55%20The%20%E3%80%8C%E3%81%AE%E3%80%8D%20particle%20as%20explanation",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_59",
+    "point": "56 Properties of Adverbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#56%20Properties%20of%20Adverbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_60",
+    "point": "57 Sentence-ending particles",
+    "link": "https://djtguide.github.io/grammar/taekim.html#57%20Sentence-ending%20particles",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_61",
+    "point": "58 「ね」 sentence ending",
+    "link": "https://djtguide.github.io/grammar/taekim.html#58%20%E3%80%8C%E3%81%AD%E3%80%8D%20sentence%20ending",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_62",
+    "point": "59 「よ」 sentence ending",
+    "link": "https://djtguide.github.io/grammar/taekim.html#59%20%E3%80%8C%E3%82%88%E3%80%8D%20sentence%20ending",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_63",
+    "point": "60 Combining both to get 「よね」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#60%20Combining%20both%20to%20get%20%E3%80%8C%E3%82%88%E3%81%AD%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_64",
+    "point": "61 Not being rude in Japan",
+    "link": "https://djtguide.github.io/grammar/taekim.html#61%20Not%20being%20rude%20in%20Japan",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_65",
+    "point": "62 The stem of verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#62%20The%20stem%20of%20verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_66",
+    "point": "63 Using 「～ます」 to make verbs polite",
+    "link": "https://djtguide.github.io/grammar/taekim.html#63%20Using%20%E3%80%8C%EF%BD%9E%E3%81%BE%E3%81%99%E3%80%8D%20to%20make%20verbs%20polite",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_67",
+    "point": "64 Using 「です」 for everything else",
+    "link": "https://djtguide.github.io/grammar/taekim.html#64%20Using%20%E3%80%8C%E3%81%A7%E3%81%99%E3%80%8D%20for%20everything%20else",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_68",
+    "point": "65 「です」 is NOT the same as 「だ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#65%20%E3%80%8C%E3%81%A7%E3%81%99%E3%80%8D%20is%20NOT%20the%20same%20as%20%E3%80%8C%E3%81%A0%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_69",
+    "point": "66 Referring to yourself",
+    "link": "https://djtguide.github.io/grammar/taekim.html#66%20Referring%20to%20yourself",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_70",
+    "point": "67 Referring to others by name",
+    "link": "https://djtguide.github.io/grammar/taekim.html#67%20Referring%20to%20others%20by%20name",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_71",
+    "point": "68 Referring to others with 'you'",
+    "link": "https://djtguide.github.io/grammar/taekim.html#68%20Referring%20to%20others%20with%20'you'",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_72",
+    "point": "69 Referring to others in third person",
+    "link": "https://djtguide.github.io/grammar/taekim.html#69%20Referring%20to%20others%20in%20third%20person",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_73",
+    "point": "70 Referring to family members",
+    "link": "https://djtguide.github.io/grammar/taekim.html#70%20Referring%20to%20family%20members",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_74",
+    "point": "71 Questions in polite form",
+    "link": "https://djtguide.github.io/grammar/taekim.html#71%20Questions%20in%20polite%20form",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_75",
+    "point": "72 The question marker in casual speech",
+    "link": "https://djtguide.github.io/grammar/taekim.html#72%20The%20question%20marker%20in%20casual%20speech",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_76",
+    "point": "73 「か」 used in relative clauses",
+    "link": "https://djtguide.github.io/grammar/taekim.html#73%20%E3%80%8C%E3%81%8B%E3%80%8D%20used%20in%20relative%20clauses",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_77",
+    "point": "74 Using question words",
+    "link": "https://djtguide.github.io/grammar/taekim.html#74%20Using%20question%20words",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_78",
+    "point": "75 Expressing a sequence of states",
+    "link": "https://djtguide.github.io/grammar/taekim.html#75%20Expressing%20a%20sequence%20of%20states",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_79",
+    "point": "76 Expressing a sequence of verbs with the て-form",
+    "link": "https://djtguide.github.io/grammar/taekim.html#76%20Expressing%20a%20sequence%20of%20verbs%20with%20the%20%E3%81%A6-form",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_80",
+    "point": "77 Expressing reason or causation using 「から」 and 「ので」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#77%20Expressing%20reason%20or%20causation%20using%20%E3%80%8C%E3%81%8B%E3%82%89%E3%80%8D%20and%20%E3%80%8C%E3%81%AE%E3%81%A7%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_81",
+    "point": "78 Using 「のに」 to mean 'despite'",
+    "link": "https://djtguide.github.io/grammar/taekim.html#78%20Using%20%E3%80%8C%E3%81%AE%E3%81%AB%E3%80%8D%20to%20mean%20'despite'",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_82",
+    "point": "79 Expressing contradiction using 「が」 and 「けど」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#79%20Expressing%20contradiction%20using%20%E3%80%8C%E3%81%8C%E3%80%8D%20and%20%E3%80%8C%E3%81%91%E3%81%A9%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_83",
+    "point": "80 Expressing multiple reasons using 「し」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#80%20Expressing%20multiple%20reasons%20using%20%E3%80%8C%E3%81%97%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_84",
+    "point": "81 Expressing multiple actions or states using 「～たりする」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#81%20Expressing%20multiple%20actions%20or%20states%20using%20%E3%80%8C%EF%BD%9E%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_85",
+    "point": "82 Using 「～ている」 for enduring states",
+    "link": "https://djtguide.github.io/grammar/taekim.html#82%20Using%20%E3%80%8C%EF%BD%9E%E3%81%A6%E3%81%84%E3%82%8B%E3%80%8D%20for%20enduring%20states",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_86",
+    "point": "83 Enduring state-of-being vs enduring state of action",
+    "link": "https://djtguide.github.io/grammar/taekim.html#83%20Enduring%20state-of-being%20vs%20enduring%20state%20of%20action",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_87",
+    "point": "84 Using 「～てある」 for resultant states",
+    "link": "https://djtguide.github.io/grammar/taekim.html#84%20Using%20%E3%80%8C%EF%BD%9E%E3%81%A6%E3%81%82%E3%82%8B%E3%80%8D%20for%20resultant%20states",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_88",
+    "point": "85 Using the 「～ておく」 form as preparation for the future",
+    "link": "https://djtguide.github.io/grammar/taekim.html#85%20Using%20the%20%E3%80%8C%EF%BD%9E%E3%81%A6%E3%81%8A%E3%81%8F%E3%80%8D%20form%20as%20preparation%20for%20the%20future",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_89",
+    "point": "86 Using motion verbs (行く、来る) with the て-form",
+    "link": "https://djtguide.github.io/grammar/taekim.html#86%20Using%20motion%20verbs%20%20(%E8%A1%8C%E3%81%8F%E3%80%81%E6%9D%A5%E3%82%8B)%20%20with%20the%20%E3%81%A6-form",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_90",
+    "point": "87 Expressing the ability to do something",
+    "link": "https://djtguide.github.io/grammar/taekim.html#87%20Expressing%20the%20ability%20to%20do%20something",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_91",
+    "point": "88 The Potential Form",
+    "link": "https://djtguide.github.io/grammar/taekim.html#88%20The%20Potential%20Form",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_92",
+    "point": "89 Potential forms do not have direct objects",
+    "link": "https://djtguide.github.io/grammar/taekim.html#89%20Potential%20forms%20do%20not%20have%20direct%20objects",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_93",
+    "point": "90 Are 「見える」 and 「聞こえる」 exceptions?",
+    "link": "https://djtguide.github.io/grammar/taekim.html#90%20Are%20%E3%80%8C%E8%A6%8B%E3%81%88%E3%82%8B%E3%80%8D%20and%20%E3%80%8C%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B%E3%80%8D%20exceptions?",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_94",
+    "point": "91 「ある」, yet another exception",
+    "link": "https://djtguide.github.io/grammar/taekim.html#91%20%E3%80%8C%E3%81%82%E3%82%8B%E3%80%8D,%20yet%20another%20exception",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_95",
+    "point": "92 Using 「なる」 and 「する」 for nouns and な-adjectives",
+    "link": "https://djtguide.github.io/grammar/taekim.html#92%20Using%20%E3%80%8C%E3%81%AA%E3%82%8B%E3%80%8D%20and%20%E3%80%8C%E3%81%99%E3%82%8B%E3%80%8D%20for%20nouns%20and%20%E3%81%AA-adjectives",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_96",
+    "point": "93 Using 「なる」 with い-adjectives",
+    "link": "https://djtguide.github.io/grammar/taekim.html#93%20Using%20%E3%80%8C%E3%81%AA%E3%82%8B%E3%80%8D%20with%20%E3%81%84-adjectives",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_97",
+    "point": "94 Using 「なる」 and 「する」 with verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#94%20Using%20%E3%80%8C%E3%81%AA%E3%82%8B%E3%80%8D%20and%20%E3%80%8C%E3%81%99%E3%82%8B%E3%80%8D%20with%20verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_98",
+    "point": "95 How to say 'if' in Japanese",
+    "link": "https://djtguide.github.io/grammar/taekim.html#95%20How%20to%20say%20'if'%20in%20Japanese",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_99",
+    "point": "96 Expressing natural consequence using 「と」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#96%20Expressing%20natural%20consequence%20using%20%E3%80%8C%E3%81%A8%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_100",
+    "point": "97 Contextual conditionals using 「なら (ば) 」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#97%20Contextual%20conditionals%20using%20%E3%80%8C%E3%81%AA%E3%82%89%20(%E3%81%B0)%20%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_101",
+    "point": "98 General conditionals using 「ば」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#98%20General%20conditionals%20using%20%E3%80%8C%E3%81%B0%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_102",
+    "point": "99 Past conditional using 「たら (ば) 」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#99%20Past%20conditional%20using%20%E3%80%8C%E3%81%9F%E3%82%89%20(%E3%81%B0)%20%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_103",
+    "point": "100 How does 「もし」 fit into all of this?",
+    "link": "https://djtguide.github.io/grammar/taekim.html#100%20How%20does%20%E3%80%8C%E3%82%82%E3%81%97%E3%80%8D%20fit%20into%20all%20of%20this?",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_104",
+    "point": "101 When there's something that must or must not be done",
+    "link": "https://djtguide.github.io/grammar/taekim.html#101%20When%20there's%20something%20that%20must%20or%20must%20not%20be%20done",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_105",
+    "point": "102 Using 「だめ」, 「いけない」, and 「ならない」 for things that must not be done",
+    "link": "https://djtguide.github.io/grammar/taekim.html#102%20Using%20%E3%80%8C%E3%81%A0%E3%82%81%E3%80%8D,%20%E3%80%8C%E3%81%84%E3%81%91%E3%81%AA%E3%81%84%E3%80%8D,%20and%20%E3%80%8C%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84%E3%80%8D%20for%20things%20that%20must%20not%20be%20done",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_106",
+    "point": "103 Expressing things that must be done",
+    "link": "https://djtguide.github.io/grammar/taekim.html#103%20Expressing%20things%20that%20must%20be%20done",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_107",
+    "point": "104 Various short-cuts for the lazy",
+    "link": "https://djtguide.github.io/grammar/taekim.html#104%20Various%20short-cuts%20for%20the%20lazy",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_108",
+    "point": "105 Saying something is ok to do or not do",
+    "link": "https://djtguide.github.io/grammar/taekim.html#105%20Saying%20something%20is%20ok%20to%20do%20or%20not%20do",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_109",
+    "point": "106 How to get your way in Japan",
+    "link": "https://djtguide.github.io/grammar/taekim.html#106%20How%20to%20get%20your%20way%20in%20Japan",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_110",
+    "point": "107 Verbs you want to do with 「たい」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#107%20Verbs%20you%20want%20to%20do%20with%20%E3%80%8C%E3%81%9F%E3%81%84%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_111",
+    "point": "108 Indicating things you want or want done using 「欲しい」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#108%20Indicating%20things%20you%20want%20or%20want%20done%20using%20%E3%80%8C%E6%AC%B2%E3%81%97%E3%81%84%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_112",
+    "point": "109 Making a motion to do something using the volitional form (casual)",
+    "link": "https://djtguide.github.io/grammar/taekim.html#109%20Making%20a%20motion%20to%20do%20something%20using%20the%20volitional%20form%20(casual)",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_113",
+    "point": "110 Making a motion to do something using the volitional form (polite)",
+    "link": "https://djtguide.github.io/grammar/taekim.html#110%20Making%20a%20motion%20to%20do%20something%20using%20the%20volitional%20form%20(polite)",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_114",
+    "point": "111 Making Suggestions using the 「ば」 or 「たら」 conditional",
+    "link": "https://djtguide.github.io/grammar/taekim.html#111%20Making%20Suggestions%20using%20the%20%E3%80%8C%E3%81%B0%E3%80%8D%20or%20%E3%80%8C%E3%81%9F%E3%82%89%E3%80%8D%20conditional",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_115",
+    "point": "112 The direct quote",
+    "link": "https://djtguide.github.io/grammar/taekim.html#112%20The%20direct%20quote",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_116",
+    "point": "113 The interpreted quote",
+    "link": "https://djtguide.github.io/grammar/taekim.html#113%20The%20interpreted%20quote",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_117",
+    "point": "114 Using 「って」 as a casual version of 「と」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#114%20Using%20%E3%80%8C%E3%81%A3%E3%81%A6%E3%80%8D%20as%20a%20casual%20version%20of%20%E3%80%8C%E3%81%A8%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_118",
+    "point": "115 The various uses of 「いう」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#115%20The%20various%20uses%20of%20%E3%80%8C%E3%81%84%E3%81%86%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_119",
+    "point": "116 Using 「いう」 to define",
+    "link": "https://djtguide.github.io/grammar/taekim.html#116%20Using%20%E3%80%8C%E3%81%84%E3%81%86%E3%80%8D%20to%20define",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_120",
+    "point": "117 Using 「いう」 to describe anything",
+    "link": "https://djtguide.github.io/grammar/taekim.html#117%20Using%20%E3%80%8C%E3%81%84%E3%81%86%E3%80%8D%20to%20describe%20anything",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_121",
+    "point": "118 Rephrasing and making conclusions with 「という」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#118%20Rephrasing%20and%20making%20conclusions%20with%20%E3%80%8C%E3%81%A8%E3%81%84%E3%81%86%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_122",
+    "point": "119 Using 「って」 or 「て」 for 「という」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#119%20Using%20%E3%80%8C%E3%81%A3%E3%81%A6%E3%80%8D%20or%20%E3%80%8C%E3%81%A6%E3%80%8D%20for%20%E3%80%8C%E3%81%A8%E3%81%84%E3%81%86%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_123",
+    "point": "120 Saying 「ゆう」 instead of 「いう」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#120%20Saying%20%E3%80%8C%E3%82%86%E3%81%86%E3%80%8D%20instead%20of%20%E3%80%8C%E3%81%84%E3%81%86%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_124",
+    "point": "121 Let's try some stuff",
+    "link": "https://djtguide.github.io/grammar/taekim.html#121%20Let's%20try%20some%20stuff",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_125",
+    "point": "122 To try something out",
+    "link": "https://djtguide.github.io/grammar/taekim.html#122%20To%20try%20something%20out",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_126",
+    "point": "123 To attempt to do something",
+    "link": "https://djtguide.github.io/grammar/taekim.html#123%20To%20attempt%20to%20do%20something",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_127",
+    "point": "124 Japanese people like gifts",
+    "link": "https://djtguide.github.io/grammar/taekim.html#124%20Japanese%20people%20like%20gifts",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_128",
+    "point": "125 When to use 「あげる」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#125%20When%20to%20use%20%E3%80%8C%E3%81%82%E3%81%92%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_129",
+    "point": "126 When to use 「くれる」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#126%20When%20to%20use%20%E3%80%8C%E3%81%8F%E3%82%8C%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_130",
+    "point": "127 When to use 「もらう」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#127%20When%20to%20use%20%E3%80%8C%E3%82%82%E3%82%89%E3%81%86%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_131",
+    "point": "128 Asking favors with 「くれる」 or 「もらえる」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#128%20Asking%20favors%20with%20%E3%80%8C%E3%81%8F%E3%82%8C%E3%82%8B%E3%80%8D%20or%20%E3%80%8C%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_132",
+    "point": "129 Politely (and not so politely) making requests",
+    "link": "https://djtguide.github.io/grammar/taekim.html#129%20Politely%20(and%20not%20so%20politely)%20making%20requests",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_133",
+    "point": "130 「～ください」－ a special conjugation of 「くださる」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#130%20%E3%80%8C%EF%BD%9E%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%8D%EF%BC%8D%20a%20special%20conjugation%20of%20%E3%80%8C%E3%81%8F%E3%81%A0%E3%81%95%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_134",
+    "point": "131 Using 「～ちょうだい」 as a casual request",
+    "link": "https://djtguide.github.io/grammar/taekim.html#131%20Using%20%E3%80%8C%EF%BD%9E%E3%81%A1%E3%82%87%E3%81%86%E3%81%A0%E3%81%84%E3%80%8D%20as%20a%20casual%20request",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_135",
+    "point": "132 Using 「～なさい」 to make firm but polite requests",
+    "link": "https://djtguide.github.io/grammar/taekim.html#132%20Using%20%E3%80%8C%EF%BD%9E%E3%81%AA%E3%81%95%E3%81%84%E3%80%8D%20to%20make%20firm%20but%20polite%20requests",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_136",
+    "point": "133 The Command Form",
+    "link": "https://djtguide.github.io/grammar/taekim.html#133%20The%20Command%20Form",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_137",
+    "point": "134 Negative Command",
+    "link": "https://djtguide.github.io/grammar/taekim.html#134%20Negative%20Command",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_138",
+    "point": "135 The Number System",
+    "link": "https://djtguide.github.io/grammar/taekim.html#135%20The%20Number%20System",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_139",
+    "point": "136 Counting and Counters",
+    "link": "https://djtguide.github.io/grammar/taekim.html#136%20Counting%20and%20Counters",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_140",
+    "point": "137 Using 「目」 to show order",
+    "link": "https://djtguide.github.io/grammar/taekim.html#137%20Using%20%E3%80%8C%E7%9B%AE%E3%80%8D%20to%20show%20order",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_141",
+    "point": "138 Basic Principles of Slang",
+    "link": "https://djtguide.github.io/grammar/taekim.html#138%20Basic%20Principles%20of%20Slang",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_142",
+    "point": "139 Sentence ordering and particles (or the lack thereof)",
+    "link": "https://djtguide.github.io/grammar/taekim.html#139%20Sentence%20ordering%20and%20particles%20(or%20the%20lack%20thereof)",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_143",
+    "point": "140 Using 「じゃん」 instead of 「じゃない」 to confirm",
+    "link": "https://djtguide.github.io/grammar/taekim.html#140%20Using%20%E3%80%8C%E3%81%98%E3%82%83%E3%82%93%E3%80%8D%20instead%20of%20%E3%80%8C%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%80%8D%20to%20confirm",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_144",
+    "point": "141 Using 「つ」 for 「という」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#141%20Using%20%E3%80%8C%E3%81%A4%E3%80%8D%20for%20%E3%80%8C%E3%81%A8%E3%81%84%E3%81%86%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_145",
+    "point": "142 Using 「ってば」 and 「ったら」to show exasperation",
+    "link": "https://djtguide.github.io/grammar/taekim.html#142%20Using%20%E3%80%8C%E3%81%A3%E3%81%A6%E3%81%B0%E3%80%8D%20and%20%E3%80%8C%E3%81%A3%E3%81%9F%E3%82%89%E3%80%8Dto%20show%20exasperation",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_146",
+    "point": "143 Using 「なんか」 just about everywhere",
+    "link": "https://djtguide.github.io/grammar/taekim.html#143%20Using%20%E3%80%8C%E3%81%AA%E3%82%93%E3%81%8B%E3%80%8D%20just%20about%20everywhere",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_147",
+    "point": "144 Showing contempt for an action with 「～やがる」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#144%20Showing%20contempt%20for%20an%20action%20with%20%E3%80%8C%EF%BD%9E%E3%82%84%E3%81%8C%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_148",
+    "point": "145 「な」 and 「さ」 sentence-ending particles",
+    "link": "https://djtguide.github.io/grammar/taekim.html#145%20%E3%80%8C%E3%81%AA%E3%80%8D%20and%20%E3%80%8C%E3%81%95%E3%80%8D%20sentence-ending%20particles",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_149",
+    "point": "146 「かい」 and 「だい」 sentence-ending particles",
+    "link": "https://djtguide.github.io/grammar/taekim.html#146%20%E3%80%8C%E3%81%8B%E3%81%84%E3%80%8D%20and%20%E3%80%8C%E3%81%A0%E3%81%84%E3%80%8D%20sentence-ending%20particles",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_150",
+    "point": "147 Gender-specific sentence-ending particles",
+    "link": "https://djtguide.github.io/grammar/taekim.html#147%20Gender-specific%20sentence-ending%20particles",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_151",
+    "point": "148 That's a wrap!",
+    "link": "https://djtguide.github.io/grammar/taekim.html#148%20That's%20a%20wrap!",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_152",
+    "point": "149 Causative Verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#149%20Causative%20Verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_153",
+    "point": "150 Passive Verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#150%20Passive%20Verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_154",
+    "point": "151 Using passive form to show politeness",
+    "link": "https://djtguide.github.io/grammar/taekim.html#151%20Using%20passive%20form%20to%20show%20politeness",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_155",
+    "point": "152 Causative-Passive Forms",
+    "link": "https://djtguide.github.io/grammar/taekim.html#152%20Causative-Passive%20Forms",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_156",
+    "point": "153 Set Expressions",
+    "link": "https://djtguide.github.io/grammar/taekim.html#153%20Set%20Expressions",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_157",
+    "point": "154 Other substitutions",
+    "link": "https://djtguide.github.io/grammar/taekim.html#154%20Other%20substitutions",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_158",
+    "point": "155 Honorific and Humble Conjugations",
+    "link": "https://djtguide.github.io/grammar/taekim.html#155%20Honorific%20and%20Humble%20Conjugations",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_159",
+    "point": "156 Making honorific requests",
+    "link": "https://djtguide.github.io/grammar/taekim.html#156%20Making%20honorific%20requests",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_160",
+    "point": "157 Using 「しまう」 with other verbs",
+    "link": "https://djtguide.github.io/grammar/taekim.html#157%20Using%20%E3%80%8C%E3%81%97%E3%81%BE%E3%81%86%E3%80%8D%20with%20other%20verbs",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_161",
+    "point": "158 Using the casual version of 「～てしまう」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#158%20Using%20the%20casual%20version%20of%20%E3%80%8C%EF%BD%9E%E3%81%A6%E3%81%97%E3%81%BE%E3%81%86%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_162",
+    "point": "159 Another meaning of 「しまう」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#159%20Another%20meaning%20of%20%E3%80%8C%E3%81%97%E3%81%BE%E3%81%86%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_163",
+    "point": "160 Using 「こと」 to say whether something has happened",
+    "link": "https://djtguide.github.io/grammar/taekim.html#160%20Using%20%E3%80%8C%E3%81%93%E3%81%A8%E3%80%8D%20to%20say%20whether%20something%20has%20happened",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_164",
+    "point": "161 Using 「ところ」 as an abstract place",
+    "link": "https://djtguide.github.io/grammar/taekim.html#161%20Using%20%E3%80%8C%E3%81%A8%E3%81%93%E3%82%8D%E3%80%8D%20as%20an%20abstract%20place",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_165",
+    "point": "162 Using 「もの」 as a casual feminine way to emphasize",
+    "link": "https://djtguide.github.io/grammar/taekim.html#162%20Using%20%E3%80%8C%E3%82%82%E3%81%AE%E3%80%8D%20as%20a%20casual%20feminine%20way%20to%20emphasize",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_166",
+    "point": "163 Using 「かもしれない」 to express uncertainty",
+    "link": "https://djtguide.github.io/grammar/taekim.html#163%20Using%20%E3%80%8C%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%8D%20to%20express%20uncertainty",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_167",
+    "point": "164 Using 「でしょう」 to express a fair amount of certainty (polite)",
+    "link": "https://djtguide.github.io/grammar/taekim.html#164%20Using%20%E3%80%8C%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%8D%20to%20express%20a%20fair%20amount%20of%20certainty%20(polite)",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_168",
+    "point": "165 Using 「でしょう」 and 「だろう」 to express strong amount of certainty (casual)",
+    "link": "https://djtguide.github.io/grammar/taekim.html#165%20Using%20%E3%80%8C%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%8D%20and%20%E3%80%8C%E3%81%A0%E3%82%8D%E3%81%86%E3%80%8D%20to%20express%20strong%20amount%20of%20certainty%20(casual)",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_169",
+    "point": "166 Indicating that's all there is using 「だけ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#166%20Indicating%20that's%20all%20there%20is%20using%20%E3%80%8C%E3%81%A0%E3%81%91%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_170",
+    "point": "167 Using 「のみ」 as a formal version of 「だけ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#167%20Using%20%E3%80%8C%E3%81%AE%E3%81%BF%E3%80%8D%20as%20a%20formal%20version%20of%20%E3%80%8C%E3%81%A0%E3%81%91%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_171",
+    "point": "168 Indication that there's nothing else using 「しか」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#168%20Indication%20that%20there's%20nothing%20else%20using%20%E3%80%8C%E3%81%97%E3%81%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_172",
+    "point": "169 Expressing the opposite of 「だけ」 with 「ばかり」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#169%20Expressing%20the%20opposite%20of%20%E3%80%8C%E3%81%A0%E3%81%91%E3%80%8D%20with%20%E3%80%8C%E3%81%B0%E3%81%8B%E3%82%8A%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_173",
+    "point": "170 Saying there's too much of something using 「すぎる」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#170%20Saying%20there's%20too%20much%20of%20something%20using%20%E3%80%8C%E3%81%99%E3%81%8E%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_174",
+    "point": "171 Adding the 「も」 particle to express excessive amounts",
+    "link": "https://djtguide.github.io/grammar/taekim.html#171%20Adding%20the%20%E3%80%8C%E3%82%82%E3%80%8D%20particle%20to%20express%20excessive%20amounts",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_175",
+    "point": "172 Using 「ほど」 to express the extent of something",
+    "link": "https://djtguide.github.io/grammar/taekim.html#172%20Using%20%E3%80%8C%E3%81%BB%E3%81%A9%E3%80%8D%20to%20express%20the%20extent%20of%20something",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_176",
+    "point": "173 Using 「～さ」 with adjectives to indicate an amount",
+    "link": "https://djtguide.github.io/grammar/taekim.html#173%20Using%20%E3%80%8C%EF%BD%9E%E3%81%95%E3%80%8D%20with%20adjectives%20to%20indicate%20an%20amount",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_177",
+    "point": "174 Expressing similarity with よう (様)",
+    "link": "https://djtguide.github.io/grammar/taekim.html#174%20Expressing%20similarity%20with%20%E3%82%88%E3%81%86%20%20(%E6%A7%98)",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_178",
+    "point": "175 Using 「みたい」 to say something looks like something else",
+    "link": "https://djtguide.github.io/grammar/taekim.html#175%20Using%20%E3%80%8C%E3%81%BF%E3%81%9F%E3%81%84%E3%80%8D%20to%20say%20something%20looks%20like%20something%20else",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_179",
+    "point": "176 Guessing at an outcome using 「～そう」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#176%20Guessing%20at%20an%20outcome%20using%20%E3%80%8C%EF%BD%9E%E3%81%9D%E3%81%86%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_180",
+    "point": "177 Expressing hearsay using 「～そうだ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#177%20Expressing%20hearsay%20using%20%E3%80%8C%EF%BD%9E%E3%81%9D%E3%81%86%E3%81%A0%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_181",
+    "point": "178 Expressing hearsay or behavior using 「～らしい」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#178%20Expressing%20hearsay%20or%20behavior%20using%20%E3%80%8C%EF%BD%9E%E3%82%89%E3%81%97%E3%81%84%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_182",
+    "point": "179 「っぽい」: Slang expression of similarity",
+    "link": "https://djtguide.github.io/grammar/taekim.html#179%20%E3%80%8C%E3%81%A3%E3%81%BD%E3%81%84%E3%80%8D:%20Slang%20expression%20of%20similarity",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_183",
+    "point": "180 Using 「方」 for comparisons",
+    "link": "https://djtguide.github.io/grammar/taekim.html#180%20Using%20%E3%80%8C%E6%96%B9%E3%80%8D%20for%20comparisons",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_184",
+    "point": "181 Using 「より」 for comparisons",
+    "link": "https://djtguide.github.io/grammar/taekim.html#181%20Using%20%E3%80%8C%E3%82%88%E3%82%8A%E3%80%8D%20for%20comparisons",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_185",
+    "point": "182 Using 「方」 to express a way to do something",
+    "link": "https://djtguide.github.io/grammar/taekim.html#182%20Using%20%E3%80%8C%E6%96%B9%E3%80%8D%20to%20express%20a%20way%20to%20do%20something",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_186",
+    "point": "183 Using 「によって」 to express dependency",
+    "link": "https://djtguide.github.io/grammar/taekim.html#183%20Using%20%E3%80%8C%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E3%80%8D%20to%20express%20dependency",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_187",
+    "point": "184 Indicating a source of information using 「によると」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#184%20Indicating%20a%20source%20of%20information%20using%20%E3%80%8C%E3%81%AB%E3%82%88%E3%82%8B%E3%81%A8%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_188",
+    "point": "185 Actions that are easy or hard to do",
+    "link": "https://djtguide.github.io/grammar/taekim.html#185%20Actions%20that%20are%20easy%20or%20hard%20to%20do",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_189",
+    "point": "186 Variations of 「～にくい」 with 「～がたい」 and 「～づらい」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#186%20Variations%20of%20%E3%80%8C%EF%BD%9E%E3%81%AB%E3%81%8F%E3%81%84%E3%80%8D%20with%20%E3%80%8C%EF%BD%9E%E3%81%8C%E3%81%9F%E3%81%84%E3%80%8D%20and%20%E3%80%8C%EF%BD%9E%E3%81%A5%E3%82%89%E3%81%84%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_190",
+    "point": "187 Doing something without doing something else",
+    "link": "https://djtguide.github.io/grammar/taekim.html#187%20Doing%20something%20without%20doing%20something%20else",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_191",
+    "point": "188 A casual masculine type of negative that ends in 「ん」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#188%20A%20casual%20masculine%20type%20of%20negative%20that%20ends%20in%20%E3%80%8C%E3%82%93%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_192",
+    "point": "189 A classical negative verb that ends in 「ぬ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#189%20A%20classical%20negative%20verb%20that%20ends%20in%20%E3%80%8C%E3%81%AC%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_193",
+    "point": "190 Coming to a conclusion with 「わけ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#190%20Coming%20to%20a%20conclusion%20with%20%E3%80%8C%E3%82%8F%E3%81%91%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_194",
+    "point": "191 Making hypotheses with 「とする」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#191%20Making%20hypotheses%20with%20%E3%80%8C%E3%81%A8%E3%81%99%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_195",
+    "point": "192 Expressing what just happened with 「～ばかり」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#192%20Expressing%20what%20just%20happened%20with%20%E3%80%8C%EF%BD%9E%E3%81%B0%E3%81%8B%E3%82%8A%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_196",
+    "point": "193 Express what occurred immediately after with 「とたん」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#193%20Express%20what%20occurred%20immediately%20after%20with%20%E3%80%8C%E3%81%A8%E3%81%9F%E3%82%93%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_197",
+    "point": "194 Using 「ながら」 for two concurrent actions",
+    "link": "https://djtguide.github.io/grammar/taekim.html#194%20Using%20%E3%80%8C%E3%81%AA%E3%81%8C%E3%82%89%E3%80%8D%20for%20two%20concurrent%20actions",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_198",
+    "point": "195 Using 「ながら」 with state-of-being",
+    "link": "https://djtguide.github.io/grammar/taekim.html#195%20Using%20%E3%80%8C%E3%81%AA%E3%81%8C%E3%82%89%E3%80%8D%20with%20state-of-being",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_199",
+    "point": "196 To repeat something with reckless abandon using 「まくる」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#196%20To%20repeat%20something%20with%20reckless%20abandon%20using%20%E3%80%8C%E3%81%BE%E3%81%8F%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_200",
+    "point": "197 Using 「まま」 to express a lack of change",
+    "link": "https://djtguide.github.io/grammar/taekim.html#197%20Using%20%E3%80%8C%E3%81%BE%E3%81%BE%E3%80%8D%20to%20express%20a%20lack%20of%20change",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_201",
+    "point": "198 Using 「っぱなし」 to leave something the way it is",
+    "link": "https://djtguide.github.io/grammar/taekim.html#198%20Using%20%E3%80%8C%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97%E3%80%8D%20to%20leave%20something%20the%20way%20it%20is",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_202",
+    "point": "199 What do you mean by formal expressions?",
+    "link": "https://djtguide.github.io/grammar/taekim.html#199%20What%20do%20you%20mean%20by%20formal%20expressions?",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_203",
+    "point": "200 Using 「である」 for formal state-of-being",
+    "link": "https://djtguide.github.io/grammar/taekim.html#200%20Using%20%E3%80%8C%E3%81%A7%E3%81%82%E3%82%8B%E3%80%8D%20for%20formal%20state-of-being",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_204",
+    "point": "201 Negative of 「である」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#201%20Negative%20of%20%E3%80%8C%E3%81%A7%E3%81%82%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_205",
+    "point": "202 Sequential relative clauses in formal language",
+    "link": "https://djtguide.github.io/grammar/taekim.html#202%20Sequential%20relative%20clauses%20in%20formal%20language",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_206",
+    "point": "203 Using 「はず」 to describe an expectation",
+    "link": "https://djtguide.github.io/grammar/taekim.html#203%20Using%20%E3%80%8C%E3%81%AF%E3%81%9A%E3%80%8D%20to%20describe%20an%20expectation",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_207",
+    "point": "204 Using 「べき」 to describe actions one should do",
+    "link": "https://djtguide.github.io/grammar/taekim.html#204%20Using%20%E3%80%8C%E3%81%B9%E3%81%8D%E3%80%8D%20to%20describe%20actions%20one%20should%20do",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_208",
+    "point": "205 Using 「べく」 to describe what one tries to do",
+    "link": "https://djtguide.github.io/grammar/taekim.html#205%20Using%20%E3%80%8C%E3%81%B9%E3%81%8F%E3%80%8D%20to%20describe%20what%20one%20tries%20to%20do",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_209",
+    "point": "206 Using 「べからず」 to describe things one must not do",
+    "link": "https://djtguide.github.io/grammar/taekim.html#206%20Using%20%E3%80%8C%E3%81%B9%E3%81%8B%E3%82%89%E3%81%9A%E3%80%8D%20to%20describe%20things%20one%20must%20not%20do",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_210",
+    "point": "207 Using 「 (で) さえ」 to describe the minimum requirement",
+    "link": "https://djtguide.github.io/grammar/taekim.html#207%20Using%20%E3%80%8C%20(%E3%81%A7)%20%E3%81%95%E3%81%88%E3%80%8D%20to%20describe%20the%20minimum%20requirement",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_211",
+    "point": "208 「 (で) すら」 – Older version of 「 (で) さえ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#208%20%E3%80%8C%20(%E3%81%A7)%20%E3%81%99%E3%82%89%E3%80%8D%20%E2%80%93%20Older%20version%20of%20%E3%80%8C%20(%E3%81%A7)%20%E3%81%95%E3%81%88%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_212",
+    "point": "209 「おろか」 – It's not even worth considering",
+    "link": "https://djtguide.github.io/grammar/taekim.html#209%20%E3%80%8C%E3%81%8A%E3%82%8D%E3%81%8B%E3%80%8D%20%E2%80%93%20It's%20not%20even%20worth%20considering",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_213",
+    "point": "210 Showing outward signs of an emotion using 「～がる」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#210%20Showing%20outward%20signs%20of%20an%20emotion%20using%20%E3%80%8C%EF%BD%9E%E3%81%8C%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_214",
+    "point": "211 Using 「ばかり」 to act as if one might do something",
+    "link": "https://djtguide.github.io/grammar/taekim.html#211%20Using%20%E3%80%8C%E3%81%B0%E3%81%8B%E3%82%8A%E3%80%8D%20to%20act%20as%20if%20one%20might%20do%20something",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_215",
+    "point": "212 Using 「めく」 to indicate an atmosphere of a state",
+    "link": "https://djtguide.github.io/grammar/taekim.html#212%20Using%20%E3%80%8C%E3%82%81%E3%81%8F%E3%80%8D%20to%20indicate%20an%20atmosphere%20of%20a%20state",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_216",
+    "point": "213 Expressing the inability to not do using 「～ざるを得ない」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#213%20Expressing%20the%20inability%20to%20not%20do%20using%20%E3%80%8C%EF%BD%9E%E3%81%96%E3%82%8B%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_217",
+    "point": "214 Expressing the inability to stop doing something using 「やむを得ない」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#214%20Expressing%20the%20inability%20to%20stop%20doing%20something%20using%20%E3%80%8C%E3%82%84%E3%82%80%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_218",
+    "point": "215 Expressing what cannot be done with 「～かねる」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#215%20Expressing%20what%20cannot%20be%20done%20with%20%E3%80%8C%EF%BD%9E%E3%81%8B%E3%81%AD%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_219",
+    "point": "216 Saying something is prone to occur using 「～がち」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#216%20Saying%20something%20is%20prone%20to%20occur%20using%20%E3%80%8C%EF%BD%9E%E3%81%8C%E3%81%A1%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_220",
+    "point": "217 Describing an ongoing occurrence using 「～つつ」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#217%20Describing%20an%20ongoing%20occurrence%20using%20%E3%80%8C%EF%BD%9E%E3%81%A4%E3%81%A4%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_221",
+    "point": "218 Describing a negative tendency using 「きらいがある」",
+    "link": "https://djtguide.github.io/grammar/taekim.html#218%20Describing%20a%20negative%20tendency%20using%20%E3%80%8C%E3%81%8D%E3%82%89%E3%81%84%E3%81%8C%E3%81%82%E3%82%8B%E3%80%8D",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_222",
+    "point": "219 Negative Volitional",
+    "link": "https://djtguide.github.io/grammar/taekim.html#219%20Negative%20Volitional",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_223",
+    "point": "220 Using the volitional to express a lack of relation",
+    "link": "https://djtguide.github.io/grammar/taekim.html#220%20Using%20the%20volitional%20to%20express%20a%20lack%20of%20relation",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_224",
+    "point": "221 Using 「であろう」 to express likelihood",
+    "link": "https://djtguide.github.io/grammar/taekim.html#221%20Using%20%E3%80%8C%E3%81%A7%E3%81%82%E3%82%8D%E3%81%86%E3%80%8D%20to%20express%20likelihood",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_225",
+    "point": "222 Using 「かろう」 as volitional for 「い」 endings",
+    "link": "https://djtguide.github.io/grammar/taekim.html#222%20Using%20%E3%80%8C%E3%81%8B%E3%82%8D%E3%81%86%E3%80%8D%20as%20volitional%20for%20%E3%80%8C%E3%81%84%E3%80%8D%20endings",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_226",
+    "point": "223 Using 「だらけ」 when an object is riddled everywhere with something",
+    "link": "https://djtguide.github.io/grammar/taekim.html#223%20Using%20%E3%80%8C%E3%81%A0%E3%82%89%E3%81%91%E3%80%8D%20when%20an%20object%20is%20riddled%20everywhere%20with%20something",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_227",
+    "point": "224 Using 「まみれ」 to describe a covering",
+    "link": "https://djtguide.github.io/grammar/taekim.html#224%20Using%20%E3%80%8C%E3%81%BE%E3%81%BF%E3%82%8C%E3%80%8D%20to%20describe%20a%20covering",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_228",
+    "point": "225 「ずくめ」 to express entirety",
+    "link": "https://djtguide.github.io/grammar/taekim.html#225%20%E3%80%8C%E3%81%9A%E3%81%8F%E3%82%81%E3%80%8D%20to%20express%20entirety",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_229",
+    "point": "226 Using 「が早いか」 to describe the instant something occurred",
+    "link": "https://djtguide.github.io/grammar/taekim.html#226%20Using%20%E3%80%8C%E3%81%8C%E6%97%A9%E3%81%84%E3%81%8B%E3%80%8D%20to%20describe%20the%20instant%20something%20occurred",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_230",
+    "point": "227 Using 「や／や否や」 to describe what happened right after",
+    "link": "https://djtguide.github.io/grammar/taekim.html#227%20Using%20%E3%80%8C%E3%82%84%EF%BC%8F%E3%82%84%E5%90%A6%E3%82%84%E3%80%8D%20to%20describe%20what%20happened%20right%20after",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_231",
+    "point": "228 Using 「そばから」 to describe an event that repeatedly occurs soon after",
+    "link": "https://djtguide.github.io/grammar/taekim.html#228%20Using%20%E3%80%8C%E3%81%9D%E3%81%B0%E3%81%8B%E3%82%89%E3%80%8D%20to%20describe%20an%20event%20that%20repeatedly%20occurs%20soon%20after",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_232",
+    "point": "229 Using 「思いきや」 to describe something unexpected",
+    "link": "https://djtguide.github.io/grammar/taekim.html#229%20Using%20%E3%80%8C%E6%80%9D%E3%81%84%E3%81%8D%E3%82%84%E3%80%8D%20to%20describe%20something%20unexpected",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_233",
+    "point": "230 Using 「～がてら」 to do two things at one time",
+    "link": "https://djtguide.github.io/grammar/taekim.html#230%20Using%20%E3%80%8C%EF%BD%9E%E3%81%8C%E3%81%A6%E3%82%89%E3%80%8D%20to%20do%20two%20things%20at%20one%20time",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_234",
+    "point": "231 Using 「～あげく (挙句) 」 to describe a bad result",
+    "link": "https://djtguide.github.io/grammar/taekim.html#231%20Using%20%E3%80%8C%EF%BD%9E%E3%81%82%E3%81%92%E3%81%8F%20(%E6%8C%99%E5%8F%A5)%20%E3%80%8D%20to%20describe%20a%20bad%20result",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_235",
+    "point": "232 Unique vocabulary used",
+    "link": "https://djtguide.github.io/grammar/taekim.html#232%20Vocabulary%20used",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_236",
+    "point": "233 Unique kanji used",
+    "link": "https://djtguide.github.io/grammar/taekim.html#233%20Kanji%20used",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  },
+  {
+    "id": "tk_237",
+    "point": "234 DoJG references used",
+    "link": "https://djtguide.github.io/grammar/taekim.html#234%20DoJG%20used",
+    "source": "Tae Kim",
+    "shorthand": "tk"
+  }
+]

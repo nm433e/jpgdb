@@ -21,6 +21,9 @@
     <div class="navbar">
         <div class="nav-elements-container">
             <input type="text" id="search" placeholder="Search grammar points..." oninput="search()">
+            <div class="nav-icon" id="mode-toggle" title="Toggle Mode">
+                <i class="fa-solid fa-chart-line"></i>
+            </div>
             <div class="nav-icon" id="settings-button" title="Settings">
                 <i class="fa-solid fa-cogs"></i>
             </div>
@@ -31,57 +34,126 @@
             <div class="sign-btn" id="sign-out-button" style="display: none;">Sign out</div>
         </div>
     </div>
-    <div class="database-filters" id="database-filters">
-        <div class="toggle-all">
-            <!-- <button id="purge-button">Purge All Data (TEMP)</button> -->
-            <button class="filter-button" id="untoggle-all-btn" onclick="toggleAllDatabases()">Toggle All</button>
-            <button class="filter-button" id="toggle-all-btn" onclick="untoggleAllDatabases()">Untoggle All</button>
-            <button class="filter-button" aria-pressed="true" id="unread-only-btn" onclick="toggleUnreadOnly()">Unread Only</button>
+
+    <!-- Search Mode -->
+    <div id="search-mode">
+        <div class="database-filters" id="database-filters">
+            <div class="toggle-all">
+                <button class="filter-button" id="untoggle-all-btn" onclick="toggleAllDatabases()">Toggle All</button>
+                <button class="filter-button" id="toggle-all-btn" onclick="untoggleAllDatabases()">Untoggle All</button>
+                <button class="filter-button" aria-pressed="true" id="unread-only-btn" onclick="toggleUnreadOnly()">Unread Only</button>
+            </div>
+            <div class="checkbox-container" id="checkbox-container">
+                <div class="checkbox-item">
+                    <i class="fa-solid fa-lock" id="donna-toki-lock"></i>
+                    <input type="checkbox" id="donna-toki" value="donna-toki" checked>
+                    <label for="donna-toki">Donna Toki</label>
+                </div>
+                <div class="checkbox-item">
+                    <i class="fa-solid fa-lock" id="dojg-lock"></i>
+                    <input type="checkbox" id="dojg" value="dojg" checked>
+                    <label for="dojg">DOJG</label>
+                </div>
+                <div class="checkbox-item">
+                    <i class="fa-solid fa-lock" id="hojgp-lock"></i>
+                    <input type="checkbox" id="hojgp" value="hojgp" checked>
+                    <label for="hojgp">HOJGP</label>
+                </div>
+                <div class="checkbox-item">
+                    <i class="fa-solid fa-lock" id="nihongo-kyoshi-lock"></i>
+                    <input type="checkbox" id="nihongo-kyoshi" value="nihongo-kyoshi" checked>
+                    <label for="nihongo-kyoshi">Nihongo Kyoshi</label>
+                </div>
+                <div class="checkbox-item">
+                    <i class="fa-solid fa-lock" id="bunpro-lock"></i>
+                    <input type="checkbox" id="bunpro" value="bunpro" checked>
+                    <label for="bunpro">Bunpro</label>
+                </div>
+                <div class="checkbox-item">
+                    <i class="fa-solid fa-lock" id="imabi-lock"></i>
+                    <input type="checkbox" id="imabi" value="imabi" checked>
+                    <label for="imabi">Imabi</label>
+                </div>
+                <div class="checkbox-item">
+                    <i class="fa-solid fa-lock" id="taekim-lock"></i>
+                    <input type="checkbox" id="taekim" value="taekim" checked>
+                    <label for="taekim">Tae Kim</label>
+                </div>
+                <div class="checkbox-item">
+                    <i class="fa-solid fa-lock" id="maggie-lock"></i>
+                    <input type="checkbox" id="maggie" value="maggie" checked>
+                    <label for="maggie">Maggie Sensei</label>
+                </div>
+            </div>
         </div>
-        <div class="checkbox-container" id="checkbox-container">
-            <div class="checkbox-item">
-                <i class="fa-solid fa-lock" id="donna-toki-lock"></i>
-                <input type="checkbox" id="donna-toki" value="Donna Toki" checked>
-                <label for="donna-toki">Donna Toki</label>
+        <div class="results-list" id="results-list"></div>
+    </div>
+
+    <!-- Data Mode -->
+    <div id="data-mode" style="display: none;">
+        <div class="data-container">
+            <div class="source-selector">
+                <select id="source-select">
+                    <option value="all">All Sources</option>
+                    <option value="donna-toki">Donna Toki</option>
+                    <option value="dojg">DOJG</option>
+                    <option value="hojgp">HOJGP</option>
+                    <option value="nihongo-kyoshi">Nihongo Kyoshi</option>
+                    <option value="bunpro">Bunpro</option>
+                    <option value="imabi">Imabi</option>
+                    <option value="taekim">Tae Kim</option>
+                    <option value="maggie">Maggie Sensei</option>
+                </select>
             </div>
-            <div class="checkbox-item">
-                <i class="fa-solid fa-lock" id="dojg-lock"></i>
-                <input type="checkbox" id="dojg" value="DOJG" checked>
-                <label for="dojg">DOJG</label>
+
+            <div id="data-header" class="data-header">
+                <h2>All Sources</h2>
+                <p>Total Grammar Points: 0</p>
             </div>
-            <div class="checkbox-item">
-                <i class="fa-solid fa-lock" id="hjg-lock"></i>
-                <input type="checkbox" id="hjg" value="HOJGP" checked>
-                <label for="hjg">HOJGP</label>
-            </div>
-            <div class="checkbox-item">
-                <i class="fa-solid fa-lock" id="nihongo-kyoshi-lock"></i>
-                <input type="checkbox" id="nihongo-kyoshi" value="Nihongo Kyoshi" checked>
-                <label for="nihongo-kyoshi">Nihongo Kyoshi</label>
-            </div>
-            <div class="checkbox-item">
-                <i class="fa-solid fa-lock" id="bunpro-lock"></i>
-                <input type="checkbox" id="bunpro" value="Bunpro" checked>
-                <label for="bunpro">Bunpro</label>
-            </div>
-            <div class="checkbox-item">
-                <i class="fa-solid fa-lock" id="imabi-lock"></i>
-                <input type="checkbox" id="imabi" value="Imabi" checked>
-                <label for="imabi">Imabi</label>
-            </div>
-            <div class="checkbox-item">
-                <i class="fa-solid fa-lock" id="taekim-lock"></i>
-                <input type="checkbox" id="taekim" value="Tae Kim" checked>
-                <label for="taekim">Tae Kim</label>
-            </div>
-            <div class="checkbox-item">
-                <i class="fa-solid fa-lock" id="maggie-lock"></i>
-                <input type="checkbox" id="maggie" value="Maggie Sensei" checked>
-                <label for="maggie">Maggie Sensei</label>
+
+            <div class="stats-container">
+                <div class="time-stats">
+                    <div class="stat-box">
+                        <h3>Today</h3>
+                        <p id="today-count">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>This Week</h3>
+                        <p id="week-count">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>This Month</h3>
+                        <p id="month-count">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Last 7 Days</h3>
+                        <p id="last7-count">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Last 14 Days</h3>
+                        <p id="last14-count">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Last 30 Days</h3>
+                        <p id="last30-count">0</p>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <h3>Overall Progress</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <p id="progress-text">0/0 points read</p>
+                </div>
+
+                <div class="recent-points">
+                    <h3>Last 10 Read Points</h3>
+                    <div id="recent-points-list"></div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="results-list" id="results-list"></div>
 </body>
 
 </html>

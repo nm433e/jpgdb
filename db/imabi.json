@@ -1,0 +1,3292 @@
+[
+  {
+    "id": "imabi_1",
+    "point": "第0課: Introduction to Japanese",
+    "link": "https://imabi.org/what-is-japanese/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_2",
+    "point": "第1課: Vowels",
+    "link": "https://imabi.org/pronunciation-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_3",
+    "point": "第2課: Consonants",
+    "link": "https://imabi.org/pronunciation-ii%e3%80%80%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%ae%e7%99%ba%e9%9f%b3%e2%91%a1/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_4",
+    "point": "第3課: Pitch Accent & Devoicing",
+    "link": "https://imabi.org/pronunciation-iii-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%ae%e7%99%ba%e9%9f%b3%e2%91%a2/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_5",
+    "point": "第4課: Hiragana ひらがな",
+    "link": "https://imabi.org/hiragana%e3%80%80%e3%81%b2%e3%82%89%e3%81%8c%e3%81%aa/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_6",
+    "point": "第5課: Katakana カタカナ",
+    "link": "https://imabi.org/katakana%e3%80%80%e3%82%ab%e3%82%bf%e3%82%ab%e3%83%8a/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_7",
+    "point": "第6課: Kana Orthography",
+    "link": "https://imabi.org/kana-iii-orthography%e3%80%80%e4%bb%ae%e5%90%8d%e9%81%a3%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_8",
+    "point": "第7課: Introduction to Kanji 漢字 I",
+    "link": "https://imabi.org/kanji-intro-i%e3%80%80%e6%bc%a2%e5%ad%97%e5%85%a5%e9%96%80%e2%91%a0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_9",
+    "point": "第8課: Introduction to Kanji 漢字 II",
+    "link": "https://imabi.org/kanji-intro-ii%e3%80%80%e6%bc%a2%e5%ad%97%e5%85%a5%e9%96%80%e2%91%a1/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_10",
+    "point": "第9課: Nouns & Pronouns",
+    "link": "https://imabi.org/nouns-and-pronouns%e3%80%80%e5%90%8d%e8%a9%9e%e3%81%a8%e4%bb%a3%e5%90%8d%e8%a9%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_11",
+    "point": "第10課: Copular Sentences I: Plain Speech",
+    "link": "https://imabi.org/copular-sentences-i%e3%80%80%e3%82%b3%e3%83%94%e3%83%a5%e3%83%a9%e6%96%87%ef%bc%88%e6%99%ae%e9%80%9a%e4%bd%93%ef%bc%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_12",
+    "point": "第11課: Copular Sentences II: Polite Speech",
+    "link": "https://imabi.org/copular-sentences-ii%e3%80%80%e3%82%b3%e3%83%94%e3%83%a5%e3%83%a9%e6%96%87%ef%bc%88%e4%b8%81%e5%af%a7%e4%bd%93%ef%bc%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_13",
+    "point": "第12課: The Subject Marker が",
+    "link": "https://imabi.org/the-particle-ga-i%e3%80%80%e6%a0%bc%e5%8a%a9%e8%a9%9e%e3%80%8c%e3%81%8c%e3%80%8d%e2%91%a0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_14",
+    "point": "第13課: The Topic/Contrast Marker は",
+    "link": "https://imabi.org/the-particle-wa-%e3%81%af-i-the-topic-contrast-marker/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_15",
+    "point": "第14課: Adjectives 形容詞",
+    "link": "https://imabi.org/adjectives%e3%80%80%e5%bd%a2%e5%ae%b9%e8%a9%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_16",
+    "point": "第15課: Adjectival Nouns I 形容動詞",
+    "link": "https://imabi.org/adjectival-nouns-i%e3%80%80%e5%bd%a2%e5%ae%b9%e5%8b%95%e8%a9%9e%e2%91%a0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_17",
+    "point": "第16課: The Particle を I",
+    "link": "https://imabi.org/the-particle-wo-%e3%82%92-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_18",
+    "point": "第17課: 一段 Verbs",
+    "link": "https://imabi.org/ichidan-verbs%e3%80%80%e4%b8%80%e6%ae%b5%e6%b4%bb%e7%94%a8%e5%8b%95%e8%a9%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_19",
+    "point": "第18課: 五段 Verbs",
+    "link": "https://imabi.org/godan-verbs%e3%80%80%e4%ba%94%e6%ae%b5%e6%b4%bb%e7%94%a8%e5%8b%95%e8%a9%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_20",
+    "point": "第19課: The Verbs する & 来る",
+    "link": "https://imabi.org/the-verbs-suru-%e3%81%99%e3%82%8b-kuru-%e6%9d%a5%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_21",
+    "point": "第20課: The Particle か",
+    "link": "https://imabi.org/the-particle-ka-%e3%81%8b-i-basic-questions/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_22",
+    "point": "第21課: The Particle か w/ the Negative",
+    "link": "https://imabi.org/the-particle-ka-%e3%81%8b-ii-%ef%bd%9e%e3%81%aa%e3%81%84%e3%81%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_23",
+    "point": "第22課: The Object Marker が",
+    "link": "https://imabi.org/the-particle-ga-%e3%81%8c-ii-object-marker/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_24",
+    "point": "第23課: The Particle も I",
+    "link": "https://imabi.org/the-particle-mo-%e3%82%82-i-also-too/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_25",
+    "point": "第24課: こそあど I: This & That",
+    "link": "https://imabi.org/kosoado-i-this-that/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_26",
+    "point": "第25課: こそあど II: These & Those",
+    "link": "https://imabi.org/kosoado-ii-these-those/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_27",
+    "point": "第26課: こそあど III: Here & There",
+    "link": "https://imabi.org/kosoado-%e3%81%93%e3%81%9d%e3%81%82%e3%81%a9-iii-here-there/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_28",
+    "point": "第27課: The Particle と I",
+    "link": "https://imabi.org/the-particle-%e3%81%a8-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_29",
+    "point": "第28課: The Particle の I",
+    "link": "https://imabi.org/the-case-particle-%e3%81%ae-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_30",
+    "point": "第29課: The Locational Marker に",
+    "link": "https://imabi.org/the-particle-ni-%e3%81%ab-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_31",
+    "point": "第30課: The Particle へ",
+    "link": "https://imabi.org/the-particle-e-%e3%81%b8/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_32",
+    "point": "第31課: The Particle で I",
+    "link": "https://imabi.org/the-particle-de-%e3%81%a7-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_33",
+    "point": "第32課: The Existential Verbs ある & いる",
+    "link": "https://imabi.org/the-existential-verbs-%e3%81%82%e3%82%8b-%e3%81%84%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_34",
+    "point": "第33課: The Conjunctive Particle て: The Affirmative",
+    "link": "https://imabi.org/the-conjunctive-particle-%e3%81%a6-i-the-affirmative/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_35",
+    "point": "第34課: The Final Particle て",
+    "link": "https://imabi.org/the-particle-te-%e3%81%a6-ii-final-particle/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_36",
+    "point": "第35課: The Negative て Forms: ～なくて & ～ないで",
+    "link": "https://imabi.org/the-negative-%e3%81%a6%e5%bd%a2-%ef%bd%9e%e3%81%aa%e3%81%8f%e3%81%a6-%ef%bd%9e%e3%81%aa%e3%81%84%e3%81%a7/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_37",
+    "point": "第36課: The Progressive/Continuative State: ～ている",
+    "link": "https://imabi.org/the-progressive-continued-state-te-iru-%ef%bd%9e%e3%81%a6%e3%81%84%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_38",
+    "point": "第37課: Stative Verbs: ～てある",
+    "link": "https://imabi.org/stative-verbs-te-aru-%ef%bd%9e%e3%81%a6%e3%81%82%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_39",
+    "point": "第38課: Sino-Japanese Numbers",
+    "link": "https://imabi.org/sino-japanese-numbers-2/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_40",
+    "point": "第39課: Native Numbers & The Counter つ",
+    "link": "https://imabi.org/native-numbers-the-counter-%ef%bd%9e%e3%81%a4/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_41",
+    "point": "第40課: Counters with Sino-Japanese Numbers I",
+    "link": "https://imabi.org/counters-with-sino-japanese-numbers-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_42",
+    "point": "第41課: Counters With Sino-Japanese Numbers II:",
+    "link": "https://imabi.org/counters-vi/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_43",
+    "point": "第42課: Counters with Native Numbers I",
+    "link": "https://imabi.org/counters-v/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_44",
+    "point": "第43課: Deictic Time",
+    "link": "https://imabi.org/time-iii-absolute-time/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_45",
+    "point": "第44課: Non-Deictic Time I: The Date & Telling Time",
+    "link": "https://imabi.org/time-iv-relative-time/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_46",
+    "point": "第45課: Non-Deictic Time II: Determiners",
+    "link": "https://imabi.org/non-deictic-time-ii-determiners/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_47",
+    "point": "第46課: Non Deictic Time III: Context-Dependent Words",
+    "link": "https://imabi.org/%e7%ac%ac%e8%aa%b2-non-deictic-time-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_48",
+    "point": "第47課: Time Counters I : ～日・週間・ヶ月・年",
+    "link": "https://imabi.org/counters-iii-time-part-i-%e6%97%a5-%e9%80%b1%e9%96%93-%e6%9c%88-%e5%b9%b4-etc/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_49",
+    "point": "第48課: Time Counters II: ～時間・分・秒・晩・夜",
+    "link": "https://imabi.org/counters-iv-time-part-ii-%e6%99%82-%e6%99%82%e9%96%93-%e5%88%86-%e7%a7%92-%e6%99%a9-%e5%a4%9c/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_50",
+    "point": "第49課: Counters for Frequency: ～度・回・遍",
+    "link": "https://imabi.org/counters-for-frequency-%ef%bd%9e%e5%ba%a6%e3%83%bb%e5%9b%9e%e3%83%bb%e9%81%8d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_51",
+    "point": "第50課: Used To: ～たものだ & かつて",
+    "link": "https://imabi.org/used-to-%ef%bd%9e%e3%81%9f%e3%82%82%e3%81%ae%e3%81%a0-%e5%98%97%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_52",
+    "point": "第51課: When: ～時",
+    "link": "https://imabi.org/when-%e6%99%82/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_53",
+    "point": "第52課: The Time Phrase ～頃",
+    "link": "https://imabi.org/time-phrases-%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_54",
+    "point": "第53課: Before: ～前",
+    "link": "https://imabi.org/before-%e5%89%8d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_55",
+    "point": "第54課: After I: ～あと, ～のち, ～てから",
+    "link": "https://imabi.org/after-i-%e3%81%82%e3%81%a8-%e3%81%ae%e3%81%a1-%ef%bd%9e%e3%81%a6%e3%81%8b%e3%82%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_56",
+    "point": "第55課: While I: ～間",
+    "link": "https://imabi.org/while-i-%e9%96%93/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_57",
+    "point": "第56課: While II: ～うちに",
+    "link": "https://imabi.org/while-ii-%e3%81%86%e3%81%a1/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_58",
+    "point": "第57課: Fields of Study",
+    "link": "https://imabi.org/occupation/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_59",
+    "point": "第58課: Countries, Nationalities, & Languages",
+    "link": "https://imabi.org/countries-languages/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_60",
+    "point": "第59課: Greeting Phrases",
+    "link": "https://imabi.org/greeting-phrases-%e6%8c%a8%e6%8b%b6%e3%81%ae%e8%a1%a8%e7%8f%be/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_61",
+    "point": "第60課: Yes Phrases: はい, はあ,  ええ, & うん",
+    "link": "https://imabi.org/yes-phrases/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_62",
+    "point": "第61課: No Phrases: いいえ, いえ, いや, 否, & ううん",
+    "link": "https://imabi.org/no-phrases/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_63",
+    "point": "第62課: The Particle から",
+    "link": "https://imabi.org/the-particle-%e3%81%8b%e3%82%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_64",
+    "point": "第63課: The Particle まで",
+    "link": "https://imabi.org/the-particle-%e3%81%be%e3%81%a7/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_65",
+    "point": "第64課: Adverbs I",
+    "link": "https://imabi.org/adverbs-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_66",
+    "point": "第65課: Adverbs from Adjectives",
+    "link": "https://imabi.org/adverbs-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_67",
+    "point": "第66課: よい・いい",
+    "link": "https://imabi.org/adjectives-ii-yoi-ii-%e8%89%af%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_68",
+    "point": "第67課: Adjectival Nouns II: No-Adjectival Nouns ノ形容動詞",
+    "link": "https://imabi.org/adjectival-nouns-ii-no-adjectival-nouns/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_69",
+    "point": "第68課: Adnominal Adjectives: /i/ vs /na/",
+    "link": "https://imabi.org/adnominal-adjectives-i-vs-na/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_70",
+    "point": "第69課: Transitive & Intransitive Forms",
+    "link": "https://imabi.org/transitivity-i-transitive-intransitive-forms/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_71",
+    "point": "第70課: 多い & 少ない",
+    "link": "https://imabi.org/adjectives-iii-%e5%a4%9a%e3%81%84-%e5%b0%91%e3%81%aa%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_72",
+    "point": "第71課: 同じ",
+    "link": "https://imabi.org/adjectives-iv-%e5%90%8c%e3%81%98/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_73",
+    "point": "第72課: こそあど IV: こちら, そちら, & あちら",
+    "link": "https://imabi.org/kosoado-iv/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_74",
+    "point": "第73課: こそあど V: んな, ～いう風な, Etc.",
+    "link": "https://imabi.org/%e3%81%93%e3%81%9d%e3%81%82%e3%81%a9-v-%e3%82%93%e3%81%aa-%ef%bd%9e%e3%81%84%e3%81%86%e9%a2%a8%e3%81%aa-etc/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_75",
+    "point": "第74課: The Citation Particle と",
+    "link": "https://imabi.org/the-particle-%e3%81%a8-ii-citation/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_76",
+    "point": "第75課: The Result Markers に & と",
+    "link": "https://imabi.org/the-result-markers-%e3%81%ab-%e3%81%a8/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_77",
+    "point": "第77課: The Purpose Marker に",
+    "link": "https://imabi.org/the-purpose-marker-%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_78",
+    "point": "第78課: Start to I: ～始める & ～出す",
+    "link": "https://imabi.org/start-to-%ef%bd%9e%e5%a7%8b%e3%82%81%e3%82%8b-%ef%bd%9e%e5%87%ba%e3%81%99-%ef%bd%9e%e3%81%8b%e3%81%91%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_79",
+    "point": "第79課: Interrogatives I",
+    "link": "https://imabi.org/interrogatives-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_80",
+    "point": "第80課: The Particle か III: Indirect Question",
+    "link": "https://imabi.org/the-particle-ka-%e3%81%8b-iii-indirect-question/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_81",
+    "point": "第81課: Because: から, ので, & のだ",
+    "link": "https://imabi.org/because-%e3%81%8b%e3%82%89-%e3%81%ae%e3%81%a7-%e3%81%ae%e3%81%a0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_82",
+    "point": "第82課: The Particle のに",
+    "link": "https://imabi.org/the-particle-%e3%81%ae%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_83",
+    "point": "第83課: Criticizing: くせに & くせして",
+    "link": "https://imabi.org/criticizing-%e3%81%8f%e3%81%9b%e3%81%ab%e3%83%bb%e3%81%8f%e3%81%9b%e3%81%97%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_84",
+    "point": "第84課: The Particle でも",
+    "link": "https://imabi.org/the-particle-%e3%81%a7%e3%82%82/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_85",
+    "point": "第85課: The Particle や",
+    "link": "https://imabi.org/the-particle-%e3%82%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_86",
+    "point": "第86課: The Particle し",
+    "link": "https://imabi.org/the-particle-%e3%81%97/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_87",
+    "point": "第87課: Giving Verbs",
+    "link": "https://imabi.org/giving-verbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_88",
+    "point": "第88課: Permission: ～て（も）いい",
+    "link": "https://imabi.org/permission/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_89",
+    "point": "第89課: The Conjunctive Particles が & けれど",
+    "link": "https://imabi.org/the-conjunctive-particles-%e3%81%8c-%e3%81%91%e3%82%8c%e3%81%a9/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_90",
+    "point": "第90課: The Final Particles よ & ね",
+    "link": "https://imabi.org/%e8%aa%9e%e5%b0%be-i-%e3%82%88-%e3%81%ad/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_91",
+    "point": "第91課: 語尾 II: な & と",
+    "link": "https://imabi.org/%e8%aa%9e%e5%b0%be-ii-%e3%82%8f-%e3%81%aa-%e3%81%a8-%e3%81%ae-%e3%81%95-%e3%81%9e-%e3%81%9c-%e3%81%88/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_92",
+    "point": "第92課: Start to II: ～かける & ～かかる",
+    "link": "https://imabi.org/start-to-ii-%ef%bd%9e%e3%81%8b%e3%81%91%e3%82%8b-%ef%bd%9e%e3%81%8b%e3%81%8b%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_93",
+    "point": "第93課: End:  ～終わる・終える, ～やむ, & ～上がる・上げる",
+    "link": "https://imabi.org/end-%ef%bd%9e%e7%b5%82%e3%82%8f%e3%82%8b%e3%83%bb%e7%b5%82%e3%81%88%e3%82%8b-%ef%bd%9e%e3%82%84%e3%82%80-%ef%bd%9e%e4%b8%8a%e3%81%8c%e3%82%8b%e3%83%bb%e4%b8%8a%e3%81%92%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_94",
+    "point": "第94課: Whenever: 毎～, ～毎に, & ～おきに",
+    "link": "https://imabi.org/whenever-%e6%af%8e%ef%bd%9e-%ef%bd%9e%e6%af%8e%e3%81%ab-%ef%bd%9e%e3%81%8a%e3%81%8d%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_95",
+    "point": "第95課: Potential I: The Potential Form",
+    "link": "https://imabi.org/potential-i-the-potential-form/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_96",
+    "point": "第96課: Potential II: できる",
+    "link": "https://imabi.org/potential-ii-%e3%81%a7%e3%81%8d%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_97",
+    "point": "第97課: Pronouns II",
+    "link": "https://imabi.org/pronouns-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_98",
+    "point": "第98課: The Particle だけ",
+    "link": "https://imabi.org/the-particle-%e3%81%a0%e3%81%91/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_99",
+    "point": "第99課: The Particle も II",
+    "link": "https://imabi.org/the-particle-%e3%82%82-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_100",
+    "point": "第100課: ～てあげる, ～てくれる, & ～てもらう",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%82%e3%81%92%e3%82%8b-%ef%bd%9e%e3%81%a6%e3%81%8f%e3%82%8c%e3%82%8b-%ef%bd%9e%e3%81%a6%e3%82%82%e3%82%89%e3%81%86-2/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_101",
+    "point": "第101課: The Non-Question “How”: ～かた",
+    "link": "https://imabi.org/the-non-question-how-%ef%bd%9e%e6%96%b9%e3%81%8b%e3%81%9f/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_102",
+    "point": "第102課: Interrogatives II: The Question “How”",
+    "link": "https://imabi.org/interrogatives-ii-the-question-how/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_103",
+    "point": "第103課: Interrogatives III: With Particles",
+    "link": "https://imabi.org/interrogatives-iii-with-particles/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_104",
+    "point": "第104課: The Particle の II",
+    "link": "https://imabi.org/the-particle-%e3%81%ae-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_105",
+    "point": "第105課: The Particle で II",
+    "link": "https://imabi.org/the-particle-%e3%81%a7-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_106",
+    "point": "第106課: Pluralization",
+    "link": "https://imabi.org/pluralization/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_107",
+    "point": "第107課: Pluralization II: ～たち",
+    "link": "https://imabi.org/pluralization-ii-%ef%bd%9e%e3%81%9f%e3%81%a1/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_108",
+    "point": "第108課: Might: かもしれない",
+    "link": "https://imabi.org/might-%e3%81%8b%e3%82%82%e3%81%97%e3%82%8c%e3%81%aa%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_109",
+    "point": "第109課: 知る VS 分かる",
+    "link": "https://imabi.org/%e7%9f%a5%e3%82%8b-vs-%e5%88%86%e3%81%8b%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_110",
+    "point": "第110課: Wanting Something: ほしい",
+    "link": "https://imabi.org/want-feeling-i-%ef%bd%9e%e3%81%9f%e3%81%84-%e3%81%bb%e3%81%97%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_111",
+    "point": "第111課: Personal Desire: ～たい",
+    "link": "https://imabi.org/personal-desire-%ef%bd%9e%e3%81%9f%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_112",
+    "point": "第112課: The Auxiliary Verb ～がる",
+    "link": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%8c%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_113",
+    "point": "第113課: ～たい w/ other grammar",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%9f%e3%81%84-w-other-grammar/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_114",
+    "point": "第114課: The Particle たり",
+    "link": "https://imabi.org/the-particle-%e3%81%9f%e3%82%8a/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_115",
+    "point": "第115課: Nominalization",
+    "link": "https://imabi.org/nominalization/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_116",
+    "point": "第116課: Expressions with こと",
+    "link": "https://imabi.org/expressions-with-%e3%81%93%e3%81%a8/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_117",
+    "point": "第117課: The Particle ながら",
+    "link": "https://imabi.org/the-particle-%e3%81%aa%e3%81%8c%e3%82%89-i-simultaneous-action/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_118",
+    "point": "第118課: Greeting Phrases II",
+    "link": "https://imabi.org/greetings-ii%e3%80%80%e6%8c%a8%e6%8b%b6%e8%a1%a8%e7%8f%be%e3%80%81%e3%81%9d%e3%81%ae%e4%ba%8c/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_119",
+    "point": "第119課: The Verbs for To Wear",
+    "link": "https://imabi.org/the-verbs-for-to-wear-to-take-off/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_120",
+    "point": "第120課: The Verbs for To Play",
+    "link": "https://imabi.org/the-verbs-for-to-play/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_121",
+    "point": "第121課: The Verbs for To Cost",
+    "link": "https://imabi.org/to-cost-money-terminology/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_122",
+    "point": "第122課: Easy I: ～やすい",
+    "link": "https://imabi.org/easy-i-%ef%bd%9e%e3%82%84%e3%81%99%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_123",
+    "point": "第123課: Difficult I: ～にくい",
+    "link": "https://imabi.org/difficult-i-%ef%bd%9e%e3%81%ab%e3%81%8f%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_124",
+    "point": "第124課: Too: ～すぎる",
+    "link": "https://imabi.org/too-%ef%bd%9e%e3%81%99%e3%81%8e%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_125",
+    "point": "第125課: Continue: ～続ける",
+    "link": "https://imabi.org/the-verbs-%e7%b6%9a%e3%81%8f-%ef%bc%86-%e7%b6%9a%e3%81%91%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_126",
+    "point": "第126課: The Particles しか & ほか",
+    "link": "https://imabi.org/shika-hoka/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_127",
+    "point": "第127課: Conditionals: The Particles と, なら（ば）, たら, & ば",
+    "link": "https://imabi.org/the-conditionals/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_128",
+    "point": "第128課: Conditional Phrases",
+    "link": "https://imabi.org/conditional-phrases/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_129",
+    "point": "第129課: The Particle も III",
+    "link": "https://imabi.org/the-particle-%e3%82%82-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_130",
+    "point": "第130課: Must Not",
+    "link": "https://imabi.org/must-not/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_131",
+    "point": "第131課: Must",
+    "link": "https://imabi.org/must/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_132",
+    "point": "第132課: いかない vs いけない",
+    "link": "https://imabi.org/ikanai-ikenai/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_133",
+    "point": "第133課: Directions",
+    "link": "https://imabi.org/directions/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_134",
+    "point": "第134課: To Hurry: 急ぐ",
+    "link": "https://imabi.org/the-verb-%e6%80%a5%e3%81%90/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_135",
+    "point": "第135課: ～ていく & ～てくる",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%84%e3%81%8f-%ef%bd%9e%e3%81%a6%e3%81%8f%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_136",
+    "point": "第136課: Best That: ～方 Patterns & ～に越したことはない",
+    "link": "https://imabi.org/best-that/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_137",
+    "point": "第137課: ～てしまう",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%97%e3%81%be%e3%81%86/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_138",
+    "point": "第138課: Advanced Preparation: ～ておく",
+    "link": "https://imabi.org/advanced-preparation-%ef%bd%9e%e3%81%a6%e3%81%8a%e3%81%8f/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_139",
+    "point": "第139課: ～ために I: In Order To",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%9f%e3%82%81%e3%81%ab-i-in-order-to/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_140",
+    "point": "第140課: ～ために II: Due To",
+    "link": "https://imabi.org/due-to/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_141",
+    "point": "第141課: ～ように: So That",
+    "link": "https://imabi.org/so-that/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_142",
+    "point": "第142課: ～とおりに",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%a8%e3%81%8a%e3%82%8a%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_143",
+    "point": "第143課: Try I: ～てみる・みたい・みせる",
+    "link": "https://imabi.org/trying/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_144",
+    "point": "第144課: Try II: ～ようにする & ～ようとする",
+    "link": "https://imabi.org/try-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_145",
+    "point": "第145課: The Particles とか, など, & なんか",
+    "link": "https://imabi.org/the-particles-%e3%81%a8%e3%81%8b-%e3%81%aa%e3%81%a9-%e3%81%aa%e3%82%93%e3%81%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_146",
+    "point": "第146課: The Particle なんて",
+    "link": "https://imabi.org/the-particle-%e3%81%aa%e3%82%93%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_147",
+    "point": "第147課: The Particles ほど & くらい",
+    "link": "https://imabi.org/the-particles-%e3%81%bb%e3%81%a9-%e3%81%8f%e3%82%89%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_148",
+    "point": "第148課: The Particle より",
+    "link": "https://imabi.org/the-particle-%e3%82%88%e3%82%8a/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_149",
+    "point": "第149課: Or",
+    "link": "https://imabi.org/or/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_150",
+    "point": "第150課: ～中: During/Throughout",
+    "link": "https://imabi.org/during-throughout/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_151",
+    "point": "第151課: ～ようだ & ～みたいだ",
+    "link": "https://imabi.org/similarity/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_152",
+    "point": "第152課: The Auxiliary ～らしい",
+    "link": "https://imabi.org/the-auxiliary-%ef%bd%9e%e3%82%89%e3%81%97%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_153",
+    "point": "第153課: The Suffix ～っぽい",
+    "link": "https://imabi.org/the-suffix-%ef%bd%9e%e3%81%a3%e3%81%bd%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_154",
+    "point": "第154課: Seem: ～そうだ",
+    "link": "https://imabi.org/seem-%ef%bd%9e%e3%81%9d%e3%81%86%e3%81%a0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_155",
+    "point": "第155課: Hearsay: ～そうだ",
+    "link": "https://imabi.org/hearsay/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_156",
+    "point": "第156課: The Agent Marker に",
+    "link": "https://imabi.org/agent-marker-ni/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_157",
+    "point": "第157課: The Passive I",
+    "link": "https://imabi.org/the-passive/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_158",
+    "point": "第158課: The Passive II: 不可抗力の受身",
+    "link": "https://imabi.org/the-passive-ii-%e4%b8%8d%e5%8f%af%e6%8a%97%e5%8a%9b%e3%81%ae%e5%8f%97%e8%ba%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_159",
+    "point": "第159課: ニ格 VS カラ格",
+    "link": "https://imabi.org/%e3%83%8b%e6%a0%bc-vs-%e3%82%ab%e3%83%a9%e6%a0%bc/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_160",
+    "point": "第160課: The Causative I",
+    "link": "https://imabi.org/the-causative-i-%ef%bd%9e%e3%81%95%e3%81%9b%e3%82%8b-%ef%bd%9e%e3%81%9b%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_161",
+    "point": "第161課: The Causative-Passive",
+    "link": "https://imabi.org/causative-passive/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_162",
+    "point": "第162課: The Volitional I",
+    "link": "https://imabi.org/the-volitional-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_163",
+    "point": "第163課: The Superlative",
+    "link": "https://imabi.org/the-superlative/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_164",
+    "point": "第164課: The Imperative",
+    "link": "https://imabi.org/the-imperative/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_165",
+    "point": "第165課: Family",
+    "link": "https://imabi.org/family/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_166",
+    "point": "第166課: Honorifics: 敬称: ～さん, ～さま, Etc.",
+    "link": "https://imabi.org/honorifics-i-%e6%95%ac%e7%a7%b0-i-%ef%bd%9e%e3%81%95%e3%82%93-%ef%bd%9e%e6%a7%98-etc-2/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_167",
+    "point": "第167課: Honorifics: Titles (役職名)",
+    "link": "https://imabi.org/honorifics-ii-standalone-%e6%95%ac%e7%a7%b0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_168",
+    "point": "第168課: Honorifics: Nouns",
+    "link": "https://imabi.org/honorifics-iii-nouns/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_169",
+    "point": "第169課: Honorifics: Adjectives & the Copula",
+    "link": "https://imabi.org/honorifics-iv-adjectives-the-copula/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_170",
+    "point": "第170課: Honorifics: Light Honorifics: レル・ラレル敬語",
+    "link": "https://imabi.org/honorifics-v-light-keigo/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_171",
+    "point": "第171課: Honorifics: Regular Verbs",
+    "link": "https://imabi.org/honorifics-vi-regular-verbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_172",
+    "point": "第172課: Honorifics: Irregular Verbs",
+    "link": "https://imabi.org/honorifics-vii-irregular-verbs-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_173",
+    "point": "第173課: Honorifics:｛に・と｝なります/なっております",
+    "link": "https://imabi.org/honorifics-%ef%bd%9b%e3%81%a8%e3%83%bb%e3%81%ab%ef%bd%9d%e3%80%90%e3%81%aa%e3%82%8a%e3%81%be%e3%81%99%e3%83%bb%e3%81%aa%e3%81%a3%e3%81%a6%e3%81%8a%e3%82%8a%e3%81%be%e3%81%99%e3%80%91/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_174",
+    "point": "第174課: Honorifics: のほう",
+    "link": "https://imabi.org/honorifics-%ef%bd%9e%e3%81%ae%e3%81%bb%e3%81%86/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_175",
+    "point": "第175課: Expressions of Gratitude",
+    "link": "https://imabi.org/expressions-of-gratitude%e3%80%80%e6%84%9f%e8%ac%9d%e3%81%ae%e8%a1%a8%e7%8f%be/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_176",
+    "point": "第176課: Expressions of Apology",
+    "link": "https://imabi.org/expressions-of-apology%e3%80%80%e3%81%8a%e8%a9%ab%e3%81%b3%e3%81%ae%e8%a8%80%e8%91%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_177",
+    "point": "第177課: What & When",
+    "link": "https://imabi.org/what-when/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_178",
+    "point": "第178課: Who & Where: 誰, どなた, どちら, どいつ, & どこ",
+    "link": "https://imabi.org/who-where/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_179",
+    "point": "第179課: Why: なぜ, どうして, & なんで",
+    "link": "https://imabi.org/why/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_180",
+    "point": "第180課: Which: どれ, どちら, どっち, & いずれ",
+    "link": "https://imabi.org/which/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_181",
+    "point": "第181課: Citation II: ～という, ということ, & というもの",
+    "link": "https://imabi.org/citation-ii-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%81%93%e3%81%a8-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%82%82%e3%81%ae/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_182",
+    "point": "第182課: Direction Intransitives + を: 向く",
+    "link": "https://imabi.org/direction-intransitives-%e3%82%92-%e5%90%91%e3%81%8f/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_183",
+    "point": "第183課: Fix/Error: ～忘れる, ～直す, ～間違える, & ～誤る",
+    "link": "https://imabi.org/fix-error-%ef%bd%9e%e5%bf%98%e3%82%8c%e3%82%8b-%ef%bd%9e%e7%9b%b4%e3%81%99-%e9%96%93%e9%81%95%e3%81%88%e3%82%8b-%ef%bd%9e%e8%aa%a4%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_184",
+    "point": "第184課: Used to, Together, Completely: ～慣れる, ～合う・合わせる, & ～切る",
+    "link": "https://imabi.org/used-to-together/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_185",
+    "point": "第185課: Adverbs III: Syntax Agreement",
+    "link": "https://imabi.org/adverbs-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_186",
+    "point": "第186課: Onomatopoeia 擬声語 I: Giongo 擬音語 I",
+    "link": "https://imabi.org/onomatopoeia-%e6%93%ac%e5%a3%b0%e8%aa%9e-i-%e6%93%ac%e9%9f%b3%e8%aa%9e-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_187",
+    "point": "第187課: Plants & Animals",
+    "link": "https://imabi.org/plants-animals/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_188",
+    "point": "第188課: Onomatopoeia 擬声語 II: 擬音語 II: Animal Sounds",
+    "link": "https://imabi.org/onomatopoeia-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_189",
+    "point": "第189課: Onomatopoeia 擬声語 III: 擬態語 & 擬情語",
+    "link": "https://imabi.org/onomatopoeia-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_190",
+    "point": "第190課: The Body",
+    "link": "https://imabi.org/the-body/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_191",
+    "point": "第191課: Colors",
+    "link": "https://imabi.org/colors-i%e3%80%80%e8%89%b2%e3%81%ae%e8%a1%a8%e7%8f%be%e3%80%81%e3%81%9d%e3%81%ae%e4%b8%80/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_192",
+    "point": "第192課: Colors II",
+    "link": "https://imabi.org/color-ii%e3%80%80%e3%80%80%e8%89%b2%e3%81%ae%e8%a1%a8%e7%8f%be%e3%80%81%e3%81%9d%e3%81%ae%e4%ba%8c/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_193",
+    "point": "第193課: Food",
+    "link": "https://imabi.org/food/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_194",
+    "point": "第194課: Astronomy: The Planets & More",
+    "link": "https://imabi.org/astronomy-the-planets-more/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_195",
+    "point": "第195課: Adjective Nominalization I: ～さ & ～み",
+    "link": "https://imabi.org/adjective-nominalization/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_196",
+    "point": "第196課: Adjective Nominalization II: ～く",
+    "link": "https://imabi.org/adjective-nominalization-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_197",
+    "point": "第197課: Object Marking: が VS を",
+    "link": "https://imabi.org/ga-vs-wo/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_198",
+    "point": "第198課: Idioms I: 気",
+    "link": "https://imabi.org/idioms-i-%e6%b0%97/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_199",
+    "point": "第199課: The Adjectival Noun 元気",
+    "link": "https://imabi.org/how-to-use-%e5%85%83%e6%b0%97/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_200",
+    "point": "第200課: Noun → Verb with Suru する",
+    "link": "https://imabi.org/suru-verbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_201",
+    "point": "第201課: The Suffix 化",
+    "link": "https://imabi.org/the-suffix-ka%e3%80%80%e6%8e%a5%e5%b0%be%e8%be%9e%e3%81%ae%e3%80%8c%ef%bd%9e%e5%8c%96%e3%80%8d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_202",
+    "point": "第202課: Conjunctions",
+    "link": "https://imabi.org/conjunctions/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_203",
+    "point": "第203課: Negative Prefixes: 未, 無, 非, 否, & 不",
+    "link": "https://imabi.org/negative-prefixes/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_204",
+    "point": "第204課: Counters w/ Approximations",
+    "link": "https://imabi.org/counters-w-approximations/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_205",
+    "point": "第205課: Prefixes/Suffixes with Counters: 何～, 幾～, 数～, ～数, 半～, ～半,～余, & ～余り",
+    "link": "https://imabi.org/prefixes-suffixes-counters/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_206",
+    "point": "第206課: Good At & Bad At",
+    "link": "https://imabi.org/good-bad-at/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_207",
+    "point": "第207課: Like & Love",
+    "link": "https://imabi.org/like-love/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_208",
+    "point": "第208課: Hate",
+    "link": "https://imabi.org/hate/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_209",
+    "point": "第209課: Old",
+    "link": "https://imabi.org/old/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_210",
+    "point": "第210課: やはり & さすが",
+    "link": "https://imabi.org/%e4%ba%88%e6%83%b3%e9%80%9a%e3%82%8a%e3%81%ae%e3%80%80%e3%80%8c%e3%82%84%e3%81%af%e3%82%8a%e3%83%bb%e3%81%95%e3%81%99%e3%81%8c%e3%80%8d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_211",
+    "point": "第211課: せっかく & わざわざ",
+    "link": "https://imabi.org/the-adverbs-%e3%81%9b%e3%81%a3%e3%81%8b%e3%81%8f-%e3%82%8f%e3%81%96%e3%82%8f%e3%81%96/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_212",
+    "point": "第212課: せめて",
+    "link": "https://imabi.org/semete/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_213",
+    "point": "第213課: Idioms II: Basic Expressions",
+    "link": "https://imabi.org/idioms-ii-phrases/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_214",
+    "point": "第214課: About: ～について, ～に関して, & ～をめぐって",
+    "link": "https://imabi.org/about-2/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_215",
+    "point": "第215課: The Particle しも",
+    "link": "https://imabi.org/the-particle-%e3%81%97%e3%82%82/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_216",
+    "point": "第216課: ～てある II: With を",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%82%e3%82%8b-ii-with-%e3%82%92/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_217",
+    "point": "第217課: The Final Particles ぞ & ぜ",
+    "link": "https://imabi.org/the-final-particles-%e3%81%9e-%e3%81%9c/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_218",
+    "point": "第218課: The Final Particle さ",
+    "link": "https://imabi.org/the-final-particle-%e3%81%95/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_219",
+    "point": "第219課: 語尾 III: かな, かしら, じゃん, い, け, が, こと, たら, & や",
+    "link": "https://imabi.org/%e8%aa%9e%e5%b0%be-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_220",
+    "point": "第220課: てよ・だわ言葉: てよ・だわ・かしら・こと（よ）・の（よ）",
+    "link": "https://imabi.org/%e3%81%a6%e3%82%88%e3%83%bb%e3%81%a0%e3%82%8f%e8%a8%80%e8%91%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_221",
+    "point": "第221課: The Particle て III",
+    "link": "https://imabi.org/the-particle-%e3%81%a6-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_222",
+    "point": "第222課: The Particle も IV",
+    "link": "https://imabi.org/the-particle-%e3%82%82-iv/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_223",
+    "point": "第223課: The Particle も V",
+    "link": "https://imabi.org/the-particle-%e3%82%82-v-adverb-intensifier%e3%80%8c%e3%82%82%e3%80%8d%e3%81%ab%e3%82%88%e3%82%8b%e5%89%af%e8%a9%9e%e3%81%ae%e5%8f%96%e3%82%8a%e7%ab%8b%e3%81%a6%e5%bd%a2/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_224",
+    "point": "第224課: Obligation: つもり, はず, & ～べきだ",
+    "link": "https://imabi.org/planning-obligation/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_225",
+    "point": "第225課: ～ずつ & ～わりで",
+    "link": "https://imabi.org/%e3%81%9a%e3%81%a4-%e3%82%8f%e3%82%8a%e3%81%a7/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_226",
+    "point": "第226課: The Auxiliary Verb ～ず I",
+    "link": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%9a-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_227",
+    "point": "第227課: The Intensifier ～ない",
+    "link": "https://imabi.org/the-intensifier-%ef%bd%9e%e3%81%aa%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_228",
+    "point": "第228課: Pronouns III: Reflexive Pronouns",
+    "link": "https://imabi.org/reflexive-pronouns/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_229",
+    "point": "第229課: Numbers VI: Ordinal Numbers",
+    "link": "https://imabi.org/numbers-vi-ordinal-numbers/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_230",
+    "point": "第230課: Counters VIII: 基, 滴, 票, 件, 行, 画, 種（類）, 脚, 着, 膳, 貫, 対, 男, & 女",
+    "link": "https://imabi.org/counters-viii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_231",
+    "point": "第231課: Adjectives VI: Adjective Stems in Compounds",
+    "link": "https://imabi.org/adjectives-vi-compounds%e3%80%80%e5%bd%a2%e5%ae%b9%e8%a9%9e%e8%aa%9e%e5%b9%b9%ef%bc%8b%e5%90%8d%e8%a9%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_232",
+    "point": "第232課: Counters with ヶ・ヵ",
+    "link": "https://imabi.org/counters-ix-counters-with-%e3%83%b6%e3%83%bb%e3%83%b5/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_233",
+    "point": "第233課: Idioms III: The Body",
+    "link": "https://imabi.org/the-body-ii-idioms-and-proverbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_234",
+    "point": "第234課: Adjectives VII: Grammaticality of Adjective +です",
+    "link": "https://imabi.org/adjectives-vii-the-grammaticality-of-adjective-%e3%81%a7%e3%81%99/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_235",
+    "point": "第235課: Copula Verb Variants",
+    "link": "https://imabi.org/copula-verb-variants/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_236",
+    "point": "第236課: Adjectives VIII: Sound Changes",
+    "link": "https://imabi.org/adjectives-viii-sound-changes/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_237",
+    "point": "第237課: Adjectives IX: Older Bases",
+    "link": "https://imabi.org/adjectives-ix-old-bases/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_238",
+    "point": "第238課: Interjections",
+    "link": "https://imabi.org/interjections/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_239",
+    "point": "第239課: The Bases (活用形)",
+    "link": "https://imabi.org/the-bases/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_240",
+    "point": "第240課: 連用形 → Noun",
+    "link": "https://imabi.org/%e9%80%a3%e7%94%a8%e5%bd%a2%e3%80%80%e2%86%92%e3%80%80noun/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_241",
+    "point": "第241課: 連用中止形",
+    "link": "https://imabi.org/%e9%80%a3%e7%94%a8%e4%b8%ad%e6%ad%a2%e5%bd%a2/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_242",
+    "point": "第242課: Tense I: The Auxiliary Verb -TA",
+    "link": "https://imabi.org/tense-i-the-auxiliary-verb-ta/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_243",
+    "point": "第243課: Tense II: The Morpheme -RU/U",
+    "link": "https://imabi.org/tense-ii-the-morpheme-ru-u/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_244",
+    "point": "第244課: ては",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%af/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_245",
+    "point": "第245課: The Particle のみ",
+    "link": "https://imabi.org/the-particle-%e3%81%ae%e3%81%bf/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_246",
+    "point": "第246課: The Particle こそ",
+    "link": "https://imabi.org/the-particle-%e3%81%93%e3%81%9d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_247",
+    "point": "第247課: わけだ",
+    "link": "https://imabi.org/%e3%82%8f%e3%81%91%e3%81%a0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_248",
+    "point": "第248課: わけではない, わけがない, & わけにはいかない",
+    "link": "https://imabi.org/%e3%82%8f%e3%81%91%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%8c%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%ab%e3%81%af%e3%81%84%e3%81%8b%e3%81%aa%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_249",
+    "point": "第249課: The Particle ながらII: ながら（も） & ながらに（して）",
+    "link": "https://imabi.org/the-particle-%e3%81%aa%e3%81%8c%e3%82%89-ii-%e3%81%aa%e3%81%8c%e3%82%89%ef%bc%88%e3%82%82%ef%bc%89-%e3%81%aa%e3%81%8c%e3%82%89%e3%81%ab%ef%bc%88%e3%81%97%e3%81%a6%ef%bc%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_250",
+    "point": "第250課: No Doubt that: ～に違いない & ～に相違ない",
+    "link": "https://imabi.org/no-doubt-that/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_251",
+    "point": "第251課: Based on: ～に基づいて, ～を踏まえて, ～をもとにして, ～に沿って, ～に即して, & ～に則って",
+    "link": "https://imabi.org/based-on/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_252",
+    "point": "第252課: After II: ～てからというもの（は） & ～て以来",
+    "link": "https://imabi.org/after-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_253",
+    "point": "第253課: Circumstance: 場合 & ～に備えて",
+    "link": "https://imabi.org/circumstance-%e5%a0%b4%e5%90%88-%ef%bd%9e%e3%81%ab%e5%82%99%e3%81%88%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_254",
+    "point": "第254課: Whenever II: ～度, ～都度, & ～につけ",
+    "link": "https://imabi.org/whenever-ii-%ef%bd%9e%e5%ba%a6%e3%81%ab-%ef%bd%9e%e9%83%bd%e5%ba%a6%e3%80%80-%ef%bd%9e%e3%81%ab%e3%81%a4%e3%81%91/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_255",
+    "point": "第255課: While III: ～隙に & ～間（ま）に",
+    "link": "https://imabi.org/while-iii-%ef%bd%9e%e9%9a%99%e3%81%ab-%ef%bd%9e%e9%96%93%ef%bc%88%e3%81%be%ef%bc%89%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_256",
+    "point": "第256課: The Supplementary Verb する",
+    "link": "https://imabi.org/the-supplementary-verb-%e3%81%99%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_257",
+    "point": "第257課: ～に対して",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%ab%e5%af%be%e3%81%97%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_258",
+    "point": "第258課: Intransitive & Transitive: Part 1",
+    "link": "https://imabi.org/intransitive-transitive-part-1/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_259",
+    "point": "第259課: Intransitive & Transitive: Part 2",
+    "link": "https://imabi.org/intransitive-transitive-part-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_260",
+    "point": "第260課: Standpoint: ～として & ～にとって",
+    "link": "https://imabi.org/standpoint-%e3%81%a8%e3%81%97%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89-vs-%e3%81%ab%e3%81%a8%e3%81%a3%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_261",
+    "point": "第261課: Through: ～を通して & ～を通じて",
+    "link": "https://imabi.org/through-%e3%82%92%e9%80%9a%e3%81%98%e3%81%a6-%e3%82%92%e9%80%9a%e3%81%97%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_262",
+    "point": "第262課: Span: ～にかけて & ～にわたって",
+    "link": "https://imabi.org/span-%ef%bd%9e%e3%81%ab%e3%81%8b%e3%81%91%e3%81%a6-%e3%81%ab%e3%82%8f%e3%81%9f%e3%81%a3%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_263",
+    "point": "第263課: ～によって",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%ab%e3%82%88%e3%81%a3%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_264",
+    "point": "第264課: ～ざるを得ない & ～やむを得ない",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%96%e3%82%8b%e3%82%92%e5%be%97%e3%81%aa%e3%81%84-%e3%82%84%e3%82%80%e3%82%92%e5%be%97%e3%81%aa%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_265",
+    "point": "第265課: The Causative II: Transitive Verb Corruption",
+    "link": "https://imabi.org/causative-form-issues/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_266",
+    "point": "第266課: Intransitive Verbs Translated in the Passive Voice",
+    "link": "https://imabi.org/intransitive-vs-passive/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_267",
+    "point": "第267課: 自受動詞",
+    "link": "https://imabi.org/intransitive-passive-verbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_268",
+    "point": "第268課: 他受動詞",
+    "link": "https://imabi.org/transitive-passive/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_269",
+    "point": "第269課: The Particle さえ, すら, & だに",
+    "link": "https://imabi.org/the-particles-%e3%81%95%e3%81%88-%e3%81%99%e3%82%89-%e3%81%a0%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_270",
+    "point": "第270課: ～において・における",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%ab%e3%81%8a%e3%81%84%e3%81%a6%e3%83%bb%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_271",
+    "point": "第271課: More Negative Patterns: ～ないことには, ～なし・なき,　～なしで（は）,　～なしに（は）, ～なくして（は）, ～ことなく, いとわない, & 甲斐もなく",
+    "link": "https://imabi.org/negative-patterns/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_272",
+    "point": "第272課: Exception: ～をのぞいて, ～をおいて, & ～ならでは",
+    "link": "https://imabi.org/exception/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_273",
+    "point": "第273課: Can’t Help I: ～ないではいられない",
+    "link": "https://imabi.org/cant-help-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_274",
+    "point": "第274課: Can’t Help II: ～てならない, ～てやまない, ～てしかたがない, ～にたえない, & ～にたまらない",
+    "link": "https://imabi.org/cant-help-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_275",
+    "point": "第275課: Can’t Help III: ～ないではすまない, ～ないではおかない, ～を余儀なく[される・させる], & ～を禁じ得ない",
+    "link": "https://imabi.org/cant-help-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_276",
+    "point": "第276課: Easy II: ～よい",
+    "link": "https://imabi.org/easy-ii-%ef%bd%9e%e3%82%88%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_277",
+    "point": "第277課: Difficult II: ～がたい & ～づらい",
+    "link": "https://imabi.org/difficult-ii-%ef%bd%9e%e3%81%8c%e3%81%9f%e3%81%84-%ef%bd%9e%e3%81%a5%e3%82%89%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_278",
+    "point": "第278課: Intransitive & Transitive: Part 3",
+    "link": "https://imabi.org/intransitive-transitive-part-3/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_279",
+    "point": "第279課: Intransitive & Transitive: Part 4",
+    "link": "https://imabi.org/intransitive-transitive-part-4/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_280",
+    "point": "第280課: Intransitive & Transitive: Part 5 (Sino-Japanese)",
+    "link": "https://imabi.org/intransitive-transitive-part-v-sino-japanese-verbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_281",
+    "point": "第281課: Limit: ～限り, ～を限りに, ～限りでは, ～に限って, ～に限らない, & ～とは限らない",
+    "link": "https://imabi.org/limit/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_282",
+    "point": "第282課: Addition: ～に加えて, ～にとどまらず, ～もさることながら, ～はおろか・もちろん・もとより, & ～ともあれ",
+    "link": "https://imabi.org/addition/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_283",
+    "point": "第283課: The Particle と III: と＋…ない",
+    "link": "https://imabi.org/the-particle-%e3%81%a8-iii-%e3%81%a8-%ef%bd%9e%e3%81%aa%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_284",
+    "point": "第284課: The Negative Volitional: ～まい",
+    "link": "https://imabi.org/negative-volition-%ef%bd%9e%e3%81%be%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_285",
+    "point": "第285課: As soon as: ～や（いなや）, ～なり, ～途端（に）, & ～次第",
+    "link": "https://imabi.org/as-soon-as/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_286",
+    "point": "第286課: Combination Particles with ところ",
+    "link": "https://imabi.org/combination-particles-with-%e3%81%a8%e3%81%93%e3%82%8d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_287",
+    "point": "第287課: 以 Adverbial Nouns",
+    "link": "https://imabi.org/%e4%bb%a5-adverbial-nouns/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_288",
+    "point": "第288課: Circumstance: まま, 思いきや, & もと",
+    "link": "https://imabi.org/circumstance/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_289",
+    "point": "第289課: Result: ～結果, ～うえで, ～挙句, ～すえに, & ～始末だ",
+    "link": "https://imabi.org/result/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_290",
+    "point": "第290課: Compare & Contrast: ～に比べて, ～に引き換え, ～にもまして, & ～ないまでも",
+    "link": "https://imabi.org/compare-contrast/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_291",
+    "point": "第291課: As (change): ～につれて, ～に従って, ～に伴って, ～とともに, ～に応じて, & ～に応えて",
+    "link": "https://imabi.org/as-change/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_292",
+    "point": "第292課: The Particle まで II",
+    "link": "https://imabi.org/the-particle-%e3%81%be%e3%81%a7-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_293",
+    "point": "第293課: ～ての",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%ae/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_294",
+    "point": "第294課: Combination Particles with もの",
+    "link": "https://imabi.org/combination-particles-with-%e3%82%82%e3%81%ae/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_295",
+    "point": "第295課: Combination Particles with ばかり",
+    "link": "https://imabi.org/combination-particles-with-%e3%81%b0%e3%81%8b%e3%82%8a/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_296",
+    "point": "第296課: The Particles って, たって, & だって",
+    "link": "https://imabi.org/the-particles-%e3%81%a3%e3%81%a6-%e3%81%9f%e3%81%a3%e3%81%a6-%e3%81%a0%e3%81%a3%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_297",
+    "point": "第297課: The Particle から II: ～からある, ～からの, & ～からする",
+    "link": "https://imabi.org/the-particle-%e3%81%8b%e3%82%89-ii-%ef%bd%9e%e3%81%8b%e3%82%89%e3%81%82%e3%82%8b-%ef%bd%9e%e3%81%8b%e3%82%89%e3%81%ae-%ef%bd%9e%e3%81%8b%e3%82%89%e3%81%99%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_298",
+    "point": "第298課: Intransitive & Transitive: Part 6",
+    "link": "https://imabi.org/transitivity-vii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_299",
+    "point": "第299課: Intransitive & Transitive: Part 7",
+    "link": "https://imabi.org/transitivity-viii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_300",
+    "point": "第300課: Intransitive & Transitive: Part 8",
+    "link": "https://imabi.org/transitivity-ix/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_301",
+    "point": "第301課: Reduplication: Nouns",
+    "link": "https://imabi.org/reduplication-nouns/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_302",
+    "point": "第302課: Reduplication: Adjectives",
+    "link": "https://imabi.org/reduplication-adjectives/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_303",
+    "point": "第303課: Reduplication: Adjectival Nouns",
+    "link": "https://imabi.org/reduplication-adjectival-nouns/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_304",
+    "point": "第304課: Reduplication: Adverbs",
+    "link": "https://imabi.org/reduplication-adverbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_305",
+    "point": "第305課: 込む",
+    "link": "https://imabi.org/%e8%be%bc%e3%82%80/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_306",
+    "point": "第306課: 自発動詞",
+    "link": "https://imabi.org/spontaneity/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_307",
+    "point": "第307課: Potential III",
+    "link": "https://imabi.org/potential-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_308",
+    "point": "第308課: The Particle どころ",
+    "link": "https://imabi.org/the-particle-%e3%81%a9%e3%81%93%e3%82%8d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_309",
+    "point": "第309課: と Combination Particles I",
+    "link": "https://imabi.org/%e3%81%a8-combination-particles-i-%e3%81%a8%e3%81%aa%e3%81%8f-%e3%81%a8%e3%81%af/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_310",
+    "point": "第310課: と Combination Particles II",
+    "link": "https://imabi.org/%e3%81%a8-combination-particles-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_311",
+    "point": "第311課: ”When it Comes to…” I: というと, といえば, & といったら",
+    "link": "https://imabi.org/when-it-comes-to-i%e3%81%a8%e3%81%84%e3%81%86%e3%81%a8-%e3%81%a8%e3%81%84%e3%81%88%e3%81%b0-%e3%81%a8%e3%81%84%e3%81%a3%e3%81%9f%e3%82%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_312",
+    "point": "第312課: “When it Comes to…” II: となると, となったら, & となれば",
+    "link": "https://imabi.org/when-it-comes-to-ii-when-it-comes-to-ii%e3%81%a8%e3%81%aa%e3%82%8b%e3%81%a8-%e3%81%a8%e3%81%aa%e3%81%a3%e3%81%9f%e3%82%89-%e3%81%a8%e3%81%aa%e3%82%8c%e3%81%b0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_313",
+    "point": "第313課: ったら & ってば",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%a3%e3%81%9f%e3%82%89-%ef%bd%9e%e3%81%a3%e3%81%a6%e3%81%b0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_314",
+    "point": "第314課: Whether it be…or…:といい & といわず",
+    "link": "https://imabi.org/whether-it-be-or-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%84-%ef%bd%9e%e3%81%a8%e3%81%84%e3%82%8f%e3%81%9a/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_315",
+    "point": "第315課: ”When it Comes to…” III: と｛きたら・きては・くると・きた日には・きている（ものだ）・とくれば｝",
+    "link": "https://imabi.org/when-it-comes-to-iii%e3%81%a8%ef%bd%9b%e3%81%8d%e3%81%9f%e3%82%89%e3%83%bb%e3%81%8d%e3%81%a6%e3%81%af%e3%83%bb%e3%81%8f%e3%82%8b%e3%81%a8%e3%83%bb%e3%81%8d%e3%81%9f%e6%97%a5%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_316",
+    "point": "第316課: と Combination Particles IV",
+    "link": "https://imabi.org/%e3%81%a8-combination-particles-iv/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_317",
+    "point": "第317課: Potential IV: ～かねる・かねない VS ～きれる・きれない VS ～える・うる/～えない",
+    "link": "https://imabi.org/potential-iv/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_318",
+    "point": "第318課: Considering…: わりに（は） & にしては",
+    "link": "https://imabi.org/considering-%e3%82%8f%e3%82%8a%e3%81%ab%ef%bc%88%e3%81%af%ef%bc%89-%e3%81%ab%e3%81%97%e3%81%a6%e3%81%af/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_319",
+    "point": "第319課: Disregard I: にもかかわらず，にかかわらず， & を問わず",
+    "link": "https://imabi.org/disregard-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_320",
+    "point": "第320課: Disregard II: によらず & （の）いかん｛にかかわらず・を問わず・によらず｝",
+    "link": "https://imabi.org/disregard-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_321",
+    "point": "第321課: Disregard III: をものともせず（に）, ｛を・も｝顧みず（に）, & を押して・押し切って",
+    "link": "https://imabi.org/disregard-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_322",
+    "point": "第322課: Disregard IV: ｛に・も｝構わず, をよそに, & にもめげず（に）",
+    "link": "https://imabi.org/disregard-iv/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_323",
+    "point": "第323課: Occasion: ～うえで, ～際に, ～折に, ～に際して, ～に当たって, ～に先立って, ～を前に（して), ～を控えて, ～に臨んで, & ～に面して",
+    "link": "https://imabi.org/occasion/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_324",
+    "point": "第324課: Worth and Extent: ～に足る, ～に依存,　～に値する, & ～に及ぶ",
+    "link": "https://imabi.org/worth-and-extent/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_325",
+    "point": "第325課: ～上",
+    "link": "https://imabi.org/nominal-phrases-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_326",
+    "point": "第327課: 中心",
+    "link": "https://imabi.org/centering-%ef%bd%9e%e3%82%92%e4%b8%ad%e5%bf%83%e3%81%ab%ef%bc%88%e3%81%97%e3%81%a6%ef%bc%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_327",
+    "point": "第328課: 相応, 由, 代り, & 経由",
+    "link": "https://imabi.org/nominal-phrases-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_328",
+    "point": "第329課: 至極, 極み, 万一, 至り, & ゆかり",
+    "link": "https://imabi.org/nominal-phrases-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_329",
+    "point": "第330課: Simultaneous Action II: The Particle つつ (VS ながら)",
+    "link": "https://imabi.org/simultaneous-action-ii-the-particle-%e3%81%a4%e3%81%a4-vs-%e3%81%aa%e3%81%8c%e3%82%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_330",
+    "point": "第331課: 抜く: ～ぬきで（は）, ～ぬきに（は）, ～ぬきで, ～ぬきにして（は）, & ～ぬきの",
+    "link": "https://imabi.org/the-verb-%e6%8a%9c%e3%81%8f/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_331",
+    "point": "第332課: Fault: ～せいで & ～に託けて",
+    "link": "https://imabi.org/fault-%ef%bd%9e%e3%81%9b%e3%81%84%e3%81%a7-%ef%bd%9e%e3%81%ab%e3%81%8b%e3%81%93%e3%81%a4%e3%81%91%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_332",
+    "point": "第333課: Defining Parameter: ～を始め（として）,　～皮切りに（して）, ～に至るまで, ～をもって, & ～といったところだ",
+    "link": "https://imabi.org/defining-parameter/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_333",
+    "point": "第334課: Four Morae Adverbs",
+    "link": "https://imabi.org/4-morae-adverbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_334",
+    "point": "第335課: 相槌",
+    "link": "https://imabi.org/aizuchi/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_335",
+    "point": "第336課: Advanced ～べき Phrases: ～べくもない、～べからず・ざる, ～べく, ～べくして, & ～べし",
+    "link": "https://imabi.org/advanced-%ef%bd%9e%e3%81%b9%e3%81%8d-phrases%ef%bd%9e%e3%81%b9%e3%81%8f%e3%82%82%e3%81%aa%e3%81%84-%ef%bd%9e%e3%81%b9%e3%81%8b%e3%82%89%e3%81%9a%e3%83%bb%e3%81%96%e3%82%8b-%ef%bd%9e%e3%81%b9/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_336",
+    "point": "第337課: The Verbs かかる & かける",
+    "link": "https://imabi.org/the-verbs-%e3%81%8b%e3%81%8b%e3%82%8b-%e3%81%8b%e3%81%91%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_337",
+    "point": "第338課: Rather: むしろ, かえって, ～ましだ",
+    "link": "https://imabi.org/rather/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_338",
+    "point": "第339課: Opposite: 逆に, 反対に, 反面, & 一方で",
+    "link": "https://imabi.org/opposite-%e9%80%86%e3%81%ab-%e5%8f%8d%e5%af%be%e3%81%ab-%e5%8f%8d%e9%9d%a2-%e4%b8%80%e6%96%b9%ef%bc%88%e3%81%a7%ef%bc%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_339",
+    "point": "第340課: Beforehand: かねて, かねがね, 前もって, 先立って, Etc.",
+    "link": "https://imabi.org/beforehand-%e3%81%8b%e3%81%ad%e3%81%a6-%e3%81%8b%e3%81%ad%e3%81%8c%e3%81%ad-%e5%89%8d%e3%82%82%e3%81%a3%e3%81%a6-%e5%85%88%e7%ab%8b%e3%81%a3%e3%81%a6-etc/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_340",
+    "point": "第341課: To Say Nothing Of: ましてや, いわんや, もってのほか, 尚更, 言うまでもない, 当然",
+    "link": "https://imabi.org/to-say-nothing-of-%e3%81%be%e3%81%97%e3%81%a6%e3%82%84-%e3%81%84%e3%82%8f%e3%82%93%e3%82%84-%e3%82%82%e3%81%a3%e3%81%a6%e3%81%ae%e3%81%bb%e3%81%8b-%e5%b0%9a%e6%9b%b4-%e8%a8%80%e3%81%86%e3%81%be/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_341",
+    "point": "第342課: No Matter If: たとえ",
+    "link": "https://imabi.org/no-matter-if-%e3%81%9f%e3%81%a8%e3%81%88/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_342",
+    "point": "第343課: Adverbs for “Especially”: 殊に, 特に, 就中, とりわけ, 殊更, etc.",
+    "link": "https://imabi.org/adverbs-for-especially/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_343",
+    "point": "第344課: Dare To: 強いて, 敢えて, 押して & 達て",
+    "link": "https://imabi.org/dare-to-%e5%bc%b7%e3%81%84%e3%81%a6-%e6%95%a2%e3%81%88%e3%81%a6-%e6%8a%bc%e3%81%97%e3%81%a6-%e9%81%94%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_344",
+    "point": "第345課: The Adverbial Noun 一旦",
+    "link": "https://imabi.org/the-adverbial-noun-%e4%b8%80%e6%97%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_345",
+    "point": "第346課: Tendency: 嫌いがある, が早いか, が最後, & そばから",
+    "link": "https://imabi.org/tendency/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_346",
+    "point": "第347課: Incidental: ～がてら, ～かたわら, ～かたがた, ～ついでに",
+    "link": "https://imabi.org/incidental/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_347",
+    "point": "第348課: The Parallel Particle に",
+    "link": "https://imabi.org/the-parallel-particle-%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_348",
+    "point": "第349課: The Conjunctive Particle に",
+    "link": "https://imabi.org/the-particle-%e3%81%ab-iii-the-conjunctive-%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_349",
+    "point": "第350課: The Intensifier Particle に",
+    "link": "https://imabi.org/the-intensifier-%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_350",
+    "point": "第351課: こそあど VI: Older Expressions",
+    "link": "https://imabi.org/%e3%81%93%e3%81%9d%e3%81%82%e3%81%a9-vi-older-expressions/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_351",
+    "point": "第352課: 思しい & 思わしい",
+    "link": "https://imabi.org/%e6%80%9d%e3%81%97%e3%81%84-%e6%80%9d%e3%82%8f%e3%81%97%e3%81%84/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_352",
+    "point": "第353課: The Particles やら, なり, & きり",
+    "link": "https://imabi.org/the-particles-%e3%82%84%e3%82%89-%e3%81%aa%e3%82%8a-%e3%81%8d%e3%82%8a/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_353",
+    "point": "第354課: 連体詞",
+    "link": "https://imabi.org/%e9%80%a3%e4%bd%93%e8%a9%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_354",
+    "point": "第355課: The Particles ども & だの",
+    "link": "https://imabi.org/the-particles-%e3%81%a9%e3%82%82-%e3%81%a0%e3%81%ae/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_355",
+    "point": "第356課: ～てたまる",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%9f%e3%81%be%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_356",
+    "point": "第357課: Opportunity: きっかけ & 契機",
+    "link": "https://imabi.org/opportunity/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_357",
+    "point": "第358課: Similarity II: ～ごとく, ～さながら、& ～しかず",
+    "link": "https://imabi.org/similarity-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_358",
+    "point": "第359課: ～ために III: ～んがために & ～がために",
+    "link": "https://imabi.org/%ef%bd%9e%e3%81%9f%e3%82%81%e3%81%ab-iii-%ef%bd%9e%e3%82%93%e3%81%8c%e3%81%9f%e3%82%81%e3%81%ab-%ef%bd%9e%e3%81%8c%e3%81%9f%e3%82%81%e3%81%ab/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_359",
+    "point": "第360課: Reading the 九九",
+    "link": "https://imabi.org/rounding-numbers/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_360",
+    "point": "第361課: Numbers IV: Decimals & Fractions",
+    "link": "https://imabi.org/decimals-fractions/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_361",
+    "point": "第362課: Numbers V: Measurements",
+    "link": "https://imabi.org/numbers-x-measurements/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_362",
+    "point": "第363課: Numbers VI: Large Numbers & 大字",
+    "link": "https://imabi.org/large-numbers-%e5%a4%a7%e5%ad%97/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_363",
+    "point": "第364課: Miss out: ～残す, ～漏らす, ～損なう, ～そびれる, ～損じる, & ～逃す",
+    "link": "https://imabi.org/miss-out/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_364",
+    "point": "第365課: ～果てる ～付ける・く, ～立てる・つ, ～尽くす,& ～こなす",
+    "link": "https://imabi.org/more-endings-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_365",
+    "point": "第366課: ～返る・す, ～捲る, ～殴る, ～腐る, & ～通す",
+    "link": "https://imabi.org/more-endings-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_366",
+    "point": "第367課: Locational: ～渡る・す, ～出る・す, ～上がる・げる, ～入る・れる, ～下がる・げる, ～降りる・ろす, ～落ちる・とす, & ～回る・す",
+    "link": "https://imabi.org/locational/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_367",
+    "point": "第368課: Final Endings: ～こける, ～さす, ～倦む・ねる, ～逸れる, ～成す, & ～古す",
+    "link": "https://imabi.org/final-endings/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_368",
+    "point": "第369課: The Volitional III: The Adjectival Volitional & Older Volitional Forms",
+    "link": "https://imabi.org/the-volitional-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_369",
+    "point": "第370課: ら抜き言葉",
+    "link": "https://imabi.org/%e3%82%89%e6%8a%9c%e3%81%8d%e8%a8%80%e8%91%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_370",
+    "point": "第371課: The Causative III: ～かす Verbs",
+    "link": "https://imabi.org/the-causative-iii-%ef%bd%9e%e3%81%8b%e3%81%99/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_371",
+    "point": "第372課: さ入れ言葉",
+    "link": "https://imabi.org/sa-insertion%e3%80%80%e3%81%95%e5%85%a5%e3%82%8c%e8%a8%80%e8%91%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_372",
+    "point": "第373課: Prefixes",
+    "link": "https://imabi.org/prefixes/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_373",
+    "point": "第374課: Native Suffixes I: Nominal I",
+    "link": "https://imabi.org/native-suffixes-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_374",
+    "point": "第375課: Native Suffixes II: Nominal II",
+    "link": "https://imabi.org/native-suffixes-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_375",
+    "point": "第376課: Native Suffixes III: Adjectival & Adverbial",
+    "link": "https://imabi.org/native-suffixes-iii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_376",
+    "point": "第377課: Native Suffixes IV: Verbal",
+    "link": "https://imabi.org/native-suffixes-iv/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_377",
+    "point": "第378課: The Adjectival Affix「か」: か～・～か・～らか・～やか",
+    "link": "https://imabi.org/the-adjectival-affix-%ef%bd%9e%e3%81%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_378",
+    "point": "第379課: The Verbal Affix ～ぐ: ～らぐ・やぐ",
+    "link": "https://imabi.org/the-verbal-affix-%ef%bd%9e%e3%81%90-%ef%bd%9e%e3%82%89%e3%81%90%e3%83%bb%e3%82%84%e3%81%90/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_379",
+    "point": "第380課: Sino-Japanese Suffixes I",
+    "link": "https://imabi.org/sino-japanese-suf/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_380",
+    "point": "第381課: Sino-Japanese Suffixes II",
+    "link": "https://imabi.org/sino-japanesesuffixesii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_381",
+    "point": "第382課: Suffixes of Appearance: ～だらけ, ～まみれ, ～ずくめ, ～めく, ～げ, & ～気",
+    "link": "https://imabi.org/suf-viappearance/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_382",
+    "point": "第383課: Slang る Verbs",
+    "link": "https://imabi.org/slang-%e3%82%8b-verbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_383",
+    "point": "第384課: Honorifics VII: Irregular Verbs II",
+    "link": "https://imabi.org/hon-vi-irreg-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_384",
+    "point": "第385課: 故, 所以・由縁, 謂れ, & 由",
+    "link": "https://imabi.org/%e6%95%85-%e6%89%80%e4%bb%a5%e3%83%bb%e7%94%b1%e7%b8%81-%e8%ac%82%e3%82%8c-%e7%94%b1/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_385",
+    "point": "第386課: ク語法",
+    "link": "https://imabi.org/the-nominalizing-affix-aku/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_386",
+    "point": "第387課: The Causative IV: ～しめる",
+    "link": "https://imabi.org/the-causative-iv-%ef%bd%9e%e3%81%97%e3%82%81%e3%82%8b/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_387",
+    "point": "第388課: Interrogatives IV: Rare Words",
+    "link": "https://imabi.org/interrogatives-iv-rare-words/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_388",
+    "point": "第389課: 擬声語 IV: From Chinese",
+    "link": "https://imabi.org/onomatopoeia-iv/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_389",
+    "point": "第390課: The Particle も VI",
+    "link": "https://imabi.org/the-particle-%e3%82%82-vi/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_390",
+    "point": "第391課: The Auxiliary ～たる: ～たるや, ～たるもの, & ～たりとも",
+    "link": "https://imabi.org/the-auxiliary-%ef%bd%9e%e3%81%9f%e3%82%8b-%e3%81%9f%e3%82%8b%e3%82%84%e3%80%81%e3%81%9f%e3%82%8b%e3%82%82%e3%81%ae%e3%80%81%e3%81%9f%e3%82%8a%e3%81%a8%e3%82%82/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_391",
+    "point": "第392課: 美化語",
+    "link": "https://imabi.org/%e7%be%8e%e5%8c%96%e8%aa%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_392",
+    "point": "第393課: The Particles とて & とも",
+    "link": "https://imabi.org/the-particles-%e3%81%a8%e3%81%a6-%e3%81%a8%e3%82%82/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_393",
+    "point": "第394課: The Particle して",
+    "link": "https://imabi.org/the-particle-%e3%81%97%e3%81%a6/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_394",
+    "point": "第395課: The Particle つ",
+    "link": "https://imabi.org/the-particle-%e3%81%a4/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_395",
+    "point": "第396課: The Particle しき",
+    "link": "https://imabi.org/the-particle-%e3%81%97%e3%81%8d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_396",
+    "point": "第397課: The Particle いで",
+    "link": "https://imabi.org/the-particle-%e3%81%84%e3%81%a7/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_397",
+    "point": "第398課: The Traditional Calendar System",
+    "link": "https://imabi.org/calendar-systems-of-japan/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_398",
+    "point": "第399課: The Seasons",
+    "link": "https://imabi.org/the-seasons%e3%80%80%e6%98%a5%e5%a4%8f%e7%a7%8b%e5%86%ac/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_399",
+    "point": "第400課: Holidays of Japan",
+    "link": "https://imabi.org/holidays%e3%80%80%e6%97%a5%e6%9c%ac%e3%81%ae%e7%a5%9d%e6%97%a5/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_400",
+    "point": "第401課: Rain",
+    "link": "https://imabi.org/rain%e3%80%80%e9%9b%a8/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_401",
+    "point": "第402課: Ceremony Customs of Japan　冠婚葬",
+    "link": "https://imabi.org/japanese-ceremony-customs-%e5%86%a0%e5%a9%9a%e8%91%ac%e7%a5%ad/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_402",
+    "point": "第403課: 君が代 & いろは",
+    "link": "https://imabi.org/the-%e5%90%9b%e3%81%8c%e4%bb%a3-%e3%81%84%e3%82%8d%e3%81%af/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_403",
+    "point": "第404課: Punctuation",
+    "link": "https://imabi.org/punctuation/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_404",
+    "point": "第405課: Romanization Systems",
+    "link": "https://imabi.org/romanization/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_405",
+    "point": "第406課: Abbreviations",
+    "link": "https://imabi.org/abbreviations/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_406",
+    "point": "第407課: Etymology",
+    "link": "https://imabi.org/etymology/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_407",
+    "point": "第408課: Four-Character Idioms 四字熟語",
+    "link": "https://imabi.org/idioms-iv-yojijukugo/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_408",
+    "point": "第409課: Proverbs 諺",
+    "link": "https://imabi.org/idioms-v-kotowaza/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_409",
+    "point": "第410課: 和製英語",
+    "link": "https://imabi.org/%e5%92%8c%e8%a3%bd%e8%8b%b1%e8%aa%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_410",
+    "point": "第411課: Dialectical 自他動詞",
+    "link": "https://imabi.org/dialectical-%e8%87%aa%e4%bb%96%e5%8b%95%e8%a9%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_411",
+    "point": "第412課: 音訓 (ON & KUN Readings)",
+    "link": "https://imabi.org/%e9%9f%b3%e8%a8%93-on-kun-readings/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_412",
+    "point": "第413課: 送り仮名",
+    "link": "https://imabi.org/okurigana/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_413",
+    "point": "第414課: 四つ仮名",
+    "link": "https://imabi.org/yotsugana/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_414",
+    "point": "第415課: 変体仮名",
+    "link": "https://imabi.org/hentaigana/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_415",
+    "point": "第416課: 名乗り",
+    "link": "https://imabi.org/%e5%90%8d%e4%b9%97%e3%82%8a%e8%a8%93/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_416",
+    "point": "第417課: 部首",
+    "link": "https://imabi.org/the-214-radicals/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_417",
+    "point": "第418課: 国字",
+    "link": "https://imabi.org/japanese-made-kanji-%e5%9b%bd%e5%ad%97/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_418",
+    "point": "第419課: 当て字",
+    "link": "https://imabi.org/%e5%bd%93%e3%81%a6%e5%ad%97/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_419",
+    "point": "第420課: 旧字体 & 新字体",
+    "link": "https://imabi.org/kanji-simplification%e3%80%80%e6%bc%a2%e5%ad%97%e3%81%ae%e7%b0%a1%e7%95%a5%e5%8c%96/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_420",
+    "point": "第421課: 同音の漢字による書き換え",
+    "link": "https://imabi.org/%e5%90%8c%e9%9f%b3%e3%81%ae%e6%bc%a2%e5%ad%97%e3%81%ab%e3%82%88%e3%82%8b%e6%9b%b8%e3%81%8d%e6%8f%9b%e3%81%88/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_421",
+    "point": "第422課: 交ぜ書き",
+    "link": "https://imabi.org/%e4%ba%a4%e3%81%9c%e6%9b%b8%e3%81%8d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_422",
+    "point": "第423課: 略字 & 幽霊字",
+    "link": "https://imabi.org/%e7%95%a5%e5%ad%97%e3%83%bb%e5%b9%bd%e9%9c%8a%e5%ad%97/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_423",
+    "point": "第424課: Phonology I: Vowels",
+    "link": "https://imabi.org/japanese-phonology/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_424",
+    "point": "第425課: Phonology II: Consonants",
+    "link": "https://imabi.org/consonants/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_425",
+    "point": "第426課: Phonology III: Pitch (高低アクセント)",
+    "link": "https://imabi.org/pitch/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_426",
+    "point": "第427課: Phonology IV: 連濁",
+    "link": "https://imabi.org/rendaku/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_427",
+    "point": "第428課: Phonology V: 露出形 VS 被覆形",
+    "link": "https://imabi.org/bare-covered-forms/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_428",
+    "point": "第429課: Phonology VI: 撥音添加 & 撥音化",
+    "link": "https://imabi.org/hatsuon/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_429",
+    "point": "第430課: Phonology VII: 促音化",
+    "link": "https://imabi.org/sokuonka/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_430",
+    "point": "第431課: Phonology VIII: サ行とハ行の揺れ",
+    "link": "https://imabi.org/s-or-h/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_431",
+    "point": "第432課: Phonology VIX: ウ音便",
+    "link": "https://imabi.org/phonology-vi-%e3%82%a6%e9%9f%b3%e4%be%bf/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_432",
+    "point": "第433課: 幼児語",
+    "link": "https://imabi.org/%e5%b9%bc%e5%85%90%e8%aa%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_433",
+    "point": "第434課: Verlan (倒語)",
+    "link": "https://imabi.org/verlan/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_434",
+    "point": "第435課: 敵性語禁止",
+    "link": "https://imabi.org/%e6%95%b5%e6%80%a7%e8%aa%9e%e7%a6%81%e6%ad%a2/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_435",
+    "point": "第01課: Introduction to Classical Japanese",
+    "link": "https://imabi.org/intro-to-classical/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_436",
+    "point": "第02課: Historical かな Orthography",
+    "link": "https://imabi.org/kana-orthography/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_437",
+    "point": "第03課: Parts of Speech & Basic Syntax",
+    "link": "https://imabi.org/basic-syntax/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_438",
+    "point": "第04課: The Copula Verbs にあり (なり) & とあり (たり)",
+    "link": "https://imabi.org/copula-verbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_439",
+    "point": "第05課: Adjectives I: ク & シク",
+    "link": "https://imabi.org/classical-adjectives-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_440",
+    "point": "第06課: Adjectives II: ナリ & タリ",
+    "link": "https://imabi.org/classical-adjectives-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_441",
+    "point": "第07課: Regular Verbs I: 四段",
+    "link": "https://imabi.org/class-regular-verbs-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_442",
+    "point": "第08課: Regular Verbs II: 上一段 & 下一段",
+    "link": "https://imabi.org/classical-verbs-ii%e3%80%80%e5%8f%a4%e5%85%b8%e6%96%87%e6%b3%95%e3%81%ab%e6%96%bc%e3%81%91%e3%82%8b%e4%b8%8a%e4%b8%80%e6%ae%b5%e3%83%bb%e4%b8%8b%e4%b8%80%e6%ae%b5%e6%b4%bb%e7%94%a8%e5%8b%95%e8%a9%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_443",
+    "point": "第09課: Regular Verbs III: 上二段 & 下二段",
+    "link": "https://imabi.org/classical-verbs-iii%e5%8f%a4%e5%85%b8%e6%96%87%e6%b3%95%e3%81%ab%e6%96%bc%e3%81%91%e3%82%8b%e4%b8%8a%e4%ba%8c%e6%ae%b5%e3%83%bb%e4%b8%8b%e4%ba%8c%e6%ae%b5%e6%b4%bb%e7%94%a8%e5%8b%95%e8%a9%9e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_444",
+    "point": "第010課: Irregular Verbs I: サ変 & カ変",
+    "link": "https://imabi.org/class-irregular-verbs-i/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_445",
+    "point": "第011課: Irregular Verbs II: ラ変 & ナ変",
+    "link": "https://imabi.org/classical-irregular-verbs-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_446",
+    "point": "第012課: The Auxiliary Verb ～ず II",
+    "link": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%9a-ii/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_447",
+    "point": "第013課: The Auxiliary Verbs ～き & ～けり",
+    "link": "https://imabi.org/the-auxiliary-verbs-%ef%bd%9e%e3%81%8d-%ef%bd%9e%e3%81%91%e3%82%8a/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_448",
+    "point": "第014課: The Auxiliary Verbs ～ぬ & ～つ",
+    "link": "https://imabi.org/%e3%80%8c%e5%ae%8c%e4%ba%86%e3%80%8d%e3%82%92%e7%a4%ba%e3%81%99%e3%80%8c%e3%81%ac%e3%80%8d%e3%83%bb%e3%80%8c%e3%81%a4%e3%80%8d/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_449",
+    "point": "第015課: The Auxiliary Verbs ～たり & ～り",
+    "link": "https://imabi.org/the-auxiliary-verbs-%ef%bd%9e%e3%81%9f%e3%82%8a-%ef%bd%9e%e3%82%8a/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_450",
+    "point": "第016課: Nouns & Pronouns",
+    "link": "https://imabi.org/nouns-pronouns/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_451",
+    "point": "第017課: Numbers: ひふみ",
+    "link": "https://imabi.org/numbers/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_452",
+    "point": "第018課: Adverbs",
+    "link": "https://imabi.org/classical-adverbs/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_453",
+    "point": "第019課: Conjunctions",
+    "link": "https://imabi.org/classical-conjunctions/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_454",
+    "point": "第020課: Interjections",
+    "link": "https://imabi.org/classical-interjections/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_455",
+    "point": "第021課: Demonstratives",
+    "link": "https://imabi.org/demonstratives/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_456",
+    "point": "第022課: The Particles が & を",
+    "link": "https://imabi.org/the-particles-ga-wo/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_457",
+    "point": "第023課: The Particles に, にて, & へ",
+    "link": "https://imabi.org/ni-nite-e/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_458",
+    "point": "第024課: The Particles より & から",
+    "link": "https://imabi.org/yori-kara/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_459",
+    "point": "第025課: The Particles の & と",
+    "link": "https://imabi.org/the-particles-%e3%81%ae-%e3%81%a8/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_460",
+    "point": "第026課: The Particles て, して, & で",
+    "link": "https://imabi.org/the-particles-%e3%81%a6-%e3%81%97%e3%81%a6-%e3%81%a7/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_461",
+    "point": "第027課: The Particles つつ & ながら",
+    "link": "https://imabi.org/the-particles-%e3%81%a4%e3%81%a4-%e3%81%aa%e3%81%8c%e3%82%89/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_462",
+    "point": "第028課: The Particle ば",
+    "link": "https://imabi.org/the-particle-%e3%81%b0/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_463",
+    "point": "第029課: The Particles と, とも, ど, & ども",
+    "link": "https://imabi.org/the-particles-%e3%81%a8-%e3%81%a8%e3%82%82-%e3%81%a9-%e3%81%a9%e3%82%82/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_464",
+    "point": "第030課: Combination Particles with もの",
+    "link": "https://imabi.org/combination-particles-with-%e3%82%82%e3%81%ae-2/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_465",
+    "point": "第031課: Bound Particles",
+    "link": "https://imabi.org/bound-particles/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_466",
+    "point": "第032課: Adverbial Particles",
+    "link": "https://imabi.org/adverbial-particles/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_467",
+    "point": "第033課: The Auxiliary Verb ～らし",
+    "link": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%82%89%e3%81%97/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_468",
+    "point": "第034課: The History of ～ます",
+    "link": "https://imabi.org/the-history-of-%ef%bd%9e%e3%81%be%e3%81%99/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_469",
+    "point": "第035課: 万葉仮名 Introduction",
+    "link": "https://imabi.org/manyogana/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  },
+  {
+    "id": "imabi_470",
+    "point": "第036課: The Verb 給ふ",
+    "link": "https://imabi.org/the-verb-%e7%b5%a6%e3%81%b5/",
+    "source": "Imabi",
+    "shorthand": "imabi"
+  }
+]

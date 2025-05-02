@@ -1,0 +1,4405 @@
+[
+  {
+    "id": "dojg_1",
+    "point": "あげる(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%82%E3%81%92%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_2",
+    "point": "あげる(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%82%E3%81%92%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_3",
+    "point": "間・あいだ(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E9%96%93%E3%81%82%E3%81%84%E3%81%A0%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_4",
+    "point": "あまり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%82%E3%81%BE%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_5",
+    "point": "ある(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%82%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_6",
+    "point": "ある(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%82%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_7",
+    "point": "あとで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%82%E3%81%A8%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_8",
+    "point": "ば",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%B0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_9",
+    "point": "ばかり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%B0%E3%81%8B%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_10",
+    "point": "ばよかった",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%B0%E3%82%88%E3%81%8B%E3%81%A3%E3%81%9F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_11",
+    "point": "だい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A0%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_12",
+    "point": "だけ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A0%E3%81%91.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_13",
+    "point": "だけで(は)なく～(も)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A0%E3%81%91%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_14",
+    "point": "だろう",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A0%E3%82%8D%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_15",
+    "point": "出す・だす",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%87%BA%E3%81%99%E3%81%A0%E3%81%99.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_16",
+    "point": "で(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A71.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_17",
+    "point": "で(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A72.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_18",
+    "point": "で(3)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A73.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_19",
+    "point": "で(4)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A74.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_20",
+    "point": "でも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A7%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_21",
+    "point": "どう",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A9%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_22",
+    "point": "へ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%B8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_23",
+    "point": "が(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8C1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_24",
+    "point": "が(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8C2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_25",
+    "point": "がる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8C%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_26",
+    "point": "ごろ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%94%E3%82%8D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_27",
+    "point": "ごとに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%94%E3%81%A8%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_28",
+    "point": "始める・はじめる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%A7%8B%E3%82%81%E3%82%8B%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_29",
+    "point": "はず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AF%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_30",
+    "point": "ほど",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%BB%E3%81%A9.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_31",
+    "point": "ほうがいい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%BB%E3%81%86%E3%81%8C%E3%81%84%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_32",
+    "point": "ほうが~より",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%BB%E3%81%86%E3%81%8C%E3%82%88%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_33",
+    "point": "欲しい・ほしい(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E6%AC%B2%E3%81%97%E3%81%84%E3%81%BB%E3%81%97%E3%81%841.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_34",
+    "point": "欲しい・ほしい(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E6%AC%B2%E3%81%97%E3%81%84%E3%81%BB%E3%81%97%E3%81%842.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_35",
+    "point": "一番・いちばん",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E4%B8%80%E7%95%AA%E3%81%84%E3%81%A1%E3%81%B0%E3%82%93.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_36",
+    "point": "行く・いく(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E8%A1%8C%E3%81%8F%E3%81%84%E3%81%8F1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_37",
+    "point": "行く・いく(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E8%A1%8C%E3%81%8F%E3%81%84%E3%81%8F2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_38",
+    "point": "いる(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%84%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_39",
+    "point": "いる(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%84%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_40",
+    "point": "要る・いる(3)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E8%A6%81%E3%82%8B%E3%81%84%E3%82%8B3.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_41",
+    "point": "自分・じぶん(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E8%87%AA%E5%88%86%E3%81%98%E3%81%B6%E3%82%931.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_42",
+    "point": "自分・じぶん(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E8%87%AA%E5%88%86%E3%81%98%E3%81%B6%E3%82%932.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_43",
+    "point": "か(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_44",
+    "point": "か(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_45",
+    "point": "か(どうか)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8B%E3%81%A9%E3%81%86%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_46",
+    "point": "かい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8B%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_47",
+    "point": "かもしれない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_48",
+    "point": "から(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8B%E3%82%891.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_49",
+    "point": "から(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8B%E3%82%892.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_50",
+    "point": "から(3)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8B%E3%82%893.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_51",
+    "point": "かしら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8B%E3%81%97%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_52",
+    "point": "方・かた",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E6%96%B9%E3%81%8B%E3%81%9F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_53",
+    "point": "代わりに・かわりに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E4%BB%A3%E3%82%8F%E3%82%8A%E3%81%AB%E3%81%8B%E3%82%8F%E3%82%8A%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_54",
+    "point": "けれども",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%91%E3%82%8C%E3%81%A9%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_55",
+    "point": "聞こえる・きこえる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B%E3%81%8D%E3%81%93%E3%81%88%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_56",
+    "point": "嫌いだ・きらいだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%AB%8C%E3%81%84%E3%81%A0%E3%81%8D%E3%82%89%E3%81%84%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_57",
+    "point": "こと(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%93%E3%81%A81.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_58",
+    "point": "こと(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%93%E3%81%A82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_59",
+    "point": "ことがある(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_60",
+    "point": "ことがある(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_61",
+    "point": "ことが出来る・できる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%93%E3%81%A8%E3%81%8C%E5%87%BA%E6%9D%A5%E3%82%8B%E3%81%A7%E3%81%8D%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_62",
+    "point": "ことになる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AA%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_63",
+    "point": "ことにする",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%93%E3%81%A8%E3%81%AB%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_64",
+    "point": "ことは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%93%E3%81%A8%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_65",
+    "point": "下さい・ください",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E4%B8%8B%E3%81%95%E3%81%84%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_66",
+    "point": "君・くん",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%90%9B%E3%81%8F%E3%82%93.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_67",
+    "point": "くらい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8F%E3%82%89%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_68",
+    "point": "呉れる・くれる(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%91%89%E3%82%8C%E3%82%8B%E3%81%8F%E3%82%8C%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_69",
+    "point": "呉れる・くれる(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%91%89%E3%82%8C%E3%82%8B%E3%81%8F%E3%82%8C%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_70",
+    "point": "来る・くる(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E6%9D%A5%E3%82%8B%E3%81%8F%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_71",
+    "point": "来る・くる(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E6%9D%A5%E3%82%8B%E3%81%8F%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_72",
+    "point": "まだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%BE%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_73",
+    "point": "まで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%BE%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_74",
+    "point": "までに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%BE%E3%81%A7%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_75",
+    "point": "前に・まえに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%89%8D%E3%81%AB%E3%81%BE%E3%81%88%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_76",
+    "point": "毎・まい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E6%AF%8E%E3%81%BE%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_77",
+    "point": "まま",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%BE%E3%81%BE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_78",
+    "point": "ましょう",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%BE%E3%81%97%E3%82%87%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_79",
+    "point": "見える・みえる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E8%A6%8B%E3%81%88%E3%82%8B%E3%81%BF%E3%81%88%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_80",
+    "point": "みる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%BF%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_81",
+    "point": "も",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_82",
+    "point": "も(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%822.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_83",
+    "point": "もう",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%82%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_84",
+    "point": "も~も",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%82%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_85",
+    "point": "もの(だ)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%82%E3%81%AE%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_86",
+    "point": "もらう(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%82%E3%82%89%E3%81%861.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_87",
+    "point": "もらう(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%82%E3%82%89%E3%81%862.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_88",
+    "point": "な",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AA.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_89",
+    "point": "など",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AA%E3%81%A9.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_90",
+    "point": "ながら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AA%E3%81%8C%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_91",
+    "point": "ないで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AA%E3%81%84%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_92",
+    "point": "なければならない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_93",
+    "point": "なくなる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_94",
+    "point": "なくて",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AA%E3%81%8F%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_95",
+    "point": "なら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AA%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_96",
+    "point": "なさい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AA%E3%81%95%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_97",
+    "point": "ね",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AD.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_98",
+    "point": "に(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_99",
+    "point": "に(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_100",
+    "point": "に(3)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB3.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_101",
+    "point": "に(4)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB4.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_102",
+    "point": "に(5)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB5.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_103",
+    "point": "に(6)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_104",
+    "point": "に(7)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_105",
+    "point": "に違いない・にちがいない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB%E9%81%95%E3%81%84%E3%81%AA%E3%81%84%E3%81%AB%E3%81%A1%E3%81%8C%E3%81%84%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_106",
+    "point": "難い・にくい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E9%9B%A3%E3%81%84%E3%81%AB%E3%81%8F%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_107",
+    "point": "にしては",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_108",
+    "point": "にする",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AB%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_109",
+    "point": "の(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AE1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_110",
+    "point": "の(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AE2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_111",
+    "point": "の(3)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AE3.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_112",
+    "point": "の(4)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AE4.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_113",
+    "point": "のだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AE%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_114",
+    "point": "ので",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AE%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_115",
+    "point": "のに(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AE%E3%81%AB1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_116",
+    "point": "のに(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AE%E3%81%AB2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_117",
+    "point": "のは～だ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AE%E3%81%AF%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_118",
+    "point": "お",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_119",
+    "point": "を(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%921.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_120",
+    "point": "を(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%922.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_121",
+    "point": "を(3)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%923.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_122",
+    "point": "を(4)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%924.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_123",
+    "point": "多い・おおい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%A4%9A%E3%81%84%E3%81%8A%E3%81%8A%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_124",
+    "point": "おく",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8A%E3%81%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_125",
+    "point": "お～になる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8A%E3%81%AB%E3%81%AA%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_126",
+    "point": "お～する",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%8A%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_127",
+    "point": "終わる・おわる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E7%B5%82%E3%82%8F%E3%82%8B%E3%81%8A%E3%82%8F%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_128",
+    "point": "られる(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%89%E3%82%8C%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_129",
+    "point": "られる(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%89%E3%82%8C%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_130",
+    "point": "らしい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%89%E3%81%97%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_131",
+    "point": "Relative Clause",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basicRelativeClause.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_132",
+    "point": "さ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%95.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_133",
+    "point": "様・さま",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E6%A7%98%E3%81%95%E3%81%BE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_134",
+    "point": "させる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%95%E3%81%9B%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_135",
+    "point": "せっかく",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9B%E3%81%A3%E3%81%8B%E3%81%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_136",
+    "point": "し",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%97.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_137",
+    "point": "しい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%97%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_138",
+    "point": "しか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%97%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_139",
+    "point": "しまう",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%97%E3%81%BE%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_140",
+    "point": "知る・しる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E7%9F%A5%E3%82%8B%E3%81%97%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_141",
+    "point": "そうだ(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9D%E3%81%86%E3%81%A01.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_142",
+    "point": "そうだ(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9D%E3%81%86%E3%81%A02.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_143",
+    "point": "それで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9D%E3%82%8C%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_144",
+    "point": "それでは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9D%E3%82%8C%E3%81%A7%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_145",
+    "point": "それから",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_146",
+    "point": "それなら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9D%E3%82%8C%E3%81%AA%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_147",
+    "point": "それとも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9D%E3%82%8C%E3%81%A8%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_148",
+    "point": "そして",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9D%E3%81%97%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_149",
+    "point": "過ぎる・すぎる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E9%81%8E%E3%81%8E%E3%82%8B%E3%81%99%E3%81%8E%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_150",
+    "point": "好きだ・すきだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%A5%BD%E3%81%8D%E3%81%A0%E3%81%99%E3%81%8D%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_151",
+    "point": "少ない・すくない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%B0%91%E3%81%AA%E3%81%84%E3%81%99%E3%81%8F%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_152",
+    "point": "する(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%99%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_153",
+    "point": "する(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%99%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_154",
+    "point": "する(3)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%99%E3%82%8B3.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_155",
+    "point": "する(4)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%99%E3%82%8B4.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_156",
+    "point": "すると",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%99%E3%82%8B%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_157",
+    "point": "たい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9F%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_158",
+    "point": "堪らない・たまらない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%A0%AA%E3%82%89%E3%81%AA%E3%81%84%E3%81%9F%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_159",
+    "point": "為(に)・ため(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E7%82%BA%E3%81%AB%E3%81%9F%E3%82%81%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_160",
+    "point": "たら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9F%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_161",
+    "point": "たらどうですか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9F%E3%82%89%E3%81%A9%E3%81%86%E3%81%A7%E3%81%99%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_162",
+    "point": "たり～たりする",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9F%E3%82%8A%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_163",
+    "point": "たって",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9F%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_164",
+    "point": "て",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_165",
+    "point": "ても",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A6%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_166",
+    "point": "てもいい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A6%E3%82%82%E3%81%84%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_167",
+    "point": "と(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A81.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_168",
+    "point": "と(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_169",
+    "point": "と(3)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A83.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_170",
+    "point": "と(4)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_171",
+    "point": "と言えば",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A8%E8%A8%80%E3%81%88%E3%81%B0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_172",
+    "point": "という",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A8%E3%81%84%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_173",
+    "point": "とか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A8%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_174",
+    "point": "時・とき",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E6%99%82%E3%81%A8%E3%81%8D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_175",
+    "point": "ところだ(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A01.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_176",
+    "point": "ところだ(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A02.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_177",
+    "point": "として",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A8%E3%81%97%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_178",
+    "point": "としては",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_179",
+    "point": "つもり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A4%E3%82%82%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_180",
+    "point": "って(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A3%E3%81%A61.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_181",
+    "point": "って(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%A3%E3%81%A62.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_182",
+    "point": "うちに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%86%E3%81%A1%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_183",
+    "point": "は(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AF1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_184",
+    "point": "わ(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%8F2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_185",
+    "point": "は～だ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AF%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_186",
+    "point": "は～が",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AF%E3%81%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_187",
+    "point": "はいけない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%AF%E3%81%84%E3%81%91%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_188",
+    "point": "分かる・わかる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%88%86%E3%81%8B%E3%82%8B%E3%82%8F%E3%81%8B%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_189",
+    "point": "わけだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%8F%E3%81%91%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_190",
+    "point": "屋・や",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E5%B1%8B%E3%82%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_191",
+    "point": "や",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_192",
+    "point": "やはり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%84%E3%81%AF%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_193",
+    "point": "易い・やすい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E6%98%93%E3%81%84%E3%82%84%E3%81%99%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_194",
+    "point": "ようだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%88%E3%81%86%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_195",
+    "point": "ように(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%88%E3%81%86%E3%81%AB1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_196",
+    "point": "ように(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%88%E3%81%86%E3%81%AB2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_197",
+    "point": "ように言う",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%88%E3%81%86%E3%81%AB%E8%A8%80%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_198",
+    "point": "ようになる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_199",
+    "point": "ようにする",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_200",
+    "point": "より(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%88%E3%82%8A1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_201",
+    "point": "より(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%88%E3%82%8A2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_202",
+    "point": "ようと思う",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%82%88%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_203",
+    "point": "ずつ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/basic%E3%81%9A%E3%81%A4.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_204",
+    "point": "あまり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%82%E3%81%BE%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_205",
+    "point": "~ば~ほど",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%B0%E3%81%BB%E3%81%A9.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_206",
+    "point": "~ばかりか~(さえ)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%8B%E3%81%95%E3%81%88.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_207",
+    "point": "べきだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%B9%E3%81%8D%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_208",
+    "point": "分",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E5%88%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_209",
+    "point": "だが",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A0%E3%81%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_210",
+    "point": "だからと言って",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A0%E3%81%8B%E3%82%89%E3%81%A8%E8%A8%80%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_211",
+    "point": "だけで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A0%E3%81%91%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_212",
+    "point": "だらけ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A0%E3%82%89%E3%81%91.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_213",
+    "point": "で",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_214",
+    "point": "であろう",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A7%E3%81%82%E3%82%8D%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_215",
+    "point": "である",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A7%E3%81%82%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_216",
+    "point": "どころか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A9%E3%81%93%E3%82%8D%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_217",
+    "point": "どうも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A9%E3%81%86%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_218",
+    "point": "どんなに~(こと)か",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A9%E3%82%93%E3%81%AA%E3%81%AB%E3%81%93%E3%81%A8%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_219",
+    "point": "どうせ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A9%E3%81%86%E3%81%9B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_220",
+    "point": "風に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E9%A2%A8%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_221",
+    "point": "がち",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8C%E3%81%A1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_222",
+    "point": "がたい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8C%E3%81%9F%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_223",
+    "point": "逆に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E9%80%86%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_224",
+    "point": "ほど",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%BB%E3%81%A9.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_225",
+    "point": "以外",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E4%BB%A5%E5%A4%96.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_226",
+    "point": "以上(は)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E4%BB%A5%E4%B8%8A%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_227",
+    "point": "いかにも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%84%E3%81%8B%E3%81%AB%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_228",
+    "point": "Imperative",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediateImperative.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_229",
+    "point": "一方で(は)他方で(は)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E4%B8%80%E6%96%B9%E3%81%A7%E3%81%AF%E4%BB%96%E6%96%B9%E3%81%A7%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_230",
+    "point": "上",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E4%B8%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_231",
+    "point": "かえって",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8B%E3%81%88%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_232",
+    "point": "限り",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E9%99%90%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_233",
+    "point": "限り(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E9%99%90%E3%82%8A2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_234",
+    "point": "か~か",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8B%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_235",
+    "point": "かな",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8B%E3%81%AA.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_236",
+    "point": "必ずしも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E5%BF%85%E3%81%9A%E3%81%97%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_237",
+    "point": "かねる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8B%E3%81%AD%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_238",
+    "point": "から~に至るまで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8B%E3%82%89%E3%81%AB%E8%87%B3%E3%82%8B%E3%81%BE%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_239",
+    "point": "から~にかけて",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8B%E3%82%89%E3%81%AB%E3%81%8B%E3%81%91%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_240",
+    "point": "からと言って",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8B%E3%82%89%E3%81%A8%E8%A8%80%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_241",
+    "point": "かろう",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8B%E3%82%8D%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_242",
+    "point": "方をする",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E6%96%B9%E3%82%92%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_243",
+    "point": "かと言うと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8B%E3%81%A8%E8%A8%80%E3%81%86%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_244",
+    "point": "(の)代わりに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AE%E4%BB%A3%E3%82%8F%E3%82%8A%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_245",
+    "point": "結果",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E7%B5%90%E6%9E%9C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_246",
+    "point": "結構",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E7%B5%90%E6%A7%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_247",
+    "point": "この",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%93%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_248",
+    "point": "こうした",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%93%E3%81%86%E3%81%97%E3%81%9F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_249",
+    "point": "こそ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%93%E3%81%9D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_250",
+    "point": "こと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%93%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_251",
+    "point": "ことで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%93%E3%81%A8%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_252",
+    "point": "ことになる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AA%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_253",
+    "point": "ことによる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%93%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_254",
+    "point": "ことはない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_255",
+    "point": "く",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_256",
+    "point": "くらい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8F%E3%82%89%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_257",
+    "point": "くせに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8F%E3%81%9B%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_258",
+    "point": "までもない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%BE%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_259",
+    "point": "まい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%BE%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_260",
+    "point": "まさか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%BE%E3%81%95%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_261",
+    "point": "ましだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%BE%E3%81%97%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_262",
+    "point": "または",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%BE%E3%81%9F%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_263",
+    "point": "目",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E7%9B%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_264",
+    "point": "面",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E9%9D%A2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_265",
+    "point": "みせる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%BF%E3%81%9B%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_266",
+    "point": "も",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_267",
+    "point": "も~ば",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%82%E3%81%B0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_268",
+    "point": "も~も",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%82%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_269",
+    "point": "もの(だ)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%82%E3%81%AE%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_270",
+    "point": "なあ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%81%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_271",
+    "point": "などと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%81%A9%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_272",
+    "point": "ながら(も)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%81%8C%E3%82%89%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_273",
+    "point": "ないことも/ はない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8%E3%82%82%E3%81%AF%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_274",
+    "point": "なかなか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_275",
+    "point": "なく",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%81%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_276",
+    "point": "何でも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E4%BD%95%E3%81%A7%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_277",
+    "point": "何しろ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E4%BD%95%E3%81%97%E3%82%8D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_278",
+    "point": "ならない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_279",
+    "point": "なり~なり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%82%8A%E3%81%AA%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_280",
+    "point": "なりに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%82%8A%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_281",
+    "point": "なしでは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AA%E3%81%97%E3%81%A7%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_282",
+    "point": "ねばならない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AD%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_283",
+    "point": "に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_284",
+    "point": "に当たって/当たり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E5%BD%93%E3%81%9F%E3%81%A3%E3%81%A6%E5%BD%93%E3%81%9F%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_285",
+    "point": "に反して/反する",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E5%8F%8D%E3%81%97%E3%81%A6%E5%8F%8D%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_286",
+    "point": "にほかならない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%81%BB%E3%81%8B%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_287",
+    "point": "に限らず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E9%99%90%E3%82%89%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_288",
+    "point": "に限って",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E9%99%90%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_289",
+    "point": "に関して/関する",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6%E9%96%A2%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_290",
+    "point": "に代わって",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E4%BB%A3%E3%82%8F%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_291",
+    "point": "に比べると/比べて",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E6%AF%94%E3%81%B9%E3%82%8B%E3%81%A8%E6%AF%94%E3%81%B9%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_292",
+    "point": "にもかかわらず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%82%82%E3%81%8B%E3%81%8B%E3%82%8F%E3%82%89%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_293",
+    "point": "に基づいて/基づく",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%84%E3%81%A6%E5%9F%BA%E3%81%A5%E3%81%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_294",
+    "point": "になると",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_295",
+    "point": "において/おける",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6%E3%81%8A%E3%81%91%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_296",
+    "point": "に従って/従い",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E5%BE%93%E3%81%A3%E3%81%A6%E5%BE%93%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_297",
+    "point": "に過ぎない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E9%81%8E%E3%81%8E%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_298",
+    "point": "に対して/対する",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E5%AF%BE%E3%81%97%E3%81%A6%E5%AF%BE%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_299",
+    "point": "にとって",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%81%A8%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_300",
+    "point": "について",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_301",
+    "point": "につき",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%81%A4%E3%81%8D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_302",
+    "point": "につれて/つれ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%81%A4%E3%82%8C%E3%81%A6%E3%81%A4%E3%82%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_303",
+    "point": "には",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_304",
+    "point": "によって/より",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E3%82%88%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_305",
+    "point": "の関係で",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AE%E9%96%A2%E4%BF%82%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_306",
+    "point": "のこと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AE%E3%81%93%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_307",
+    "point": "のことだから",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AE%E3%81%93%E3%81%A8%E3%81%A0%E3%81%8B%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_308",
+    "point": "のみ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AE%E3%81%BF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_309",
+    "point": "の下で",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AE%E4%B8%8B%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_310",
+    "point": "の上では",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AE%E4%B8%8A%E3%81%A7%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_311",
+    "point": "のは~のことだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AE%E3%81%AF%E3%81%AE%E3%81%93%E3%81%A8%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_312",
+    "point": "ぬ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AC.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_313",
+    "point": "お~だ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8A%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_314",
+    "point": "をはじめ(として)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%81%A8%E3%81%97%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_315",
+    "point": "お~下さい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8A%E4%B8%8B%E3%81%95%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_316",
+    "point": "思われる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E6%80%9D%E3%82%8F%E3%82%8C%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_317",
+    "point": "おり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%8A%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_318",
+    "point": "を通して",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%92%E9%80%9A%E3%81%97%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_319",
+    "point": "っぱなし",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_320",
+    "point": "っぽい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A3%E3%81%BD%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_321",
+    "point": "来",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E6%9D%A5.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_322",
+    "point": "例の",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E4%BE%8B%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_323",
+    "point": "Relative Clause",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediateRelativeClause.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_324",
+    "point": "Rhetorical Question",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediateRhetoricalQuestion.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_325",
+    "point": "ろくに~ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%8D%E3%81%8F%E3%81%AB%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_326",
+    "point": "さ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%95.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_327",
+    "point": "さえ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%95%E3%81%88.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_328",
+    "point": "際(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E9%9A%9B%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_329",
+    "point": "さすが",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%95%E3%81%99%E3%81%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_330",
+    "point": "せい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9B%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_331",
+    "point": "せめて",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9B%E3%82%81%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_332",
+    "point": "次第",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E6%AC%A1%E7%AC%AC.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_333",
+    "point": "しかも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%97%E3%81%8B%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_334",
+    "point": "したがって",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_335",
+    "point": "そうかと言って",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%81%86%E3%81%8B%E3%81%A8%E8%A8%80%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_336",
+    "point": "そこで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%81%93%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_337",
+    "point": "そこで(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%81%93%E3%81%A72.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_338",
+    "point": "そこを",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%81%93%E3%82%92.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_339",
+    "point": "そうになる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_340",
+    "point": "その上",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%81%AE%E4%B8%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_341",
+    "point": "それでも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%82%8C%E3%81%A7%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_342",
+    "point": "それどころか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%82%8C%E3%81%A9%E3%81%93%E3%82%8D%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_343",
+    "point": "それが",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%82%8C%E3%81%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_344",
+    "point": "それも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%82%8C%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_345",
+    "point": "それに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%82%8C%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_346",
+    "point": "それと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%82%8C%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_347",
+    "point": "それは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%82%8C%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_348",
+    "point": "それぞれ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9D%E3%82%8C%E3%81%9E%E3%82%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_349",
+    "point": "すぐ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%99%E3%81%90.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_350",
+    "point": "たびに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9F%E3%81%B3%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_351",
+    "point": "ただ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9F%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_352",
+    "point": "ただの",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9F%E3%81%A0%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_353",
+    "point": "確かに~が",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E7%A2%BA%E3%81%8B%E3%81%AB%E3%81%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_354",
+    "point": "たところで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9F%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_355",
+    "point": "て",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_356",
+    "point": "て初めて",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A6%E5%88%9D%E3%82%81%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_357",
+    "point": "点(で)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E7%82%B9%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_358",
+    "point": "ては",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A6%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_359",
+    "point": "と",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_360",
+    "point": "と同時に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E5%90%8C%E6%99%82%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_361",
+    "point": "と言っても",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E8%A8%80%E3%81%A3%E3%81%A6%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_362",
+    "point": "という風に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%84%E3%81%86%E9%A2%A8%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_363",
+    "point": "ということは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_364",
+    "point": "というのに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%84%E3%81%86%E3%81%AE%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_365",
+    "point": "というのは~ことだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%84%E3%81%86%E3%81%AE%E3%81%AF%E3%81%93%E3%81%A8%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_366",
+    "point": "と言うと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E8%A8%80%E3%81%86%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_367",
+    "point": "というより(は)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%84%E3%81%86%E3%82%88%E3%82%8A%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_368",
+    "point": "とかで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%8B%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_369",
+    "point": "ところ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%93%E3%82%8D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_370",
+    "point": "ところが",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%93%E3%82%8D%E3%81%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_371",
+    "point": "とも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_372",
+    "point": "となる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%AA%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_373",
+    "point": "となると",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%AA%E3%82%8B%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_374",
+    "point": "通り(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E9%80%9A%E3%82%8A%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_375",
+    "point": "とする(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%99%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_376",
+    "point": "とする(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%99%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_377",
+    "point": "途端(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E9%80%94%E7%AB%AF%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_378",
+    "point": "とうとう",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%86%E3%81%A8%E3%81%86.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_379",
+    "point": "と共に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E5%85%B1%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_380",
+    "point": "とは限らない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A8%E3%81%AF%E9%99%90%E3%82%89%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_381",
+    "point": "つまり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A4%E3%81%BE%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_382",
+    "point": "つつ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%A4%E3%81%A4.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_383",
+    "point": "(の)上で",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AE%E4%B8%8A%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_384",
+    "point": "上(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E4%B8%8A%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_385",
+    "point": "得る (うる・える)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E5%BE%97%E3%82%8B%E3%80%80%E3%81%86%E3%82%8B%E3%81%88%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_386",
+    "point": "Vmasu",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediateVmasu.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_387",
+    "point": "Vmasu as a Noun",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediateVmasuasaNoun.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_388",
+    "point": "は",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_389",
+    "point": "は言うまでもなく",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%AF%E8%A8%80%E3%81%86%E3%81%BE%E3%81%A7%E3%82%82%E3%81%AA%E3%81%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_390",
+    "point": "わけだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%8F%E3%81%91%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_391",
+    "point": "わけではない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%8F%E3%81%91%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_392",
+    "point": "わけがない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%8F%E3%81%91%E3%81%8C%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_393",
+    "point": "わけにはいかない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%8F%E3%81%91%E3%81%AB%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_394",
+    "point": "やる(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%84%E3%82%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_395",
+    "point": "やる(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%84%E3%82%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_396",
+    "point": "やっと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%84%E3%81%A3%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_397",
+    "point": "よう(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%88%E3%81%861.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_398",
+    "point": "よう(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%88%E3%81%862.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_399",
+    "point": "より",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%82%88%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_400",
+    "point": "ざるを得ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%96%E3%82%8B%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_401",
+    "point": "ぞ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/intermediate%E3%81%9E.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_402",
+    "point": "あえて",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%82%E3%81%88%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_403",
+    "point": "あげく(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%82%E3%81%92%E3%81%8F%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_404",
+    "point": "あくまでも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%82%E3%81%8F%E3%81%BE%E3%81%A7%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_405",
+    "point": "あながち～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%82%E3%81%AA%E3%81%8C%E3%81%A1%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_406",
+    "point": "あるいは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%82%E3%82%8B%E3%81%84%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_407",
+    "point": "あたかも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%82%E3%81%9F%E3%81%8B%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_408",
+    "point": "ばかりに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_409",
+    "point": "ばこそ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%B0%E3%81%93%E3%81%9D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_410",
+    "point": "べからず・べからざる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%B9%E3%81%8B%E3%82%89%E3%81%9A%E3%81%B9%E3%81%8B%E3%82%89%E3%81%96%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_411",
+    "point": "べく",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%B9%E3%81%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_412",
+    "point": "べくもない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%B9%E3%81%8F%E3%82%82%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_413",
+    "point": "べくして",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%B9%E3%81%8F%E3%81%97%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_414",
+    "point": "ちなみに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A1%E3%81%AA%E3%81%BF%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_415",
+    "point": "だけ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A0%E3%81%91.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_416",
+    "point": "だけあって",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A0%E3%81%91%E3%81%82%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_417",
+    "point": "だけに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A0%E3%81%91%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_418",
+    "point": "だけのことはある",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A0%E3%81%91%E3%81%AE%E3%81%93%E3%81%A8%E3%81%AF%E3%81%82%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_419",
+    "point": "だに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A0%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_420",
+    "point": "だの",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A0%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_421",
+    "point": "だって(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A0%E3%81%A3%E3%81%A61.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_422",
+    "point": "だって(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A0%E3%81%A3%E3%81%A62.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_423",
+    "point": "であれ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A7%E3%81%82%E3%82%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_424",
+    "point": "～であれ～であれ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A7%E3%81%82%E3%82%8C%E3%81%A7%E3%81%82%E3%82%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_425",
+    "point": "でも・じゃあるまいし",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A7%E3%82%82%E3%81%98%E3%82%83%E3%81%82%E3%82%8B%E3%81%BE%E3%81%84%E3%81%97.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_426",
+    "point": "～でも[Wh. word]でも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A7%E3%82%82Whword%E3%81%A7%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_427",
+    "point": "どちらかと言うと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A9%E3%81%A1%E3%82%89%E3%81%8B%E3%81%A8%E8%A8%80%E3%81%86%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_428",
+    "point": "どうか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A9%E3%81%86%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_429",
+    "point": "どころではない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A9%E3%81%93%E3%82%8D%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_430",
+    "point": "ども",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A9%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_431",
+    "point": "どうにも～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A9%E3%81%86%E3%81%AB%E3%82%82%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_432",
+    "point": "同士",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E5%90%8C%E5%A3%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_433",
+    "point": "が早いか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8C%E6%97%A9%E3%81%84%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_434",
+    "point": "～が～なら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8C%E3%81%AA%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_435",
+    "point": "ごとし",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%94%E3%81%A8%E3%81%97.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_436",
+    "point": "反面",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E5%8F%8D%E9%9D%A2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_437",
+    "point": "はたして",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AF%E3%81%9F%E3%81%97%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_438",
+    "point": "ひいては",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%B2%E3%81%84%E3%81%A6%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_439",
+    "point": "一[Counter]として～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%80Counter%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_440",
+    "point": "ひとつ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%B2%E3%81%A8%E3%81%A4.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_441",
+    "point": "一つには",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%80%E3%81%A4%E3%81%AB%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_442",
+    "point": "一応",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%80%E5%BF%9C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_443",
+    "point": "如何(だ)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E5%A6%82%E4%BD%95%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_444",
+    "point": "いかなる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%84%E3%81%8B%E3%81%AA%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_445",
+    "point": "いかに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%84%E3%81%8B%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_446",
+    "point": "いくら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%84%E3%81%8F%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_447",
+    "point": "今更",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BB%8A%E6%9B%B4.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_448",
+    "point": "一方(だ)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%80%E6%96%B9%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_449",
+    "point": "一方(で)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%80%E6%96%B9%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_450",
+    "point": "以来",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BB%A5%E6%9D%A5.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_451",
+    "point": "一切～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%80%E5%88%87%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_452",
+    "point": "一旦",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%80%E6%97%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_453",
+    "point": "言ってみれば",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E8%A8%80%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8C%E3%81%B0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_454",
+    "point": "言うまでもない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E8%A8%80%E3%81%86%E3%81%BE%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_455",
+    "point": "言わば",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E8%A8%80%E3%82%8F%E3%81%B0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_456",
+    "point": "いわゆる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%84%E3%82%8F%E3%82%86%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_457",
+    "point": "自体",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E8%87%AA%E4%BD%93.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_458",
+    "point": "限りだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E9%99%90%E3%82%8A%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_459",
+    "point": "甲斐",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E7%94%B2%E6%96%90.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_460",
+    "point": "か否か",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8B%E5%90%A6%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_461",
+    "point": "かな",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8B%E3%81%AA.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_462",
+    "point": "かのように",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8B%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_463",
+    "point": "から言って",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8B%E3%82%89%E8%A8%80%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_464",
+    "point": "からなる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8B%E3%82%89%E3%81%AA%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_465",
+    "point": "からには",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8B%E3%82%89%E3%81%AB%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_466",
+    "point": "からして",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8B%E3%82%89%E3%81%97%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_467",
+    "point": "仮に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BB%AE%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_468",
+    "point": "かと思うと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8B%E3%81%A8%E6%80%9D%E3%81%86%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_469",
+    "point": "且つ・かつ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%94%E3%81%A4%E3%81%8B%E3%81%A4.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_470",
+    "point": "きらいがある",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8D%E3%82%89%E3%81%84%E3%81%8C%E3%81%82%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_471",
+    "point": "(っ)きり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A3%E3%81%8D%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_472",
+    "point": "っけ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A3%E3%81%91.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_473",
+    "point": "この上ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%93%E3%81%AE%E4%B8%8A%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_474",
+    "point": "ことか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%93%E3%81%A8%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_475",
+    "point": "ことから",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%93%E3%81%A8%E3%81%8B%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_476",
+    "point": "ことに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%93%E3%81%A8%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_477",
+    "point": "加えて",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E5%8A%A0%E3%81%88%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_478",
+    "point": "まで(のこと)だ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%BE%E3%81%A7%E3%81%AE%E3%81%93%E3%81%A8%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_479",
+    "point": "まして(や)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%BE%E3%81%97%E3%81%A6%E3%82%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_480",
+    "point": "また",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%BE%E3%81%9F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_481",
+    "point": "滅多に～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E6%BB%85%E5%A4%9A%E3%81%AB%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_482",
+    "point": "見るからに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E8%A6%8B%E3%82%8B%E3%81%8B%E3%82%89%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_483",
+    "point": "～も[V]ば～も[V]",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82V%E3%81%B0%E3%82%82V.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_484",
+    "point": "ものではない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82%E3%81%AE%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_485",
+    "point": "ものか(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82%E3%81%AE%E3%81%8B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_486",
+    "point": "ものか(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82%E3%81%AE%E3%81%8B2.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_487",
+    "point": "ものなら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82%E3%81%AE%E3%81%AA%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_488",
+    "point": "ものの",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82%E3%81%AE%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_489",
+    "point": "ものを",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82%E3%81%AE%E3%82%92.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_490",
+    "point": "もさることながら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82%E3%81%95%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AA%E3%81%8C%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_491",
+    "point": "もしくは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82%E3%81%97%E3%81%8F%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_492",
+    "point": "もっとも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%82%E3%81%A3%E3%81%A8%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_493",
+    "point": "向け",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E5%90%91%E3%81%91.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_494",
+    "point": "むしろ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%80%E3%81%97%E3%82%8D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_495",
+    "point": "ないでもない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%84%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_496",
+    "point": "ないことには",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_497",
+    "point": "ないまでも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%84%E3%81%BE%E3%81%A7%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_498",
+    "point": "ないし(は)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%84%E3%81%97%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_499",
+    "point": "中を",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%AD%E3%82%92.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_500",
+    "point": "なくして(は)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%8F%E3%81%97%E3%81%A6%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_501",
+    "point": "なまじ(っか)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%BE%E3%81%98%E3%81%A3%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_502",
+    "point": "並み",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%A6%E3%81%BF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_503",
+    "point": "何[(Number)+Counter]も",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BD%95NumberCounter%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_504",
+    "point": "何～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BD%95%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_505",
+    "point": "何も～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BD%95%E3%82%82%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_506",
+    "point": "何らかの",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BD%95%E3%82%89%E3%81%8B%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_507",
+    "point": "何ら～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BD%95%E3%82%89%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_508",
+    "point": "なんて(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%82%93%E3%81%A61.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_509",
+    "point": "なんて(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%82%93%E3%81%A62.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_510",
+    "point": "何とか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BD%95%E3%81%A8%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_511",
+    "point": "なお",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_512",
+    "point": "なおさら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%8A%E3%81%95%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_513",
+    "point": "ならでは(の)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%82%89%E3%81%A7%E3%81%AF%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_514",
+    "point": "並びに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%B8%A6%E3%81%B3%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_515",
+    "point": "なり",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%82%8A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_516",
+    "point": "なるほど",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%82%8B%E3%81%BB%E3%81%A9.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_517",
+    "point": "なしに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%97%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_518",
+    "point": "なす",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%99.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_519",
+    "point": "なぜか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%9C%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_520",
+    "point": "なぜなら(ば)～からだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AA%E3%81%9C%E3%81%AA%E3%82%89%E3%81%B0%E3%81%8B%E3%82%89%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_521",
+    "point": "んばかり(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%93%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_522",
+    "point": "願う・願います",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E9%A1%98%E3%81%86%E9%A1%98%E3%81%84%E3%81%BE%E3%81%99.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_523",
+    "point": "にひきかえ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%B2%E3%81%8D%E3%81%8B%E3%81%88.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_524",
+    "point": "にいたっては",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%84%E3%81%9F%E3%81%A3%E3%81%A6%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_525",
+    "point": "に関・拘・係わらず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E9%96%A2%E6%8B%98%E4%BF%82%E3%82%8F%E3%82%89%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_526",
+    "point": "にかけては",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%8B%E3%81%91%E3%81%A6%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_527",
+    "point": "に難くない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E9%9B%A3%E3%81%8F%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_528",
+    "point": "に決まっている",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E6%B1%BA%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_529",
+    "point": "に越したことはない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E8%B6%8A%E3%81%97%E3%81%9F%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_530",
+    "point": "に・ともなると",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%A8%E3%82%82%E3%81%AA%E3%82%8B%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_531",
+    "point": "に向けて・に向けた",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E5%90%91%E3%81%91%E3%81%A6%E3%81%AB%E5%90%91%E3%81%91%E3%81%9F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_532",
+    "point": "～に～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_533",
+    "point": "に(も)なく",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%82%82%E3%81%AA%E3%81%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_534",
+    "point": "に応じて・応じて",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E5%BF%9C%E3%81%98%E3%81%A6%E5%BF%9C%E3%81%98%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_535",
+    "point": "にしろ・せよ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%97%E3%82%8D%E3%81%9B%E3%82%88.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_536",
+    "point": "にしたところで",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%97%E3%81%9F%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_537",
+    "point": "にして(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%97%E3%81%A61.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_538",
+    "point": "にして(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%97%E3%81%A62.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_539",
+    "point": "にしてからが",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%97%E3%81%A6%E3%81%8B%E3%82%89%E3%81%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_540",
+    "point": "にしても",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_541",
+    "point": "にとどまらず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%A8%E3%81%A9%E3%81%BE%E3%82%89%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_542",
+    "point": "につけ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%81%A4%E3%81%91.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_543",
+    "point": "にわたって・わたる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%82%8F%E3%81%9F%E3%81%A3%E3%81%A6%E3%82%8F%E3%81%9F%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_544",
+    "point": "によらず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%82%88%E3%82%89%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_545",
+    "point": "によると",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AB%E3%82%88%E3%82%8B%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_546",
+    "point": "のみならず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AE%E3%81%BF%E3%81%AA%E3%82%89%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_547",
+    "point": "のなんのって",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AE%E3%81%AA%E3%82%93%E3%81%AE%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_548",
+    "point": "の無さ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AE%E7%84%A1%E3%81%95.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_549",
+    "point": "～の～のと",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AE%E3%81%AE%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_550",
+    "point": "んとする",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%93%E3%81%A8%E3%81%99%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_551",
+    "point": "を中心に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%92%E4%B8%AD%E5%BF%83%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_552",
+    "point": "を介して/介した",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%92%E4%BB%8B%E3%81%97%E3%81%A6%E4%BB%8B%E3%81%97%E3%81%9F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_553",
+    "point": "を禁じ得ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%92%E7%A6%81%E3%81%98%E5%BE%97%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_554",
+    "point": "をめぐって・めぐる",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%92%E3%82%81%E3%81%90%E3%81%A3%E3%81%A6%E3%82%81%E3%81%90%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_555",
+    "point": "思えば",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E6%80%9D%E3%81%88%E3%81%B0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_556",
+    "point": "をものともせず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%92%E3%82%82%E3%81%AE%E3%81%A8%E3%82%82%E3%81%9B%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_557",
+    "point": "思うに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E6%80%9D%E3%81%86%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_558",
+    "point": "をおいてほかに(は)～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%92%E3%81%8A%E3%81%84%E3%81%A6%E3%81%BB%E3%81%8B%E3%81%AB%E3%81%AF%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_559",
+    "point": "折(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E6%8A%98%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_560",
+    "point": "恐れがある",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E6%81%90%E3%82%8C%E3%81%8C%E3%81%82%E3%82%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_561",
+    "point": "を問わず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%92%E5%95%8F%E3%82%8F%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_562",
+    "point": "及び",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E5%8F%8A%E3%81%B3.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_563",
+    "point": "およそ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%8A%E3%82%88%E3%81%9D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_564",
+    "point": "をよそに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%92%E3%82%88%E3%81%9D%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_565",
+    "point": "さも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%95%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_566",
+    "point": "更に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E6%9B%B4%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_567",
+    "point": "さて",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%95%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_568",
+    "point": "さぞ(かし)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%95%E3%81%9E%E3%81%8B%E3%81%97.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_569",
+    "point": "そもそも(の)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9D%E3%82%82%E3%81%9D%E3%82%82%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_570",
+    "point": "そのもの",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9D%E3%81%AE%E3%82%82%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_571",
+    "point": "それだけ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9D%E3%82%8C%E3%81%A0%E3%81%91.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_572",
+    "point": "それなりに・の",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9D%E3%82%8C%E3%81%AA%E3%82%8A%E3%81%AB%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_573",
+    "point": "末(に)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E6%9C%AB%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_574",
+    "point": "済む",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E6%B8%88%E3%82%80.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_575",
+    "point": "ただ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9F%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_576",
+    "point": "但し",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E4%BD%86%E3%81%97.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_577",
+    "point": "たかが",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9F%E3%81%8B%E3%81%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_578",
+    "point": "たなり(で)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9F%E3%81%AA%E3%82%8A%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_579",
+    "point": "単位で",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E5%8D%98%E4%BD%8D%E3%81%A7.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_580",
+    "point": "単に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E5%8D%98%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_581",
+    "point": "たるや",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9F%E3%82%8B%E3%82%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_582",
+    "point": "(っ)たって(1)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A3%E3%81%9F%E3%81%A3%E3%81%A61.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_583",
+    "point": "(っ)たって(2)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A3%E3%81%9F%E3%81%A3%E3%81%A62.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_584",
+    "point": "てばかりはいられない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A6%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%AF%E3%81%84%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_585",
+    "point": "～ても～ても",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A6%E3%82%82%E3%81%A6%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_586",
+    "point": "て仕方がない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A6%E4%BB%95%E6%96%B9%E3%81%8C%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_587",
+    "point": "てはいられない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A6%E3%81%AF%E3%81%84%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_588",
+    "point": "とあって",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%82%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_589",
+    "point": "とあっては",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%82%E3%81%A3%E3%81%A6%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_590",
+    "point": "とばかりに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_591",
+    "point": "とでも言うべき",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%A7%E3%82%82%E8%A8%80%E3%81%86%E3%81%B9%E3%81%8D.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_592",
+    "point": "といえども",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%84%E3%81%88%E3%81%A9%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_593",
+    "point": "～といい～といい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%84%E3%81%84%E3%81%A8%E3%81%84%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_594",
+    "point": "といった",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%84%E3%81%A3%E3%81%9F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_595",
+    "point": "といったところだ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%84%E3%81%A3%E3%81%9F%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A0.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_596",
+    "point": "と言って",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E8%A8%80%E3%81%A3%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_597",
+    "point": "と言うか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E8%A8%80%E3%81%86%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_598",
+    "point": "と言うのは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E8%A8%80%E3%81%86%E3%81%AE%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_599",
+    "point": "と言わず~と言わず",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E8%A8%80%E3%82%8F%E3%81%9A%E3%81%A8%E8%A8%80%E3%82%8F%E3%81%9A.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_600",
+    "point": "ところから",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%93%E3%82%8D%E3%81%8B%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_601",
+    "point": "ともなく",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%82%82%E3%81%AA%E3%81%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_602",
+    "point": "ともすると",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%82%82%E3%81%99%E3%82%8B%E3%81%A8.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_603",
+    "point": "との",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%AE.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_604",
+    "point": "とても～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%A6%E3%82%82%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_605",
+    "point": "とは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_606",
+    "point": "とは言え",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E3%81%AF%E8%A8%80%E3%81%88.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_607",
+    "point": "つい",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A4%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_608",
+    "point": "ついでに",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A4%E3%81%84%E3%81%A7%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_609",
+    "point": "ついては",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_610",
+    "point": "(と言)ったらない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%A8%E8%A8%80%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_611",
+    "point": "はあれ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AF%E3%81%82%E3%82%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_612",
+    "point": "は別として",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AF%E5%88%A5%E3%81%A8%E3%81%97%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_613",
+    "point": "はいいとしても",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AF%E3%81%84%E3%81%84%E3%81%A8%E3%81%97%E3%81%A6%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_614",
+    "point": "はおろか",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%AF%E3%81%8A%E3%82%8D%E3%81%8B.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_615",
+    "point": "割に(は)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E5%89%B2%E3%81%AB%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_616",
+    "point": "～わ～わ",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%8F%E3%82%8F.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_617",
+    "point": "や否や・やいなや",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%84%E5%90%A6%E3%82%84%E3%82%84%E3%81%84%E3%81%AA%E3%82%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_618",
+    "point": "やら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%84%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_619",
+    "point": "～やら～やら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%84%E3%82%89%E3%82%84%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_620",
+    "point": "ようでは",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%88%E3%81%86%E3%81%A7%E3%81%AF.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_621",
+    "point": "ようものなら",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%88%E3%81%86%E3%82%82%E3%81%AE%E3%81%AA%E3%82%89.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_622",
+    "point": "ようにも(～ない)",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%88%E3%81%86%E3%81%AB%E3%82%82%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_623",
+    "point": "より・のほか(に)(は)～ない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%88%E3%82%8A%E3%81%AE%E3%81%BB%E3%81%8B%E3%81%AB%E3%81%AF%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_624",
+    "point": "由",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E7%94%B1.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_625",
+    "point": "ようと・が",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%82%88%E3%81%86%E3%81%A8%E3%81%8C.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_626",
+    "point": "故に",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E6%95%85%E3%81%AB.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_627",
+    "point": "ずにはおかない",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9A%E3%81%AB%E3%81%AF%E3%81%8A%E3%81%8B%E3%81%AA%E3%81%84.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_628",
+    "point": "ずして",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9A%E3%81%97%E3%81%A6.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  },
+  {
+    "id": "dojg_629",
+    "point": "ずとも",
+    "link": "https://gohoneko.neocities.org/grammar/dojg/dojgpages/advanced%E3%81%9A%E3%81%A8%E3%82%82.html",
+    "source": "DOJG",
+    "shorthand": "dojg"
+  }
+]

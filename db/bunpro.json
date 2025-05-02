@@ -1,0 +1,6491 @@
+[
+  {
+    "id": "bunpro_1",
+    "point": "だ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_2",
+    "point": "です",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_3",
+    "point": "は",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_4",
+    "point": "も",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_5",
+    "point": "これ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_6",
+    "point": "それ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_7",
+    "point": "あれ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_8",
+    "point": "の",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_9",
+    "point": "いい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_10",
+    "point": "い-Adjectives",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84-adjectives",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_11",
+    "point": "な-Adjectives",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA-adjectives",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_12",
+    "point": "か",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_13",
+    "point": "が",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_14",
+    "point": "よ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_15",
+    "point": "ね",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AD",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_16",
+    "point": "る-Verb (Dict...",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8B-Verbs",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_17",
+    "point": "う-Verb (Dict...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%86-Verbs",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_18",
+    "point": "を",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_19",
+    "point": "る-Verb (Nega...",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8Bverb-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_20",
+    "point": "う-Verb (Nega...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%86verb--%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_21",
+    "point": "と",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8-and",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_22",
+    "point": "ここ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_23",
+    "point": "そこ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_24",
+    "point": "あそこ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%9D%E3%81%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_25",
+    "point": "で",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_26",
+    "point": "に",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_27",
+    "point": "か",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B-or",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_28",
+    "point": "と",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8-with",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_29",
+    "point": "でしょう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%97%E3%82%87%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_30",
+    "point": "だろう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%82%8D%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_31",
+    "point": "がある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_32",
+    "point": "がいる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%84%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_33",
+    "point": "この",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_34",
+    "point": "その",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_35",
+    "point": "あの",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_36",
+    "point": "～んです",
+    "link": "https://bunpro.jp/grammar_points/-%E3%82%93%E3%81%A7%E3%81%99-%E3%81%AE%E3%81%A7%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_37",
+    "point": "い-Adjective ...",
+    "link": "https://bunpro.jp/grammar_points/past-tense-%E3%81%84-adjectives",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_38",
+    "point": "の",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_39",
+    "point": "い-Adjective ...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84-adjective-noun",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_40",
+    "point": "な-Adjective ...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA-adjective-noun",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_41",
+    "point": "へいく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B8%E3%81%84%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_42",
+    "point": "する",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_43",
+    "point": "くる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8F%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_44",
+    "point": "る-Verb (Past)",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8B-verb-past",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_45",
+    "point": "う-Verb (Past)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%86-verb-past",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_46",
+    "point": "好き",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_47",
+    "point": "きらい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8D%E3%82%89%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_48",
+    "point": "のがすき",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%8C%E3%81%99%E3%81%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_49",
+    "point": "がある + Noun",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%82%E3%82%8B-noun",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_50",
+    "point": "い-Adjectives...",
+    "link": "https://bunpro.jp/grammar_points/negative-%E3%81%84-adjectives",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_51",
+    "point": "で",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7-by",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_52",
+    "point": "ので",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_53",
+    "point": "から",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89-because",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_54",
+    "point": "から",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_55",
+    "point": "けど",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%91%E3%81%A9-%E3%81%A0%E3%81%91%E3%81%A9",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_56",
+    "point": "が",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C-but",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_57",
+    "point": "る-Verb (Nega...",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8B-verb-neg-past",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_58",
+    "point": "う-Verb (Nega...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%86-verb-neg-past",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_59",
+    "point": "Verb + て",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_60",
+    "point": "ている①",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%82%8B1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_61",
+    "point": "へ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_62",
+    "point": "Verb + にいく",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%AB%E3%81%84%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_63",
+    "point": "誰",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_64",
+    "point": "い-Adjective ...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84-adjective-predicate",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_65",
+    "point": "な-Adjective だ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA-adjective-predicate",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_66",
+    "point": "だった",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%A3%E3%81%9F-%E3%81%A7%E3%81%97%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_67",
+    "point": "じゃない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%98%E3%82%83%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_68",
+    "point": "じゃなかった",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%98%E3%82%83%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_69",
+    "point": "い-Adjective ...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84-Adjective-%E3%81%8F%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_70",
+    "point": "と",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_71",
+    "point": "って",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_72",
+    "point": "Verbs (Non-p...",
+    "link": "https://bunpro.jp/grammar_points/verb-non-past",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_73",
+    "point": "Verb［た",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%9F-noun",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_74",
+    "point": "の",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE-noun-ommission",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_75",
+    "point": "な",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_76",
+    "point": "だけ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_77",
+    "point": "どれ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_78",
+    "point": "どこ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%81%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_79",
+    "point": "どの",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_80",
+    "point": "ている②",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%82%8B2",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_81",
+    "point": "てから",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%8B%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_82",
+    "point": "Verb + て+ B",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%A6-b",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_83",
+    "point": "もう",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_84",
+    "point": "まだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_85",
+    "point": "まだ～ていません",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%A0-%E3%81%A6%E3%81%84%E3%81%BE%E3%81%9B%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_86",
+    "point": "てもいい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%82%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_87",
+    "point": "たい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_88",
+    "point": "たり～たりする",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%8A-%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_89",
+    "point": "けっこう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%91%E3%81%A3%E3%81%93%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_90",
+    "point": "たくさん",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%8F%E3%81%95%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_91",
+    "point": "まえに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%88%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_92",
+    "point": "くらい ①",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8F%E3%82%89%E3%81%841",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_93",
+    "point": "Noun + まで",
+    "link": "https://bunpro.jp/grammar_points/noun-%E3%81%BE%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_94",
+    "point": "Verb + まで",
+    "link": "https://bunpro.jp/grammar_points/v-%E3%81%BE%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_95",
+    "point": "すぎる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%8E%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_96",
+    "point": "にする",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_97",
+    "point": "～になる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%AA%E3%82%8B-%E3%81%8F%E3%81%AA%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_98",
+    "point": "のなかで～がいちばん～",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%AA%E3%81%8B%E3%81%A7-%E3%81%8C%E3%81%84%E3%81%A1%E3%81%B0%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_99",
+    "point": "より～のほうが",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%82%8A-%E3%81%AE%E3%81%BB%E3%81%86%E3%81%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_100",
+    "point": "なにか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%AB%E3%81%8B-%E3%81%AA%E3%81%AB%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_101",
+    "point": "誰か",
+    "link": "https://bunpro.jp/grammar_points/%E8%AA%B0%E3%81%8B-%E3%81%A9%E3%81%93%E3%81%8B-%E8%AA%B0%E3%82%82-%E3%81%A9%E3%81%93%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_102",
+    "point": "ましょう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%97%E3%82%87%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_103",
+    "point": "～ましょうか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_104",
+    "point": "ませんか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%9B%E3%82%93%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_105",
+    "point": "Verb + てもいい",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%A6%E3%82%82%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_106",
+    "point": "てください",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_107",
+    "point": "ないでください",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_108",
+    "point": "てはいけない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%AF%E3%81%84%E3%81%91%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_109",
+    "point": "なくてはいけない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%A6%E3%81%AF%E3%81%84%E3%81%91%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_110",
+    "point": "なくてはならない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%A6%E3%81%AF%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_111",
+    "point": "たほうがいい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%BB%E3%81%86%E3%81%8C%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_112",
+    "point": "ないほうがいい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%BB%E3%81%86%E3%81%8C%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_113",
+    "point": "なくちゃ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%A1%E3%82%83-%E3%81%AA%E3%81%8D%E3%82%83",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_114",
+    "point": "や",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_115",
+    "point": "たことがある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_116",
+    "point": "ている③",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%82%8B3",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_117",
+    "point": "Adjective + て",
+    "link": "https://bunpro.jp/grammar_points/adjective-%E3%81%A6-noun-%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_118",
+    "point": "Adjective + ...",
+    "link": "https://bunpro.jp/grammar_points/adjective-%E3%81%A6-b",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_119",
+    "point": "のがへた",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%8C%E3%81%B8%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_120",
+    "point": "のがじょうず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%8C%E3%81%98%E3%82%87%E3%81%86%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_121",
+    "point": "Adjective + ...",
+    "link": "https://bunpro.jp/grammar_points/adjective-%E3%81%AE-%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_122",
+    "point": "あげる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%92%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_123",
+    "point": "くれる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8F%E3%82%8C%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_124",
+    "point": "もらう",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%82%89%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_125",
+    "point": "けれども",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%91%E3%82%8C%E3%81%A9%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_126",
+    "point": "つもりだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%82%82%E3%82%8A%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_127",
+    "point": "でも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_128",
+    "point": "やすい",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%84%E3%81%99%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_129",
+    "point": "にくい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%8F%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_130",
+    "point": "だんだん",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%82%93%E3%81%A0%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_131",
+    "point": "どんどん",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%82%93%E3%81%A9%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_132",
+    "point": "～ら",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_133",
+    "point": "ていく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_134",
+    "point": "てくる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%8F%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_135",
+    "point": "かた",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_136",
+    "point": "だけで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_137",
+    "point": "だが",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%8C%E3%83%BB%E3%81%A7%E3%81%99%E3%81%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_138",
+    "point": "なくて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%A6-conjunction",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_139",
+    "point": "なくて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_140",
+    "point": "ないで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_141",
+    "point": "Verb［れる",
+    "link": "https://bunpro.jp/grammar_points/Verb%5Bpassive%5D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_142",
+    "point": "他動詞",
+    "link": "https://bunpro.jp/grammar_points/transitive-intransitive-verbs",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_143",
+    "point": "なおす",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8A%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_144",
+    "point": "ということ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_145",
+    "point": "とき",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_146",
+    "point": "まず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_147",
+    "point": "まで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_148",
+    "point": "までに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%A7%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_149",
+    "point": "また",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_150",
+    "point": "はじめる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_151",
+    "point": "おわる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A%E3%82%8F%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_152",
+    "point": "ごろ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%94%E3%82%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_153",
+    "point": "あとで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%A8%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_154",
+    "point": "ていた",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_155",
+    "point": "に (Frequency)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB-frequency",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_156",
+    "point": "とうとう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%86%E3%81%A8%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_157",
+    "point": "より",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_158",
+    "point": "ごとに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%94%E3%81%A8%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_159",
+    "point": "なるべく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%8B%E3%81%B9%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_160",
+    "point": "るところだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8B%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_161",
+    "point": "のに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%AB-despite",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_162",
+    "point": "とおもう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%8A%E3%82%82%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_163",
+    "point": "など",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%A9",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_164",
+    "point": "みたい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BF%E3%81%9F%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_165",
+    "point": "こと",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_166",
+    "point": "そう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_167",
+    "point": "さ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_168",
+    "point": "とか～とか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%8B-%E3%81%A8%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_169",
+    "point": "そういう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%86%E3%81%84%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_170",
+    "point": "Verb[よう]",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86-%E3%81%8A%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_171",
+    "point": "ようだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_172",
+    "point": "ぜんぜん",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9C%E3%82%93%E3%81%9C%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_173",
+    "point": "かな",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%AA",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_174",
+    "point": "あまり～ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%BE%E3%82%8A-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_175",
+    "point": "ば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_176",
+    "point": "なら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_177",
+    "point": "がる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_178",
+    "point": "がする",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_179",
+    "point": "たがる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%8C%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_180",
+    "point": "かもしれない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_181",
+    "point": "みたいに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AB-%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AA",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_182",
+    "point": "そうに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%86%E3%81%AB-%E3%81%9D%E3%81%86%E3%81%AA",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_183",
+    "point": "のように",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB-%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_184",
+    "point": "〜ようと思う",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86-%E3%81%8A%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_185",
+    "point": "～にする",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%99%E3%82%8B-%E3%81%8F%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_186",
+    "point": "といい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_187",
+    "point": "ようになる",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_188",
+    "point": "まい～のように",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%84-%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_189",
+    "point": "じゃないか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_190",
+    "point": "らしい ①",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%89%E3%81%97%E3%81%841",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_191",
+    "point": "ておく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%8A%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_192",
+    "point": "がほしい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%BB%E3%81%97%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_193",
+    "point": "てほしい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_194",
+    "point": "ときいた",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%8D%E3%81%84%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_195",
+    "point": "聞こえる",
+    "link": "https://bunpro.jp/grammar_points/%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_196",
+    "point": "見える",
+    "link": "https://bunpro.jp/grammar_points/%E8%A6%8B%E3%81%88%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_197",
+    "point": "だす",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_198",
+    "point": "～代",
+    "link": "https://bunpro.jp/grammar_points/%E4%BB%A3",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_199",
+    "point": "Number + も",
+    "link": "https://bunpro.jp/grammar_points/number-%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_200",
+    "point": "ほとんど",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BB%E3%81%A8%E3%82%93%E3%81%A9",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_201",
+    "point": "そんな",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%93%E3%81%AA-%E3%81%93%E3%82%93%E3%81%AA-%E3%81%82%E3%82%93%E3%81%AA-%E3%81%A9%E3%82%93%E3%81%AA",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_202",
+    "point": "各",
+    "link": "https://bunpro.jp/grammar_points/%E5%90%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_203",
+    "point": "以上 ①",
+    "link": "https://bunpro.jp/grammar_points/%E4%BB%A5%E4%B8%8A1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_204",
+    "point": "いか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_205",
+    "point": "いがい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%8C%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_206",
+    "point": "ずっと ①",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%A3%E3%81%A81",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_207",
+    "point": "だいたい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%84%E3%81%9F%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_208",
+    "point": "のなかで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%AA%E3%81%8B%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_209",
+    "point": "ように",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB-%E3%82%88%E3%81%86%E3%81%AA",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_210",
+    "point": "Number/Amoun...",
+    "link": "https://bunpro.jp/grammar_points/number-amount-%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_211",
+    "point": "なん + counter...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%93-counter-%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_212",
+    "point": "真(っ)",
+    "link": "https://bunpro.jp/grammar_points/%E7%9C%9F(%E3%81%A3)",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_213",
+    "point": "Number + しか〜ない",
+    "link": "https://bunpro.jp/grammar_points/number-%E3%81%97%E3%81%8B-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_214",
+    "point": "～は～の一つだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF-%E3%81%AE%E4%B8%80%E3%81%A4%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_215",
+    "point": "～ない～はない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84-%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_216",
+    "point": "すこしも～ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%93%E3%81%97%E3%82%82-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_217",
+    "point": "すくなくない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%8F%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_218",
+    "point": "ばあいは",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0%E3%81%82%E3%81%84%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_219",
+    "point": "Verb[て]",
+    "link": "https://bunpro.jp/grammar_points/verb%E3%81%A6-request",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_220",
+    "point": "てよかった",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%88%E3%81%8B%E3%81%A3%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_221",
+    "point": "Verb［せる",
+    "link": "https://bunpro.jp/grammar_points/causative",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_222",
+    "point": "といってもいい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%A3%E3%81%A6%E3%82%82%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_223",
+    "point": "ても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_224",
+    "point": "てしまう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%97%E3%81%BE%E3%81%86-%E3%81%A1%E3%82%83%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_225",
+    "point": "Verb[て] + B",
+    "link": "https://bunpro.jp/grammar_points/verb%E3%81%A6-b2",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_226",
+    "point": "Causative-Pa...",
+    "link": "https://bunpro.jp/grammar_points/causative-passive",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_227",
+    "point": "Verb[て]",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%A6-noun-%E3%81%A7-b",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_228",
+    "point": "てある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_229",
+    "point": "ように～てほしい",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB-%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_230",
+    "point": "ているあいだに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%82%8B%E3%81%82%E3%81%84%E3%81%A0%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_231",
+    "point": "なくてもいい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%A6%E3%82%82%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_232",
+    "point": "てみる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%BF%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_233",
+    "point": "てすみません",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_234",
+    "point": "てあげる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%82%E3%81%92%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_235",
+    "point": "てくれる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_236",
+    "point": "てもらう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%82%E3%82%89%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_237",
+    "point": "なさい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%95%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_238",
+    "point": "Verb[て] + B",
+    "link": "https://bunpro.jp/grammar_points/verb%E3%81%A6-b",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_239",
+    "point": "Verb[ないで]",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%AA%E3%81%84%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_240",
+    "point": "てくれてありがとう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%8F%E3%82%8C%E3%81%A6%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_241",
+    "point": "てくれない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%8F%E3%82%8C%E3%81%AA%E3%81%84-%E3%81%A6%E3%82%82%E3%82%89%E3%81%88%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_242",
+    "point": "～のだろうか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_243",
+    "point": "お～になる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A-%E3%81%AB%E3%81%AA%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_244",
+    "point": "なさる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%95%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_245",
+    "point": "お～ください",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A-%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_246",
+    "point": "いらっしゃる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%82%89%E3%81%A3%E3%81%97%E3%82%83%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_247",
+    "point": "ございます",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_248",
+    "point": "でございます",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_249",
+    "point": "お〜する",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A-%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_250",
+    "point": "いたす",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%9F%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_251",
+    "point": "ていただけませんか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%91%E3%81%BE%E3%81%9B%E3%82%93%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_252",
+    "point": "たら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_253",
+    "point": "ほかに(も)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BB%E3%81%8B%E3%81%AB%E3%82%82-%E3%81%BB%E3%81%8B%E3%81%AB%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_254",
+    "point": "がひつよう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%B2%E3%81%A4%E3%82%88%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_255",
+    "point": "そんなに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%93%E3%81%AA%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_256",
+    "point": "ひつようがある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B2%E3%81%A4%E3%82%88%E3%81%86%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_257",
+    "point": "たとえば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A8%E3%81%88%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_258",
+    "point": "れる",
+    "link": "https://bunpro.jp/grammar_points/Verb%5Bpotential%5D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_259",
+    "point": "んだけど",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%93%E3%81%A0%E3%81%91%E3%81%A9-%E3%82%93%E3%81%A7%E3%81%99%E3%81%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_260",
+    "point": "はずだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E3%81%9A%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_261",
+    "point": "かどうか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%A9%E3%81%86%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_262",
+    "point": "と",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8-conditional",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_263",
+    "point": "ないと",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_264",
+    "point": "はずがない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E3%81%9A%E3%81%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_265",
+    "point": "しか～ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%97%E3%81%8B-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_266",
+    "point": "だけでなく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91%E3%81%A7%E3%81%AA%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_267",
+    "point": "ことができる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_268",
+    "point": "かい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_269",
+    "point": "もし",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%97",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_270",
+    "point": "し～し",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%97-%E3%81%97",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_271",
+    "point": "でできる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B-%E3%81%8B%E3%82%89%E3%81%A7%E3%81%8D%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_272",
+    "point": "ながら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8C%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_273",
+    "point": "たところだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_274",
+    "point": "ているところだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_275",
+    "point": "と～と、どちらが",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8-%E3%81%A8-%E3%81%A9%E3%81%A1%E3%82%89%E3%81%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_276",
+    "point": "ようにする",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_277",
+    "point": "なければいけない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%84%E3%81%91%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_278",
+    "point": "なければならない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_279",
+    "point": "つづける",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%81%A5%E3%81%91%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_280",
+    "point": "ようにいう",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%84%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_281",
+    "point": "よていだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%A6%E3%81%84%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_282",
+    "point": "ようにいのる",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%84%E3%81%AE%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_283",
+    "point": "たばかり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%B0%E3%81%8B%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_284",
+    "point": "化する",
+    "link": "https://bunpro.jp/grammar_points/%E5%8C%96%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_285",
+    "point": "命令形",
+    "link": "https://bunpro.jp/grammar_points/%E5%91%BD%E4%BB%A4%E5%BD%A2",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_286",
+    "point": "ように",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_287",
+    "point": "かしら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%97%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_288",
+    "point": "らしい ②",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%89%E3%81%97%E3%81%842",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_289",
+    "point": "にみえる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%BF%E3%81%88%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_290",
+    "point": "とみえる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%BF%E3%81%88%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_291",
+    "point": "風",
+    "link": "https://bunpro.jp/grammar_points/%E9%A2%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_292",
+    "point": "がみられる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%BF%E3%82%89%E3%82%8C%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_293",
+    "point": "にきがつく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%8D%E3%81%8C%E3%81%A4%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_294",
+    "point": "〜でも 〜でも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%82%82-%E3%81%A7%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_295",
+    "point": "それに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_296",
+    "point": "それで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_297",
+    "point": "Question-phr...",
+    "link": "https://bunpro.jp/grammar_points/question-phrase-%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_298",
+    "point": "それでも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C%E3%81%A7%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_299",
+    "point": "たらどう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%89%E3%81%A9%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_300",
+    "point": "とかんがえられている",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%8B%E3%82%93%E3%81%8C%E3%81%88%E3%82%89%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_301",
+    "point": "とされている",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_302",
+    "point": "といわれている",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%82%8F%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_303",
+    "point": "ばよかった",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0%E3%82%88%E3%81%8B%E3%81%A3%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_304",
+    "point": "ばいい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_305",
+    "point": "たらいい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%89%E3%81%84%E3%81%84-%E3%81%A8%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_306",
+    "point": "中",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%AD",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_307",
+    "point": "の間に",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E9%96%93%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_308",
+    "point": "うちに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%86%E3%81%A1%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_309",
+    "point": "ないうちに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%86%E3%81%A1%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_310",
+    "point": "べき",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B9%E3%81%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_311",
+    "point": "べきではない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B9%E3%81%8D%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_312",
+    "point": "って",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A3%E3%81%A6-slang",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_313",
+    "point": "なかなか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_314",
+    "point": "あまり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%BE%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_315",
+    "point": "なかなか～ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_316",
+    "point": "によると",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%82%88%E3%82%8B%E3%81%A8-%E3%81%AB%E3%82%88%E3%82%8C%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_317",
+    "point": "によって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6-%E3%81%AB%E3%82%88%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_318",
+    "point": "全く～ない",
+    "link": "https://bunpro.jp/grammar_points/%E5%85%A8%E3%81%8F-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_319",
+    "point": "ことだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_320",
+    "point": "そうだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%86%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_321",
+    "point": "すると",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%99%E3%82%8B%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_322",
+    "point": "そうすると",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%86%E3%81%99%E3%82%8B%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_323",
+    "point": "のはXの方だ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%AFx%E3%81%AE%E6%96%B9%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_324",
+    "point": "Noun＋型",
+    "link": "https://bunpro.jp/grammar_points/noun-%E5%9E%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_325",
+    "point": "てごらん",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%94%E3%82%89%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_326",
+    "point": "Particle + の",
+    "link": "https://bunpro.jp/grammar_points/particle-%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_327",
+    "point": "である",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_328",
+    "point": "ところが",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%93%E3%82%8D%E3%81%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_329",
+    "point": "ところで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_330",
+    "point": "ほど",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BB%E3%81%A9",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_331",
+    "point": "ば〜ほど",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0-%E3%81%BB%E3%81%A9",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_332",
+    "point": "ほど～ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BB%E3%81%A9%EF%BD%9E%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_333",
+    "point": "では",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%AF-%E3%81%9D%E3%82%8C%E3%81%A7%E3%81%AF-%E3%81%98%E3%82%83%E3%81%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_334",
+    "point": "のに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_335",
+    "point": "ため(に)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%81-%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_336",
+    "point": "ために",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%81%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_337",
+    "point": "という",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86-called",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_338",
+    "point": "ということだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_339",
+    "point": "というのは",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%81%AE%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_340",
+    "point": "的",
+    "link": "https://bunpro.jp/grammar_points/%E7%9A%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_341",
+    "point": "もの",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE-%E3%82%82%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_342",
+    "point": "ものだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_343",
+    "point": "最中に",
+    "link": "https://bunpro.jp/grammar_points/%E6%9C%80%E4%B8%AD%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_344",
+    "point": "上で",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%8A%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_345",
+    "point": "おかげで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A%E3%81%8B%E3%81%92%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_346",
+    "point": "にもとづいて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%82%82%E3%81%A8%E3%81%A5%E3%81%84%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_347",
+    "point": "点",
+    "link": "https://bunpro.jp/grammar_points/%E7%82%B9",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_348",
+    "point": "なぜなら〜から",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%9C%E3%81%AA%E3%82%89-%E3%81%8B%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_349",
+    "point": "こそ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%9D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_350",
+    "point": "からこそ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89%E3%81%93%E3%81%9D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_351",
+    "point": "ばかり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0%E3%81%8B%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_352",
+    "point": "ばかりだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_353",
+    "point": "ばかりに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_354",
+    "point": "ことがある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_355",
+    "point": "ことにする",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%AB%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_356",
+    "point": "ことなの",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%AA%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_357",
+    "point": "ことになる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AA%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_358",
+    "point": "～は～で有名",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF-%E3%81%A7%E6%9C%89%E5%90%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_359",
+    "point": "ことはない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_360",
+    "point": "～と言っても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E8%A8%80%E3%81%A3%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_361",
+    "point": "といえば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%88%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_362",
+    "point": "合う",
+    "link": "https://bunpro.jp/grammar_points/%E5%90%88%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_363",
+    "point": "に合わせて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%90%88%E3%82%8F%E3%81%9B%E3%81%A6-%E3%81%AB%E5%90%88%E3%81%A3%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_364",
+    "point": "について",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_365",
+    "point": "～(の)姿",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E5%A7%BF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_366",
+    "point": "と言える",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E8%A8%80%E3%81%88%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_367",
+    "point": "ちゃんと",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A1%E3%82%83%E3%82%93%E3%81%A8-%E3%81%8D%E3%81%A1%E3%82%93%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_368",
+    "point": "そのため(に)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%AE%E3%81%9F%E3%82%81-%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_369",
+    "point": "その結果",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%AE%E7%B5%90%E6%9E%9C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_370",
+    "point": "に比べて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E6%AF%94%E3%81%B9%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_371",
+    "point": "どんなに〜ても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%82%93%E3%81%AA%E3%81%AB-%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_372",
+    "point": "いくら〜でも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%8F%E3%82%89-%E3%81%A7%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_373",
+    "point": "〜かは〜によって違う",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%AF-%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E9%81%95%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_374",
+    "point": "かなり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%AA%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_375",
+    "point": "あまりに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%BE%E3%82%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_376",
+    "point": "わけだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8F%E3%81%91%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_377",
+    "point": "わけではない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8F%E3%81%91%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_378",
+    "point": "と同時に",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E5%90%8C%E6%99%82%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_379",
+    "point": "ところだった ①",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A0%E3%81%A3%E3%81%9F1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_380",
+    "point": "だって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_381",
+    "point": "んだって",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%93%E3%81%A0%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_382",
+    "point": "関係がある",
+    "link": "https://bunpro.jp/grammar_points/%E9%96%A2%E4%BF%82%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_383",
+    "point": "に関する",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_384",
+    "point": "に対して",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%AF%BE%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_385",
+    "point": "くらい ②",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8F%E3%82%89%E3%81%842",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_386",
+    "point": "は～くらいです",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF-%E3%81%8F%E3%82%89%E3%81%84%E3%81%A7%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_387",
+    "point": "さ - Interjec...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95-interjection",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_388",
+    "point": "さ - Filler",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95-filler",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_389",
+    "point": "さ - Casual よ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95-casual%E3%82%88",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_390",
+    "point": "それぞれ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C%E3%81%9E%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_391",
+    "point": "まま(に)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%BE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_392",
+    "point": "そこで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%93%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_393",
+    "point": "しかない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%97%E3%81%8B%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_394",
+    "point": "てもかまわない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%82%E3%81%8B%E3%81%BE%E3%82%8F%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_395",
+    "point": "～ても～なくても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%82-%E3%81%AA%E3%81%8F%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_396",
+    "point": "んじゃない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%93%E3%81%98%E3%82%83%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_397",
+    "point": "わけがない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8F%E3%81%91%E3%81%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_398",
+    "point": "としたら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%97%E3%81%9F%E3%82%89-%E3%81%A8%E3%81%99%E3%82%8C%E3%81%B0-%E3%81%A8%E3%81%99%E3%82%8B%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_399",
+    "point": "として",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_400",
+    "point": "にしては",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_401",
+    "point": "にしても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_402",
+    "point": "～というのは事実だ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%81%AE%E3%81%AF%E4%BA%8B%E5%AE%9F%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_403",
+    "point": "から言うと",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89%E8%A8%80%E3%81%86%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_404",
+    "point": "に取って",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%8F%96%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_405",
+    "point": "ことから",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%8B%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_406",
+    "point": "というより",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%82%88%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_407",
+    "point": "はもちろん",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E3%82%82%E3%81%A1%E3%82%8D%E3%82%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_408",
+    "point": "をはじめ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E3%81%AF%E3%81%98%E3%82%81",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_409",
+    "point": "て初めて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E5%88%9D%E3%82%81%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_410",
+    "point": "さえ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95%E3%81%88",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_411",
+    "point": "さえ〜ば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95%E3%81%88-%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_412",
+    "point": "たものだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%82%E3%81%AE%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_413",
+    "point": "さて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_414",
+    "point": "むしろ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%80%E3%81%97%E3%82%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_415",
+    "point": "つまり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%81%BE%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_416",
+    "point": "即ち",
+    "link": "https://bunpro.jp/grammar_points/%E5%8D%B3%E3%81%A1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_417",
+    "point": "却って",
+    "link": "https://bunpro.jp/grammar_points/%E5%8D%B4%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_418",
+    "point": "まるで…ようだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%82%8B%E3%81%A7-%E3%82%88%E3%81%86%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_419",
+    "point": "ような気がする",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AA%E6%B0%97%E3%81%8C%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_420",
+    "point": "とても～ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%A6%E3%82%82-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_421",
+    "point": "別に〜ない",
+    "link": "https://bunpro.jp/grammar_points/%E5%88%A5%E3%81%AB-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_422",
+    "point": "ばかりでなく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%A7%E3%81%AA%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_423",
+    "point": "ではなくて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%81%A6-%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_424",
+    "point": "だけでなく(て)～も",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91%E3%81%A7%E3%81%AA%E3%81%8F-%E3%81%A6-%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_425",
+    "point": "だけしか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91%E3%81%97%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_426",
+    "point": "は言うまでもない ①",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E8%A8%80%E3%81%86%E3%81%BE%E3%81%A7%E3%82%82%E3%81%AA%E3%81%841",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_427",
+    "point": "決して〜ない",
+    "link": "https://bunpro.jp/grammar_points/%E6%B1%BA%E3%81%97%E3%81%A6-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_428",
+    "point": "わけにはいかない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8F%E3%81%91%E3%81%AB%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_429",
+    "point": "〜ようとしない",
+    "link": "https://bunpro.jp/grammar_points/-%E3%82%88%E3%81%86%E3%81%A8%E3%81%97%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_430",
+    "point": "もしかしたら",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_431",
+    "point": "たとえ〜ても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A8%E3%81%88-%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_432",
+    "point": "ことに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_433",
+    "point": "ことか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_434",
+    "point": "～かというと ①",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%A8%E3%81%84%E3%81%86%E3%81%A81",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_435",
+    "point": "～かというと ②",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%A8%E3%81%84%E3%81%86%E3%81%A82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_436",
+    "point": "で言うと",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E8%A8%80%E3%81%86%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_437",
+    "point": "～ずつ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%A4",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_438",
+    "point": "ずっと ②",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%A3%E3%81%A82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_439",
+    "point": "だらけ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%82%89%E3%81%91",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_440",
+    "point": "もっとも",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%A3%E3%81%A8%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_441",
+    "point": "再び",
+    "link": "https://bunpro.jp/grammar_points/%E5%86%8D%E3%81%B3",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_442",
+    "point": "み",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_443",
+    "point": "と同じくらい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E5%90%8C%E3%81%98%E3%81%8F%E3%82%89%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_444",
+    "point": "と同じで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E5%90%8C%E3%81%98%E3%81%A7-%E3%81%A8%E9%81%95%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_445",
+    "point": "と並んで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E4%B8%A6%E3%82%93%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_446",
+    "point": "に違いない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E9%81%95%E3%81%84%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_447",
+    "point": "当たり",
+    "link": "https://bunpro.jp/grammar_points/%E5%BD%93%E3%81%9F%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_448",
+    "point": "に当たる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%BD%93%E3%81%9F%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_449",
+    "point": "に限る",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E9%99%90%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_450",
+    "point": "とは限らない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%AF%E9%99%90%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_451",
+    "point": "めったに〜ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%81%E3%81%A3%E3%81%9F%E3%81%AB-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_452",
+    "point": "割に",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8F%E3%82%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_453",
+    "point": "Verb[volitio...",
+    "link": "https://bunpro.jp/grammar_points/verb-volitional%E3%81%A8%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_454",
+    "point": "Verb[volitio...",
+    "link": "https://bunpro.jp/grammar_points/verb-volitional-%E3%81%A8%E3%81%97%E3%81%9F%E3%81%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_455",
+    "point": "言うまでもない ②",
+    "link": "https://bunpro.jp/grammar_points/%E8%A8%80%E3%81%86%E3%81%BE%E3%81%A7%E3%82%82%E3%81%AA%E3%81%842",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_456",
+    "point": "そうもない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%86%E3%82%82%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_457",
+    "point": "ないことはない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_458",
+    "point": "なんか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%93%E3%81%8B-%E3%81%AA%E3%82%93%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_459",
+    "point": "又〜も",
+    "link": "https://bunpro.jp/grammar_points/%E5%8F%88-%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_460",
+    "point": "ついでに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%81%84%E3%81%A7%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_461",
+    "point": "と共に",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E5%85%B1%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_462",
+    "point": "につれて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%A4%E3%82%8C%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_463",
+    "point": "直ちに",
+    "link": "https://bunpro.jp/grammar_points/%E7%9B%B4%E3%81%A1%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_464",
+    "point": "たとたんに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A8%E3%81%9F%E3%82%93%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_465",
+    "point": "おきに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A%E3%81%8D%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_466",
+    "point": "たびに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%B3%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_467",
+    "point": "あるいは",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%82%8B%E3%81%84%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_468",
+    "point": "ながらも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8C%E3%82%89%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_469",
+    "point": "において",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6-%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_470",
+    "point": "第一",
+    "link": "https://bunpro.jp/grammar_points/%E7%AC%AC%E4%B8%80",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_471",
+    "point": "ますます",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%99%E3%81%BE%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_472",
+    "point": "一方だ",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%80%E6%96%B9%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_473",
+    "point": "一方で",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%80%E6%96%B9%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_474",
+    "point": "遂に",
+    "link": "https://bunpro.jp/grammar_points/%E9%81%82%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_475",
+    "point": "すでに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%A7%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_476",
+    "point": "ずに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_477",
+    "point": "ずにはいられない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%AB%E3%81%AF%E3%81%84%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_478",
+    "point": "なし",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%97",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_479",
+    "point": "あり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_480",
+    "point": "考えられない",
+    "link": "https://bunpro.jp/grammar_points/%E8%80%83%E3%81%88%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_481",
+    "point": "必ずしも",
+    "link": "https://bunpro.jp/grammar_points/%E5%BF%85%E3%81%9A%E3%81%97%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_482",
+    "point": "連用形",
+    "link": "https://bunpro.jp/grammar_points/%E9%80%A3%E7%94%A8%E5%BD%A2",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_483",
+    "point": "向き",
+    "link": "https://bunpro.jp/grammar_points/%E5%90%91%E3%81%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_484",
+    "point": "向け",
+    "link": "https://bunpro.jp/grammar_points/%E5%90%91%E3%81%91",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_485",
+    "point": "上がる",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%8A%E3%81%8C%E3%82%8B-%E4%B8%8A%E3%81%92%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_486",
+    "point": "切る",
+    "link": "https://bunpro.jp/grammar_points/%E5%88%87%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_487",
+    "point": "切れない",
+    "link": "https://bunpro.jp/grammar_points/%E5%88%87%E3%82%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_488",
+    "point": "きり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8D%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_489",
+    "point": "かけ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%91",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_490",
+    "point": "にかけて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%8B%E3%81%91%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_491",
+    "point": "たて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_492",
+    "point": "込む ①",
+    "link": "https://bunpro.jp/grammar_points/%E8%BE%BC%E3%82%801",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_493",
+    "point": "込む ②",
+    "link": "https://bunpro.jp/grammar_points/%E8%BE%BC%E3%82%802",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_494",
+    "point": "ふりをする",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B5%E3%82%8A%E3%82%92%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_495",
+    "point": "できれば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%8D%E3%82%8C%E3%81%B0-%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_496",
+    "point": "でよければ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%82%88%E3%81%91%E3%82%8C%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_497",
+    "point": "次第",
+    "link": "https://bunpro.jp/grammar_points/%E6%AC%A1%E7%AC%AC",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_498",
+    "point": "とおり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%8A%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_499",
+    "point": "でもある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%82%82%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_500",
+    "point": "どうしても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_501",
+    "point": "もしも～なら",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%97%E3%82%82%EF%BD%9E%E3%81%AA%E3%82%89%E3%83%BB%E3%82%82%E3%81%97%E3%82%82%EF%BD%9E%E3%81%A7%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_502",
+    "point": "同士",
+    "link": "https://bunpro.jp/grammar_points/%E5%90%8C%E5%A3%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_503",
+    "point": "がたい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%9F%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_504",
+    "point": "まさか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%95%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_505",
+    "point": "前者は",
+    "link": "https://bunpro.jp/grammar_points/%E5%89%8D%E8%80%85%E3%81%AF-%E5%BE%8C%E8%80%85%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_506",
+    "point": "つい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_507",
+    "point": "せいで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9B%E3%81%84%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_508",
+    "point": "くせに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8F%E3%81%9B%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_509",
+    "point": "がち",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%A1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_510",
+    "point": "ぎみ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8E%E3%81%BF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_511",
+    "point": "っぽい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A3%E3%81%BD%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_512",
+    "point": "っぱなし",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_513",
+    "point": "わざわざ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8F%E3%81%96%E3%82%8F%E3%81%96",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_514",
+    "point": "一体",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%80%E4%BD%93",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_515",
+    "point": "折角",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9B%E3%81%A3%E3%81%8B%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_516",
+    "point": "っけ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A3%E3%81%91",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_517",
+    "point": "代わりに",
+    "link": "https://bunpro.jp/grammar_points/%E4%BB%A3%E3%82%8F%E3%82%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_518",
+    "point": "に代わって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E4%BB%A3%E3%82%8F%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_519",
+    "point": "どころか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%81%93%E3%82%8D%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_520",
+    "point": "という理由で",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E7%90%86%E7%94%B1%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_521",
+    "point": "～は～となっている",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF-%E3%81%A8%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_522",
+    "point": "左右する",
+    "link": "https://bunpro.jp/grammar_points/%E5%B7%A6%E5%8F%B3%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_523",
+    "point": "得る",
+    "link": "https://bunpro.jp/grammar_points/%E5%BE%97%E3%82%8B-%E5%BE%97%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_524",
+    "point": "〜得ない",
+    "link": "https://bunpro.jp/grammar_points/%E5%BE%97%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_525",
+    "point": "ざるを得ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%96%E3%82%8B%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_526",
+    "point": "～ざる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%96%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_527",
+    "point": "つもりで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%82%82%E3%82%8A%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_528",
+    "point": "どうせ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%81%86%E3%81%9B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_529",
+    "point": "せめて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9B%E3%82%81%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_530",
+    "point": "どうやら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%81%86%E3%82%84%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_531",
+    "point": "よりほかない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%82%8A%E3%81%BB%E3%81%8B%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_532",
+    "point": "確かに",
+    "link": "https://bunpro.jp/grammar_points/%E7%A2%BA%E3%81%8B%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_533",
+    "point": "一応 ①",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%80%E5%BF%9C1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_534",
+    "point": "一応 ②",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%80%E5%BF%9C2",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_535",
+    "point": "に相違ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E7%9B%B8%E9%81%95%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_536",
+    "point": "万が一",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%87%E3%81%8C%E4%B8%80",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_537",
+    "point": "ようがない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%8C%E3%81%AA%E3%81%84%E3%83%BB%E3%82%88%E3%81%86%E3%82%82%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_538",
+    "point": "にほかならない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%BB%E3%81%8B%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_539",
+    "point": "っこない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A3%E3%81%93%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_540",
+    "point": "それなら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C%E3%81%AA%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_541",
+    "point": "ものなら①",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%AA%E3%82%89%E2%91%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_542",
+    "point": "～を～に任せる",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92-%E3%81%AB%E4%BB%BB%E3%81%9B%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_543",
+    "point": "活かす",
+    "link": "https://bunpro.jp/grammar_points/%E6%B4%BB%E3%81%8B%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_544",
+    "point": "おおよそ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A%E3%81%8A%E3%82%88%E3%81%9D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_545",
+    "point": "まい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_546",
+    "point": "上",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_547",
+    "point": "上に",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_548",
+    "point": "以上 ②",
+    "link": "https://bunpro.jp/grammar_points/%E4%BB%A5%E4%B8%8A2",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_549",
+    "point": "以上に",
+    "link": "https://bunpro.jp/grammar_points/%E4%BB%A5%E4%B8%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_550",
+    "point": "途中に",
+    "link": "https://bunpro.jp/grammar_points/%E9%80%94%E4%B8%AD%E3%81%AB%E3%83%BB%E9%80%94%E4%B8%AD%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_551",
+    "point": "中を",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%AD%E3%82%92",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_552",
+    "point": "を中心に",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E4%B8%AD%E5%BF%83%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_553",
+    "point": "その上",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%AE%E4%B8%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_554",
+    "point": "上は",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%8A%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_555",
+    "point": "の下で",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E4%B8%8B%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_556",
+    "point": "後(の) Noun",
+    "link": "https://bunpro.jp/grammar_points/%E5%BE%8C-%E3%81%AEnoun",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_557",
+    "point": "手前",
+    "link": "https://bunpro.jp/grammar_points/%E6%89%8B%E5%89%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_558",
+    "point": "を巡って",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E5%B7%A1%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_559",
+    "point": "にわたって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%82%8F%E3%81%9F%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_560",
+    "point": "に沿って",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E6%B2%BF%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_561",
+    "point": "た末",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E6%9C%AB-%E3%81%AE%E6%9C%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_562",
+    "point": "にしたがって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_563",
+    "point": "に伴って",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E4%BC%B4%E3%81%A3%E3%81%A6-%E3%81%AB%E4%BC%B4%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_564",
+    "point": "につき",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%A4%E3%81%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_565",
+    "point": "につけ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%A4%E3%81%91",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_566",
+    "point": "にかかわる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%8B%E3%81%8B%E3%82%8F%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_567",
+    "point": "に向かって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%90%91%E3%81%8B%E3%81%A3%E3%81%A6-%E3%81%AB%E5%90%91%E3%81%91%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_568",
+    "point": "が気になる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E6%B0%97%E3%81%AB%E3%81%AA%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_569",
+    "point": "に気をつける",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E6%B0%97%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_570",
+    "point": "も構わず",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%8B%E3%81%BE%E3%82%8F%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_571",
+    "point": "かねる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%AD%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_572",
+    "point": "かねない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%AD%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_573",
+    "point": "を除いて",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E9%99%A4%E3%81%84%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_574",
+    "point": "にかかわらず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%8B%E3%81%8B%E3%82%8F%E3%82%89%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_575",
+    "point": "にもかかわらず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%82%82%E3%81%8B%E3%81%8B%E3%82%8F%E3%82%89%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_576",
+    "point": "に限って",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E9%99%90%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_577",
+    "point": "に限らず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E9%99%90%E3%82%89%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_578",
+    "point": "なお①",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8A1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_579",
+    "point": "なお②",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8A2",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_580",
+    "point": "限り",
+    "link": "https://bunpro.jp/grammar_points/%E9%99%90%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_581",
+    "point": "次第だ",
+    "link": "https://bunpro.jp/grammar_points/%E6%AC%A1%E7%AC%AC%E3%81%A0-%E6%AC%A1%E7%AC%AC%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_582",
+    "point": "～てこそ",
+    "link": "https://bunpro.jp/grammar_points/-%E3%81%A6%E3%81%93%E3%81%9D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_583",
+    "point": "を問わず",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E5%95%8F%E3%82%8F%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_584",
+    "point": "よりしかたがない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%82%8A%E3%81%97%E3%81%8B%E3%81%9F%E3%81%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_585",
+    "point": "に越したことはない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E8%B6%8A%E3%81%97%E3%81%9F%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_586",
+    "point": "要するに",
+    "link": "https://bunpro.jp/grammar_points/%E8%A6%81%E3%81%99%E3%82%8B%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_587",
+    "point": "てからでないと",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%8B%E3%82%89%E3%81%A7%E3%81%AA%E3%81%84%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_588",
+    "point": "なくはない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_589",
+    "point": "ないことには～ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AF-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_590",
+    "point": "ないではいられない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%A7%E3%81%AF%E3%81%84%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_591",
+    "point": "ねばならない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AD%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_592",
+    "point": "たまえ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%BE%E3%81%88",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_593",
+    "point": "～のうち(で)",
+    "link": "https://bunpro.jp/grammar_points/-%E3%81%AE%E3%81%86%E3%81%A1-%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_594",
+    "point": "つつ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%81%A4",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_595",
+    "point": "つつ(も)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%81%A4-%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_596",
+    "point": "に際して",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E9%9A%9B%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_597",
+    "point": "際に",
+    "link": "https://bunpro.jp/grammar_points/%E9%9A%9B%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_598",
+    "point": "にあたり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%82%E3%81%9F%E3%82%8A-%E3%81%AB%E3%81%82%E3%81%9F%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_599",
+    "point": "を契機に",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E5%A5%91%E6%A9%9F%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_600",
+    "point": "つつある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%81%A4%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_601",
+    "point": "～ところに",
+    "link": "https://bunpro.jp/grammar_points/%EF%BD%9E%E3%81%A8%E3%81%93%E3%82%8D%E3%81%AB%E3%83%BB%EF%BD%9E%E3%81%A8%E3%81%93%E3%82%8D%E3%81%B8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_602",
+    "point": "か〜ないかのうちに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B-%E3%81%AA%E3%81%84%E3%81%8B%E3%81%AE%E3%81%86%E3%81%A1%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_603",
+    "point": "がけに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%91%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_604",
+    "point": "ていては",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%81%A6%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_605",
+    "point": "ところだった ②",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A0%E3%81%A3%E3%81%9F2",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_606",
+    "point": "どころではない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%81%93%E3%82%8D%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_607",
+    "point": "ぶりに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B6%E3%82%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_608",
+    "point": "ては",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_609",
+    "point": "ては〜ては",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%AF-%E3%81%A6%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_610",
+    "point": "も又",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E5%8F%88",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_611",
+    "point": "結果",
+    "link": "https://bunpro.jp/grammar_points/%E7%B5%90%E6%9E%9C%E3%83%BB%E3%81%AE%E7%B5%90%E6%9E%9C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_612",
+    "point": "以来",
+    "link": "https://bunpro.jp/grammar_points/%E4%BB%A5%E6%9D%A5",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_613",
+    "point": "に先立ち",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%85%88%E7%AB%8B%E3%81%A1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_614",
+    "point": "はたして",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E3%81%9F%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_615",
+    "point": "甲斐がある",
+    "link": "https://bunpro.jp/grammar_points/%E7%94%B2%E6%96%90%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_616",
+    "point": "やがて",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%84%E3%81%8C%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_617",
+    "point": "したがって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_618",
+    "point": "あげく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%92%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_619",
+    "point": "きっかけ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8D%E3%81%A3%E3%81%8B%E3%81%91",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_620",
+    "point": "にかけては",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%8B%E3%81%91%E3%81%A6%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_621",
+    "point": "とっくに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%A3%E3%81%8F%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_622",
+    "point": "未だに",
+    "link": "https://bunpro.jp/grammar_points/%E6%9C%AA%E3%81%A0%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_623",
+    "point": "をもとに",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_624",
+    "point": "からには",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89%E3%81%AB%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_625",
+    "point": "いつの間にか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_626",
+    "point": "一旦",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%80%E6%97%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_627",
+    "point": "はもとより",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E3%82%82%E3%81%A8%E3%82%88%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_628",
+    "point": "そうにない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%86%E3%81%AB%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_629",
+    "point": "に反して",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%8F%8D%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_630",
+    "point": "逆に",
+    "link": "https://bunpro.jp/grammar_points/%E9%80%86%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_631",
+    "point": "反面",
+    "link": "https://bunpro.jp/grammar_points/%E5%8F%8D%E9%9D%A2",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_632",
+    "point": "抜く",
+    "link": "https://bunpro.jp/grammar_points/%E6%8A%9C%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_633",
+    "point": "抜きで",
+    "link": "https://bunpro.jp/grammar_points/%E6%8A%9C%E3%81%8D%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_634",
+    "point": "いよいよ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%82%88%E3%81%84%E3%82%88",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_635",
+    "point": "ずに済む",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%AB%E6%B8%88%E3%82%80",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_636",
+    "point": "に応じて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%BF%9C%E3%81%98%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_637",
+    "point": "を通じて",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E9%80%9A%E3%81%98%E3%81%A6-%E3%82%92%E9%80%9A%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_638",
+    "point": "に応えて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%BF%9C%E3%81%88%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_639",
+    "point": "それとも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C%E3%81%A8%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_640",
+    "point": "にしたら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%81%9F%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_641",
+    "point": "にしても～にしても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82-%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_642",
+    "point": "としては",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_643",
+    "point": "としても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%97%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_644",
+    "point": "それにしても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_645",
+    "point": "ぬ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AC",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_646",
+    "point": "ことなく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%AA%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_647",
+    "point": "にて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_648",
+    "point": "には",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_649",
+    "point": "思うように",
+    "link": "https://bunpro.jp/grammar_points/%E6%80%9D%E3%81%86%E3%82%88%E3%81%86%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_650",
+    "point": "かと思ったら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E3%82%89-%E3%81%8B%E3%81%A8%E6%80%9D%E3%81%86%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_651",
+    "point": "というものでもない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%82%82%E3%81%AE%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_652",
+    "point": "と考えられる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E8%80%83%E3%81%88%E3%82%89%E3%82%8C%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_653",
+    "point": "という点から考えると",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E7%82%B9%E3%81%8B%E3%82%89%E8%80%83%E3%81%88%E3%82%8B%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_654",
+    "point": "ということは",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_655",
+    "point": "ふうに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B5%E3%81%86%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_656",
+    "point": "という風に",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E9%A2%A8%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_657",
+    "point": "ものの",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_658",
+    "point": "というものだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%82%82%E3%81%AE%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_659",
+    "point": "から見ると",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89%E8%A6%8B%E3%82%8B%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_660",
+    "point": "ところを見ると",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%93%E3%82%8D%E3%82%92%E8%A6%8B%E3%82%8B%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_661",
+    "point": "からすると",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89%E3%81%99%E3%82%8B%E3%81%A8-%E3%81%8B%E3%82%89%E3%81%99%E3%82%8C%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_662",
+    "point": "からして",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_663",
+    "point": "からといって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89%E3%81%A8%E3%81%84%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_664",
+    "point": "そういえば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%86%E3%81%84%E3%81%88%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_665",
+    "point": "お～願う",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A-%E9%A1%98%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_666",
+    "point": "とか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_667",
+    "point": "〜ようではないか",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_668",
+    "point": "かのようだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%AE%E3%82%88%E3%81%86%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_669",
+    "point": "のではないだろうか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_670",
+    "point": "て当然だ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E5%BD%93%E7%84%B6%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_671",
+    "point": "のも当然だ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%82%82%E5%BD%93%E7%84%B6%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_672",
+    "point": "たった(の)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A3%E3%81%9F-%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_673",
+    "point": "恐れがある",
+    "link": "https://bunpro.jp/grammar_points/%E6%81%90%E3%82%8C%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_674",
+    "point": "おそらく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A%E3%81%9D%E3%82%89%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_675",
+    "point": "ものか",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_676",
+    "point": "おまけに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A%E3%81%BE%E3%81%91%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_677",
+    "point": "に決まっている",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E6%B1%BA%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_678",
+    "point": "ことになっている",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_679",
+    "point": "気",
+    "link": "https://bunpro.jp/grammar_points/%E6%B0%97",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_680",
+    "point": "げ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%92",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_681",
+    "point": "ことだから",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%A0%E3%81%8B%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_682",
+    "point": "ものだから",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%A0%E3%81%8B%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_683",
+    "point": "ものですから",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8B%E3%82%89-%E3%82%82%E3%81%AE%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_684",
+    "point": "ものがある",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_685",
+    "point": "傾向がある",
+    "link": "https://bunpro.jp/grammar_points/%E5%82%BE%E5%90%91%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_686",
+    "point": "てしょうがない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%97%E3%82%87%E3%81%86%E3%81%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_687",
+    "point": "だけましだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91%E3%81%BE%E3%81%97%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_688",
+    "point": "幸い",
+    "link": "https://bunpro.jp/grammar_points/%E5%B9%B8%E3%81%84-%E5%B9%B8%E3%81%84%E3%81%AA%E3%81%93%E3%81%A8%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_689",
+    "point": "ようでは",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%A7%E3%81%AF-%E3%82%88%E3%81%86%E3%81%98%E3%82%83",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_690",
+    "point": "さすが",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95%E3%81%99%E3%81%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_691",
+    "point": "ことは〜が",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%AF-%E3%81%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_692",
+    "point": "更に",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95%E3%82%89%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_693",
+    "point": "精々",
+    "link": "https://bunpro.jp/grammar_points/%E7%B2%BE%E3%80%85",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_694",
+    "point": "僅かに",
+    "link": "https://bunpro.jp/grammar_points/%E5%83%85%E3%81%8B%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_695",
+    "point": "および",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8A%E3%82%88%E3%81%B3",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_696",
+    "point": "たちまち",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A1%E3%81%BE%E3%81%A1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_697",
+    "point": "いきなり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%8D%E3%81%AA%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_698",
+    "point": "といった",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%A3%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_699",
+    "point": "を込めて",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_700",
+    "point": "に加えて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%8A%A0%E3%81%88%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_701",
+    "point": "何から何まで",
+    "link": "https://bunpro.jp/grammar_points/%E4%BD%95%E3%81%8B%E3%82%89%E4%BD%95%E3%81%BE%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_702",
+    "point": "は別として",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E5%88%A5%E3%81%A8%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_703",
+    "point": "だけに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_704",
+    "point": "だけは",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_705",
+    "point": "だけあって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91%E3%81%82%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_706",
+    "point": "何より",
+    "link": "https://bunpro.jp/grammar_points/%E4%BD%95%E3%82%88%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_707",
+    "point": "何といっても",
+    "link": "https://bunpro.jp/grammar_points/%E4%BD%95%E3%81%A8%E3%81%84%E3%81%A3%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_708",
+    "point": "か何か",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E4%BD%95%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_709",
+    "point": "てならない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_710",
+    "point": "のみならず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%BF%E3%81%AA%E3%82%89%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_711",
+    "point": "それなのに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C%E3%81%AA%E3%81%AE%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_712",
+    "point": "いわゆる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%82%8F%E3%82%86%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_713",
+    "point": "にすぎない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%99%E3%81%8E%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_714",
+    "point": "も～ば～も",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82-%E3%81%B0-%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_715",
+    "point": "でしかない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%97%E3%81%8B%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_716",
+    "point": "てたまらない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%9F%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_717",
+    "point": "にせよ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%9B%E3%82%88-%E3%81%AB%E3%81%97%E3%82%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_718",
+    "point": "何しろ",
+    "link": "https://bunpro.jp/grammar_points/%E4%BD%95%E3%81%97%E3%82%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_719",
+    "point": "にしろ～にしろ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%82%8D-%E3%81%AB%E3%81%97%E3%82%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_720",
+    "point": "はともかく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E3%81%A8%E3%82%82%E3%81%8B%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_721",
+    "point": "ならともかく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%89%E3%81%A8%E3%82%82%E3%81%8B%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_722",
+    "point": "やら～やら",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%84%E3%82%89-%E3%82%84%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_723",
+    "point": "しかしながら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%97%E3%81%8B%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_724",
+    "point": "ことにはならない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AF%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_725",
+    "point": "だけのことはある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%91%E3%81%AE%E3%81%93%E3%81%A8%E3%81%AF%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_726",
+    "point": "てはならない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%AF%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_727",
+    "point": "てはいられない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%AF%E3%81%84%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_728",
+    "point": "陸に～ない",
+    "link": "https://bunpro.jp/grammar_points/%E9%99%B8%E3%81%AB-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_729",
+    "point": "しかも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%97%E3%81%8B%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_730",
+    "point": "てでも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%A7%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_731",
+    "point": "とも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_732",
+    "point": "ないわけにはいかない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%82%8F%E3%81%91%E3%81%AB%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_733",
+    "point": "というわけではない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%82%8F%E3%81%91%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_734",
+    "point": "のももっともだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%82%82%E3%82%82%E3%81%A3%E3%81%A8%E3%82%82%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_735",
+    "point": "たって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_736",
+    "point": "に至るまで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E8%87%B3%E3%82%8B%E3%81%BE%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_737",
+    "point": "たところで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_738",
+    "point": "如く",
+    "link": "https://bunpro.jp/grammar_points/%E5%A6%82%E3%81%8F-%E5%A6%82%E3%81%8D-%E5%A6%82%E3%81%97",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_739",
+    "point": "に足る",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E8%B6%B3%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_740",
+    "point": "極まりない",
+    "link": "https://bunpro.jp/grammar_points/%E6%A5%B5%E3%81%BE%E3%82%8A%E3%81%AA%E3%81%84-%E6%A5%B5%E3%81%BE%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_741",
+    "point": "といえども",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%88%E3%81%A9%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_742",
+    "point": "を以て",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E4%BB%A5%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_743",
+    "point": "きらいがある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8D%E3%82%89%E3%81%84%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_744",
+    "point": "ならまだしも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%89%E3%81%BE%E3%81%A0%E3%81%97%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_745",
+    "point": "までもない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_746",
+    "point": "ともなると",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%82%82%E3%81%AA%E3%82%8B%E3%81%A8-%E3%81%AB%E3%82%82%E3%81%AA%E3%82%8B%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_747",
+    "point": "をいいことに",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E3%81%84%E3%81%84%E3%81%93%E3%81%A8%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_748",
+    "point": "如何",
+    "link": "https://bunpro.jp/grammar_points/%E5%A6%82%E4%BD%95",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_749",
+    "point": "～るまでだ",
+    "link": "https://bunpro.jp/grammar_points/%EF%BD%9E%E3%82%8B%E3%81%BE%E3%81%A7%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_750",
+    "point": "にあって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%82%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_751",
+    "point": "を余儀なくされる",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E4%BD%99%E5%84%80%E3%81%AA%E3%81%8F%E3%81%95%E3%82%8C%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_752",
+    "point": "とは",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_753",
+    "point": "じゃあるまいし",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%98%E3%82%83%E3%81%82%E3%82%8B%E3%81%BE%E3%81%84%E3%81%97",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_754",
+    "point": "てからというもの",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%8B%E3%82%89%E3%81%A8%E3%81%84%E3%81%86%E3%82%82%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_755",
+    "point": "かたわら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%9F%E3%82%8F%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_756",
+    "point": "を皮切りに",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E7%9A%AE%E5%88%87%E3%82%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_757",
+    "point": "に至っては",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E8%87%B3%E3%81%A3%E3%81%A6%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_758",
+    "point": "なり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_759",
+    "point": "ともなく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%82%82%E3%81%AA%E3%81%8F-%E3%81%A8%E3%82%82%E3%81%AA%E3%81%97%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_760",
+    "point": "塗れ",
+    "link": "https://bunpro.jp/grammar_points/%E5%A1%97%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_761",
+    "point": "ようが～まいが",
+    "link": "https://bunpro.jp/grammar_points/-%E3%82%88%E3%81%86--%E3%81%86-%E3%81%BE%E3%81%84%20-%20%E3%81%8C-%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_762",
+    "point": "からする",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_763",
+    "point": "にして①",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%81%A61",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_764",
+    "point": "ものを",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%82%92",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_765",
+    "point": "であれ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%82%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_766",
+    "point": "をおいてほかに〜ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E3%81%8A%E3%81%84%E3%81%A6%E3%81%BB%E3%81%8B%E3%81%AB-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_767",
+    "point": "をもって",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E3%82%82%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_768",
+    "point": "とはいえ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%AF%E3%81%84%E3%81%88",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_769",
+    "point": "ならでは",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%89%E3%81%A7%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_770",
+    "point": "すら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%99%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_771",
+    "point": "あっての",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%A3%E3%81%A6%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_772",
+    "point": "～たまでだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%BE%E3%81%A7%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_773",
+    "point": "を経て",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E7%B5%8C%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_774",
+    "point": "ながらに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8C%E3%82%89%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_775",
+    "point": "たなり",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%AA%E3%82%8A-%E3%81%AA%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_776",
+    "point": "の極み",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E6%A5%B5%E3%81%BF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_777",
+    "point": "にしてみれば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8C%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_778",
+    "point": "だの",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_779",
+    "point": "あくまでも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%81%8F%E3%81%BE%E3%81%A7%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_780",
+    "point": "べく",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B9%E3%81%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_781",
+    "point": "ところを",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%93%E3%82%8D%E3%82%92",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_782",
+    "point": "からある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%89%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_783",
+    "point": "にして②",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%81%A62",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_784",
+    "point": "つ〜つ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4-%E3%81%A4",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_785",
+    "point": "飽くまで(も)",
+    "link": "https://bunpro.jp/grammar_points/%E9%A3%BD%E3%81%8F%E3%81%BE%E3%81%A7-%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_786",
+    "point": "であれ〜であれ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%82%E3%82%8C-%E3%81%A7%E3%81%82%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_787",
+    "point": "たら最後",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%89%E6%9C%80%E5%BE%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_788",
+    "point": "いかなる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%8B%E3%81%AA%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_789",
+    "point": "なりに",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_790",
+    "point": "れる",
+    "link": "https://bunpro.jp/grammar_points/verb-passive-%E3%81%BE%E3%81%BE%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_791",
+    "point": "にまつわる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%BE%E3%81%A4%E3%82%8F%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_792",
+    "point": "たる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_793",
+    "point": "なら〜で",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%89-%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_794",
+    "point": "をものともせず",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E3%82%82%E3%81%AE%E3%81%A8%E3%82%82%E3%81%9B%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_795",
+    "point": "には当たらない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%AF%E5%BD%93%E3%81%9F%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_796",
+    "point": "ものと思う",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%A8%E6%80%9D%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_797",
+    "point": "を踏まえて",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E8%B8%8F%E3%81%BE%E3%81%88%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_798",
+    "point": "ゆえに",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%86%E3%81%88%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_799",
+    "point": "という",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_800",
+    "point": "にとどまらず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%A8%E3%81%A9%E3%81%BE%E3%82%89%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_801",
+    "point": "と思いきや",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E6%80%9D%E3%81%84%E3%81%8D%E3%82%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_802",
+    "point": "どうにも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%81%86%E3%81%AB%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_803",
+    "point": "ことだし",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%A0%E3%81%97",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_804",
+    "point": "か否か",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E5%90%A6%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_805",
+    "point": "たら〜で",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%82%89-%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_806",
+    "point": "べくして",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B9%E3%81%8F%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_807",
+    "point": "まま(に)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%BE%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_808",
+    "point": "かれ〜かれ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%8C-%E3%81%8B%E3%82%8C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_809",
+    "point": "〜に〜ない",
+    "link": "https://bunpro.jp/grammar_points/-%E3%81%AB-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_810",
+    "point": "なくして(は)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%97%E3%81%A6-%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_811",
+    "point": "のなんのって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%AA%E3%82%93%E3%81%AE%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_812",
+    "point": "にかかっている",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%8B%E3%81%8B%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_813",
+    "point": "てやまない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%84%E3%81%BE%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_814",
+    "point": "ぐらいなら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%90%E3%82%89%E3%81%84%E3%81%AA%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_815",
+    "point": "ってば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A3%E3%81%A6%E3%81%B0-%E3%81%A3%E3%81%9F%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_816",
+    "point": "ずとも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%A8%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_817",
+    "point": "とあって",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%82%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_818",
+    "point": "でもなんでもない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%82%82%E3%81%AA%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_819",
+    "point": "ぐるみで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%90%E3%82%8B%E3%81%BF%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_820",
+    "point": "そばから",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%81%B0%E3%81%8B%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_821",
+    "point": "に至って",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E8%87%B3%E3%81%A3%E3%81%A6-%E3%81%AB%E8%87%B3%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_822",
+    "point": "だに + しない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%81%AB-%E3%81%97%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_823",
+    "point": "がてら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%A6%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_824",
+    "point": "んがため(に)",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%93%E3%81%8C%E3%81%9F%E3%82%81-%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_825",
+    "point": "いかん〜ず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%8B%E3%82%93-%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_826",
+    "point": "にも～ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%82%82-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_827",
+    "point": "い-Adj[く] + も...",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84-adj-%E3%81%8F-%E3%82%82%E3%81%AA%E3%82%93%E3%81%A8%E3%82%82%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_828",
+    "point": "Verb + だに",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%A0%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_829",
+    "point": "～なり～なり",
+    "link": "https://bunpro.jp/grammar_points/-%E3%81%AA%E3%82%8A-%E3%81%AA%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_830",
+    "point": "ないでもない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_831",
+    "point": "もさることながら",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%95%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AA%E3%81%8C%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_832",
+    "point": "ものと思っていた",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_833",
+    "point": "でなくてなんだろう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%AA%E3%81%8F%E3%81%A6%E3%81%AA%E3%82%93%E3%81%A0%E3%82%8D%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_834",
+    "point": "はさておき",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E3%81%95%E3%81%A6%E3%81%8A%E3%81%8D-%E3%81%AF%E3%81%95%E3%81%A6%E3%81%8A%E3%81%84%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_835",
+    "point": "折には",
+    "link": "https://bunpro.jp/grammar_points/%E6%8A%98%E3%81%AB%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_836",
+    "point": "とばかり（に）",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%B0%E3%81%8B%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_837",
+    "point": "わ〜わ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8F-%E3%82%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_838",
+    "point": "に至っても",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E8%87%B3%E3%81%A3%E3%81%A6%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_839",
+    "point": "を兼ねて",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E5%85%BC%E3%81%AD%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_840",
+    "point": "Verb[ない]もの(だ...",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE-%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_841",
+    "point": "Verb[て] + みせる",
+    "link": "https://bunpro.jp/grammar_points/verb-%E3%81%A6-%E3%81%BF%E3%81%9B%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_842",
+    "point": "相まって",
+    "link": "https://bunpro.jp/grammar_points/%E7%9B%B8%E3%81%BE%E3%81%A3%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_843",
+    "point": "に足りない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E8%B6%B3%E3%82%8A%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_844",
+    "point": "べからず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B9%E3%81%8B%E3%82%89%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_845",
+    "point": "んばかりに",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%93%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_846",
+    "point": "に則って",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%89%87%E3%81%A3%E3%81%A6-%E3%81%AB%E5%89%87%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_847",
+    "point": "Adj限りだ",
+    "link": "https://bunpro.jp/grammar_points/adj%E9%99%90%E3%82%8A%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_848",
+    "point": "はおろか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AF%E3%81%8A%E3%82%8D%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_849",
+    "point": "めく",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%81%E3%81%8F-%E3%82%81%E3%81%84%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_850",
+    "point": "といわず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%82%8F%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_851",
+    "point": "にもほどがある",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%82%82%E3%81%BB%E3%81%A9%E3%81%8C%E3%81%82%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_852",
+    "point": "にもまして",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%82%82%E3%81%BE%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_853",
+    "point": "まくる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%8F%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_854",
+    "point": "わ〜わ（で）",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8F-%E3%82%8F%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_855",
+    "point": "や否や",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%84%E5%90%A6%E3%82%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_856",
+    "point": "次第です",
+    "link": "https://bunpro.jp/grammar_points/%E6%AC%A1%E7%AC%AC%E3%81%A7%E3%81%99",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_857",
+    "point": "というところ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%86%E3%81%A8%E3%81%93%E3%82%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_858",
+    "point": "１～たりとも～ない",
+    "link": "https://bunpro.jp/grammar_points/%EF%BC%91-%E3%82%8A%E3%81%A8%E3%82%82-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_859",
+    "point": "ったらない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AA%E3%81%84%E3%83%BB%E3%81%A8%E3%81%84%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_860",
+    "point": "に照らして",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E7%85%A7%E3%82%89%E3%81%97%E3%81%A6%E3%83%BB%E3%81%AB%E7%85%A7%E3%82%89%E3%81%99%E3%81%A8",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_861",
+    "point": "とあれば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%82%E3%82%8C%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_862",
+    "point": "さぞ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%95%E3%81%9E",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_863",
+    "point": "ときたら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%8D%E3%81%9F%E3%82%891",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_864",
+    "point": "びる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B3%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_865",
+    "point": "にしたところで",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%97%E3%81%9F%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A7",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_866",
+    "point": "～ばこそ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B0%E3%81%93%E3%81%9D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_867",
+    "point": "ても差し支えない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%82%E5%B7%AE%E3%81%97%E6%94%AF%E3%81%88%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_868",
+    "point": "には及ばない①",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%AF%E5%8F%8A%E3%81%B0%E3%81%AA%E3%81%841",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_869",
+    "point": "に即して",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%8D%B3%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_870",
+    "point": "ないまでも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%84%E3%81%BE%E3%81%A7%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_871",
+    "point": "をよそに",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E3%82%88%E3%81%9D%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_872",
+    "point": "に限ったことではない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E9%99%90%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_873",
+    "point": "とは比べものにならない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%AF%E6%AF%94%E3%81%B9%E3%82%82%E3%81%AE%E3%81%AB%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_874",
+    "point": "まじき",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%98%E3%81%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_875",
+    "point": "の至り",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AE%E8%87%B3%E3%82%8A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_876",
+    "point": "に恥じない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E6%81%A5%E3%81%98%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_877",
+    "point": "ずじまい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%98%E3%81%BE%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_878",
+    "point": "に言わせれば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E8%A8%80%E3%82%8F%E3%81%9B%E3%82%8C%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_879",
+    "point": "ったら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A3%E3%81%9F%E3%82%89-%E3%81%A8%E3%81%84%E3%81%A3%E3%81%9F%E3%82%89",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_880",
+    "point": "こととて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%A8%E3%81%A8%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_881",
+    "point": "ずくめ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%8F%E3%82%81",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_882",
+    "point": "には及ばない②",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%AF%E5%8F%8A%E3%81%B0%E3%81%AA%E3%81%84%E2%91%A1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_883",
+    "point": "とは言うものの",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%AF%E8%A8%80%E3%81%86%E3%82%82%E3%81%AE%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_884",
+    "point": "が早いか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E6%97%A9%E3%81%84%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_885",
+    "point": "に難くない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E9%9B%A3%E3%81%8F%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_886",
+    "point": "ならいざ知らず",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%82%89%E3%81%B0%E3%81%84%E3%81%96%E7%9F%A5%E3%82%89%E3%81%9A",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_887",
+    "point": "を禁じ得ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E7%A6%81%E3%81%98%E5%BE%97%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_888",
+    "point": "にかこつけて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%8B%E3%81%93%E3%81%A4%E3%81%91%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_889",
+    "point": "ようによっては",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E3%81%AF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_890",
+    "point": "べくもない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%B9%E3%81%8F%E3%82%82%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_891",
+    "point": "と来（き）たら",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%8D%E3%81%9F%E3%82%892",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_892",
+    "point": "ものとして",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%A8%E3%81%97%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_893",
+    "point": "を前提に",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E5%89%8D%E6%8F%90%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_894",
+    "point": "ずにはすまない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%AB%E3%81%AF%E3%81%99%E3%81%BE%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_895",
+    "point": "に堪えない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%A0%AA%E3%81%88%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_896",
+    "point": "始末だ",
+    "link": "https://bunpro.jp/grammar_points/%E5%A7%8B%E6%9C%AB%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_897",
+    "point": "ものなら②",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%AA%E3%82%89%E2%91%A1",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_898",
+    "point": "にひきかえ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%B2%E3%81%8D%E3%81%8B%E3%81%88",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_899",
+    "point": "それまでだ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9D%E3%82%8C%E3%81%BE%E3%81%A7%E3%81%A0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_900",
+    "point": "といおうか",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%84%E3%81%8A%E3%81%86%E3%81%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_901",
+    "point": "ずにはおかない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9A%E3%81%AB%E3%81%AF%E3%81%8A%E3%81%8B%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_902",
+    "point": "を限りに",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E9%99%90%E3%82%8A%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_903",
+    "point": "てはかなわない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%AF%E3%81%8B%E3%81%AA%E3%82%8F%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_904",
+    "point": "かたがた",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%81%9F%E3%81%8C%E3%81%9F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_905",
+    "point": "を余儀なくさせる",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E4%BD%99%E5%84%80%E3%81%AA%E3%81%8F%E3%81%95%E3%81%9B%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_906",
+    "point": "～てやる",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%84%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_907",
+    "point": "ただ〜のみ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%A0-%E3%81%AE%E3%81%BF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_908",
+    "point": "ものとする",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%82%E3%81%AE%E3%81%A8%E3%81%99%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_909",
+    "point": "との",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%81%AE",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_910",
+    "point": "以前",
+    "link": "https://bunpro.jp/grammar_points/%E4%BB%A5%E5%89%8D",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_911",
+    "point": "ともあろう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A8%E3%82%82%E3%81%82%E3%82%8D%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_912",
+    "point": "こそすれ〜ない",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%93%E3%81%9D%E3%81%99%E3%82%8C-%E3%81%AA%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_913",
+    "point": "並み",
+    "link": "https://bunpro.jp/grammar_points/%E4%B8%A6%E3%81%BF",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_914",
+    "point": "に先駆けて",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%AB%E5%85%88%E9%A7%86%E3%81%91%E3%81%A6",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_915",
+    "point": "を機に",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%92%E6%A9%9F%E3%81%AB",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_916",
+    "point": "ぞ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9E",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_917",
+    "point": "ぜ",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%9C",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_918",
+    "point": "わ",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%8F",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_919",
+    "point": "い",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_920",
+    "point": "ん (Slang)",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%93-slang",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_921",
+    "point": "つ (Slang)",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%A4-slang",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_922",
+    "point": "～やがる",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%84%E3%81%8C%E3%82%8B",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_923",
+    "point": "がいい",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8C%E3%81%84%E3%81%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_924",
+    "point": "かろう",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%8B%E3%82%8D%E3%81%86",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_925",
+    "point": "やや",
+    "link": "https://bunpro.jp/grammar_points/%E3%82%84%E3%82%84",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_926",
+    "point": "いずれも",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%84%E3%81%9A%E3%82%8C%E3%82%82",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  },
+  {
+    "id": "bunpro_927",
+    "point": "あわよくば",
+    "link": "https://bunpro.jp/grammar_points/%E3%81%82%E3%82%8F%E3%82%88%E3%81%8F%E3%81%B0",
+    "source": "Bunpro",
+    "shorthand": "bunpro"
+  }
+]
