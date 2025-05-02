@@ -118,6 +118,95 @@ async function updateDataVisualization() {
     updateStatsDisplay(stats);
     updateProgressBar(stats);
     updateRecentPoints(grammarPoints, data);
+
+    // Update heatmap
+    const heatmap = document.getElementById('heatmap');
+    heatmap.innerHTML = '';
+
+    // Create date map for the current year
+    const today = new Date();
+    const startOfYear = new Date(today.getFullYear(), 0, 1); // January 1st of current year
+    const dateMap = new Map();
+    
+    // Fill the date map for the entire year
+    let currentDate = new Date(startOfYear);
+    while (currentDate <= today) {
+        const dateStr = currentDate.toISOString().split('T')[0];
+        dateMap.set(dateStr, 0);
+        currentDate.setDate(currentDate.getDate() + 1);
+    }
+
+    // Count points per day
+    const readPoints = data
+        .filter(item => {
+            const isRead = grammarPoints[item.id]?.readStatus;
+            return isRead;
+        })
+        .map(item => ({
+            id: item.id,
+            date: new Date(grammarPoints[item.id].readDate)
+        }));
+
+    readPoints.forEach(point => {
+        const dateStr = point.date.toISOString().split('T')[0];
+        if (dateMap.has(dateStr)) {
+            dateMap.set(dateStr, dateMap.get(dateStr) + 1);
+        }
+    });
+
+    // Find max points in a day for scaling
+    const maxPoints = Math.max(...Array.from(dateMap.values()));
+
+    // Create a 2D array to store the heatmap data
+    const weeks = 53; // 52 weeks + 1 for partial week
+    const daysInWeek = 7;
+    const heatmapData = Array(daysInWeek).fill().map(() => Array(weeks).fill(null));
+
+    // Fill the 2D array with the data
+    currentDate = new Date(startOfYear);
+    while (currentDate <= today) {
+        const week = Math.floor((currentDate - startOfYear) / (7 * 24 * 60 * 60 * 1000));
+        const dayOfWeek = currentDate.getDay(); // 0 = Sunday, 6 = Saturday
+        const dateStr = currentDate.toISOString().split('T')[0];
+        
+        heatmapData[dayOfWeek][week] = {
+            date: dateStr,
+            count: dateMap.get(dateStr) || 0
+        };
+        
+        currentDate.setDate(currentDate.getDate() + 1);
+    }
+
+    // Create heatmap cells
+    for (let day = 0; day < daysInWeek; day++) {
+        const dayRow = document.createElement('div');
+        dayRow.className = 'heatmap-row';
+        dayRow.style.display = 'flex';
+        dayRow.style.flexDirection = 'row';
+        dayRow.style.gap = '3px';
+
+        for (let week = 0; week < weeks; week++) {
+            const cell = document.createElement('div');
+            cell.className = 'heatmap-day';
+            
+            const data = heatmapData[day][week];
+            if (data) {
+                // Calculate color intensity
+                let colorClass;
+                if (data.count === 0) colorClass = 'var(--heatmap-0)';
+                else if (data.count <= maxPoints * 0.25) colorClass = 'var(--heatmap-1)';
+                else if (data.count <= maxPoints * 0.5) colorClass = 'var(--heatmap-2)';
+                else if (data.count <= maxPoints * 0.75) colorClass = 'var(--heatmap-3)';
+                else colorClass = 'var(--heatmap-4)';
+                
+                cell.style.backgroundColor = colorClass;
+                cell.title = `${data.date}: ${data.count} points`;
+            }
+            
+            dayRow.appendChild(cell);
+        }
+        heatmap.appendChild(dayRow);
+    }
 }
 
 function updateDataHeader(source, totalPoints) {
@@ -215,7 +304,7 @@ function updateRecentPoints(grammarPoints, data) {
             date: new Date(data.readDate)
         }))
         .sort((a, b) => b.date - a.date)
-        .slice(0, 10);
+        .slice(0, 20);
 
     // Create elements for each recent point
     readPoints.forEach(point => {
@@ -225,7 +314,9 @@ function updateRecentPoints(grammarPoints, data) {
         const item = document.createElement('div');
         item.className = 'recent-point-item';
         item.innerHTML = `
+            <a href=${pointData.link}>
             <span class="point-name">${pointData.point}</span>
+            </a>
             <span class="read-date">${point.date.toLocaleDateString()}</span>
         `;
         recentPointsList.appendChild(item);
