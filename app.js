@@ -8,59 +8,59 @@ const {
 
 // Database Manager Class
 class DatabaseManager {
-    constructor() {
-        this.cache = new Map();
-        this.loadingPromises = new Map();
+  constructor() {
+    this.cache = new Map();
+    this.loadingPromises = new Map();
+  }
+
+  async loadDatabase(source) {
+    // Return cached data if available
+    if (this.cache.has(source)) {
+      return this.cache.get(source);
     }
 
-    async loadDatabase(source) {
-        // Return cached data if available
-        if (this.cache.has(source)) {
-            return this.cache.get(source);
+    // Return existing loading promise if the file is currently being loaded
+    if (this.loadingPromises.has(source)) {
+      return this.loadingPromises.get(source);
+    }
+
+    // Create new loading promise
+    const loadPromise = (async () => {
+      try {
+        const response = await fetch(`db/${source}.json`);
+        if (!response.ok) {
+          throw new Error(`Failed to load ${source}.json: ${response.status}`);
         }
+        const data = await response.json();
+        this.cache.set(source, data);
+        return data;
+      } catch (error) {
+        console.error(`Error loading ${source}.json:`, error);
+        return []; // Return empty array on error
+      } finally {
+        this.loadingPromises.delete(source);
+      }
+    })();
 
-        // Return existing loading promise if the file is currently being loaded
-        if (this.loadingPromises.has(source)) {
-            return this.loadingPromises.get(source);
-        }
+    this.loadingPromises.set(source, loadPromise);
+    return loadPromise;
+  }
 
-        // Create new loading promise
-        const loadPromise = (async () => {
-            try {
-                const response = await fetch(`db/${source}.json`);
-                if (!response.ok) {
-                    throw new Error(`Failed to load ${source}.json: ${response.status}`);
-                }
-                const data = await response.json();
-                this.cache.set(source, data);
-                return data;
-            } catch (error) {
-                console.error(`Error loading ${source}.json:`, error);
-                return []; // Return empty array on error
-            } finally {
-                this.loadingPromises.delete(source);
-            }
-        })();
-
-        this.loadingPromises.set(source, loadPromise);
-        return loadPromise;
+  async loadSelectedDatabases(selectedSources) {
+    try {
+      const loadPromises = selectedSources.map(source => this.loadDatabase(source));
+      const results = await Promise.all(loadPromises);
+      return results.flat(); // Merge all results into a single array
+    } catch (error) {
+      console.error('Error loading selected databases:', error);
+      return [];
     }
+  }
 
-    async loadSelectedDatabases(selectedSources) {
-        try {
-            const loadPromises = selectedSources.map(source => this.loadDatabase(source));
-            const results = await Promise.all(loadPromises);
-            return results.flat(); // Merge all results into a single array
-        } catch (error) {
-            console.error('Error loading selected databases:', error);
-            return [];
-        }
-    }
-
-    clearCache() {
-        this.cache.clear();
-        this.loadingPromises.clear();
-    }
+  clearCache() {
+    this.cache.clear();
+    this.loadingPromises.clear();
+  }
 }
 
 // Create a single instance of DatabaseManager
@@ -70,285 +70,287 @@ const databaseManager = new DatabaseManager();
 let currentMode = 'search';
 
 function toggleMode() {
-    const searchMode = document.getElementById('search-mode');
-    const dataMode = document.getElementById('data-mode');
-    const modeToggle = document.getElementById('mode-toggle');
-    const searchInput = document.getElementById('search');
+  const searchMode = document.getElementById('search-mode');
+  const dataMode = document.getElementById('data-mode');
+  const modeToggle = document.getElementById('mode-toggle');
+  const searchInput = document.getElementById('search');
 
-    if (currentMode === 'search') {
-        // Switch to data mode
-        searchMode.style.display = 'none';
-        dataMode.style.display = 'block';
-        modeToggle.innerHTML = '<i class="fa-solid fa-search"></i>';
-        currentMode = 'data';
-        updateDataVisualization();
-    } else {
-        // Switch to search mode
-        searchMode.style.display = 'block';
-        dataMode.style.display = 'none';
-        modeToggle.innerHTML = '<i class="fa-solid fa-chart-line"></i>';
-        currentMode = 'search';
-    }
+  if (currentMode === 'search') {
+    // Switch to data mode
+    searchMode.style.display = 'none';
+    dataMode.style.display = 'block';
+    modeToggle.innerHTML = '<i class="fa-solid fa-search"></i>';
+    currentMode = 'data';
+    updateDataVisualization();
+  } else {
+    // Switch to search mode
+    searchMode.style.display = 'block';
+    dataMode.style.display = 'none';
+    modeToggle.innerHTML = '<i class="fa-solid fa-chart-line"></i>';
+    currentMode = 'search';
+  }
 }
 
 // Data Visualization Functions
 async function updateDataVisualization() {
-    const selectedSource = document.getElementById('source-select').value;
-    const grammarPoints = await userSettingsManager.getSetting('grammarPoints');
-    
-    // Load only the selected database file
-    const data = selectedSource === 'all' 
-        ? await databaseManager.loadSelectedDatabases([
-            'donna-toki',
-            'dojg',
-            'hojgp',
-            'nihongo-kyoshi',
-            'bunpro',
-            'imabi',
-            'taekim',
-            'maggie'
-        ])
-        : await databaseManager.loadDatabase(selectedSource);
-    
-    // Update header
-    updateDataHeader(selectedSource, data.length);
+  const selectedSource = document.getElementById('source-select').value;
+  const grammarPoints = await userSettingsManager.getSetting('grammarPoints');
 
-    // Calculate statistics
-    const stats = calculateStats(grammarPoints, data);
-    updateStatsDisplay(stats);
-    updateProgressBar(stats);
-    updateRecentPoints(grammarPoints, data);
+  // Load only the selected database file
+  const data = selectedSource === 'all'
+    ? await databaseManager.loadSelectedDatabases([
+      'aap',
+      'bunpro',
+      'donna-toki',
+      'dojg',
+      'hojgp1',
+      'hojgp2',
+      'nihongo-kyoshi',
+      'imabi',
+      'taekim',
+      'maggie'
+    ])
+    : await databaseManager.loadDatabase(selectedSource);
 
-    // Update heatmap
-    const heatmap = document.getElementById('heatmap');
-    heatmap.innerHTML = '';
+  // Update header
+  updateDataHeader(selectedSource, data.length);
 
-    // Create date map for the current year
-    const today = getTodayWithCutoff();
-    const startOfYear = new Date(today.getFullYear(), 0, 1); // January 1st of current year
-    const endOfYear = new Date(today.getFullYear(), 11, 31); // December 31st of current year
-    const dateMap = new Map();
-    
-    // Fill the date map for the entire year
-    let currentDate = new Date(startOfYear);
-    while (currentDate <= endOfYear) {
-        const dateStr = currentDate.toISOString().split('T')[0];
-        dateMap.set(dateStr, 0);
-        currentDate.setDate(currentDate.getDate() + 1);
+  // Calculate statistics
+  const stats = calculateStats(grammarPoints, data);
+  updateStatsDisplay(stats);
+  updateProgressBar(stats);
+  updateRecentPoints(grammarPoints, data);
+
+  // Update heatmap
+  const heatmap = document.getElementById('heatmap');
+  heatmap.innerHTML = '';
+
+  // Create date map for the current year
+  const today = getTodayWithCutoff();
+  const startOfYear = new Date(today.getFullYear(), 0, 1); // January 1st of current year
+  const endOfYear = new Date(today.getFullYear(), 11, 31); // December 31st of current year
+  const dateMap = new Map();
+
+  // Fill the date map for the entire year
+  let currentDate = new Date(startOfYear);
+  while (currentDate <= endOfYear) {
+    const dateStr = currentDate.toISOString().split('T')[0];
+    dateMap.set(dateStr, 0);
+    currentDate.setDate(currentDate.getDate() + 1);
+  }
+
+  // Count points per day
+  const readPoints = data
+    .filter(item => {
+      const isRead = grammarPoints[item.id]?.readStatus;
+      return isRead;
+    })
+    .map(item => ({
+      id: item.id,
+      date: new Date(grammarPoints[item.id].readDate)
+    }));
+
+  readPoints.forEach(point => {
+    const dateStr = point.date.toISOString().split('T')[0];
+    if (dateMap.has(dateStr)) {
+      dateMap.set(dateStr, dateMap.get(dateStr) + 1);
     }
+  });
 
-    // Count points per day
-    const readPoints = data
-        .filter(item => {
-            const isRead = grammarPoints[item.id]?.readStatus;
-            return isRead;
-        })
-        .map(item => ({
-            id: item.id,
-            date: new Date(grammarPoints[item.id].readDate)
-        }));
+  // Find max points in a day for scaling
+  const maxPoints = Math.max(...Array.from(dateMap.values()));
 
-    readPoints.forEach(point => {
-        const dateStr = point.date.toISOString().split('T')[0];
-        if (dateMap.has(dateStr)) {
-            dateMap.set(dateStr, dateMap.get(dateStr) + 1);
+  // Calculate the number of weeks needed
+  const firstDayOfYear = startOfYear.getDay(); // 0 = Sunday, 6 = Saturday
+  const daysInYear = 365 + (startOfYear.getFullYear() % 4 === 0 ? 1 : 0); // Account for leap year
+  const totalWeeks = Math.ceil((firstDayOfYear + daysInYear) / 7);
+
+  // Create a 2D array to store the heatmap data
+  const daysInWeek = 7;
+  const heatmapData = Array(daysInWeek).fill().map(() => Array(totalWeeks).fill(null));
+
+  // Fill the 2D array with the data
+  currentDate = new Date(startOfYear);
+  while (currentDate <= endOfYear) {
+    const week = Math.floor((firstDayOfYear + (currentDate - startOfYear) / (24 * 60 * 60 * 1000)) / 7);
+    const dayOfWeek = currentDate.getDay();
+    const dateStr = currentDate.toISOString().split('T')[0];
+
+    heatmapData[dayOfWeek][week] = {
+      date: dateStr,
+      count: dateMap.get(dateStr) || 0
+    };
+
+    currentDate.setDate(currentDate.getDate() + 1);
+  }
+
+  // Create heatmap cells
+  for (let day = 0; day < daysInWeek; day++) {
+    const dayRow = document.createElement('div');
+    dayRow.className = 'heatmap-row';
+    dayRow.style.display = 'flex';
+    dayRow.style.flexDirection = 'row';
+    dayRow.style.gap = '3px';
+
+    for (let week = 0; week < totalWeeks; week++) {
+      const cell = document.createElement('div');
+      cell.className = 'heatmap-day';
+
+      const data = heatmapData[day][week];
+      if (data) {
+        // Calculate color intensity
+        let colorClass;
+        if (data.count === 0) colorClass = 'var(--heatmap-0)';
+        else if (data.count <= maxPoints * 0.25) colorClass = 'var(--heatmap-1)';
+        else if (data.count <= maxPoints * 0.5) colorClass = 'var(--heatmap-2)';
+        else if (data.count <= maxPoints * 0.75) colorClass = 'var(--heatmap-3)';
+        else colorClass = 'var(--heatmap-4)';
+
+        cell.style.backgroundColor = colorClass;
+        cell.title = `${data.date}: ${data.count} points`;
+
+        // Add border for current day
+        if (data.date === formatDateAsYYYYMMDD(getTodayWithCutoff())) {
+          cell.style.boxSizing = 'border-box';
+          cell.style.border = '2px solid var(--main)';
         }
-    });
-
-    // Find max points in a day for scaling
-    const maxPoints = Math.max(...Array.from(dateMap.values()));
-
-    // Calculate the number of weeks needed
-    const firstDayOfYear = startOfYear.getDay(); // 0 = Sunday, 6 = Saturday
-    const daysInYear = 365 + (startOfYear.getFullYear() % 4 === 0 ? 1 : 0); // Account for leap year
-    const totalWeeks = Math.ceil((firstDayOfYear + daysInYear) / 7);
-
-    // Create a 2D array to store the heatmap data
-    const daysInWeek = 7;
-    const heatmapData = Array(daysInWeek).fill().map(() => Array(totalWeeks).fill(null));
-
-    // Fill the 2D array with the data
-    currentDate = new Date(startOfYear);
-    while (currentDate <= endOfYear) {
-        const week = Math.floor((firstDayOfYear + (currentDate - startOfYear) / (24 * 60 * 60 * 1000)) / 7);
-        const dayOfWeek = currentDate.getDay();
-        const dateStr = currentDate.toISOString().split('T')[0];
-        
-        heatmapData[dayOfWeek][week] = {
-            date: dateStr,
-            count: dateMap.get(dateStr) || 0
-        };
-        
-        currentDate.setDate(currentDate.getDate() + 1);
-    }
-
-    // Create heatmap cells
-    for (let day = 0; day < daysInWeek; day++) {
-        const dayRow = document.createElement('div');
-        dayRow.className = 'heatmap-row';
-        dayRow.style.display = 'flex';
-        dayRow.style.flexDirection = 'row';
-        dayRow.style.gap = '3px';
-
-        for (let week = 0; week < totalWeeks; week++) {
-            const cell = document.createElement('div');
-            cell.className = 'heatmap-day';
-            
-            const data = heatmapData[day][week];
-            if (data) {
-                // Calculate color intensity
-                let colorClass;
-                if (data.count === 0) colorClass = 'var(--heatmap-0)';
-                else if (data.count <= maxPoints * 0.25) colorClass = 'var(--heatmap-1)';
-                else if (data.count <= maxPoints * 0.5) colorClass = 'var(--heatmap-2)';
-                else if (data.count <= maxPoints * 0.75) colorClass = 'var(--heatmap-3)';
-                else colorClass = 'var(--heatmap-4)';
-                
-                cell.style.backgroundColor = colorClass;
-                cell.title = `${data.date}: ${data.count} points`;
-
-                // Add border for current day
-                if (data.date === formatDateAsYYYYMMDD(getTodayWithCutoff())) {
-                    cell.style.boxSizing = 'border-box';
-                    cell.style.border = '2px solid var(--main)';
-                }
-            } else {
-                // Check if this cell is before January 1st
-                const cellDate = new Date(startOfYear);
-                cellDate.setDate(cellDate.getDate() - (firstDayOfYear - (week * 7 + day)));
-                if (cellDate < startOfYear) {
-                    cell.style.backgroundColor = 'var(--bg)';
-                } else {
-                    // Only show cells up to December 31st
-                    const futureDate = new Date(startOfYear);
-                    futureDate.setDate(futureDate.getDate() + (week * 7 + day - firstDayOfYear));
-                    if (futureDate <= endOfYear) {
-                        cell.style.backgroundColor = 'var(--heatmap-0)';
-                        cell.title = `${futureDate.toISOString().split('T')[0]}: 0 points`;
-                    } else {
-                        cell.style.display = 'none';
-                    }
-                }
-            }
-            
-            dayRow.appendChild(cell);
+      } else {
+        // Check if this cell is before January 1st
+        const cellDate = new Date(startOfYear);
+        cellDate.setDate(cellDate.getDate() - (firstDayOfYear - (week * 7 + day)));
+        if (cellDate < startOfYear) {
+          cell.style.backgroundColor = 'var(--bg)';
+        } else {
+          // Only show cells up to December 31st
+          const futureDate = new Date(startOfYear);
+          futureDate.setDate(futureDate.getDate() + (week * 7 + day - firstDayOfYear));
+          if (futureDate <= endOfYear) {
+            cell.style.backgroundColor = 'var(--heatmap-0)';
+            cell.title = `${futureDate.toISOString().split('T')[0]}: 0 points`;
+          } else {
+            cell.style.display = 'none';
+          }
         }
-        heatmap.appendChild(dayRow);
+      }
+
+      dayRow.appendChild(cell);
     }
+    heatmap.appendChild(dayRow);
+  }
 }
 
 function updateDataHeader(source, totalPoints) {
-    const header = document.getElementById('data-header');
-    const sourceName = source === 'all' ? 'All Sources' : source.split('-').map(word => 
-        word.charAt(0).toUpperCase() + word.slice(1)
-    ).join(' ');
-    
-    header.innerHTML = `
+  const header = document.getElementById('data-header');
+  const sourceName = source === 'all' ? 'All Sources' : source.split('-').map(word =>
+    word.charAt(0).toUpperCase() + word.slice(1)
+  ).join(' ');
+
+  header.innerHTML = `
         <h2>${sourceName}</h2>
         <p>Total Grammar Points: ${totalPoints}</p>
     `;
 }
 
 function calculateStats(grammarPoints, data) {
-    const now = new Date();
-    const today = getTodayWithCutoff();
-    const weekStart = new Date(today);
-    weekStart.setDate(today.getDate() - today.getDay());
-    const monthStart = new Date(today.getFullYear(), today.getMonth(), 1);
+  const now = new Date();
+  const today = getTodayWithCutoff();
+  const weekStart = new Date(today);
+  weekStart.setDate(today.getDate() - today.getDay());
+  const monthStart = new Date(today.getFullYear(), today.getMonth(), 1);
 
-    const stats = {
-        today: 0,
-        week: 0,
-        month: 0,
-        last7: 0,
-        last14: 0,
-        last30: 0,
-        total: 0,
-        read: 0
-    };
+  const stats = {
+    today: 0,
+    week: 0,
+    month: 0,
+    last7: 0,
+    last14: 0,
+    last30: 0,
+    total: 0,
+    read: 0
+  };
 
-    // console.log('Data in calculateStats:', data);
-    // console.log('Grammar points in calculateStats:', grammarPoints);
+  // console.log('Data in calculateStats:', data);
+  // console.log('Grammar points in calculateStats:', grammarPoints);
 
-    // Get read points with dates, but only for the filtered data
-    const readPoints = data
-        .filter(item => {
-            const isRead = grammarPoints[item.id]?.readStatus;
-            // console.log(`Item ${item.id} read status:`, isRead);
-            return isRead;
-        })
-        .map(item => ({
-            id: item.id,
-            date: new Date(grammarPoints[item.id].readDate)
-        }));
+  // Get read points with dates, but only for the filtered data
+  const readPoints = data
+    .filter(item => {
+      const isRead = grammarPoints[item.id]?.readStatus;
+      // console.log(`Item ${item.id} read status:`, isRead);
+      return isRead;
+    })
+    .map(item => ({
+      id: item.id,
+      date: new Date(grammarPoints[item.id].readDate)
+    }));
 
-    // console.log('Read points:', readPoints);
+  // console.log('Read points:', readPoints);
 
-    // Calculate time-based stats
-    readPoints.forEach(point => {
-        const readDate = new Date(point.date);
-        if (readDate >= today) stats.today++;
-        if (readDate >= weekStart) stats.week++;
-        if (readDate >= monthStart) stats.month++;
-        if (readDate >= new Date(now - 7 * 24 * 60 * 60 * 1000)) stats.last7++;
-        if (readDate >= new Date(now - 14 * 24 * 60 * 60 * 1000)) stats.last14++;
-        if (readDate >= new Date(now - 30 * 24 * 60 * 60 * 1000)) stats.last30++;
-    });
+  // Calculate time-based stats
+  readPoints.forEach(point => {
+    const readDate = new Date(point.date);
+    if (readDate >= today) stats.today++;
+    if (readDate >= weekStart) stats.week++;
+    if (readDate >= monthStart) stats.month++;
+    if (readDate >= new Date(now - 7 * 24 * 60 * 60 * 1000)) stats.last7++;
+    if (readDate >= new Date(now - 14 * 24 * 60 * 60 * 1000)) stats.last14++;
+    if (readDate >= new Date(now - 30 * 24 * 60 * 60 * 1000)) stats.last30++;
+  });
 
-    // Calculate total and read counts
-    stats.total = data.length;
-    stats.read = readPoints.length;
+  // Calculate total and read counts
+  stats.total = data.length;
+  stats.read = readPoints.length;
 
-    return stats;
+  return stats;
 }
 
 function updateStatsDisplay(stats) {
-    document.getElementById('today-count').textContent = stats.today;
-    document.getElementById('week-count').textContent = stats.week;
-    document.getElementById('month-count').textContent = stats.month;
-    document.getElementById('last7-count').textContent = stats.last7;
-    document.getElementById('last14-count').textContent = stats.last14;
-    document.getElementById('last30-count').textContent = stats.last30;
+  document.getElementById('today-count').textContent = stats.today;
+  document.getElementById('week-count').textContent = stats.week;
+  document.getElementById('month-count').textContent = stats.month;
+  document.getElementById('last7-count').textContent = stats.last7;
+  document.getElementById('last14-count').textContent = stats.last14;
+  document.getElementById('last30-count').textContent = stats.last30;
 }
 
 function updateProgressBar(stats) {
-    const progressFill = document.getElementById('progress-fill');
-    const progressText = document.getElementById('progress-text');
-    const percentage = stats.total > 0 ? (stats.read / stats.total) * 100 : 0;
-    
-    progressFill.style.width = `${percentage}%`;
-    progressText.textContent = `${stats.read}/${stats.total} points read`;
+  const progressFill = document.getElementById('progress-fill');
+  const progressText = document.getElementById('progress-text');
+  const percentage = stats.total > 0 ? (stats.read / stats.total) * 100 : 0;
+
+  progressFill.style.width = `${percentage}%`;
+  progressText.textContent = `${stats.read}/${stats.total} points read`;
 }
 
 function updateRecentPoints(grammarPoints, data) {
-    const recentPointsList = document.getElementById('recent-points-list');
-    recentPointsList.innerHTML = '';
+  const recentPointsList = document.getElementById('recent-points-list');
+  recentPointsList.innerHTML = '';
 
-    // Get read points with dates and sort by date
-    const readPoints = Object.entries(grammarPoints)
-        .filter(([_, data]) => data.readStatus)
-        .map(([id, data]) => ({
-            id,
-            date: new Date(data.readDate)
-        }))
-        .sort((a, b) => b.date - a.date)
-        .slice(0, 20);
+  // Get read points with dates and sort by date
+  const readPoints = Object.entries(grammarPoints)
+    .filter(([_, data]) => data.readStatus)
+    .map(([id, data]) => ({
+      id,
+      date: new Date(data.readDate)
+    }))
+    .sort((a, b) => b.date - a.date)
+    .slice(0, 20);
 
-    // Create elements for each recent point
-    readPoints.forEach(point => {
-        const pointData = data.find(d => d.id === point.id);
-        if (!pointData) return;
+  // Create elements for each recent point
+  readPoints.forEach(point => {
+    const pointData = data.find(d => d.id === point.id);
+    if (!pointData) return;
 
-        const item = document.createElement('div');
-        item.className = 'recent-point-item';
-        item.innerHTML = `
+    const item = document.createElement('div');
+    item.className = 'recent-point-item';
+    item.innerHTML = `
             <a href=${pointData.link}>
             <span class="point-name">${pointData.point}</span>
             </a>
             <span class="read-date">${point.date.toLocaleDateString()}</span>
         `;
-        recentPointsList.appendChild(item);
-    });
+    recentPointsList.appendChild(item);
+  });
 }
 
 const userSettingsManager = {
@@ -390,27 +392,27 @@ const userSettingsManager = {
     const userId = this._getUserId();
 
     if (storage === 'firebase') {
-       try {
-         // Ensure getUserData provides defaults for missing fields
-         const userData = await getUserData(userId);
-         return {
-             filters: userData.filters ?? {},
-             locked: userData.locked ?? {},
-             grammarPoints: userData.grammarPoints ?? {},
-             unreadOnly: userData.unreadOnly ?? false,
-         };
-       } catch (error) {
-         console.error('Error getting all settings from Firebase:', error);
-         return { filters: {}, locked: {}, grammarPoints: {}, unreadOnly: false }; // Defaults on error
-       }
-    } else {
-        // Fetch individual items from localStorage
+      try {
+        // Ensure getUserData provides defaults for missing fields
+        const userData = await getUserData(userId);
         return {
-            filters: JSON.parse(localStorage.getItem('filters') || '{}'), // Read the single filters object
-            locked: JSON.parse(localStorage.getItem('locked') || '{}'),
-            grammarPoints: JSON.parse(localStorage.getItem('grammarPoints') || '{}'),
-            unreadOnly: localStorage.getItem('unreadOnly') === 'true',
+          filters: userData.filters ?? {},
+          locked: userData.locked ?? {},
+          grammarPoints: userData.grammarPoints ?? {},
+          unreadOnly: userData.unreadOnly ?? false,
         };
+      } catch (error) {
+        console.error('Error getting all settings from Firebase:', error);
+        return { filters: {}, locked: {}, grammarPoints: {}, unreadOnly: false }; // Defaults on error
+      }
+    } else {
+      // Fetch individual items from localStorage
+      return {
+        filters: JSON.parse(localStorage.getItem('filters') || '{}'), // Read the single filters object
+        locked: JSON.parse(localStorage.getItem('locked') || '{}'),
+        grammarPoints: JSON.parse(localStorage.getItem('grammarPoints') || '{}'),
+        unreadOnly: localStorage.getItem('unreadOnly') === 'true',
+      };
     }
   },
 
@@ -433,27 +435,27 @@ const userSettingsManager = {
 
   // Update a specific filter checkbox state
   async setFilterState(filterId, isChecked) {
-     const storage = this._getStorage();
-     const userId = this._getUserId();
+    const storage = this._getStorage();
+    const userId = this._getUserId();
 
-     try {
-         if (storage === 'firebase') {
-            // Fetch existing filters, update, and set
-            const userData = await getUserData(userId);
-            const newFilters = { ...(userData.filters ?? {}), [filterId]: isChecked };
-            await updateUserData(userId, { filters: newFilters });
-         } else {
-            // Read existing filters object from localStorage
-            const currentFilters = JSON.parse(localStorage.getItem('filters') || '{}');
-            // Update the specific filter
-            currentFilters[filterId] = isChecked;
-            // Save the updated object back to localStorage
-            localStorage.setItem('filters', JSON.stringify(currentFilters));
-         }
-     } catch (error) {
-        console.error(`Error setting filter state '${filterId}':`, error);
-        alert(`Failed to save filter: ${filterId}. Please try again.`);
-     }
+    try {
+      if (storage === 'firebase') {
+        // Fetch existing filters, update, and set
+        const userData = await getUserData(userId);
+        const newFilters = { ...(userData.filters ?? {}), [filterId]: isChecked };
+        await updateUserData(userId, { filters: newFilters });
+      } else {
+        // Read existing filters object from localStorage
+        const currentFilters = JSON.parse(localStorage.getItem('filters') || '{}');
+        // Update the specific filter
+        currentFilters[filterId] = isChecked;
+        // Save the updated object back to localStorage
+        localStorage.setItem('filters', JSON.stringify(currentFilters));
+      }
+    } catch (error) {
+      console.error(`Error setting filter state '${filterId}':`, error);
+      alert(`Failed to save filter: ${filterId}. Please try again.`);
+    }
   },
 
 
@@ -494,28 +496,28 @@ const userSettingsManager = {
     }
   },
 
-   // Update the locked state for a specific filter
-   async setLockedState(lockId, isLocked) {
+  // Update the locked state for a specific filter
+  async setLockedState(lockId, isLocked) {
     const storage = this._getStorage();
     const userId = this._getUserId();
 
     try {
-        let currentLocked = {};
-        if (storage === 'firebase') {
-            const userData = await getUserData(userId);
-            currentLocked = userData.locked ?? {};
-            currentLocked[lockId] = isLocked;
-            await updateUserData(userId, { locked: currentLocked });
-        } else {
-            currentLocked = JSON.parse(localStorage.getItem('locked') || '{}');
-            currentLocked[lockId] = isLocked;
-            localStorage.setItem('locked', JSON.stringify(currentLocked));
-        }
+      let currentLocked = {};
+      if (storage === 'firebase') {
+        const userData = await getUserData(userId);
+        currentLocked = userData.locked ?? {};
+        currentLocked[lockId] = isLocked;
+        await updateUserData(userId, { locked: currentLocked });
+      } else {
+        currentLocked = JSON.parse(localStorage.getItem('locked') || '{}');
+        currentLocked[lockId] = isLocked;
+        localStorage.setItem('locked', JSON.stringify(currentLocked));
+      }
     } catch (error) {
-        console.error(`Error setting locked state for '${lockId}':`, error);
-        alert(`Failed to save lock state for ${lockId}. Please try again.`);
+      console.error(`Error setting locked state for '${lockId}':`, error);
+      alert(`Failed to save lock state for ${lockId}. Please try again.`);
     }
-   }
+  }
 };
 
 // TOGGLE DATABASES FUNCTION
@@ -592,91 +594,91 @@ async function toggleUnreadOnly() {
 
 // Helper function to fetch data (could be cached)
 async function fetchData() {
-    const selectedDatabases = checkSelectedDatabases();
-    return await databaseManager.loadSelectedDatabases(selectedDatabases);
+  const selectedDatabases = checkSelectedDatabases();
+  return await databaseManager.loadSelectedDatabases(selectedDatabases);
 }
 
 // Helper function to apply all filters
 function filterData(data, term, exactMatch, selectedDatabases, grammarPoints, showUnreadOnly) {
-    return data.filter(d => {
-        // Filter 1: Source Database
-        // if (!selectedDatabases.includes(d.source)) {
-        //     return false;
-        // }
+  return data.filter(d => {
+    // Filter 1: Source Database
+    // if (!selectedDatabases.includes(d.source)) {
+    //     return false;
+    // }
 
-        // Filter 2: Search Term
-        const pointLower = d.point.toLowerCase();
-        const termLower = term.toLowerCase(); // Ensure term is lowercased here
-        const termMatch = exactMatch ? d.point === term : pointLower.includes(termLower);
-        if (!termMatch) {
-            return false;
-        }
+    // Filter 2: Search Term
+    const pointLower = d.point.toLowerCase();
+    const termLower = term.toLowerCase(); // Ensure term is lowercased here
+    const termMatch = exactMatch ? d.point === term : pointLower.includes(termLower);
+    if (!termMatch) {
+      return false;
+    }
 
-        // Filter 3: Read Status (only if showUnreadOnly is true)
-        if (showUnreadOnly && grammarPoints[d.id]?.readStatus) {
-             // If we only want unread, and this item IS read, filter it out
-            return false; 
-        }
+    // Filter 3: Read Status (only if showUnreadOnly is true)
+    if (showUnreadOnly && grammarPoints[d.id]?.readStatus) {
+      // If we only want unread, and this item IS read, filter it out
+      return false;
+    }
 
-        // If all filters passed
-        return true;
-    });
+    // If all filters passed
+    return true;
+  });
 }
 
 // Helper function to create a single result element
 function createResultElement(d, grammarPoints) {
-    const container = document.createElement("div");
-    container.className = `result-container`;
+  const container = document.createElement("div");
+  container.className = `result-container`;
 
-    const link = document.createElement("a");
-    link.className = `result-link  ${d.shorthand}`;
-    link.href = d.link;
-    link.target = "_blank";
+  const link = document.createElement("a");
+  link.className = `result-link  ${d.shorthand}`;
+  link.href = d.link;
+  link.target = "_blank";
 
-    const titleDiv = document.createElement("div");
-    titleDiv.className = "result-title";
-    titleDiv.textContent = d.point;
-    link.appendChild(titleDiv);
+  const titleDiv = document.createElement("div");
+  titleDiv.className = "result-title";
+  titleDiv.textContent = d.point;
+  link.appendChild(titleDiv);
 
-    const detailsDiv = document.createElement("div");
-    detailsDiv.className = "result-details";
+  const detailsDiv = document.createElement("div");
+  detailsDiv.className = "result-details";
 
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.checked = (grammarPoints[d.id] || {}).readStatus || false; // Provide a default object
-    checkbox.dataset.id = d.id; // Add dataset id for easier selection if needed later
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.checked = (grammarPoints[d.id] || {}).readStatus || false; // Provide a default object
+  checkbox.dataset.id = d.id; // Add dataset id for easier selection if needed later
 
-    checkbox.onchange = async () => { // Make onchange handler async
-      await userSettingsManager.setReadStatus(d.id, checkbox.checked);
+  checkbox.onchange = async () => { // Make onchange handler async
+    await userSettingsManager.setReadStatus(d.id, checkbox.checked);
 
-      // Fade-out logic (keep this part if desired)
-      const isUnreadOnly = document.getElementById('unread-only-btn').getAttribute('aria-pressed') === 'true';
-      // Check the NEW state of the checkbox
-      if (isUnreadOnly && checkbox.checked) {
-        const parentDiv = checkbox.closest('.result-container');
-        if (parentDiv) {
-          parentDiv.classList.add('fade-out', 'hidden');
-          setTimeout(() => {
-            parentDiv.remove();
-          }, 500);
-        }
+    // Fade-out logic (keep this part if desired)
+    const isUnreadOnly = document.getElementById('unread-only-btn').getAttribute('aria-pressed') === 'true';
+    // Check the NEW state of the checkbox
+    if (isUnreadOnly && checkbox.checked) {
+      const parentDiv = checkbox.closest('.result-container');
+      if (parentDiv) {
+        parentDiv.classList.add('fade-out', 'hidden');
+        setTimeout(() => {
+          parentDiv.remove();
+        }, 500);
       }
-    };
+    }
+  };
 
-    detailsDiv.appendChild(checkbox);
-    link.appendChild(detailsDiv);
-    container.appendChild(link);
-    return container;
+  detailsDiv.appendChild(checkbox);
+  link.appendChild(detailsDiv);
+  container.appendChild(link);
+  return container;
 }
 
 // Helper function to render results to the list
 function renderResults(listElement, filteredResults, grammarPoints) {
-    listElement.innerHTML = ""; // Clear previous results
-    const fragment = document.createDocumentFragment(); // Use fragment for efficiency
-    filteredResults.forEach(d => {
-        fragment.appendChild(createResultElement(d, grammarPoints));
-    });
-    listElement.appendChild(fragment);
+  listElement.innerHTML = ""; // Clear previous results
+  const fragment = document.createDocumentFragment(); // Use fragment for efficiency
+  filteredResults.forEach(d => {
+    fragment.appendChild(createResultElement(d, grammarPoints));
+  });
+  listElement.appendChild(fragment);
 }
 
 // SEARCH FUNCTIONALITY
@@ -687,18 +689,18 @@ async function search() {
   let term = rawTerm; // Keep original case for exact match
   let exactMatch = false;
   if ((rawTerm.startsWith('"') || rawTerm.endsWith('"') && (rawTerm.startsWith('"') || rawTerm.endsWith('"')))) {
-      term = rawTerm.substring(1, rawTerm.length - 1);
-      exactMatch = true;
+    term = rawTerm.substring(1, rawTerm.length - 1);
+    exactMatch = true;
   } else {
-      term = rawTerm.toLowerCase(); // Lowercase only for non-exact match
+    term = rawTerm.toLowerCase(); // Lowercase only for non-exact match
   }
 
   // 1. Get Data and Settings (parallel fetching)
   const [dados, grammarPoints, settings] = await Promise.all([
-      fetchData(),
-      userSettingsManager.getSetting('grammarPoints'),
-      userSettingsManager.getSetting('unreadOnly') // Also fetch unreadOnly setting
-      // We could fetch all settings at once if more are needed here
+    fetchData(),
+    userSettingsManager.getSetting('grammarPoints'),
+    userSettingsManager.getSetting('unreadOnly') // Also fetch unreadOnly setting
+    // We could fetch all settings at once if more are needed here
   ]);
 
   // 2. Get Filter Criteria from UI
@@ -755,7 +757,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       // restore filters from localStorage
       const checkboxes = document.querySelectorAll('.database-filters input[type="checkbox"]');
       checkboxes.forEach(checkbox => {
-          checkbox.checked = settings.filters?.[checkbox.id] ?? true; // Default to true if not found?
+        checkbox.checked = settings.filters?.[checkbox.id] ?? true; // Default to true if not found?
       });
 
       // restore locks from localStorage
@@ -777,10 +779,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('sign-in-button').addEventListener('click', signInWithGoogle);
   document.getElementById('sign-out-button').addEventListener('click', signOutUser);
   document.getElementById('mode-toggle').addEventListener('click', toggleMode);
-  
+
   // Source select dropdown
   document.getElementById('source-select').addEventListener('change', updateDataVisualization);
-  
+
   // databases checkboxes
   document.querySelectorAll('.database-filters input').forEach(checkbox => {
     checkbox.addEventListener('change', async () => {
@@ -805,7 +807,7 @@ function handleResponsiveChanges() {
   const signInButton = document.getElementById('sign-in-button');
   const signOutButton = document.getElementById('sign-out-button');
   const filtersElement = document.getElementById('database-filters');
-  
+
   if (window.innerWidth <= 768) {
 
     // filters
@@ -833,7 +835,7 @@ function getCorrectedDate(date) {
   // Get the local date and time
   const localDate = new Date(date);
   const localHour = localDate.getHours();
-  
+
   // Correct the date if the local hour is before the cutoff hour
   let correctedDate = new Date(localDate);
   if (localHour < cutoffHour) {
@@ -854,10 +856,10 @@ function getTodayWithCutoff() {
   // Get current date in local timezone
   const now = new Date();
   const cutoffHour = 6;
-  
+
   // Get local hour
   const localHour = now.getHours();
-  
+
   // If current hour is before cutoff, consider it as previous day
   if (localHour < cutoffHour) {
     const yesterday = new Date(now);
