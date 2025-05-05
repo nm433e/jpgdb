@@ -124,13 +124,14 @@ async function updateDataVisualization() {
     heatmap.innerHTML = '';
 
     // Create date map for the current year
-    const today = new Date();
+    const today = getTodayWithCutoff();
     const startOfYear = new Date(today.getFullYear(), 0, 1); // January 1st of current year
+    const endOfYear = new Date(today.getFullYear(), 11, 31); // December 31st of current year
     const dateMap = new Map();
     
     // Fill the date map for the entire year
     let currentDate = new Date(startOfYear);
-    while (currentDate <= today) {
+    while (currentDate <= endOfYear) {
         const dateStr = currentDate.toISOString().split('T')[0];
         dateMap.set(dateStr, 0);
         currentDate.setDate(currentDate.getDate() + 1);
@@ -157,16 +158,20 @@ async function updateDataVisualization() {
     // Find max points in a day for scaling
     const maxPoints = Math.max(...Array.from(dateMap.values()));
 
+    // Calculate the number of weeks needed
+    const firstDayOfYear = startOfYear.getDay(); // 0 = Sunday, 6 = Saturday
+    const daysInYear = 365 + (startOfYear.getFullYear() % 4 === 0 ? 1 : 0); // Account for leap year
+    const totalWeeks = Math.ceil((firstDayOfYear + daysInYear) / 7);
+
     // Create a 2D array to store the heatmap data
-    const weeks = 53; // 52 weeks + 1 for partial week
     const daysInWeek = 7;
-    const heatmapData = Array(daysInWeek).fill().map(() => Array(weeks).fill(null));
+    const heatmapData = Array(daysInWeek).fill().map(() => Array(totalWeeks).fill(null));
 
     // Fill the 2D array with the data
     currentDate = new Date(startOfYear);
-    while (currentDate <= today) {
-        const week = Math.floor((currentDate - startOfYear) / (7 * 24 * 60 * 60 * 1000));
-        const dayOfWeek = currentDate.getDay(); // 0 = Sunday, 6 = Saturday
+    while (currentDate <= endOfYear) {
+        const week = Math.floor((firstDayOfYear + (currentDate - startOfYear) / (24 * 60 * 60 * 1000)) / 7);
+        const dayOfWeek = currentDate.getDay();
         const dateStr = currentDate.toISOString().split('T')[0];
         
         heatmapData[dayOfWeek][week] = {
@@ -185,7 +190,7 @@ async function updateDataVisualization() {
         dayRow.style.flexDirection = 'row';
         dayRow.style.gap = '3px';
 
-        for (let week = 0; week < weeks; week++) {
+        for (let week = 0; week < totalWeeks; week++) {
             const cell = document.createElement('div');
             cell.className = 'heatmap-day';
             
@@ -201,6 +206,29 @@ async function updateDataVisualization() {
                 
                 cell.style.backgroundColor = colorClass;
                 cell.title = `${data.date}: ${data.count} points`;
+
+                // Add border for current day
+                if (data.date === formatDateAsYYYYMMDD(getTodayWithCutoff())) {
+                    cell.style.boxSizing = 'border-box';
+                    cell.style.border = '2px solid var(--main)';
+                }
+            } else {
+                // Check if this cell is before January 1st
+                const cellDate = new Date(startOfYear);
+                cellDate.setDate(cellDate.getDate() - (firstDayOfYear - (week * 7 + day)));
+                if (cellDate < startOfYear) {
+                    cell.style.backgroundColor = 'var(--bg)';
+                } else {
+                    // Only show cells up to December 31st
+                    const futureDate = new Date(startOfYear);
+                    futureDate.setDate(futureDate.getDate() + (week * 7 + day - firstDayOfYear));
+                    if (futureDate <= endOfYear) {
+                        cell.style.backgroundColor = 'var(--heatmap-0)';
+                        cell.title = `${futureDate.toISOString().split('T')[0]}: 0 points`;
+                    } else {
+                        cell.style.display = 'none';
+                    }
+                }
             }
             
             dayRow.appendChild(cell);
@@ -223,7 +251,7 @@ function updateDataHeader(source, totalPoints) {
 
 function calculateStats(grammarPoints, data) {
     const now = new Date();
-    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const today = getTodayWithCutoff();
     const weekStart = new Date(today);
     weekStart.setDate(today.getDate() - today.getDay());
     const monthStart = new Date(today.getFullYear(), today.getMonth(), 1);
@@ -800,34 +828,51 @@ window.addEventListener('resize', handleResponsiveChanges);
 window.addEventListener('DOMContentLoaded', handleResponsiveChanges);
 
 function getCorrectedDate(date) {
-  const correctionHour = 5;
+  const cutoffHour = 6;
 
-  // Create a new date object with the local time
-  const localDate = new Date(date.getTime() - 60 * 1000);
-  // console.log("localDate:", localDate);
-
-  // Get the local hour
+  // Get the local date and time
+  const localDate = new Date(date);
   const localHour = localDate.getHours();
-  // console.log("localHour:", localHour);
-
-  // Correct the date if the local hour is before the correction hour
+  
+  // Correct the date if the local hour is before the cutoff hour
   let correctedDate = new Date(localDate);
-  if (localHour < correctionHour) {
+  if (localHour < cutoffHour) {
     correctedDate.setDate(localDate.getDate() - 1);
-    // console.log("Date corrected:", correctedDate);
-  } else {
-    // console.log("Date not corrected");
   }
-  // console.log("correctedDate before formatting:", correctedDate);
 
   // Format the corrected date as a string (YYYY-MM-DD)
   const year = correctedDate.getFullYear();
   const month = String(correctedDate.getMonth() + 1).padStart(2, '0');
   const day = String(correctedDate.getDate()).padStart(2, '0');
   const formattedDate = `${year}-${month}-${day}`;
-  // console.log("formattedDate:", formattedDate);
 
   return formattedDate;
+}
+
+// Helper function to get today's date considering 6 AM cutoff
+function getTodayWithCutoff() {
+  // Get current date in local timezone
+  const now = new Date();
+  const cutoffHour = 6;
+  
+  // Get local hour
+  const localHour = now.getHours();
+  
+  // If current hour is before cutoff, consider it as previous day
+  if (localHour < cutoffHour) {
+    const yesterday = new Date(now);
+    yesterday.setDate(yesterday.getDate() - 1);
+    return yesterday;
+  }
+  return now;
+}
+
+// Helper function to format date as YYYY-MM-DD
+function formatDateAsYYYYMMDD(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 }
 
 // SETTINGS BUTTON
