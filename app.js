@@ -688,11 +688,16 @@ async function search() {
 
   let term = rawTerm; // Keep original case for exact match
   let exactMatch = false;
-  if ((rawTerm.startsWith('"') || rawTerm.endsWith('"') && (rawTerm.startsWith('"') || rawTerm.endsWith('"')))) {
+  if ((rawTerm.startsWith('"') && rawTerm.endsWith('"'))) { // Corrected condition
     term = rawTerm.substring(1, rawTerm.length - 1);
     exactMatch = true;
   } else {
-    term = rawTerm.toLowerCase(); // Lowercase only for non-exact match
+    // Convert to Hiragana if wanakana is available and not an exact match
+    if (window.wanakana) {
+      term = wanakana.toHiragana(rawTerm.toLowerCase());
+    } else {
+      term = rawTerm.toLowerCase(); // Lowercase only for non-exact match
+    }
   }
 
   // 1. Get Data and Settings (parallel fetching)
@@ -782,6 +787,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Source select dropdown
   document.getElementById('source-select').addEventListener('change', updateDataVisualization);
+
+  // Wanakana input listener for search bar
+  const searchInput = document.getElementById("search");
+  if (window.wanakana && searchInput) {
+    searchInput.addEventListener("input", function(e) {
+      const currentVal = searchInput.value;
+      // Only convert if not an exact match attempt
+      if (!(currentVal.startsWith('"') && currentVal.endsWith('"'))) {
+        const cursorPos = searchInput.selectionStart;
+        // Simplify conversion: directly to Hiragana
+        const hiragana = wanakana.toHiragana(currentVal);
+        searchInput.value = hiragana;
+        searchInput.setSelectionRange(cursorPos, cursorPos);
+      }
+    });
+  }
 
   // databases checkboxes
   document.querySelectorAll('.database-filters input').forEach(checkbox => {
