@@ -600,16 +600,31 @@ async function fetchData() {
 
 // Helper function to apply all filters
 function filterData(data, term, exactMatch, selectedDatabases, grammarPoints, showUnreadOnly) {
+  // For non-exact matches, 'term' is already Hiragana due to wanakana.bind() in the input field.
+  // For exact matches, 'term' is the raw string from within the quotes.
+
   return data.filter(d => {
-    // Filter 1: Source Database
+    // Filter 1: Source Database (This was commented out, ensure it's correct for your logic)
     // if (!selectedDatabases.includes(d.source)) {
     //     return false;
     // }
 
     // Filter 2: Search Term
-    const pointLower = d.point.toLowerCase();
-    const termLower = term.toLowerCase(); // Ensure term is lowercased here
-    const termMatch = exactMatch ? d.point === term : pointLower.includes(termLower);
+    let termMatch = false;
+    if (exactMatch) {
+      // Direct comparison for exact matches (term can be Romaji, Kana, Kanji, etc.)
+      termMatch = d.point === term;
+    } else {
+      // Non-exact match: convert d.point to Hiragana and compare with the Hiragana search term.
+      const pointLower = d.point.toLowerCase();
+      // Use wanakana if available, otherwise use the lowercased point directly.
+      const hiraganaPoint = window.wanakana ? wanakana.toHiragana(pointLower) : pointLower;
+      // term is already Hiragana from the input field, and wanakana usually makes it lowercase.
+      const hiraganaSearchTerm = term; 
+
+      termMatch = hiraganaPoint.includes(hiraganaSearchTerm);
+    }
+
     if (!termMatch) {
       return false;
     }
@@ -698,9 +713,6 @@ async function search() {
     // We just need to ensure it's lowercase for consistency if wanakana wasn't active for some reason.
     // No, wanakana.bind() handles the conversion directly in the input field. The value from getElementById("search").value will already be Hiragana.
     // We should ensure the search term is what's in the input field, which should be Hiragana.
-    term = rawTerm; // The rawTerm from the input is already Hiragana due to wanakana.bind
-    // If wanakana is not active, then we might need to lowercase, but bind() should handle it.
-    // Let's assume wanakana.bind() did its job. If not, it's a different issue.
   }
 
   // 1. Get Data and Settings (parallel fetching)
@@ -791,12 +803,16 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Source select dropdown
   document.getElementById('source-select').addEventListener('change', updateDataVisualization);
 
-  // Wanakana input listener for search bar
+  // Wanakana input listener for search bar AND search triggering
   const searchInput = document.getElementById("search");
   if (window.wanakana && searchInput) {
-    // Remove previous event listener and use wanakana.bind for proper IME behavior
-    // searchInput.addEventListener("input", function(e) { ... }); // This block will be removed by context
-    wanakana.bind(searchInput);
+    wanakana.bind(searchInput); // Let Wanakana handle the input conversion (IME mode)
+    
+    // After Wanakana converts the input, the 'input' event will fire with the new (Hiragana) value.
+    // We then call our search function.
+    // A short debounce can prevent too many rapid searches if Wanakana fires events mid-conversion for complex inputs,
+    // but for typical usage, direct listening is often fine. Let's start direct.
+    searchInput.addEventListener('input', search); 
   }
 
   // databases checkboxes
