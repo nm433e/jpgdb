@@ -22,14 +22,14 @@
   },
   {
     "id": "nk_4",
-    "point": "方",
+    "point": "方 (かた)",
     "link": "https://nihongokyoshi-net.com/2018/04/12/jlptn5-grammar-kata/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_5",
-    "point": "が欲しい",
+    "point": "が欲しい (がほしい)",
     "link": "https://nihongokyoshi-net.com/2020/02/12/jlptn5-grammar-gahoshii/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -99,7 +99,7 @@
   },
   {
     "id": "nk_15",
-    "point": "と思う",
+    "point": "と思う (とおもう)",
     "link": "https://nihongokyoshi-net.com/2020/02/02/jlptn5-grammar-toomou/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -176,7 +176,7 @@
   },
   {
     "id": "nk_26",
-    "point": "なる・（目的）に行く / 来る / 帰る",
+    "point": "なる (なる)・（目的）に行く (いく) / 来る (くる) / 帰る (かえる)",
     "link": "https://nihongokyoshi-net.com/2019/03/13/jlptn5-grammar-naru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -197,7 +197,7 @@
   },
   {
     "id": "nk_29",
-    "point": "前に",
+    "point": "前に (まえに)",
     "link": "https://nihongokyoshi-net.com/2019/04/15/jlptn5-grammar-maeni/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -239,21 +239,21 @@
   },
   {
     "id": "nk_35",
-    "point": "間",
+    "point": "間 (あいだ)",
     "link": "https://nihongokyoshi-net.com/2019/05/02/jlptn4-grammar-aida/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_36",
-    "point": "間に",
+    "point": "間に (あいだに)",
     "link": "https://nihongokyoshi-net.com/2019/04/18/jlptn4-grammar-aidani/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_37",
-    "point": "終わる",
+    "point": "終わる (おわる)",
     "link": "https://nihongokyoshi-net.com/2019/04/02/jlptn4-grammar-owaru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -365,7 +365,7 @@
   },
   {
     "id": "nk_53",
-    "point": "出す",
+    "point": "出す (だす)",
     "link": "https://nihongokyoshi-net.com/2019/05/01/jlptn4-grammar-dasu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -400,7 +400,7 @@
   },
   {
     "id": "nk_58",
-    "point": "続ける",
+    "point": "続ける (つづける)",
     "link": "https://nihongokyoshi-net.com/2018/07/10/jlptn4-grammar-tsudukeru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -603,14 +603,14 @@
   },
   {
     "id": "nk_87",
-    "point": "始める",
+    "point": "始める (はじめる)",
     "link": "https://nihongokyoshi-net.com/2019/03/25/jlptn4-grammar-hajimeru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_88",
-    "point": "必要がある",
+    "point": "必要がある (ひつようがある)",
     "link": "https://nihongokyoshi-net.com/2020/02/24/jlptn4-grammar-hitsuyougaaru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -666,7 +666,7 @@
   },
   {
     "id": "nk_96",
-    "point": "数量 + も",
+    "point": "数量 + も (すうりょう + も)",
     "link": "https://nihongokyoshi-net.com/2019/08/06/jlptn4-grammar-mo/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -687,14 +687,14 @@
   },
   {
     "id": "nk_99",
-    "point": "ようと思う",
+    "point": "ようと思う (ようとおもう)",
     "link": "https://nihongokyoshi-net.com/2019/12/31/jlptn4-grammar-youtoomou/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_100",
-    "point": "ようと思っている",
+    "point": "ようと思っている (ようとおもっている)",
     "link": "https://nihongokyoshi-net.com/2019/12/31/jlptn4-grammar-youtoomotteiru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -736,7 +736,7 @@
   },
   {
     "id": "nk_106",
-    "point": "予定だ",
+    "point": "予定だ (よていだ)",
     "link": "https://nihongokyoshi-net.com/2019/12/30/jlptn4-grammar-yoteida/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -757,7 +757,7 @@
   },
   {
     "id": "nk_109",
-    "point": "合う",
+    "point": "合う (あう)",
     "link": "https://nihongokyoshi-net.com/2019/11/11/jlptn3-grammar-au/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -771,14 +771,14 @@
   },
   {
     "id": "nk_111",
-    "point": "一方だ",
+    "point": "一方だ (いっぽうだ)",
     "link": "https://nihongokyoshi-net.com/2019/05/06/jlptn3-grammar-ippooda/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_112",
-    "point": "上に",
+    "point": "上に (うえに)",
     "link": "https://nihongokyoshi-net.com/2019/02/25/jlptn3-grammar-ueni/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -890,7 +890,7 @@
   },
   {
     "id": "nk_128",
-    "point": "結果",
+    "point": "結果 (けっか)",
     "link": "https://nihongokyoshi-net.com/2019/08/20/jlptn3-grammar-kekka/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -939,21 +939,21 @@
   },
   {
     "id": "nk_135",
-    "point": "込む",
+    "point": "込む (こむ)",
     "link": "https://nihongokyoshi-net.com/2019/11/12/jlptn3-grammar-komu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_136",
-    "point": "最中に",
+    "point": "最中に (さいちゅうに)",
     "link": "https://nihongokyoshi-net.com/2018/07/24/jlptn3-grammar-saichuuni/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_137",
-    "point": "際に / 〜際の",
+    "point": "際に (さいに) / 〜際の (さいの)",
     "link": "https://nihongokyoshi-net.com/2018/05/03/jlptn3-grammar-sai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1114,7 +1114,7 @@
   },
   {
     "id": "nk_160",
-    "point": "ている場合じゃない",
+    "point": "ている場合じゃない (ているばあいじゃない)",
     "link": "https://nihongokyoshi-net.com/2019/08/04/jlptn3-grammar-teirubaaijanai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1135,7 +1135,7 @@
   },
   {
     "id": "nk_163",
-    "point": "て済む",
+    "point": "て済む (てすむ)",
     "link": "https://nihongokyoshi-net.com/2020/01/15/jlptn3-grammar-desumu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1163,7 +1163,7 @@
   },
   {
     "id": "nk_167",
-    "point": "ても構わない",
+    "point": "ても構わない (てもかまわない)",
     "link": "https://nihongokyoshi-net.com/2020/01/14/jlptn3-grammar-temokamawanai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1177,7 +1177,7 @@
   },
   {
     "id": "nk_169",
-    "point": "ても始まらない",
+    "point": "ても始まらない (てもはじまらない)",
     "link": "https://nihongokyoshi-net.com/2020/02/05/jlptn3-grammar-temohajimaranai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1212,7 +1212,7 @@
   },
   {
     "id": "nk_174",
-    "point": "通す",
+    "point": "通す (とおす)",
     "link": "https://nihongokyoshi-net.com/2019/12/02/jlptn3-grammar-toosu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1254,7 +1254,7 @@
   },
   {
     "id": "nk_180",
-    "point": "途中で / 途中に",
+    "point": "途中で (とちゅうで) / 途中に (とちゅうに)",
     "link": "https://nihongokyoshi-net.com/2020/05/26/jlptn3-grammar-tochuu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1275,7 +1275,7 @@
   },
   {
     "id": "nk_183",
-    "point": "とは限らない",
+    "point": "とは限らない (とはかぎらない)",
     "link": "https://nihongokyoshi-net.com/2019/02/20/jlptn3-grammar-towakagiranai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1296,7 +1296,7 @@
   },
   {
     "id": "nk_186",
-    "point": "直す",
+    "point": "直す (なおす)",
     "link": "https://nihongokyoshi-net.com/2019/11/13/jlptn3-grammar-naosu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1317,7 +1317,7 @@
   },
   {
     "id": "nk_189",
-    "point": "に限る",
+    "point": "に限る (にかぎる)",
     "link": "https://nihongokyoshi-net.com/2019/01/16/jlptn3-grammar-kagiru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1331,28 +1331,28 @@
   },
   {
     "id": "nk_191",
-    "point": "に代わって",
+    "point": "に代わって (にかわって)",
     "link": "https://nihongokyoshi-net.com/2019/07/21/jlptn3-grammar-nikawatte/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_192",
-    "point": "に関して",
+    "point": "に関して (にかんして)",
     "link": "https://nihongokyoshi-net.com/2019/05/20/jlptn3-grammar-nikanshite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_193",
-    "point": "に決まっている",
+    "point": "に決まっている (にきまっている)",
     "link": "https://nihongokyoshi-net.com/2019/01/15/jlptn3-grammar-nikimatteiru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_194",
-    "point": "に比べて",
+    "point": "に比べて (にくらべて)",
     "link": "https://nihongokyoshi-net.com/2018/08/02/jlptn3-grammar-kurabete/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1373,14 +1373,14 @@
   },
   {
     "id": "nk_197",
-    "point": "に対して（対象・対比）",
+    "point": "に対して (にたいして)（対象・対比）",
     "link": "https://nihongokyoshi-net.com/2018/08/07/jlptn3-grammar-nitaishite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_198",
-    "point": "に違いない",
+    "point": "に違いない (にちがいない)",
     "link": "https://nihongokyoshi-net.com/2018/06/28/jlptn3-grammar-nichigainai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1422,7 +1422,7 @@
   },
   {
     "id": "nk_204",
-    "point": "に反して / 〜に反する",
+    "point": "に反して (にはんして) / 〜に反する (にはんする)",
     "link": "https://nihongokyoshi-net.com/2018/09/22/jlptn3-grammar-hanshite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1478,14 +1478,14 @@
   },
   {
     "id": "nk_212",
-    "point": "数量 + は",
+    "point": "数量 + は (すうりょう + は)",
     "link": "https://nihongokyoshi-net.com/2019/08/14/jlptn3-grammar-wa/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_213",
-    "point": "場合",
+    "point": "場合 (ばあい)",
     "link": "https://nihongokyoshi-net.com/2020/01/27/jlptn3-grammar-baai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1513,7 +1513,7 @@
   },
   {
     "id": "nk_217",
-    "point": "は別として",
+    "point": "は別として (はべつとして)",
     "link": "https://nihongokyoshi-net.com/2019/07/23/jlptn3-grammar-wabetsutoshite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1590,14 +1590,14 @@
   },
   {
     "id": "nk_228",
-    "point": "向きに",
+    "point": "向きに (むきに)",
     "link": "https://nihongokyoshi-net.com/2019/05/14/jlptn3-grammar-muki/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_229",
-    "point": "向けに",
+    "point": "向けに (むけに)",
     "link": "https://nihongokyoshi-net.com/2018/11/21/jlptn3-grammar-mukeni/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1625,7 +1625,7 @@
   },
   {
     "id": "nk_233",
-    "point": "連用中止",
+    "point": "連用中止 (れんようちゅうし)",
     "link": "https://nihongokyoshi-net.com/2018/12/06/jlptn3-grammar-renyoochuushi/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1667,28 +1667,28 @@
   },
   {
     "id": "nk_239",
-    "point": "を込めて",
+    "point": "を込めて (をこめて)",
     "link": "https://nihongokyoshi-net.com/2019/06/03/jlptn3-grammar-wokomete/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_240",
-    "point": "を中心に",
+    "point": "を中心に (をちゅうしんに)",
     "link": "https://nihongokyoshi-net.com/2018/03/31/jlptn3-grammar-chuushinni/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_241",
-    "point": "を通して / 〜を通じて（期間）",
+    "point": "を通して (をとおして) / 〜を通じて (をつうじて)（期間）",
     "link": "https://nihongokyoshi-net.com/2019/01/17/jlptn3-grammar-tooshite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_242",
-    "point": "を通して / 〜を通じて（手段・媒介）",
+    "point": "を通して (をとおして) / 〜を通じて (をつうじて)（手段・媒介）",
     "link": "https://nihongokyoshi-net.com/2019/08/28/jlptn3-grammar-tooshite-2/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1716,56 +1716,56 @@
   },
   {
     "id": "nk_246",
-    "point": "以上は",
+    "point": "以上は (いじょうは)",
     "link": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-ijoowa/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_247",
-    "point": "一方で",
+    "point": "一方で (いっぽうで)",
     "link": "https://nihongokyoshi-net.com/2019/06/01/jlptn2-grammar-ippode/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_248",
-    "point": "以来",
+    "point": "以来 (いらい)",
     "link": "https://nihongokyoshi-net.com/2018/03/27/jlptn2-grammar-irai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_249",
-    "point": "上で（〜てから）",
+    "point": "上で (うえで)（〜てから）",
     "link": "https://nihongokyoshi-net.com/2019/05/26/jlptn2-grammar-uede-3/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_250",
-    "point": "上で（目的）",
+    "point": "上で (うえで)（目的）",
     "link": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-uede-2/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_251",
-    "point": "上は",
+    "point": "上は (うえは)",
     "link": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-uewa/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_252",
-    "point": "得る / 〜得ない",
+    "point": "得る (える) / 〜得ない (えない)",
     "link": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-uru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_253",
-    "point": "折に",
+    "point": "折に (おりに)",
     "link": "https://nihongokyoshi-net.com/2019/06/05/jlptn2-grammar-orini/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1779,14 +1779,14 @@
   },
   {
     "id": "nk_255",
-    "point": "限り（限界）",
+    "point": "限り (かぎり)（限界）",
     "link": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-kagiri-2/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_256",
-    "point": "限り（条件の範囲）",
+    "point": "限り (かぎり)（条件の範囲）",
     "link": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-kagiri/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1800,7 +1800,7 @@
   },
   {
     "id": "nk_258",
-    "point": "かと思うと / 〜かと思ったら",
+    "point": "かと思うと (かとおもうと) / 〜かと思ったら (かとおもったら)",
     "link": "https://nihongokyoshi-net.com/2019/05/27/jlptn2-grammar-katoomouto/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1863,7 +1863,7 @@
   },
   {
     "id": "nk_267",
-    "point": "気味",
+    "point": "気味 (ぎみ)",
     "link": "https://nihongokyoshi-net.com/2018/10/14/jlptn2-grammar-gimi/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -1933,28 +1933,28 @@
   },
   {
     "id": "nk_277",
-    "point": "ざるを得ない",
+    "point": "ざるを得ない (ざるをえない)",
     "link": "https://nihongokyoshi-net.com/2019/02/21/jlptn2-grammar-zaruoenai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_278",
-    "point": "次第",
+    "point": "次第 (しだい)",
     "link": "https://nihongokyoshi-net.com/2018/07/08/jlptn2-grammar-shidai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_279",
-    "point": "次第だ / 〜次第で",
+    "point": "次第だ (しだいだ) / 〜次第で (しだいで)",
     "link": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-shidaida/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_280",
-    "point": "末に / 〜末の",
+    "point": "末に (すえに) / 〜末の (すえの)",
     "link": "https://nihongokyoshi-net.com/2019/05/08/jlptn2-grammar-sueni/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2164,35 +2164,35 @@
   },
   {
     "id": "nk_310",
-    "point": "に越したことはない",
+    "point": "に越したことはない (にこしたことはない)",
     "link": "https://nihongokyoshi-net.com/2019/05/10/jlptn2-grammar-nikoshitakotowanai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_311",
-    "point": "に応えて",
+    "point": "に応えて (にこたえて)",
     "link": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-nikotaete/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_312",
-    "point": "に際して",
+    "point": "に際して (にさいして)",
     "link": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-nisaishite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_313",
-    "point": "に限って",
+    "point": "に限って (にかぎって)",
     "link": "https://nihongokyoshi-net.com/2019/07/04/jlptn2-grammar-nikagitte/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_314",
-    "point": "に相違ない",
+    "point": "に相違ない (にそういない)",
     "link": "https://nihongokyoshi-net.com/2019/11/05/jlptn2-grammar-nisouinai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2241,7 +2241,7 @@
   },
   {
     "id": "nk_321",
-    "point": "ないで済む / 〜ずに済む",
+    "point": "ないで済む (ないですむ) / 〜ずに済む (ずにすむ)",
     "link": "https://nihongokyoshi-net.com/2019/06/10/jlptn2-grammar-naidesumu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2255,7 +2255,7 @@
   },
   {
     "id": "nk_323",
-    "point": "ないとも限らない",
+    "point": "ないとも限らない (ないともかぎらない)",
     "link": "https://nihongokyoshi-net.com/2019/12/19/jlptn2-grammar-naitomokagiranai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2283,35 +2283,35 @@
   },
   {
     "id": "nk_327",
-    "point": "に応じて",
+    "point": "に応じて (におうじて)",
     "link": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-oujite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_328",
-    "point": "に限らず",
+    "point": "に限らず (にかぎらず)",
     "link": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-nikagirazu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_329",
-    "point": "に限り（限定）",
+    "point": "に限り (にかぎり)（限定）",
     "link": "https://nihongokyoshi-net.com/2018/11/21/jlptn2-grammar-nikagiri/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_330",
-    "point": "に加えて",
+    "point": "に加えて (にくわえて)",
     "link": "https://nihongokyoshi-net.com/2019/06/15/jlptn2-grammar-nikuwaete/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_331",
-    "point": "に先立って / 〜に先立ち",
+    "point": "に先立って (にさきだって) / 〜に先立ち (にさきだち)",
     "link": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-sakidatte/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2339,7 +2339,7 @@
   },
   {
     "id": "nk_335",
-    "point": "に沿って",
+    "point": "に沿って (にそって)",
     "link": "https://nihongokyoshi-net.com/2018/08/31/jlptn2-grammar-nisotte/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2381,14 +2381,14 @@
   },
   {
     "id": "nk_341",
-    "point": "にも関わらず",
+    "point": "にも関わらず (にもかかわらず)",
     "link": "https://nihongokyoshi-net.com/2019/05/17/jlptn2-grammar-nimokakawarazu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_342",
-    "point": "に基づいて",
+    "point": "に基づいて (にもとづいて)",
     "link": "https://nihongokyoshi-net.com/2018/07/02/jlptn2-grammar-motoduite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2416,7 +2416,7 @@
   },
   {
     "id": "nk_346",
-    "point": "の上では / 〜上（じょう）の",
+    "point": "の上では (のうえでは) / 〜上 (じょう)の",
     "link": "https://nihongokyoshi-net.com/2019/05/30/jlptn0-grammar-jouno/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2486,7 +2486,7 @@
   },
   {
     "id": "nk_356",
-    "point": "反面",
+    "point": "反面 (はんめん)",
     "link": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-hanmen/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2598,28 +2598,28 @@
   },
   {
     "id": "nk_372",
-    "point": "を契機に / 〜を契機として",
+    "point": "を契機に (をけいきに) / 〜を契機として (をけいきとして)",
     "link": "https://nihongokyoshi-net.com/2019/05/18/jlptn2-grammar-keiki/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_373",
-    "point": "を頼りに / 〜を頼りとして",
+    "point": "を頼りに (をたよりに) / 〜を頼りとして (をたよりとして)",
     "link": "https://nihongokyoshi-net.com/2019/06/06/jlptn2-grammar-tayorini/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_374",
-    "point": "を問わず",
+    "point": "を問わず (をとわず)",
     "link": "https://nihongokyoshi-net.com/2019/02/14/jlptn2-grammar-towazu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_375",
-    "point": "を除いて / 〜を除き / 〜を除けば",
+    "point": "を除いて (をのぞいて) / 〜を除き (をのぞき) / 〜を除けば (をのぞけば)",
     "link": "https://nihongokyoshi-net.com/2020/03/10/jlptn2-grammar-nozoite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2661,7 +2661,7 @@
   },
   {
     "id": "nk_381",
-    "point": "いかんに関わらず / 〜いかんによらず / 〜いかんを問わず",
+    "point": "いかんに関わらず (いかんにかかわらず) / 〜いかんによらず (いかんによらず) / 〜いかんを問わず (いかんをとわず)",
     "link": "https://nihongokyoshi-net.com/2019/07/03/jlptn1-grammar-ikannikakawarazu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2689,14 +2689,14 @@
   },
   {
     "id": "nk_385",
-    "point": "かと思いきや",
+    "point": "かと思いきや (かとおもいきや)",
     "link": "https://nihongokyoshi-net.com/2019/07/16/jlptn1-grammar-katoomoikiya/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_386",
-    "point": "が早いか",
+    "point": "が早いか (がはやいか)",
     "link": "https://nihongokyoshi-net.com/2019/07/14/jlptn1-grammar-gahayaika/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2731,7 +2731,7 @@
   },
   {
     "id": "nk_391",
-    "point": "極まる / 〜極まりない",
+    "point": "極まる (きわまる) / 〜極まりない (きわまりない)",
     "link": "https://nihongokyoshi-net.com/2019/06/29/jlptn1-grammar-kiwamaru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2752,7 +2752,7 @@
   },
   {
     "id": "nk_394",
-    "point": "始末だ",
+    "point": "始末だ (しまつだ)",
     "link": "https://nihongokyoshi-net.com/2019/07/08/jlptn1-grammar-shimatsuda/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2780,7 +2780,7 @@
   },
   {
     "id": "nk_398",
-    "point": "術がない",
+    "point": "術がない (すべがない)",
     "link": "https://nihongokyoshi-net.com/2019/09/23/jlptn1-grammar-subeganai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2836,14 +2836,14 @@
   },
   {
     "id": "nk_406",
-    "point": "た弾みに / 〜た拍子に",
+    "point": "た弾みに (たはずみに) / 〜た拍子に (たひょうしに)",
     "link": "https://nihongokyoshi-net.com/2020/01/17/jlptn1-grammar-tahazumini/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_407",
-    "point": "た分だけ",
+    "point": "た分だけ (たぶんだけ)",
     "link": "https://nihongokyoshi-net.com/2019/09/25/jlptn1-grammar-tabundake/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2857,7 +2857,7 @@
   },
   {
     "id": "nk_409",
-    "point": "たら最後 / 〜たが最後",
+    "point": "たら最後 (たらさいご) / 〜たが最後 (たがさいご)",
     "link": "https://nihongokyoshi-net.com/2019/04/24/jlptn1-grammar-tarasaigo/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2885,7 +2885,7 @@
   },
   {
     "id": "nk_413",
-    "point": "尽くす",
+    "point": "尽くす (つくす)",
     "link": "https://nihongokyoshi-net.com/2020/06/02/jlptn1-grammar-tsukusu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -2927,7 +2927,7 @@
   },
   {
     "id": "nk_419",
-    "point": "と相まって",
+    "point": "と相まって (とあいまって)",
     "link": "https://nihongokyoshi-net.com/2019/06/26/jlptn1-grammar-amatte/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3081,14 +3081,14 @@
   },
   {
     "id": "nk_441",
-    "point": "に至る / 〜に至るまで",
+    "point": "に至る (にいたる) / 〜に至るまで (にいたるまで)",
     "link": "https://nihongokyoshi-net.com/2019/05/31/jlptn1-grammar-niitaru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_442",
-    "point": "に言わせれば",
+    "point": "に言わせれば (にいわせれば)",
     "link": "https://nihongokyoshi-net.com/2020/06/16/jlptn1-grammar-niiwasereba/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3102,14 +3102,14 @@
   },
   {
     "id": "nk_444",
-    "point": "に関わる",
+    "point": "に関わる (にかかわる)",
     "link": "https://nihongokyoshi-net.com/2019/06/05/jlptn1-grammar-nikakawaru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_445",
-    "point": "に限ったことではない",
+    "point": "に限ったことではない (にかぎったことではない)",
     "link": "https://nihongokyoshi-net.com/2020/01/13/jlptn1-grammar-nikagittakotodewanai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3144,28 +3144,28 @@
   },
   {
     "id": "nk_450",
-    "point": "に忍びない",
+    "point": "に忍びない (にしのびない)",
     "link": "https://nihongokyoshi-net.com/2019/09/09/jlptn1-grammar-nishinobinai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_451",
-    "point": "に即して / 〜に則して",
+    "point": "に即して (にそくして) / 〜に則して (にのっとして)",
     "link": "https://nihongokyoshi-net.com/2019/07/01/jlptn1-grammar-nisokushite/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_452",
-    "point": "に堪える / 〜に堪えない",
+    "point": "に堪える (にたえる) / 〜に堪えない (にたえない)",
     "link": "https://nihongokyoshi-net.com/2019/07/15/jlptn1-grammar-taeru-taenai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_453",
-    "point": "に足る",
+    "point": "に足る (にたる)",
     "link": "https://nihongokyoshi-net.com/2019/07/15/jlptn1-grammar-nitaru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3179,7 +3179,7 @@
   },
   {
     "id": "nk_455",
-    "point": "に則って",
+    "point": "に則って (にのっとって)",
     "link": "https://nihongokyoshi-net.com/2019/08/04/jlptn1-grammar-ninottotte/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3193,14 +3193,14 @@
   },
   {
     "id": "nk_457",
-    "point": "には及ばない",
+    "point": "には及ばない (にはおよばない)",
     "link": "https://nihongokyoshi-net.com/2019/07/07/jlptn1-grammar-niwaoyobanai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_458",
-    "point": "には無理がある",
+    "point": "には無理がある (にはむりがある)",
     "link": "https://nihongokyoshi-net.com/2019/09/20/jlptn1-grammar-niwamurigaaru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3228,7 +3228,7 @@
   },
   {
     "id": "nk_462",
-    "point": "に〜を重ねて",
+    "point": "に〜を重ねて (に〜をかさねて)",
     "link": "https://nihongokyoshi-net.com/2020/01/31/jlptn1-grammar-wokasanete/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3242,14 +3242,14 @@
   },
   {
     "id": "nk_464",
-    "point": "の至り",
+    "point": "の至り (のいたり)",
     "link": "https://nihongokyoshi-net.com/2019/06/18/jlptn1-grammar-itari/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_465",
-    "point": "の極み",
+    "point": "の極み (のきわみ)",
     "link": "https://nihongokyoshi-net.com/2019/07/05/jlptn1-grammar-nokiwami/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3354,7 +3354,7 @@
   },
   {
     "id": "nk_480",
-    "point": "も同然だ",
+    "point": "も同然だ (もどうぜんだ)",
     "link": "https://nihongokyoshi-net.com/2019/08/18/jlptn1-grammar-modouzenda/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3368,7 +3368,7 @@
   },
   {
     "id": "nk_482",
-    "point": "や否や",
+    "point": "や否や (やいなや)",
     "link": "https://nihongokyoshi-net.com/2019/04/22/jlptn1-grammar-yainaya/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3424,49 +3424,49 @@
   },
   {
     "id": "nk_490",
-    "point": "を押して / 〜を押し切って",
+    "point": "を押して (をおして) / 〜を押し切って (をおしきって)",
     "link": "https://nihongokyoshi-net.com/2019/09/15/jlptn1-grammar-wooshite-wooshikitte/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_491",
-    "point": "を顧みず / 〜も顧みず",
+    "point": "を顧みず (をかえりみず) / 〜も顧みず (もかえりみず)",
     "link": "https://nihongokyoshi-net.com/2019/09/16/jlptn1-grammar-kaerimizu/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_492",
-    "point": "を限りに",
+    "point": "を限りに (をかぎりに)",
     "link": "https://nihongokyoshi-net.com/2019/06/16/jlptn1-grammar-wokagirini/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_493",
-    "point": "を兼ねて",
+    "point": "を兼ねて (をかねて)",
     "link": "https://nihongokyoshi-net.com/2020/02/11/jlptn1-grammar-wokanete/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_494",
-    "point": "を皮切りに / 〜を皮切りとして",
+    "point": "を皮切りに (をかわきりに) / 〜を皮切りとして (をかわきりとして)",
     "link": "https://nihongokyoshi-net.com/2019/07/26/jlptn1-grammar-wokawakirini/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_495",
-    "point": "を禁じ得ない",
+    "point": "を禁じ得ない (をきんじえない)",
     "link": "https://nihongokyoshi-net.com/2019/06/15/jlptn1-grammar-wokinjienai/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_496",
-    "point": "を境に",
+    "point": "を境に (をさかいに)",
     "link": "https://nihongokyoshi-net.com/2019/09/15/jlptn1-grammar-sakaini/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
@@ -3487,21 +3487,21 @@
   },
   {
     "id": "nk_499",
-    "point": "を踏まえて",
+    "point": "を踏まえて (をふまえて)",
     "link": "https://nihongokyoshi-net.com/2019/06/12/jlptn1-grammar-wofumaete/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_500",
-    "point": "を経て",
+    "point": "を経て (をへて)",
     "link": "https://nihongokyoshi-net.com/2019/08/16/jlptn1-grammar-hete/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
   },
   {
     "id": "nk_501",
-    "point": "を余儀なくされる",
+    "point": "を余儀なくされる (をよぎなくされる)",
     "link": "https://nihongokyoshi-net.com/2019/06/15/jlptn1-grammar-woyoginakusareru/",
     "source": "Nihongo Kyoshi",
     "shorthand": "nk"
