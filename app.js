@@ -686,18 +686,21 @@ async function search() {
   const rawTerm = document.getElementById("search").value;
   const list = document.getElementById("results-list");
 
-  let term = rawTerm; // Keep original case for exact match
+  let term = rawTerm; 
   let exactMatch = false;
-  if ((rawTerm.startsWith('"') && rawTerm.endsWith('"'))) { // Corrected condition
+
+  // Check for standard or Japanese quotes for exact match
+  if ((rawTerm.startsWith('"') && rawTerm.endsWith('"')) || (rawTerm.startsWith('「') && rawTerm.endsWith('」'))) {
     term = rawTerm.substring(1, rawTerm.length - 1);
     exactMatch = true;
   } else {
-    // Convert to Hiragana if wanakana is available and not an exact match
-    if (window.wanakana) {
-      term = wanakana.toHiragana(rawTerm.toLowerCase());
-    } else {
-      term = rawTerm.toLowerCase(); // Lowercase only for non-exact match
-    }
+    // For non-exact matches, wanakana.bind() has already converted the input to Hiragana in the search bar.
+    // We just need to ensure it's lowercase for consistency if wanakana wasn't active for some reason.
+    // No, wanakana.bind() handles the conversion directly in the input field. The value from getElementById("search").value will already be Hiragana.
+    // We should ensure the search term is what's in the input field, which should be Hiragana.
+    term = rawTerm; // The rawTerm from the input is already Hiragana due to wanakana.bind
+    // If wanakana is not active, then we might need to lowercase, but bind() should handle it.
+    // Let's assume wanakana.bind() did its job. If not, it's a different issue.
   }
 
   // 1. Get Data and Settings (parallel fetching)
@@ -791,17 +794,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Wanakana input listener for search bar
   const searchInput = document.getElementById("search");
   if (window.wanakana && searchInput) {
-    searchInput.addEventListener("input", function(e) {
-      const currentVal = searchInput.value;
-      // Only convert if not an exact match attempt
-      if (!(currentVal.startsWith('"') && currentVal.endsWith('"'))) {
-        const cursorPos = searchInput.selectionStart;
-        // Simplify conversion: directly to Hiragana
-        const hiragana = wanakana.toHiragana(currentVal);
-        searchInput.value = hiragana;
-        searchInput.setSelectionRange(cursorPos, cursorPos);
-      }
-    });
+    // Remove previous event listener and use wanakana.bind for proper IME behavior
+    // searchInput.addEventListener("input", function(e) { ... }); // This block will be removed by context
+    wanakana.bind(searchInput);
   }
 
   // databases checkboxes
