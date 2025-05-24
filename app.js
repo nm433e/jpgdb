@@ -151,7 +151,8 @@ async function updateDataVisualization() {
     }));
 
   readPoints.forEach(point => {
-    const dateStr = point.date.toISOString().split('T')[0];
+    const logicalDayForHeatmap = getLogicalDay(point.date);
+    const dateStr = formatDateAsYYYYMMDD(logicalDayForHeatmap);
     if (dateMap.has(dateStr)) {
       dateMap.set(dateStr, dateMap.get(dateStr) + 1);
     }
@@ -288,13 +289,16 @@ function calculateStats(grammarPoints, data) {
 
   // Calculate time-based stats
   readPoints.forEach(point => {
-    const readDate = new Date(point.date);
-    if (readDate >= today) stats.today++;
-    if (readDate >= weekStart) stats.week++;
-    if (readDate >= monthStart) stats.month++;
-    if (readDate >= new Date(now - 7 * 24 * 60 * 60 * 1000)) stats.last7++;
-    if (readDate >= new Date(now - 14 * 24 * 60 * 60 * 1000)) stats.last14++;
-    if (readDate >= new Date(now - 30 * 24 * 60 * 60 * 1000)) stats.last30++;
+    const actualReadTime = point.date;
+    const logicalReadDay = getLogicalDay(actualReadTime);
+
+    if (logicalReadDay.getTime() === today.getTime()) stats.today++;
+    if (logicalReadDay >= weekStart) stats.week++;
+    if (logicalReadDay >= monthStart) stats.month++;
+
+    if (actualReadTime >= new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000)) stats.last7++;
+    if (actualReadTime >= new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000)) stats.last14++;
+    if (actualReadTime >= new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000)) stats.last30++;
   });
 
   // Calculate total and read counts
@@ -328,13 +332,13 @@ function updateRecentPoints(grammarPoints, data) {
 
   // Get read points with dates and sort by date
   const readPoints = Object.entries(grammarPoints)
-    .filter(([_, data]) => data.readStatus)
-    .map(([id, data]) => ({
+    .filter(([_, pointSetting]) => pointSetting.readStatus && pointSetting.readDate)
+    .map(([id, pointSetting]) => ({
       id,
-      date: new Date(data.readDate)
+      date: new Date(pointSetting.readDate)
     }))
-    .sort((a, b) => b.date - a.date)
-    .slice(0, 20);
+    .sort((a, b) => b.date.getTime() - a.date.getTime())
+    .slice(0, 100);
 
   // Create elements for each recent point
   readPoints.forEach(point => {
@@ -479,7 +483,7 @@ const userSettingsManager = {
           currentReadStatus[grammarPointId] = {};
         }
         currentReadStatus[grammarPointId].readStatus = isRead;
-        currentReadStatus[grammarPointId].readDate = isRead ? getCorrectedDate(new Date()) : null;
+        currentReadStatus[grammarPointId].readDate = isRead ? new Date().toISOString() : null;
         await updateUserData(userId, { grammarPoints: currentReadStatus });
       } else {
         currentReadStatus = JSON.parse(localStorage.getItem('grammarPoints') || '{}');
@@ -487,7 +491,7 @@ const userSettingsManager = {
           currentReadStatus[grammarPointId] = {};
         }
         currentReadStatus[grammarPointId].readStatus = isRead;
-        currentReadStatus[grammarPointId].readDate = isRead ? getCorrectedDate(new Date()) : null;
+        currentReadStatus[grammarPointId].readDate = isRead ? new Date().toISOString() : null;
         localStorage.setItem('grammarPoints', JSON.stringify(currentReadStatus));
       }
     } catch (error) {
@@ -861,44 +865,23 @@ function handleResponsiveChanges() {
 window.addEventListener('resize', handleResponsiveChanges);
 window.addEventListener('DOMContentLoaded', handleResponsiveChanges);
 
-function getCorrectedDate(date) {
-  const cutoffHour = 6;
+// Helper function to determine the logical day based on 6 AM cutoff
+function getLogicalDay(dateInput) {
+    const date = new Date(dateInput); // Handles Date objects and ISO strings
+    const cutoffHour = 6;
+    const localHour = date.getHours();
 
-  // Get the local date and time
-  const localDate = new Date(date);
-  const localHour = localDate.getHours();
-
-  // Correct the date if the local hour is before the cutoff hour
-  let correctedDate = new Date(localDate);
-  if (localHour < cutoffHour) {
-    correctedDate.setDate(localDate.getDate() - 1);
-  }
-
-  // Format the corrected date as a string (YYYY-MM-DD)
-  const year = correctedDate.getFullYear();
-  const month = String(correctedDate.getMonth() + 1).padStart(2, '0');
-  const day = String(correctedDate.getDate()).padStart(2, '0');
-  const formattedDate = `${year}-${month}-${day}`;
-
-  return formattedDate;
+    let logicalDayDate = new Date(date); // Start with a copy
+    if (localHour < cutoffHour) {
+        logicalDayDate.setDate(date.getDate() - 1); // Go to previous calendar day
+    }
+    logicalDayDate.setHours(0, 0, 0, 0); // Normalize to the beginning of that logical day
+    return logicalDayDate;
 }
 
-// Helper function to get today's date considering 6 AM cutoff
+// Helper function to get today's date (start of day) considering 6 AM cutoff
 function getTodayWithCutoff() {
-  // Get current date in local timezone
-  const now = new Date();
-  const cutoffHour = 6;
-
-  // Get local hour
-  const localHour = now.getHours();
-
-  // If current hour is before cutoff, consider it as previous day
-  if (localHour < cutoffHour) {
-    const yesterday = new Date(now);
-    yesterday.setDate(yesterday.getDate() - 1);
-    return yesterday;
-  }
-  return now;
+    return getLogicalDay(new Date());
 }
 
 // Helper function to format date as YYYY-MM-DD
