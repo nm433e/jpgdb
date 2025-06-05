@@ -744,6 +744,13 @@ async function search() {
 // INITIALIZATION
 document.addEventListener('DOMContentLoaded', async () => {
 
+  // Handle search query from URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const searchTerm = urlParams.get('search');
+  if (searchTerm) {
+    document.getElementById('search').value = searchTerm;
+  }
+
   // Auth setup
   auth.onAuthStateChanged(async user => {
     if (user) {
