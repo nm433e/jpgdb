@@ -129,6 +129,7 @@ body {
     color: white;
 }
 
+#unread-only-btn,
 #read-only-btn[aria-pressed="true"] {
     background-color: var(--main);
     color: white;
