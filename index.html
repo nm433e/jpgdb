@@ -37,13 +37,13 @@
         </div>
     </div>
 
-    <!-- Search Mode -->
     <div id="search-mode">
         <div class="database-filters" id="database-filters">
             <div class="toggle-all">
                 <button class="filter-button" id="untoggle-all-btn" onclick="toggleAllDatabases()">Toggle All</button>
                 <button class="filter-button" id="toggle-all-btn" onclick="untoggleAllDatabases()">Untoggle All</button>
                 <button class="filter-button" aria-pressed="true" id="unread-only-btn" onclick="toggleUnreadOnly()">Unread Only</button>
+                <button class="filter-button" aria-pressed="false" id="read-only-btn" onclick="toggleReadOnly()">Read Only</button>
             </div>
             <div class="checkbox-container" id="checkbox-container">
                 <div class="checkbox-item">
@@ -102,7 +102,6 @@
         <div class="results-list" id="results-list"></div>
     </div>
 
-    <!-- Data Mode -->
     <div id="data-mode" style="display: none;">
         <div class="data-container">
             <div class="source-selector">
@@ -181,7 +180,7 @@
                 </div>
 
                 <div class="recent-points">
-                    <h3>Last 10 Read Points</h3>
+                    <h3>Last 100 Read Points</h3>
                     <div id="recent-points-list"></div>
                 </div>
             </div>

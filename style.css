@@ -129,7 +129,7 @@ body {
     color: white;
 }
 
-#unread-only-btn[aria-pressed="true"] {
+#read-only-btn[aria-pressed="true"] {
     background-color: var(--main);
     color: white;
 }
@@ -236,7 +236,7 @@ a{
     opacity: 0;
   }
   
-  
+
 
 @media (max-width: 768px) {
     .checkbox-container {
@@ -310,7 +310,7 @@ a{
     border-radius: 4px;
     border: 1px solid var(--border);
     background-color: var(--bg);
-    color: var(--text);
+    color: var(--color);
 }
 
 .stats-container {
@@ -337,14 +337,14 @@ a{
 .stat-box h3 {
     margin: 0 0 10px 0;
     font-size: 1rem;
-    color: var(--text);
+    color: var(--color);
 }
 
 .stat-box p {
     margin: 0;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--accent);
+    color: var(--main);
 }
 
 .progress-section {
@@ -356,7 +356,7 @@ a{
 
 .progress-section h3 {
     margin: 0 0 15px 0;
-    color: var(--text);
+    color: var(--color);
 }
 
 .progress-bar {
@@ -365,7 +365,6 @@ a{
     background-color: gray;
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 10px;
     border: 1px solid var(--border);
 }
 
@@ -378,7 +377,7 @@ a{
 
 #progress-text {
     text-align: center;
-    color: var(--text);
+    color: var(--color);
     margin: 0;
 }
 
@@ -391,7 +390,7 @@ a{
 
 .recent-points h3 {
     margin: 0 0 15px 0;
-    color: var(--text);
+    color: var(--color);
 }
 
 #recent-points-list {
@@ -404,18 +403,37 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: var(--bg-color-secondary);
+    padding: 5px;
+    background-color: var(--minor);
     border-radius: 4px;
 }
 
+.recent-point-item a {
+    flex-grow: 1;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    transition: filter 0.2s;
+}
+
+.recent-point-item a:hover {
+    filter: brightness(1.2);
+}
+
+.recent-point-item a.tk {
+    color: black;
+}
+
 .recent-point-item .point-name {
-    color: var(--text);
+    color: inherit;
 }
 
 .recent-point-item .read-date {
-    color: var(--text-color-secondary);
+    color: var(--color);
     font-size: 0.9rem;
+    padding-right: 5px;
 }
 
 /* Responsive adjustments */
@@ -442,13 +460,13 @@ a{
 
 .data-header h2 {
     margin: 0 0 10px 0;
-    color: var(--text);
+    color: var(--color);
     font-size: 1.8rem;
 }
 
 .data-header p {
     margin: 0;
-    color: var(--text-color-secondary);
+    color: var(--color);
     font-size: 1.1rem;
 }
 
@@ -457,7 +475,7 @@ a{
 }
 
 .heatmap-container {
-    background: var(--card-bg);
+    background: var(--bg);
     border-radius: 8px;
     padding: 20px;
     margin-top: 10px;
