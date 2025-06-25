@@ -11,27 +11,81 @@
     <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
-    <script src="https://unpkg.com/wanakana@latest/dist/wanakana.min.js"></script>
-    <script src="https://unpkg.com/wanakana"></script>
-    <script src="firebase.js"></script>
+    <script src="https://unpkg.com/wanakana@5.3.1/legacy/wanakana.min.js"></script>
+    <script defer src="firebase.js"></script>
     <script defer src="app.js"></script>
     <script defer src="theme.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;display=swap">
+    <style>
+        /* This style block contains all necessary CSS for the new features. */
+        .filter-button.active {
+            background-color: var(--main);
+            color: var(--bg-primary, #fff);
+            border-color: var(--main);
+        }
+        .recent-point-item.selected, .result-container.selected {
+            background-color: var(--accent, #0c5ae0) !important;
+            border-radius: 5px;
+            padding: 1px;
+        }
+        .actions-container {
+            display: none; /* Hidden by default, shown by JS */
+            gap: 10px;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+            padding: 0 10px;
+        }
+        .action-button {
+            padding: 8px 12px; border: 1px solid var(--border); background-color: var(--bg-secondary);
+            color: var(--text-color); border-radius: 5px; cursor: pointer; transition: background-color 0.2s;
+        }
+        .action-button:hover { background-color: var(--bg-tertiary); }
+        .toggle-read-status { background: none; border: none; color: var(--main); cursor: pointer;
+            font-size: 1.1em; margin-left: auto; padding: 0 10px; opacity: 0.6; transition: opacity 0.2s;
+        }
+        .toggle-read-status:hover { opacity: 1; }
+        .recent-point-item { display: flex; align-items: center; }
+        @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+        .fade-out { animation: fadeOut 0.3s forwards; }
+        .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(100px);
+            background-color: #333; color: white; padding: 15px 25px; border-radius: 8px;
+            opacity: 0; visibility: hidden; transition: all 0.3s; z-index: 1050; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .toast.show { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+        .toast.error { background-color: #d9534f; }
+        .toast.success { background-color: #5cb85c; }
+        .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6);
+            display: none; justify-content: center; align-items: center; z-index: 1000;
+        }
+        .modal-overlay.show { display: flex; }
+        .modal-content { background-color: var(--bg-primary); padding: 25px; border-radius: 8px;
+            width: 90%; max-width: 450px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .modal-content h2 { margin-top: 0; margin-bottom: 20px; }
+        .modal-content select, .modal-content input { width: 100%; padding: 10px; margin-bottom: 15px;
+            border-radius: 5px; border: 1px solid var(--border); background-color: var(--bg-secondary); color: var(--text-color);
+        }
+        .modal-actions { display: flex; justify-content: flex-end; gap: 10px; }
+        .groups-toolbar { padding: 10px; background-color: var(--bg-secondary); margin-bottom: 10px; }
+        .group-item { background-color: var(--bg-secondary); border: 1px solid var(--border);
+            border-radius: 5px; margin-bottom: 10px;
+        }
+        .group-header { padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .group-title { flex-grow: 1; }
+        .group-actions { display: flex; align-items: center; gap: 15px; }
+        .group-actions i { cursor: pointer; transition: color 0.2s; }
+        .delete-group-btn:hover { color: #e53e3e; }
+        .group-points { padding: 0 15px 15px 15px; border-top: 1px solid var(--border); }
+    </style>
 </head>
 
 <body>
     <div class="navbar">
         <div class="nav-elements-container">
-            <input type="text" id="search" placeholder="Search grammar points..." oninput="search()">
-            <div class="nav-icon" id="mode-toggle" title="Toggle Mode">
-                <i class="fa-solid fa-chart-line"></i>
-            </div>
-            <div class="nav-icon" id="settings-button" title="Settings">
-                <i class="fa-solid fa-cogs"></i>
-            </div>
-            <div class="nav-icon" id="theme-toggle" title="Theme">
-                <i class="fa-solid fa-moon"></i>
-            </div>
+            <input type="text" id="search" placeholder="Search grammar points...">
+            <div class="nav-icon" id="mode-toggle" title="Toggle Mode"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="nav-icon" id="settings-button" title="Settings"><i class="fa-solid fa-cogs"></i></div>
+            <div class="nav-icon" id="theme-toggle" title="Theme"><i class="fa-solid fa-moon"></i></div>
             <div class="sign-btn" id="sign-in-button">Sign in</div>
             <div class="sign-btn" id="sign-out-button" style="display: none;">Sign out</div>
         </div>
@@ -40,64 +94,27 @@
     <div id="search-mode">
         <div class="database-filters" id="database-filters">
             <div class="toggle-all">
-                <button class="filter-button" id="untoggle-all-btn" onclick="toggleAllDatabases()">Toggle All</button>
-                <button class="filter-button" id="toggle-all-btn" onclick="untoggleAllDatabases()">Untoggle All</button>
-                <button class="filter-button" aria-pressed="true" id="unread-only-btn" onclick="toggleUnreadOnly()">Unread Only</button>
-                <button class="filter-button" aria-pressed="false" id="read-only-btn" onclick="toggleReadOnly()">Read Only</button>
+                <button class="filter-button" id="toggle-all-btn">Untoggle All</button>
+                <button class="filter-button" id="untoggle-all-btn">Toggle All</button>
+                <button class="filter-button" aria-pressed="true" id="unseen-only-btn">Unseen</button>
+                <button class="filter-button" aria-pressed="false" id="seen-only-btn">Seen</button>
             </div>
             <div class="checkbox-container" id="checkbox-container">
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="aap-lock"></i>
-                    <input type="checkbox" id="aap" value="aap" checked>
-                    <label for="aap">AAP</label>
-                </div>
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="bunpro-lock"></i>
-                    <input type="checkbox" id="bunpro" value="bunpro" checked>
-                    <label for="bunpro">Bunpro</label>
-                </div>
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="donna-toki-lock"></i>
-                    <input type="checkbox" id="donna-toki" value="donna-toki" checked>
-                    <label for="donna-toki">Donna Toki</label>
-                </div>
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="dojg-lock"></i>
-                    <input type="checkbox" id="dojg" value="dojg" checked>
-                    <label for="dojg">DOJG</label>
-                </div>
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="hojgp1-lock"></i>
-                    <input type="checkbox" id="hojgp1" value="hojgp1" checked>
-                    <label for="hojgp1">HOJGP</label>
-                </div>
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="hojgp2-lock"></i>
-                    <input type="checkbox" id="hojgp2" value="hojgp2" checked>
-                    <label for="hojgp2">HOJGP(2)</label>
-                </div>
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="nihongo-kyoshi-lock"></i>
-                    <input type="checkbox" id="nihongo-kyoshi" value="nihongo-kyoshi" checked>
-                    <label for="nihongo-kyoshi">Nihongo Kyoshi</label>
-                </div>
-
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="imabi-lock"></i>
-                    <input type="checkbox" id="imabi" value="imabi" checked>
-                    <label for="imabi">Imabi</label>
-                </div>
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="taekim-lock"></i>
-                    <input type="checkbox" id="taekim" value="taekim" checked>
-                    <label for="taekim">Tae Kim</label>
-                </div>
-                <div class="checkbox-item">
-                    <i class="fa-solid fa-lock" id="maggie-lock"></i>
-                    <input type="checkbox" id="maggie" value="maggie" checked>
-                    <label for="maggie">Maggie Sensei</label>
-                </div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="aap-lock"></i><input type="checkbox" id="aap" value="aap" checked><label for="aap">AAP</label></div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="bunpro-lock"></i><input type="checkbox" id="bunpro" value="bunpro" checked><label for="bunpro">Bunpro</label></div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="donna-toki-lock"></i><input type="checkbox" id="donna-toki" value="donna-toki" checked><label for="donna-toki">Donna Toki</label></div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="dojg-lock"></i><input type="checkbox" id="dojg" value="dojg" checked><label for="dojg">DOJG</label></div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="hojgp1-lock"></i><input type="checkbox" id="hojgp1" value="hojgp1" checked><label for="hojgp1">HOJGP</label></div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="hojgp2-lock"></i><input type="checkbox" id="hojgp2" value="hojgp2" checked><label for="hojgp2">HOJGP(2)</label></div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="nihongo-kyoshi-lock"></i><input type="checkbox" id="nihongo-kyoshi" value="nihongo-kyoshi" checked><label for="nihongo-kyoshi">Nihongo Kyoshi</label></div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="imabi-lock"></i><input type="checkbox" id="imabi" value="imabi" checked><label for="imabi">Imabi</label></div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="taekim-lock"></i><input type="checkbox" id="taekim" value="taekim" checked><label for="taekim">Tae Kim</label></div>
+                 <div class="checkbox-item"><i class="fa-solid fa-lock-open" id="maggie-lock"></i><input type="checkbox" id="maggie" value="maggie" checked><label for="maggie">Maggie Sensei</label></div>
             </div>
+        </div>
+        <div id="search-actions" class="actions-container">
+            <button class="action-button" id="add-to-group-btn">Add to Group</button>
+            <button class="action-button" id="clear-search-selection-btn">Clear Selection</button>
         </div>
         <div class="results-list" id="results-list"></div>
     </div>
@@ -119,73 +136,64 @@
                     <option value="maggie">Maggie Sensei</option>
                 </select>
             </div>
-
-            <div id="data-header" class="data-header">
-                <h2>All Sources</h2>
-                <p>Total Grammar Points: 0</p>
-            </div>
-
+            <div id="data-header" class="data-header"></div>
             <div class="stats-container">
                 <div class="time-stats">
-                    <div class="stat-box">
-                        <h3>Today</h3>
-                        <p id="today-count">0</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>This Week</h3>
-                        <p id="week-count">0</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>This Month</h3>
-                        <p id="month-count">0</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>Last 7 Days</h3>
-                        <p id="last7-count">0</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>Last 14 Days</h3>
-                        <p id="last14-count">0</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>Last 30 Days</h3>
-                        <p id="last30-count">0</p>
-                    </div>
+                    <div class="stat-box"><h3>Today</h3><p id="today-count">0</p></div>
+                    <div class="stat-box"><h3>This Week</h3><p id="week-count">0</p></div>
+                    <div class="stat-box"><h3>This Month</h3><p id="month-count">0</p></div>
+                    <div class="stat-box"><h3>Last 7 Days</h3><p id="last7-count">0</p></div>
+                    <div class="stat-box"><h3>Last 14 Days</h3><p id="last14-count">0</p></div>
+                    <div class="stat-box"><h3>Last 30 Days</h3><p id="last30-count">0</p></div>
                 </div>
-
                 <div class="progress-section">
                     <h3>Overall Progress</h3>
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="progress-fill"></div>
-                    </div>
+                    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
                     <p id="progress-text">0/0 points read</p>
                 </div>
-
                 <div class="heatmap-section">
                     <h3>Activity Heatmap</h3>
-                    <div class="heatmap-container">
-                        <div id="heatmap"></div>
-                        <div class="heatmap-legend">
-                            <span>Less</span>
-                            <div class="legend-colors">
-                                <div class="color-box" style="background-color: var(--heatmap-0)"></div>
-                                <div class="color-box" style="background-color: var(--heatmap-1)"></div>
-                                <div class="color-box" style="background-color: var(--heatmap-2)"></div>
-                                <div class="color-box" style="background-color: var(--heatmap-3)"></div>
-                                <div class="color-box" style="background-color: var(--heatmap-4)"></div>
-                            </div>
-                            <span>More</span>
-                        </div>
-                    </div>
+                    <div class="heatmap-container"><div id="heatmap"></div></div>
                 </div>
-
                 <div class="recent-points">
-                    <h3>Last 100 Read Points</h3>
+                    <h3>Read Points</h3>
+                    <div id="read-points-actions" class="actions-container">
+                         <button class="action-button" id="copy-links-btn">Copy Links</button>
+                         <button class="action-button" id="clear-selection-btn">Clear Selection</button>
+                    </div>
                     <div id="recent-points-list"></div>
                 </div>
             </div>
         </div>
     </div>
-</body>
 
+    <div id="groups-mode" style="display: none;">
+        <div class="data-container">
+            <div class="groups-toolbar">
+                <label for="group-sort">Sort by: </label>
+                <select id="group-sort">
+                    <option value="modified-desc">Last Modified</option>
+                    <option value="created-desc">Last Created</option>
+                    <option value="name-asc">Name (A-Z)</option>
+                </select>
+            </div>
+            <div id="groups-list"></div>
+        </div>
+    </div>
+
+    <div id="group-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Add to Group</h2>
+            <label for="group-select">Select existing group:</label>
+            <select id="group-select"></select>
+            <p style="text-align: center; margin: 15px 0;">OR</p>
+            <label for="new-group-name">Create a new group:</label>
+            <input type="text" id="new-group-name" placeholder="New group name...">
+            <div class="modal-actions">
+                <button class="action-button" id="cancel-group-add">Cancel</button>
+                <button class="action-button" id="confirm-group-add">Add</button>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
