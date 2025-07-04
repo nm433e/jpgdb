@@ -704,6 +704,21 @@ function formatDateAsYYYYMMDD(date) {
 // --- INITIALIZATION & EVENT LISTENERS ---
 document.addEventListener('DOMContentLoaded', () => {
     auth.onAuthStateChanged(async user => {
+
+      const handleUrlSearchQuery = () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchTerm = urlParams.get('search'); // Get the value of the 'search' parameter
+
+        if (searchTerm) {
+            const searchInput = document.getElementById('search');
+            // Decode the term in case it has special characters (e.g., %20 for space)
+            searchInput.value = decodeURIComponent(searchTerm); 
+            search(); // Call the existing search function to filter results
+        }
+    };
+    
+    handleUrlSearchQuery(); // Run this function when the DOM is ready
+
         const settings = await userSettingsManager.getAllSettings();
         document.getElementById('sign-in-button').style.display = user ? 'none' : 'inline-block';
         document.getElementById('sign-out-button').style.display = user ? 'inline-block' : 'none';
